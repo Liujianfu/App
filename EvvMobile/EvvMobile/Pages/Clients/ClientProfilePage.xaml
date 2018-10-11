@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<clients:ClientProfilePageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:clients="clr-namespace:EvvMobile.Pages.Clients;assembly=EvvMobile"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+              xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             x:Class="EvvMobile.Pages.Clients.ClientProfilePage">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}">
+            <StackLayout>
+                 <Frame Padding="0,0,0,0" 
+                        BackgroundColor="{x:Static statics:Palette.LevelTwoBackgroundColor}">
+                    <Grid HorizontalOptions="FillAndExpand" RowSpacing="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="1*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
+                                     HeightRequest="60" 
+                                     BackgroundColor="{x:Static statics:Palette.LevelOneHeaderColor}">
+
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" 
+                                     HeightRequest="60">
+                         
+                        </StackLayout>
+                        <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" 
+                                     HeightRequest="60">
+                            <Label Text="{Binding ClientFullName}"  FontSize="20" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+
+                        </StackLayout>
+                        <Frame Grid.Row="0" Grid.Column="1"  Grid.RowSpan="2" Margin="0,10,0,10"
+                               CornerRadius="50"
+                               Padding="0,0,0,0"
+                               BackgroundColor="{x:Static statics:Palette.SubViewBackgroundColor}">
+                            <StackLayout x:Name="ClientProfileImageLayout" VerticalOptions="CenterAndExpand"  Padding="0,0,0,0">
+                                <abstractions:CircleImage  x:Name="ClientProfileImage"  Aspect = "AspectFill"
+                                                           HeightRequest = "100"
+                                                           WidthRequest = "100"></abstractions:CircleImage>
+                            </StackLayout>
+                            
+                        </Frame>
+                    </Grid>
+                </Frame>   
+                 <StackLayout Padding="10,0,10,0" BackgroundColor="White">
+                    <Frame BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}"
+                    Padding="0,0,0,0"
+                    CornerRadius="3">
+                        <StackLayout >
+                            <StackLayout BackgroundColor="{x:Static statics:Palette.LevelTwoHeaderColor}" Orientation="Horizontal" 
+                               HorizontalOptions="FillAndExpand">
+                                <Label Text="Personal Info"  VerticalOptions="CenterAndExpand" 
+                           HorizontalOptions="CenterAndExpand" 
+                           TextColor ="Black"
+                           FontSize="20"></Label>      
+                           <Image x:Name="CollapseImage"
+                                       HorizontalOptions="End"
+                               HeightRequest="20"
+                               WidthRequest="20"
+                               Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=collapsearrow40}">
+
+                           </Image>
+
+                            </StackLayout>
+                            <Grid x:Name="PersonalInfoGrid"
+                                 HorizontalOptions="FillAndExpand" 
+                                  RowSpacing="1" 
+                                  ColumnSpacing="1"
+                                  BackgroundColor="Gray"
+                                  >
+                                <Grid.RowDefinitions >
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="1*" />
+
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Beneficiary MA#"></Label>
+                                    <Label Text="{Binding ClientMaNumber}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="1" Grid.Column="0"  BackgroundColor="White" Padding="10,0,0,0">
+                                    <Label Text="Gender" />
+                                    <Label Text="{Binding Gender}"  FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                
+                                <StackLayout Grid.Row="1" Grid.Column="1"  BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Date of Birth" />
+                                    <Label Text=" {Binding DateOfBirth, Converter={StaticResource ShortDatePatternConverter}}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Marital Status" />
+                                    <Label Text=" {Binding MaritalStatus}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="3" Grid.Column="0" BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Race" />
+                                    <Label Text=" {Binding Race}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="3" Grid.Column="1"  BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Hispanic Latino" />
+                                    <Label Text=" {Binding IsHispanicLatino, Converter={StaticResource BoolToYesNoUnknownConverter}}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="4" Grid.Column="0" BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Primary Language" />
+                                    <Label Text=" {Binding PrimaryLanguage}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="4" Grid.Column="1"  BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Speaking English" />
+                                    <Label Text=" {Binding IsEnglishSpeaking, Converter={StaticResource BoolToYesNoUnknownConverter}}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}"
+                           Padding="0,0,0,0"
+                           CornerRadius="3">
+                        <StackLayout >
+                            <StackLayout BackgroundColor="{x:Static statics:Palette.LevelTwoHeaderColor}" Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand">
+                                <Label Text="Contact Info"  VerticalOptions="CenterAndExpand" 
+                                       HorizontalOptions="CenterAndExpand" 
+                                       TextColor ="Black"
+                                       FontSize="20"></Label>
+                                <Image x:Name="ContactCollapseImage"
+                                       HorizontalOptions="End"
+                                       HeightRequest="20"
+                                       WidthRequest="20"
+                                       Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=expandarrow40}">
+
+                                </Image>
+
+                            </StackLayout>
+                            <Grid x:Name="ContactInfoGrid"
+                                  IsVisible="False"
+                                 HorizontalOptions="FillAndExpand" 
+                                  RowSpacing="1" 
+                                  ColumnSpacing="1"
+                                  BackgroundColor="Gray"
+                                  >
+                                <Grid.RowDefinitions >
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="1*" />
+
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Address"></Label>
+                                    <Label Text="{Binding CurrentAddress}" FontSize="16" FontAttributes="Bold" LineBreakMode="WordWrap" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="1" Grid.Column="0"  BackgroundColor="White" Padding="10,0,0,0">
+                                    <Label Text="Phone Number" />
+                                    <Label Text="{Binding PhoneNumber}"  FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+
+                                <StackLayout Grid.Row="1" Grid.Column="1"  BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="County" />
+                                    <Label Text=" {Binding CountySpecify}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="E-Mail Address" />
+                                    <Label Text=" {Binding EmailAddress}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+  
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}"
+                           Padding="0,0,0,0"
+                           CornerRadius="3">
+                        <StackLayout >
+                            <StackLayout BackgroundColor="{x:Static statics:Palette.LevelTwoHeaderColor}" Orientation="Horizontal" 
+                                         HorizontalOptions="FillAndExpand">
+                                <Label Text="Emergency Contact Info"  VerticalOptions="CenterAndExpand" 
+                                       HorizontalOptions="CenterAndExpand" 
+                                       TextColor ="Black"
+                                       FontSize="20"></Label>
+                                <Image x:Name="EmergencyCollapseImage"
+                                       HorizontalOptions="End"
+                                       HeightRequest="20"
+                                       WidthRequest="20"
+                                       Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=expandarrow40}">
+
+                                </Image>
+
+                            </StackLayout>
+                            <Grid x:Name="EmergencyContactInfoGrid"
+                                  IsVisible="False"
+                                 HorizontalOptions="FillAndExpand" 
+                                  RowSpacing="1" 
+                                  ColumnSpacing="1"
+                                  BackgroundColor="Gray"
+                                  >
+                                <Grid.RowDefinitions >
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="1*" />
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Primary Contact Name"></Label>
+                                    <Label Text=" {Binding CurrentEmergencyContact}" FontSize="16" FontAttributes="Bold" LineBreakMode="WordWrap" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="1" Grid.Column="0"  BackgroundColor="White" Padding="10,0,0,0">
+                                    <Label Text="Phone Number" />
+                                    <Label Text=" {Binding CurrentEmergencyContactPhoneNumber}"  FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+
+                                <StackLayout Grid.Row="1" Grid.Column="1"  BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Relation" />
+                                    <Label Text=" {Binding CurrentEmergencyContactRelation}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Second Contact Name"></Label>
+                                    <Label Text=" {Binding SecondEmergencyContact}" FontSize="16" FontAttributes="Bold" LineBreakMode="WordWrap" />
+                                </StackLayout>
+                                <StackLayout Grid.Row="3" Grid.Column="0"  BackgroundColor="White" Padding="10,0,0,0">
+                                    <Label Text="Phone Number" />
+                                    <Label Text=" {Binding SecondEmergencyContactPhoneNumber}"  FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+
+                                <StackLayout Grid.Row="3" Grid.Column="1"  BackgroundColor="White" Padding="10,0,10,0">
+                                    <Label Text="Relation" />
+                                    <Label Text=" {Binding SecondEmergencyContactRelation}" FontSize="16" FontAttributes="Bold" />
+                                </StackLayout>
+
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}"
+                            Padding="0,0,0,0"
+                            CornerRadius="3">
+                         <StackLayout >
+                            <StackLayout BackgroundColor="{x:Static statics:Palette.LevelTwoHeaderColor}" Orientation="Horizontal" 
+                                          HorizontalOptions="FillAndExpand">
+                                 <Label Text="Living Status"  VerticalOptions="CenterAndExpand" 
+                                        HorizontalOptions="CenterAndExpand" 
+                                        TextColor ="Black"
+                                        FontSize="20"></Label>                            
+                                <Image x:Name="CollapseImage4"
+                                        HorizontalOptions="End"
+                                        HeightRequest="20"
+                                        WidthRequest="20"
+                                        Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=expandarrow40}">
+
+                                 </Image>
+
+                             </StackLayout>
+                            
+                        </StackLayout>
+                     </Frame>
+                    <Frame BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}"
+                            Padding="0,0,0,0"
+                            CornerRadius="3">
+                         <StackLayout >
+                            <StackLayout BackgroundColor="{x:Static statics:Palette.LevelTwoHeaderColor}" Orientation="Horizontal" 
+                                          HorizontalOptions="FillAndExpand">
+                                  <Label Text="Other Info"  VerticalOptions="CenterAndExpand" 
+                                        HorizontalOptions="CenterAndExpand" 
+                                        TextColor ="Black"
+                                        FontSize="20"></Label>                             
+                                <Image x:Name="CollapseImage5"
+                                        HorizontalOptions="End"
+                                        HeightRequest="20"
+                                        WidthRequest="20"
+                                        Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=expandarrow40}">
+
+                                 </Image>
+
+                             </StackLayout>
+                            <StackLayout  BackgroundColor="White" IsVisible="False" >
+
+
+                             </StackLayout>
+                         </StackLayout>
+                     </Frame>
+                </StackLayout>               
+            </StackLayout>
+
+
+        </ScrollView>
+    </ContentPage.Content>
+</clients:ClientProfilePageXaml>

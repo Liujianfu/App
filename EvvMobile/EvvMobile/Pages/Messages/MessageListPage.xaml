@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<messages:MessageListPageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:messages="clr-namespace:EvvMobile.Pages.Messages;assembly=EvvMobile"
+             xmlns:views="clr-namespace:EvvMobile.Views.Messages;assembly=EvvMobile"
+             xmlns:customizations="clr-namespace:EvvMobile.Customizations;assembly=EvvMobile"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+             x:Class="EvvMobile.Pages.Messages.MessageListPage">
+    <ContentPage.Content >
+        <customizations:PopupLayout x:Name="MessagePopupView" >
+            <customizations:PopupLayout.Content>  
+              <StackLayout >
+                <views:MessageListView
+                    ItemsSource=" { Binding MessageList}"
+                    PopupLayout ="{x:Reference MessagePopupView}"
+                    SeparatorVisibility="None"
+                    HasUnevenRows="True"
+                    RefreshCommand="{Binding LoadMessagesCommand}"
+                    IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                    IsPullToRefreshEnabled="true"
+                    BackgroundColor="{x:Static statics:Palette.LevelTwoBackgroundColor}"
+                  >
+
+                </views:MessageListView>
+              </StackLayout>
+
+            </customizations:PopupLayout.Content>
+        </customizations:PopupLayout>              
+    </ContentPage.Content>
+</messages:MessageListPageXaml>

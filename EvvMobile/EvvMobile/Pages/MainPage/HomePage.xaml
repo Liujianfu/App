@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:MainPageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:extensions="clr-namespace:EvvMobile.Extensions;assembly=EvvMobile"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+             xmlns:base="clr-namespace:EvvMobile.Pages.MainPage;assembly=EvvMobile"
+             xmlns:customControls="clr-namespace:EvvMobile.Customizations.CustomControls;assembly=EvvMobile"
+             xmlns:charts="clr-namespace:EvvMobile.Charts;assembly=EvvMobile"
+             xmlns:messages="clr-namespace:EvvMobile.Views.Messages;assembly=EvvMobile"
+             xmlns:mainPageViews="clr-namespace:EvvMobile.Views.MainPage;assembly=EvvMobile"
+             xmlns:customizations="clr-namespace:EvvMobile.Customizations;assembly=EvvMobile"
+             x:Class="EvvMobile.Pages.MainPage.HomePage">
+    <customizations:PopupLayout x:Name="MessagePopupView" >
+        <customizations:PopupLayout.Content>
+            <ScrollView x:Name="HomeScrollView" BackgroundColor="{x:Static statics:Palette.MainPageBackgroundColor}">
+                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical"
+                         Padding="10,20,10,0">
+
+                    <Frame CornerRadius="5" Padding="3,0,3,3" 
+                           BackgroundColor="{x:Static statics:Palette.LevelTwoBackgroundColor}" >
+                        <StackLayout Orientation="Vertical" Margin="-3,0,-3,0">
+                            <StackLayout BackgroundColor="{x:Static statics:Palette.LevelTwoHeaderColor}" Orientation="Horizontal"
+                                         HorizontalOptions="FillAndExpand">
+
+                                <customControls:ImageButton 
+                                                           x:Name="MyNewMessages"
+                                                           Padding="5,0,0,0"
+                                                            BackgroundColor="Transparent"
+                                                            HeightRequest="40"
+                                                            ImageHeightRequest="40"
+                                                            ImageWidthRequest="40"
+                                                            Orientation="ImageToLeft"
+                                                            Source="message.png"
+                                                            Text=""
+                                                            TextColor="GhostWhite"
+                                                            HorizontalOptions="Start"
+                                                            Clicked="MyNewMessages_OnClicked"
+                                                            >
+                                </customControls:ImageButton>
+                                <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Padding="5,0,0,0">
+                                    <Label FontSize="14" Text="New Messages" TextColor="{x:Static statics:Palette.MainHeaderTextColor}"></Label>
+                                </StackLayout>
+                                <Image x:Name="CollapseMessageListImage"
+                                               HeightRequest="20"
+                                               WidthRequest="20"
+                                               Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=expandarrow40}">
+
+                                </Image>
+                                <Image x:Name="PinView"
+                                               IsVisible="False"
+                                           BackgroundColor="Transparent"
+                                           HeightRequest="20"
+                                           WidthRequest="20"
+                                           HorizontalOptions="End"
+                                           Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=pin}">
+                                </Image>
+
+                            </StackLayout>
+                            <StackLayout VerticalOptions="Center"  Orientation="Horizontal" Padding="5,0,0,0">
+                                <Label FontSize="14" Text="You have (" TextColor="{x:Static statics:Palette.LevelTwoCellTextColor}"></Label>
+                                <Label FontSize="14" Text="{Binding NumberOfNewMessages} " TextColor="Blue"></Label>
+                                <Label FontSize="14" Text=") new messages" TextColor="{x:Static statics:Palette.LevelTwoCellTextColor}"></Label>
+                            </StackLayout>
+                            <StackLayout x:Name="FirstMessageLayout" VerticalOptions="Center"  Orientation="Horizontal" Padding="5,10,0,10"
+                                         BackgroundColor="{x:Static statics:Palette.LevelOneBackgroundColor}">
+                                <Label Text="{Binding FirstMessageTitle}"  TextColor="Blue" FontAttributes="Bold"></Label>
+                            </StackLayout>
+                            <messages:MessageListView 
+                                x:Name="NewMessageList"
+                                IsVisible="False"
+                                ItemsSource=" { Binding NewMessageList}"
+                                SeparatorVisibility="None"
+                                      HasUnevenRows="True"
+                                PopupLayout ="{x:Reference MessagePopupView}"
+                                >
+
+                            </messages:MessageListView>
+                            <Image x:Name="ViewAllMessages"
+                                           BackgroundColor="Transparent"
+                                           HeightRequest="30"
+                                           WidthRequest="70"
+                                           HorizontalOptions="End"
+                                           Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=ViewAll}">
+                            </Image>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame CornerRadius="5" Padding="3,0,3,3" 
+                           BackgroundColor="{x:Static statics:Palette.LevelTwoBackgroundColor}" >
+                        <StackLayout Orientation="Vertical" Margin="-3,0,-3,0">
+                            <StackLayout BackgroundColor="{x:Static statics:Palette.LevelTwoHeaderColor}" Orientation="Horizontal"
+                                         HorizontalOptions="FillAndExpand">
+
+                                <customControls:ImageButton 
+                                                           x:Name="TodayShits"
+                                                           Padding="5,0,0,0"
+                                                            BackgroundColor="Transparent"
+                                                            HeightRequest="40"
+                                                            ImageHeightRequest="40"
+                                                            ImageWidthRequest="40"
+                                                            Orientation="ImageToLeft"
+                                                            Source="today.png"
+                                                            Text=""
+                                                            TextColor="GhostWhite"
+                                                            HorizontalOptions="Start"
+                                                            Clicked="TodayShifts_OnClicked"
+                                                            >
+                                </customControls:ImageButton>
+                                <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Padding="5,0,0,0">
+                                    <Label FontSize="14" Text="Today's Shifts" TextColor="{x:Static statics:Palette.MainHeaderTextColor}"></Label>
+                                </StackLayout>
+                                <Image x:Name="CollapseShiftsListImage"
+                                               HeightRequest="20"
+                                               WidthRequest="20"
+                                               Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=expandarrow40}">
+
+                                </Image>
+                                <Image x:Name="ShiftsListPinView"
+                                               IsVisible="False"
+                                           BackgroundColor="Transparent"
+                                           HeightRequest="20"
+                                           WidthRequest="20"
+                                           HorizontalOptions="End"
+                                           Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=pin}">
+                                </Image>
+
+                            </StackLayout>
+                            <StackLayout VerticalOptions="Center"  Orientation="Horizontal" Padding="5,0,0,0">
+                                <Label FontSize="14" Text="Today you have (" TextColor="{x:Static statics:Palette.LevelTwoCellTextColor}"></Label>
+                                <Label FontSize="14" Text="{Binding TotalShifts} " TextColor="Blue"></Label>
+                                <Label FontSize="14" Text=") shifts" TextColor="{x:Static statics:Palette.LevelTwoCellTextColor}"></Label>
+                            </StackLayout>
+                            <StackLayout x:Name="FirstShiftLayout" VerticalOptions="Center" 
+                                         Orientation="Horizontal" Padding="5,10,0,10"
+                                         IsVisible="{Binding IsShiftsEmpty,  Converter={StaticResource BoolToNegativeConverter}}"
+                                         BackgroundColor="{x:Static statics:Palette.LevelOneBackgroundColor}">
+                                <Grid x:Name="ScheduleGrid" RowSpacing="0" ColumnSpacing="0"   HorizontalOptions="FillAndExpand">
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Padding="5,0,0,0" VerticalOptions="Center" >
+                                        <Label x:Name="FirstShiftServiceNameLabel" Text="{Binding FirstShift.ServiceName}" FontSize="16"
+                                       VerticalTextAlignment="Center" HorizontalTextAlignment="Start" LineBreakMode="TailTruncation"></Label>
+                                    </StackLayout>
+
+                                    <StackLayout  Orientation="Vertical" Grid.Row="0" Grid.Column="3"  Padding="5,0,5,0"
+                                                  VerticalOptions="CenterAndExpand"
+                                                  HorizontalOptions="EndAndExpand">
+                                        <Label Text="{Binding FirstShift.ServiceStartDateTime,Converter={StaticResource ServiceDueHoursConverter} }" VerticalTextAlignment="Center"
+                                       TextColor="Black" FontSize="12" HorizontalOptions="FillAndExpand"
+                                       LineBreakMode="WordWrap"></Label>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                            <mainPageViews:MainPageTodayShiftsListView 
+                                x:Name="TodayShiftsListView"
+                                IsVisible="False"
+                                ItemsSource=" { Binding TodayScheduleItems}"
+                                SeparatorVisibility="None"
+                                HasUnevenRows="True"
+                                ItemSelected="OnShiftItemSelected"
+                                 IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                                >
+
+                            </mainPageViews:MainPageTodayShiftsListView>
+                            <Image x:Name="ViewAllShifts"
+                                           BackgroundColor="Transparent"
+                                           HeightRequest="30"
+                                           WidthRequest="70"
+                                           HorizontalOptions="End"
+                                           Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=ViewAll}">
+                            </Image>
+                        </StackLayout>
+                    </Frame>
+                    <Grid HorizontalOptions="FillAndExpand" RowSpacing="7" Margin="0,20,0,0" >
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="50" />                            
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="30" />
+                        </Grid.ColumnDefinitions>
+
+                        <customControls:ImageButton x:Name="MyShifts"
+                                                Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                                                BackgroundColor="{x:Static statics:Palette.MainPageButtonBackgroundColor}"
+                                                HeightRequest="40"
+                                                ImageHeightRequest="40"
+                                                ImageWidthRequest="40"
+                                                Orientation="ImageToLeft"
+                                                BorderRadius="5"
+                                                WidthRequest="40"
+                                                Source="schedule.png"
+                                                Text="Shift Reports"
+                                                TextColor="White"
+                                                    FontSize="14"    
+                                                Clicked="MyShifts_OnClicked">
+                        </customControls:ImageButton>
+                        <customControls:ImageButton x:Name="MyCalendar"
+
+                                                Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                                                BackgroundColor="{x:Static statics:Palette.MainPageButtonBackgroundColor}"
+                                                HeightRequest="40"
+                                                ImageHeightRequest="40"
+                                                ImageWidthRequest="40"
+                                                Orientation="ImageToLeft"
+                                                BorderRadius="5"
+                                                WidthRequest="40"
+                                                Source="calendar.png"
+                                                Text="Calendar"
+                                                TextColor="White"
+                                                    FontSize="14"
+                                                Clicked="MyCalendar_OnClicked">
+                        </customControls:ImageButton>
+                        <customControls:ImageButton x:Name="MainDashboard"
+
+                                                Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+                                                BackgroundColor="{x:Static statics:Palette.MainPageButtonBackgroundColor}"
+                                                HeightRequest="40"
+                                                ImageHeightRequest="40"
+                                                ImageWidthRequest="40"
+                                                Orientation="ImageToLeft"
+                                                BorderRadius="5"
+                                                WidthRequest="40"
+                                                Source="analysis.png"
+                                                Text="Charts"
+                                                TextColor="White"
+                                                    FontSize="14"
+                                                Clicked="MainDashboard_OnClicked">
+                        </customControls:ImageButton>
+                        <customControls:ImageButton x:Name="MyMessages"
+
+                                                Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"
+                                                BackgroundColor="{x:Static statics:Palette.MainPageButtonBackgroundColor}"
+                                                HeightRequest="40"
+                                                ImageHeightRequest="40"
+                                                ImageWidthRequest="40"
+                                                Orientation="ImageToLeft"
+                                                BorderRadius="5"
+                                                WidthRequest="40"
+                                                Source="message.png"
+                                                Text="Messages"
+                                                TextColor="White"
+                                                    FontSize="14"
+                                                Clicked="MyMessages_OnClicked">
+                        </customControls:ImageButton>
+
+                        <customControls:ImageButton x:Name="Logout"
+                                            Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"
+                                                BackgroundColor="{x:Static statics:Palette.MainPageButtonBackgroundColor}"
+                                                HeightRequest="40"
+                                                ImageHeightRequest="40"
+                                                ImageWidthRequest="40"
+                                                Orientation="ImageToLeft"
+                                                BorderRadius="5"
+                                                WidthRequest="40"
+                                                Source="signout.png"
+                                                Text="Sign Out"
+                                                TextColor="White"
+                                                    FontSize="14"
+                                                Clicked="Logout_OnClicked">
+                        </customControls:ImageButton>
+                        <Image 
+                              Grid.Row="0" Grid.Column="1"
+                               HeightRequest="20"
+                               WidthRequest="20"
+                               Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=forward}">
+                        </Image>
+                        <Image 
+                            Grid.Row="1" Grid.Column="1"
+                            HeightRequest="20"
+                            WidthRequest="20"
+                            Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=forward}">
+                        </Image>
+                        <Image 
+                            Grid.Row="2" Grid.Column="1"
+                            HeightRequest="20"
+                            WidthRequest="20"
+                            Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=forward}">
+                        </Image>
+                        <Image 
+                            Grid.Row="3" Grid.Column="1"
+                            HeightRequest="20"
+                            WidthRequest="20"
+                            Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=forward}">
+                        </Image>
+                        <Image 
+                            Grid.Row="4" Grid.Column="1"
+                            HeightRequest="20"
+                            WidthRequest="20"
+                            Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=forward}">
+                        </Image>
+                    </Grid>
+
+
+                    
+                </StackLayout>
+
+            </ScrollView>
+        </customizations:PopupLayout.Content>
+    </customizations:PopupLayout>
+</base:MainPageXaml>

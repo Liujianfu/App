@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:TodayShiftsListPageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:base="clr-namespace:EvvMobile.Pages.Schedules;assembly=EvvMobile"
+             xmlns:views="clr-namespace:EvvMobile.Views.Schedules;assembly=EvvMobile"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+             xmlns:customControls="clr-namespace:EvvMobile.Customizations.CustomControls;assembly=EvvMobile"
+             x:Class="EvvMobile.Pages.Schedules.TodayShiftsListPage">
+  <StackLayout  VerticalOptions="FillAndExpand" BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}" >
+    <StackLayout  BackgroundColor="{x:Static statics:Palette.LevelOneHeaderColor}">
+
+      <Grid HorizontalOptions="FillAndExpand"
+              BackgroundColor="{x:Static statics:Palette.LevelOneHeaderColor}">
+
+        <Grid.RowDefinitions>
+          <RowDefinition Height="25" />
+           <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="2*" />
+          <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <StackLayout Grid.Row="0" Grid.Column="0"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                     Spacing="0">
+          <Label Text="Total" FontSize="16" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Start"/>
+        </StackLayout>
+          <StackLayout Grid.Row="1" Grid.Column="0" 
+                       VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand"
+                        Spacing="0" Padding="0,0,0,5">
+              <Label Text="{Binding TotalShifts}" TextColor="White" FontSize="20" FontAttributes="Bold"
+                     HorizontalTextAlignment="Center" VerticalTextAlignment="Start" />
+          </StackLayout>
+        <StackLayout Grid.Row="0" Grid.Column="1"  Grid.RowSpan="2"  VerticalOptions="CenterAndExpand" Padding="0,0,20,0"
+                     HorizontalOptions="EndAndExpand" >
+          <customControls:ImageButton x:Name="AddNewShift"
+                                      BackgroundColor="Transparent"
+                                      HeightRequest="30"
+                                      ImageHeightRequest="30"
+                                      ImageWidthRequest="30"
+                                      Orientation="ImageToLeft"
+                                      BorderRadius="15"
+                                      WidthRequest="30"
+                                      Source="add40.png"
+                                      TextColor="White"
+                                      Clicked="AddNewShift_OnClicked">
+          </customControls:ImageButton>
+        </StackLayout>
+
+      </Grid>
+    </StackLayout>
+      <StackLayout Orientation="Vertical"
+                   IsVisible="{Binding IsShiftsEmpty}">
+        <Label Text="You don't have any shifts today." TextColor="White" FontSize="20" FontAttributes="Bold"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Start"></Label>
+      </StackLayout>
+      <StackLayout Padding="10,0,10,0" >
+        <Frame BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}"
+                Padding="0,0,0,0"
+                CornerRadius="3">
+          <StackLayout >
+            <StackLayout BackgroundColor="{x:Static statics:Palette.LevelTwoHeaderColor}" Orientation="Horizontal"
+                       HorizontalOptions="FillAndExpand">
+              <Label Text="Upcoming"  VerticalOptions="CenterAndExpand"
+                 HorizontalOptions="CenterAndExpand"
+                 TextColor ="Black"
+                 FontSize="20"></Label>
+              <Image x:Name="CollapseImage"
+                             HorizontalOptions="End"
+                     HeightRequest="20"
+                     WidthRequest="20"
+                     Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=collapsearrow40}">
+
+              </Image>
+
+            </StackLayout>
+            <StackLayout x:Name="UpcomingListViewLayout">
+              <views:TodayShiftsListView
+                  ItemsSource="{Binding UpcomingScheduleItems}"
+                  ItemSelected="OnListItemSelected"
+                  IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+              >
+              </views:TodayShiftsListView>
+            </StackLayout>
+          </StackLayout>
+
+        </Frame>
+        <Frame BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}"
+               Padding="0,0,0,0"
+               CornerRadius="3">
+          <StackLayout >
+            <StackLayout BackgroundColor="{x:Static statics:Palette.LevelTwoHeaderColor}" Orientation="Horizontal"
+                         HorizontalOptions="FillAndExpand">
+              <Label Text="Past"  VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand"
+                     TextColor ="Black"
+                     FontSize="20"></Label>
+              <Image x:Name="PastDueCollapseImage"
+                     HorizontalOptions="End"
+                     HeightRequest="20"
+                     WidthRequest="20"
+                     Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=collapsearrow40}">
+
+              </Image>
+
+            </StackLayout>
+            <StackLayout x:Name="PastDueListViewLayout" HeightRequest="{x:Static base:TodayShiftsListPage.HalfScreenHeight}"
+                         >
+              <views:TodayShiftsListView
+                  ItemsSource="{Binding PastDueScheduleItems}"
+                  ItemSelected="OnListItemSelected"
+                  IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+              >
+              </views:TodayShiftsListView>
+            </StackLayout>
+          </StackLayout>
+
+        </Frame>
+      </StackLayout>
+  </StackLayout>
+
+</base:TodayShiftsListPageXaml>

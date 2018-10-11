@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<schedules:SignaturePageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:schedules="clr-namespace:EvvMobile.Pages.Schedules;assembly=EvvMobile"
+             xmlns:signatures="clr-namespace:SignaturePad.Forms;assembly=SignaturePad.Forms"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+             x:Class="EvvMobile.Pages.Schedules.SignaturePage">
+    <ContentPage.Content>
+        <Grid Padding="20" RowSpacing="20"
+              BackgroundColor="{x:Static statics:Palette.LevelOneBackgroundColor}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <signatures:SignaturePadView 
+                x:Name="Signatureview"
+                ClearTextColor="{x:Static statics:Palette.LevelThreeCellTextColor}"
+                BackgroundColor="{x:Static statics:Palette.LevelFourBackgroundColor}"
+                VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                Grid.Row="0" />
+            <Button
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="{x:Static statics:Palette.ButtonBackgroundBlue}"
+                Text="Save"
+                Clicked="OnSaveSignature"
+                Grid.Row="1" />
+
+        </Grid>
+    </ContentPage.Content>
+</schedules:SignaturePageXaml>

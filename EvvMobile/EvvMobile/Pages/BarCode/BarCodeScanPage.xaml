@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<barcodes:BarCodeScanPageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:barcodes="clr-namespace:EvvMobile.Pages.BarCode;assembly=EvvMobile"
+             x:Class="EvvMobile.Pages.BarCode.BarCodeScanPage">
+    <ContentPage.Content>
+
+    </ContentPage.Content>
+</barcodes:BarCodeScanPageXaml>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:NewScheduleDetailPageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EvvMobile.Pages.Schedules.NewScheduleDetailPage"
+             xmlns:systemViewModel="clr-namespace:EvvMobile.ViewModels.Systems;assembly=EvvMobile"
+             xmlns:base="clr-namespace:EvvMobile.Pages.Schedules;assembly=EvvMobile"
+             xmlns:systems="clr-namespace:EvvMobile.Views.Systems;assembly=EvvMobile"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+             xmlns:customControls="clr-namespace:EvvMobile.Customizations.CustomControls;assembly=EvvMobile"
+             xmlns:converters="clr-namespace:EvvMobile.Converters;assembly=EvvMobile"
+             xmlns:local="clr-namespace:EvvMobile;assembly=EvvMobile"
+             xmlns:customizations="clr-namespace:EvvMobile.Customizations;assembly=EvvMobile">
+  <ContentPage.Content>
+      <ScrollView BackgroundColor="{x:Static statics:Palette.LevelOneBackgroundColor}">
+          <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical"
+                       BackgroundColor="{x:Static statics:Palette.LevelFourBackgroundColor}" >
+              <StackLayout  BackgroundColor="{x:Static statics:Palette.LevelOneHeaderColor}">
+              
+               <Grid HorizontalOptions="FillAndExpand"
+                    BackgroundColor="{x:Static statics:Palette.LevelOneHeaderColor}">
+
+                  <Grid.RowDefinitions>
+                      <RowDefinition Height="1*" />
+                      <RowDefinition Height="1*" />
+                  </Grid.RowDefinitions>
+                  <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                  </Grid.ColumnDefinitions>
+                  <StackLayout Grid.Row="0" Grid.Column="0" Padding="10,0,0,0">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Beneficiary Name" FontSize="16" TextColor="White" />
+                        <Image x:Name="ClientProfileImage" Margin="10,0,0,0"
+                               HeightRequest="20"
+                               WidthRequest="20"
+                               Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=clientprofile}">
+
+                        </Image>
+                    </StackLayout>
+                      <Label Text="{Binding ClientFullName}" TextColor="White" FontSize="16" FontAttributes="Bold" />
+                  </StackLayout>
+                  <StackLayout Grid.Row="0" Grid.Column="1" Padding="10,0,0,0">
+                      <Label Text="Beneficiary MA#" TextColor="White" FontSize="16" />
+                      <Label Text="{Binding ClientMaNumber}" TextColor="White" FontSize="16" FontAttributes="Bold" />
+                  </StackLayout>
+                  <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand">
+                      <Label
+                          Text=" {Binding ServiceStartDateTime, Converter={StaticResource MonthDatePatternConverter}}"
+                          TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                      <Label Text="{Binding ScheduleTimeRangeString }" TextColor="White" FontSize="16"
+                             FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                  </StackLayout>
+              </Grid>
+              <BoxView Color="{x:Static statics:Palette.NavigationbarColor}" HeightRequest = "1" HorizontalOptions="FillAndExpand"/>
+              </StackLayout>
+            <Grid HorizontalOptions="FillAndExpand">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="2*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Padding="10,0,0,0">
+                    <Label Text="Service Name" FontSize="16"  ></Label>
+                    <Label Text="{Binding ServiceName}" FontSize="16" FontAttributes="Bold" ></Label>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Grid.Column="0" Padding="10,0,0,0">
+                    <Label Text="Service Code" FontSize="16" ></Label>
+                    <Label Text="{Binding ProcedureCode}" FontSize="16" FontAttributes="Bold"></Label>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Grid.Column="1" >
+                    <Label Text="Modifier" FontSize="16" ></Label>
+                    <Label Text="{Binding Modifiers}" FontSize="16" FontAttributes="Bold" LineBreakMode="WordWrap"></Label>
+                </StackLayout>
+                <StackLayout Grid.Row="2" Grid.Column="0" Padding="10,0,0,0">
+                    <Label Text="Provider Name" FontSize="16" ></Label>
+                    <Label Text="{Binding ProviderName}" FontSize="16" FontAttributes="Bold"></Label>
+                </StackLayout>
+                <StackLayout Grid.Row="2" Grid.Column="1" HorizontalOptions="CenterAndExpand">
+                    <Label Text="Provider Number" FontSize="16" ></Label>
+                    <Label Text="{Binding ProviderMaNumber}" FontSize="16" FontAttributes="Bold" ></Label>
+                </StackLayout>              
+            </Grid>
+            <StackLayout Margin="5,5,5,0">
+              <customizations:CustomMap
+                  x:Name="ClockInOutLocationMap"
+                  IsShowingUser="False"
+                  MapType="Street"
+                  HasZoomEnabled="True"
+                  ShowRoute ="False"
+                  HeightRequest="200"
+                />
+            </StackLayout>
+
+            <systems:WaitingIndicator IsVisible="{Binding IsBusy}"></systems:WaitingIndicator>
+
+          </StackLayout>        
+      </ScrollView>
+
+
+  </ContentPage.Content>
+</base:NewScheduleDetailPageXaml>

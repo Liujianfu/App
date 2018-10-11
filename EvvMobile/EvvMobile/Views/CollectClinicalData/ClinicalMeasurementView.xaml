@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base:ClinicalMeasurementViewXaml  xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:base="clr-namespace:EvvMobile.Views.CollectClinicalData;assembly=EvvMobile"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+             x:Class="EvvMobile.Views.CollectClinicalData.ClinicalMeasurementView">
+    <StackLayout Margin="0,2,0,0" BackgroundColor="{x:Static statics:Palette.LevelTwoBackgroundColor}">
+        <StackLayout   
+                VerticalOptions="Center"
+                Padding="10,10,10,10"
+                BackgroundColor="{x:Static statics:Palette.SubViewBackgroundColor}" >
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Name }"  HorizontalOptions="StartAndExpand"></Label>
+                <Label Text="{Binding Code }" TextColor="White" HorizontalOptions="StartAndExpand"></Label>
+            </StackLayout>
+
+        </StackLayout>
+        <StackLayout  Padding="5,0,5,0"> 
+            <StackLayout>
+                <Label Text="Instruction:" FontAttributes="Bold" TextColor="RoyalBlue"></Label>
+                <Label Text="{Binding Instruction }"  HorizontalOptions="FillAndExpand"></Label>
+            </StackLayout>
+            <Label Text="Attributes:" FontAttributes="Bold" TextColor="RoyalBlue"></Label>
+            
+        </StackLayout>
+ 
+        <StackLayout x:Name="AttributesList" >
+ 
+        </StackLayout>       
+    </StackLayout>
+
+</base:ClinicalMeasurementViewXaml>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "209744305193",
+    "firebase_url": "https://evvmobile-1493255125491.firebaseio.com",
+    "project_id": "evvmobile-1493255125491",
+    "storage_bucket": "evvmobile-1493255125491.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209744305193:android:86722da8dbbb5ff7",
+        "android_client_info": {
+          "package_name": "evv.MobileApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209744305193-70qoeru4726j7mrst112r9vh7ucfe8tp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "evv.MobileApp",
+            "certificate_hash": "e842207c3e8370856384acf44f87474e5171092f"
+          }
+        },
+        {
+          "client_id": "209744305193-h0ni3vbvuvu2bbc73i8gi5kgdue2tqvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgp_lLTkLNVE8c3wpeth2E63wSddlWdzE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209744305193-h0ni3vbvuvu2bbc73i8gi5kgdue2tqvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

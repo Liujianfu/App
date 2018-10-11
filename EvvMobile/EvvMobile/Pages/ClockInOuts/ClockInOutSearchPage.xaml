@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:ClockInOutSearchPageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EvvMobile.Pages.ClockInOuts.ClockInOutSearchPage"
+             xmlns:base="clr-namespace:EvvMobile.Pages.ClockInOuts"
+             xmlns:systemViewModel="clr-namespace:EvvMobile.ViewModels.Systems;assembly=EvvMobile"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+             xmlns:customControls="clr-namespace:EvvMobile.Customizations.CustomControls;assembly=EvvMobile"
+             xmlns:systems="clr-namespace:EvvMobile.Views.Systems;assembly=EvvMobile">
+  <ContentPage.Content>
+    <StackLayout x:Name="ClockInOutSearchStackLayout" VerticalOptions="FillAndExpand">
+      <Label Text="Service Records" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center"
+             TextColor="{x:Static statics:Palette._005}" Margin="15,20,15,0" />
+
+      <BoxView Color="{x:Static statics:Palette._005}" HeightRequest="1" HorizontalOptions="FillAndExpand" Margin="10,0,10,0"></BoxView>
+
+      <StackLayout   Padding="15,5,15,10" HorizontalOptions="FillAndExpand" BackgroundColor="White" >
+        <StackLayout  Margin="0,2,0,0">
+          <Grid >
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="0.5*" />
+              <ColumnDefinition Width="0.5*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Column="0">
+              <Label Text="Start Time" FontAttributes="Bold" HorizontalTextAlignment="Start" ></Label>
+              <Entry  Placeholder="Enter Start Time" Text="{Binding StartTime }" HorizontalOptions="FillAndExpand"></Entry>
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+              <Label Text="End Time" FontAttributes="Bold" HorizontalTextAlignment="Start" ></Label>
+              <Entry  Placeholder="Enter End Time" Text="{Binding EndTime }" HorizontalOptions="FillAndExpand"></Entry>
+            </StackLayout>
+          </Grid>
+        </StackLayout>
+        <StackLayout  Margin="0,2,0,0">
+          <Grid >
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="0.5*" />
+              <ColumnDefinition Width="0.5*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Column="0">
+              <Label Text="Person Name" FontAttributes="Bold" HorizontalTextAlignment="Start" ></Label>
+              <Entry  Placeholder="Enter Name" Text="{Binding ClientFullName }" HorizontalOptions="FillAndExpand" ></Entry>
+
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+              <Label Text="Person MA#"  FontAttributes="Bold"  HorizontalTextAlignment="Start" ></Label>
+              <Entry Placeholder="Enter MA#" Text="{Binding ClientMaNumber }" HorizontalOptions="FillAndExpand"  ></Entry>
+            </StackLayout>
+          </Grid>
+        </StackLayout>
+        <StackLayout  Margin="0,2,0,0">
+          <Grid >
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="0.5*" />
+              <ColumnDefinition Width="0.5*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Column="0">
+              <Label Text="Procedure Code" FontAttributes="Bold"  HorizontalTextAlignment="Start" ></Label>
+              <Entry Placeholder="Enter Code" Text="{Binding ProcedureCode }" HorizontalOptions="FillAndExpand" ></Entry>
+
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+              <Label Text="Provider Number" FontAttributes="Bold"   VerticalTextAlignment="End" HorizontalTextAlignment="Start" ></Label>
+              <Entry  Placeholder="Enter Provider#" Text="{Binding ProviderNumber }" HorizontalOptions="FillAndExpand"></Entry>
+            </StackLayout>
+          </Grid>
+        </StackLayout>
+        <StackLayout  Margin="0,2,0,0">
+          <Label Text="Record Type" FontAttributes="Bold"   VerticalTextAlignment="End" HorizontalTextAlignment="Start" ></Label>
+        <customControls:BindableRadioGroup  ItemsSource="{Binding Path=ClockInOutTypes.Values}"
+            SelectedIndex="{Binding TypeSelected}" VerticalOptions="Start" />
+        </StackLayout>
+        
+        
+      </StackLayout>
+      <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Button  HorizontalOptions="Center" Text="Search" BackgroundColor="{x:Static statics:Palette._021}"   TextColor="White" BorderRadius="5" WidthRequest="100" Command="{Binding SearchCommand}"></Button>
+
+      </StackLayout>
+
+      <systems:WaitingAndErrorMessageView></systems:WaitingAndErrorMessageView>
+
+    </StackLayout>
+  </ContentPage.Content>
+  
+  
+</base:ClockInOutSearchPageXaml>

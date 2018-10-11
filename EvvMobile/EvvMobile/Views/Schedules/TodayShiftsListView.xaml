@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base:NonPersistentSelectedItemListView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                                                          xmlns:base="clr-namespace:EvvMobile.Views.Base;assembly=EvvMobile"
+                                                          xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+                                                          xmlns:customControls="clr-namespace:EvvMobile.Customizations.CustomControls;assembly=EvvMobile"
+                                                          x:Class="EvvMobile.Views.Schedules.TodayShiftsListView"
+                                                          SeparatorVisibility="None"
+                                                          HasUnevenRows="True"
+                                        >
+    <ListView.ItemTemplate>
+        <DataTemplate>
+            <ViewCell >
+
+              <StackLayout  Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand"
+                              Padding="0,3,0,0">
+
+                    <Frame Padding="5,0,5,0" CornerRadius="5"
+                                  BackgroundColor="{x:Static statics:Palette.LevelFourBackgroundColor}">
+
+                        <Grid x:Name="ScheduleGrid" RowSpacing="0" ColumnSpacing="0"   HorizontalOptions="FillAndExpand">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80" />
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />      
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text=" {Binding ServiceStartDateTime , Converter={StaticResource TimePatternConverter}}"
+                                   Grid.Row="0" Grid.Column="0" HorizontalOptions="StartAndExpand"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start"></Label>
+                            <Label Text=" {Binding ServiceEndDateTime , Converter={StaticResource TimePatternConverter}}"
+                                   Grid.Row="1" Grid.Column="0" HorizontalOptions="StartAndExpand"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start"></Label>
+                            <Image x:Name="ServiceImage" Source ="{Binding ServiceImageName,Converter ={StaticResource StringToImageConverter}}"
+                                   Grid.Row="2" Grid.Column="0" Grid.RowSpan="2"></Image>
+                            <StackLayout Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Padding="5,0,0,0" VerticalOptions="Center">
+                                <Label Text=" {Binding ClientFullName }" FontSize="16" FontAttributes="Bold"
+                                       VerticalTextAlignment="Center" HorizontalTextAlignment="Start" LineBreakMode="TailTruncation"></Label>
+                            </StackLayout>
+                            <StackLayout Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Padding="5,0,0,0" VerticalOptions="Center" >
+                                <Label x:Name="ServiceName" Text="{Binding ServiceName}" FontSize="16"
+                                       VerticalTextAlignment="Center" HorizontalTextAlignment="Start" LineBreakMode="TailTruncation"></Label>
+                            </StackLayout>
+
+                            <StackLayout  Orientation="Horizontal" Grid.Row="2" Grid.Column="2" 
+                                          Grid.ColumnSpan="2" Grid.RowSpan="2"
+                              VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
+                              IsVisible="{Binding StaffCanAcceptOrReject}">
+                                <customControls:ImageButton 
+                                                            BackgroundColor="Transparent"
+                                                            HeightRequest="20"
+                                                            ImageHeightRequest="20"
+                                                            ImageWidthRequest="20"
+                                                            Orientation="ImageToLeft"
+                                                            BorderRadius="10"
+                                                            WidthRequest="20"
+                                                            Source="confirm40.png"
+                                                            Command=" {Binding StaffAcceptCommand}" >
+                                </customControls:ImageButton>
+                                <customControls:ImageButton 
+                                                            BackgroundColor="Transparent"
+                                                            HeightRequest="20"
+                                                            ImageHeightRequest="20"
+                                                            ImageWidthRequest="20"
+                                                            Orientation="ImageToLeft"
+                                                            BorderRadius="10"
+                                                            WidthRequest="20"
+                                                            Source="decline40.png"
+                                                            Command=" {Binding StaffRejectCommand}">
+                                </customControls:ImageButton>
+                            </StackLayout>                          
+                            <StackLayout  Orientation="Vertical" Grid.Row="2" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3" Padding="5,0,0,0" 
+                                          VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
+                                          IsVisible="{Binding StaffCanAcceptOrReject, Converter={StaticResource BoolToNegativeConverter}}">
+                                <Label Text="{Binding ServiceRenderAddress }"
+                                       VerticalTextAlignment="Start"  HorizontalOptions="FillAndExpand" LineBreakMode="WordWrap"></Label>
+                            </StackLayout>
+                            <StackLayout  Orientation="Vertical" Grid.Row="0" Grid.Column="4" Grid.RowSpan="2"  Padding="5,0,0,0" VerticalOptions="CenterAndExpand">
+                                <Label Text="{Binding ServiceStartDateTime,Converter={StaticResource ServiceDueHoursConverter} }" VerticalTextAlignment="Center"
+                                       TextColor="Black" FontSize="10" HorizontalOptions="FillAndExpand"
+                                       LineBreakMode="WordWrap"></Label>
+                            </StackLayout>                          
+                            <StackLayout  Orientation="Vertical" Grid.Row="2" Grid.Column="4" Grid.RowSpan="2"  Padding="5,0,0,0" VerticalOptions="CenterAndExpand">
+                                 <Label Text="{Binding WorkflowStatusDisplayName }" VerticalTextAlignment="Center" 
+                                        TextColor="RoyalBlue" FontSize="10" HorizontalOptions="FillAndExpand"
+                                        LineBreakMode="WordWrap"></Label>
+                           </StackLayout>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </ViewCell>
+        </DataTemplate>
+    </ListView.ItemTemplate>
+</base:NonPersistentSelectedItemListView>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:CollectClinicalDataPageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:base="clr-namespace:EvvMobile.Pages.CollectClinicalData;assembly=EvvMobile"
+             xmlns:baseViews="clr-namespace:EvvMobile.Views.Base;assembly=EvvMobile"
+              xmlns:clinicalViews="clr-namespace:EvvMobile.Views.CollectClinicalData;assembly=EvvMobile"
+             x:Class="EvvMobile.Pages.CollectClinicalData.CollectClinicalDataPage">
+
+        <StackLayout Margin="10,10,10,10">
+
+            <baseViews:NonPersistentSelectedItemListView x:Name="MeasurementList"
+                                                         ItemsSource="{Binding VisitMeasurements}"
+                                                         SeparatorVisibility="Default"
+                                                          HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                    <ViewCell>
+                        <clinicalViews:ClinicalMeasurementView SourceModel="{Binding .}">
+                        
+                        </clinicalViews:ClinicalMeasurementView>                                
+
+                    </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </baseViews:NonPersistentSelectedItemListView>            
+        </StackLayout>
+</base:CollectClinicalDataPageXaml>

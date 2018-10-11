@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<schedules:ScheduleTabPageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:schedules="clr-namespace:EvvMobile.Pages.Schedules;assembly=EvvMobile"
+             xmlns:systems="clr-namespace:EvvMobile.Views.Systems;assembly=EvvMobile"
+             x:Class="EvvMobile.Pages.Schedules.ScheduleTabPage">
+
+</schedules:ScheduleTabPageXaml>

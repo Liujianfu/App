@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+             x:Class="EvvMobile.Views.Systems.WaitingIndicator">
+
+      <ActivityIndicator Color="{x:Static statics:Palette.NavigationbarColor}" IsRunning="{Binding IsBusy }" IsVisible="{Binding IsBusy}">
+        <ActivityIndicator.HeightRequest>
+          <OnPlatform x:TypeArguments="x:Double"
+             iOS="25"
+             Android="25"
+             WinPhone="5" />
+        </ActivityIndicator.HeightRequest>
+      </ActivityIndicator>
+</ContentView>

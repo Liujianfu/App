@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+             xmlns:customControls="clr-namespace:EvvMobile.Customizations.CustomControls;assembly=EvvMobile"
+             x:Class="EvvMobile.Views.Schedules.MessageDetailPopupView"
+             BackgroundColor="Transparent">
+    <ContentView.Content >
+      <Frame CornerRadius="5"  Padding="3,0,3,3" Margin="3,3,3,3"
+             BackgroundColor="{x:Static statics:Palette.LevelThreeBackgroundColor}" >
+          <StackLayout Orientation="Vertical" Margin="-3,0,-3,0">
+              <StackLayout BackgroundColor="{x:Static statics:Palette.LevelThreeHeaderColor}" Orientation="Horizontal"
+                           HorizontalOptions="FillAndExpand"  Padding="5,0,5,0">
+                  <Label
+                      HeightRequest="40"
+                      Text=" {Binding MessageTitle}"
+                      FontAttributes="Bold"
+                      FontSize="16"
+                      HorizontalOptions="CenterAndExpand"
+                      VerticalTextAlignment="Center"
+                      HorizontalTextAlignment="Center"
+                      TextColor="GhostWhite"
+                  >
+                  </Label>
+                  <customControls:ImageButton 
+                      BackgroundColor="Transparent"
+                      HeightRequest="20"
+                      ImageHeightRequest="20"
+                      ImageWidthRequest="20"
+                      Orientation="ImageToLeft"
+                      BorderRadius="10"
+                      WidthRequest="20"
+                      Source="goback.png"
+                      Clicked="OkButton_OnClicked"
+                      HorizontalOptions="EndAndExpand">
+                  </customControls:ImageButton>
+                </StackLayout>
+              <ScrollView>
+                  <StackLayout Orientation="Horizontal" Padding="5,5,5,5">
+                      <Label Text=" {Binding Message}" LineBreakMode="WordWrap"></Label>
+                  </StackLayout>
+              </ScrollView>
+            
+            </StackLayout>
+      </Frame>
+
+    </ContentView.Content>
+</ContentView>

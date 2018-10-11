@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<schedules:ModifierGridViewXaml xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                                                          xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+                                                          xmlns:schedules="clr-namespace:EvvMobile.Views.Schedules;assembly=EvvMobile"
+                                                          xmlns:customControls="clr-namespace:EvvMobile.Customizations.CustomControls;assembly=EvvMobile"
+                                                          x:Class="EvvMobile.Views.Schedules.ModifierGridView" >
+    <Frame BackgroundColor="{x:Static statics:Palette.LevelFourBackgroundColor}"
+           CornerRadius="5"
+           Padding="3,5,3,5">  
+      <Grid HorizontalOptions="FillAndExpand" 
+              Margin="0,5,0,0"
+              BackgroundColor="{x:Static statics:Palette.LevelFourBackgroundColor}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="40" />
+            </Grid.ColumnDefinitions>
+            <Picker Grid.Row="0" Grid.Column ="0" SelectedItem="{Binding SelectedModifier}" ItemsSource="{Binding ModifierStrings}" >
+
+            </Picker>
+            <customControls:ImageButton
+                Grid.Row="0" Grid.Column ="2"
+                BackgroundColor="Transparent"
+                HeightRequest="40"
+                ImageHeightRequest="40"
+                ImageWidthRequest="40"
+                Orientation="ImageToLeft"
+                BorderRadius="20"
+                WidthRequest="40"
+                Source="deletered40.png"
+                Clicked="OnDeleteButtonClicked">
+            </customControls:ImageButton>
+        </Grid>
+      </Frame>
+</schedules:ModifierGridViewXaml>

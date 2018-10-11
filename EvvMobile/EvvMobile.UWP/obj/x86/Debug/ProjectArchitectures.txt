@@ -1,0 +1,8 @@
+C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile.Database\EvvMobile.Database.csproj;neutral
+C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile.Database\EvvMobile.Database.csproj;neutral
+C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile.Database\EvvMobile.Database.csproj;neutral
+C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile.DataService\EvvMobile.DataService.csproj;neutral
+C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile.RestfulWebService.Infrastructure\EvvMobile.RestfulWebService.Infrastructure.csproj;neutral
+C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile.RestfulWebService.Infrastructure\EvvMobile.RestfulWebService.Infrastructure.csproj;neutral
+C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\EvvMobile.UWP.csproj;x86
+C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile\EvvMobile.csproj;neutral

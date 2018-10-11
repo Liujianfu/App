@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:TrackLocationPageXaml xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EvvMobile.Pages.Trackings.TrackLocationPage"
+             xmlns:systemViewModel="clr-namespace:EvvMobile.ViewModels.Systems;assembly=EvvMobile"
+             xmlns:maps="clr-namespace:EvvMobile.Customizations;assembly=EvvMobile"
+             xmlns:base="clr-namespace:EvvMobile.Pages.Trackings;assembly=EvvMobile"
+             xmlns:local="clr-namespace:EvvMobile;assembly=EvvMobile">
+  <ContentPage.Content>
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  BackgroundColor="White" >
+
+      <StackLayout  Padding="0,0,0,0" Margin="0,10,0,0" HorizontalOptions="FillAndExpand" >
+          <StackLayout Padding="10,0,0,5" >
+            <Label x:Name="TrackingClient" FontAttributes="Bold" FontSize="20" Text="{Binding ClientFullName }"  HorizontalTextAlignment="Start"  ></Label>
+          </StackLayout>
+        <RelativeLayout Padding="20,0,0,0">
+            <StackLayout RelativeLayout.WidthConstraint =
+                         "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.45,
+                             Constant=0}" Padding="10,0,0,0">
+                <Label x:Name="TimeLabel"  FontSize="20" Text="Duration" ></Label>
+                <Label x:Name="TotalTimeLabel"  FontSize="20" Text="{Binding Time, Converter={StaticResource TimeSpanToTimeStringConverter} }" ></Label>
+
+            </StackLayout>
+            <StackLayout RelativeLayout.XConstraint =
+                         "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=0}" Padding="10,0,0,0">
+                <Label x:Name="DistanceLabel" FontSize="20" Text="Distance"  ></Label>
+              <Label x:Name="TotalDistanceLabel" FontSize="20" Text="{Binding Distance, StringFormat='{0:F2} Miles' }"  ></Label>
+            </StackLayout>
+ 
+        </RelativeLayout>
+
+
+        <StackLayout x:Name="TrackingButtonsStackLayout" HorizontalOptions="CenterAndExpand">
+
+          <Image x:Name="StartImage" HeightRequest="30" HorizontalOptions="Center"></Image>
+          <Image x:Name="EndImage"  HeightRequest="30" HorizontalOptions="Center" IsVisible="false"></Image>
+        </StackLayout>
+
+      </StackLayout>
+
+      <StackLayout x:Name="MapStackLayout"   WidthRequest="{x:Static local:App.ScreenWidth}" HeightRequest="{x:Static local:App.ScreenHeightForTrackingMap}">
+        <maps:CustomMap 
+            x:Name="TackingMap"
+            IsShowingUser="False"
+            MapType="Street"
+            HasZoomEnabled="True"
+        />
+      </StackLayout>        
+
+
+      <StackLayout VerticalOptions="EndAndExpand" Padding="0,0,0,0">
+        <ActivityIndicator Color="Purple" IsRunning="{Binding IsBusy, Source={x:Static systemViewModel:SystemViewModel.Instance} }" IsVisible="{Binding IsBusy, Source={x:Static systemViewModel:SystemViewModel.Instance} }">
+          <ActivityIndicator.HeightRequest>
+            <OnPlatform x:TypeArguments="x:Double"
+               iOS="25"
+               Android="25"
+               WinPhone="5" />
+          </ActivityIndicator.HeightRequest>
+        </ActivityIndicator>
+        <Label x:Name="InfoMessageLabel" HorizontalTextAlignment="Center" Text="{Binding InfoMessage, Source={x:Static systemViewModel:SystemViewModel.Instance}}" TextColor="Blue"></Label>
+        <Label x:Name="ErrorMessageLabel" HorizontalTextAlignment="Center" Text="{Binding ErrorMessage, Source={x:Static systemViewModel:SystemViewModel.Instance}}"  IsVisible="true" TextColor="Red" HorizontalOptions="CenterAndExpand" ></Label>
+
+      </StackLayout>
+    </StackLayout>
+  </ContentPage.Content>
+</base:TrackLocationPageXaml>

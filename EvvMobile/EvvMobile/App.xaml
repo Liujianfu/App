@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+
+             xmlns:converters="clr-namespace:EvvMobile.Converters;assembly=EvvMobile"
+             xmlns:validation="clr-namespace:EvvMobile.Validation;assembly=EvvMobile"
+             x:Class="EvvMobile.App">
+  <Application.Resources>
+    <ResourceDictionary>
+
+      <converters:OnlineOfflineToColorConverter x:Key="OnlineOfflineToColorConverter"></converters:OnlineOfflineToColorConverter>
+      <converters:BoolToGpsIconPathConverter x:Key="BoolToGpsIconPathConverter"></converters:BoolToGpsIconPathConverter>
+      <converters:BoolToYesNoIconPathConverter x:Key="BoolToYesNoIconPathConverter"></converters:BoolToYesNoIconPathConverter>
+      <converters:TimeSpanToTimeStringConverter x:Key="TimeSpanToTimeStringConverter"></converters:TimeSpanToTimeStringConverter>
+      <converters:EqualityToImageConverter x:Key="EqualityToImageConverter"></converters:EqualityToImageConverter>
+      <converters:EqualityToBooleanConverter x:Key="EqualityToBooleanConverter" />
+      <converters:InequalityToBooleanConverter x:Key="InequalityToBooleanConverter" />
+      <converters:BoolToYesNoUnknownConverter x:Key="BoolToYesNoUnknownConverter" />
+
+      <converters:ServiceDueHoursConverter x:Key="ServiceDueHoursConverter" />
+       <converters:BoolToNegativeConverter x:Key="BoolToNegativeConverter"></converters:BoolToNegativeConverter>
+      <converters:ShortDatePatternConverter x:Key="ShortDatePatternConverter"></converters:ShortDatePatternConverter>
+      <converters:MonthDatePatternConverter x:Key="MonthDatePatternConverter"></converters:MonthDatePatternConverter>
+      <converters:TimePatternConverter x:Key="TimePatternConverter"></converters:TimePatternConverter>
+      <converters:StringToColorConverter x:Key="StringToColorConverter"></converters:StringToColorConverter>
+      <converters:StringToImageConverter x:Key="StringToImageConverter"></converters:StringToImageConverter>
+      <converters:ShortDateTimePatternConverter x:Key="ShortDateTimePatternConverter"></converters:ShortDateTimePatternConverter>
+      <converters:ListViewCellEvenIndexConverter x:Key="ListViewCellEvenIndexConverter"></converters:ListViewCellEvenIndexConverter>
+      <converters:ListViewCellOddIndexConverter x:Key="ListViewCellOddIndexConverter"></converters:ListViewCellOddIndexConverter>
+      <converters:NullableCheckConverter x:Key="NullableCheckConverter"></converters:NullableCheckConverter>
+
+        <Style TargetType="validation:ValidationEditor">
+            <Style.Triggers>
+                    <Trigger TargetType="validation:ValidationEditor" Property="HasError" Value="True">
+                    <Setter Property="BackgroundColor" Value="Red" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="validation:ValiationEntry">
+            <Style.Triggers>
+                <Trigger TargetType="validation:ValiationEntry" Property="HasError" Value="True">
+                    <Setter Property="BackgroundColor" Value="Red" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="validation:ValidationPicker">
+            <Style.Triggers>
+                <Trigger TargetType="validation:ValidationPicker" Property="HasError" Value="True">
+                    <Setter Property="BackgroundColor" Value="Red" />
+                </Trigger>
+
+            </Style.Triggers>
+        </Style>     
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

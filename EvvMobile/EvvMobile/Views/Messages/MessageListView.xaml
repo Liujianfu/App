@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base:NonPersistentSelectedItemListView xmlns="http://xamarin.com/schemas/2014/forms" 
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                x:Class="EvvMobile.Views.Messages.MessageListView"        
+                xmlns:base="clr-namespace:EvvMobile.Views.Base"
+                xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+                HasUnevenRows="True"
+                SeparatorVisibility ="None"
+                xmlns:converters="clr-namespace:EvvMobile.Converters;assembly=EvvMobile"
+                                        ItemSelected="MessageDetailClicked">
+  <ListView.Resources>
+    <ResourceDictionary>
+      <converters:ShortDateTimePatternConverter x:Key="ShortDateTimePatternConverter" />
+    </ResourceDictionary>
+  </ListView.Resources>
+
+    <ListView.ItemTemplate>
+        <DataTemplate>
+            <ViewCell >
+                <Frame CornerRadius="10" Margin="5,2,5,1"
+                       OutlineColor="Red"
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand"
+                       Padding="10,10,10,10"
+                       BackgroundColor="{x:Static statics:Palette.LevelFourBackgroundColor}"
+                >
+                    <StackLayout Orientation="Vertical">
+                      <Grid x:Name="ScheduleGrid" RowSpacing="0" ColumnSpacing="0"   HorizontalOptions="FillAndExpand">
+
+                        <Grid.RowDefinitions>
+                          <RowDefinition Height="*" />
+                          <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                          <ColumnDefinition Width="*" />
+                          <ColumnDefinition Width="*" />
+                          <ColumnDefinition Width="*" />
+                          <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout  VerticalOptions="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Padding="5,0,0,0" >
+                          <Label Text=" {Binding MessageTitle}"                                                       
+                                IsVisible="{Binding IsViewed, Converter={StaticResource BoolToNegativeConverter} }"
+                                TextColor="Blue" FontAttributes="Bold"></Label>
+
+                          <Label Text=" {Binding MessageTitle}"
+                                 IsVisible="{Binding IsViewed}" TextColor="DarkBlue" FontAttributes="Bold"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Padding="5,0,5,0">
+                         <Label Text=" {Binding Message}"                               
+                               LineBreakMode="TailTruncation"></Label>                         
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="0" Grid.Column="3"  Padding="5,0,5,0">
+                          <Label 
+                            Text=" {Binding SentDateTime, Converter={StaticResource ShortDateTimePatternConverter}}"
+                                 TextColor="{x:Static statics:Palette.LevelThreeCellTextColor}"></Label>                          
+                        </StackLayout>
+
+                      </Grid>
+                      
+                      
+                      
+
+                    </StackLayout>
+
+                </Frame>
+            </ViewCell>
+        </DataTemplate>
+    </ListView.ItemTemplate>
+</base:NonPersistentSelectedItemListView>

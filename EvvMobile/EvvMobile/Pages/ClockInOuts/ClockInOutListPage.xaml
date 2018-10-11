@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base:ClockInOutListPageXaml
+xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="EvvMobile.Pages.ClockInOuts.ClockInOutListPage"
+xmlns:base="clr-namespace:EvvMobile.Pages.ClockInOuts"
+    xmlns:clockInOuts="clr-namespace:EvvMobile.Views.ClockInOuts;assembly=EvvMobile"
+    xmlns:systems="clr-namespace:EvvMobile.Views.Systems;assembly=EvvMobile"
+    Title="{Binding Title}">
+
+  <StackLayout>
+    <clockInOuts:ClockInOutListView
+     ItemsSource="{Binding ClockInOuts}"
+    RefreshCommand="{Binding LoadCLockInOutsCommand}"
+    IsRefreshing="{Binding IsBusy, Mode=TwoWay}"
+    ItemTapped="ClockInItemTapped"
+  />
+    <systems:WaitingAndErrorMessageView></systems:WaitingAndErrorMessageView>
+  </StackLayout>
+</base:ClockInOutListPageXaml>

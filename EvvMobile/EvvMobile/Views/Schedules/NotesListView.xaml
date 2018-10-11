@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base:NonPersistentSelectedItemListView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                                                          xmlns:base="clr-namespace:EvvMobile.Views.Base;assembly=EvvMobile"
+                                                          xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
+                                                          x:Class="EvvMobile.Views.Schedules.NotesListView"
+                                                          SeparatorVisibility="None"
+                                                          HasUnevenRows="True">
+                                        
+    <ListView.Header>
+        <Frame  CornerRadius="10" Margin="0,5,0,0"
+                OutlineColor="Red"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                Padding="10,10,10,10"
+                BackgroundColor="{x:Static statics:Palette.SubViewBackgroundColor}"
+        >
+            <Label Text="Start" TextColor="White"></Label>
+        </Frame>
+    </ListView.Header>
+    <ListView.Footer> 
+        <Frame  CornerRadius="10" Margin="0,0,0,5"
+                OutlineColor="Red"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                Padding="10,10,10,10"
+                BackgroundColor="{x:Static statics:Palette.SubViewBackgroundColor}"
+        >
+            <Label Text="End" TextColor="White"></Label>
+        </Frame>
+    </ListView.Footer> 
+    <ListView.ItemTemplate>
+        <DataTemplate>
+            <ViewCell >
+
+              <StackLayout  Padding ="10,0,10,0" Orientation="Vertical" 
+                            HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" >
+
+                    <Grid x:Name="ScheduleGrid" RowSpacing="0" ColumnSpacing="0"   HorizontalOptions="FillAndExpand">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="Center"
+                                     IsVisible="{ Binding Name ,Converter={StaticResource InequalityToBooleanConverter}, ConverterParameter=Placeholder}"  >
+                              <StackLayout IsVisible="{ Binding SubKey ,Converter={StaticResource InequalityToBooleanConverter}, ConverterParameter=Paid}">
+                                <Frame  CornerRadius="10" Margin="0,30,0,0"
+                                       IsVisible="{Binding . ,Converter={StaticResource ListViewCellEvenIndexConverter}, ConverterParameter={x:Reference NotesItemListView}}"
+                                       OutlineColor="Red"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="EndAndExpand"
+                                       Padding="10,10,10,10"
+                                       BackgroundColor="{x:Static statics:Palette.SubViewBackgroundColor}"
+                                     >
+
+                                  <Label Text=" {Binding Content}" TextColor="Black"></Label>
+                                </Frame>
+                              </StackLayout>
+                            <StackLayout IsVisible="{ Binding SubKey ,Converter={StaticResource EqualityToBooleanConverter}, ConverterParameter=Paid}">
+                                <Frame  CornerRadius="10" Margin="0,30,0,0"
+                                        IsVisible="{Binding . ,Converter={StaticResource ListViewCellEvenIndexConverter}, ConverterParameter={x:Reference NotesItemListView}}"
+                                        OutlineColor="Red"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="EndAndExpand"
+                                        Padding="10,10,10,10"
+                                        BackgroundColor="Gray"
+                                >
+                                    <Label Text=" {Binding Content}" TextColor="Black"></Label>
+
+                                </Frame>
+                            </StackLayout>
+                            <StackLayout  Orientation="Vertical" Margin="0,30,0,0"
+                                         VerticalOptions="Center" 
+                                         HorizontalOptions="EndAndExpand"
+                                         Padding="10,10,10,10"
+                                         IsVisible="{Binding . ,Converter={StaticResource ListViewCellOddIndexConverter}, ConverterParameter={x:Reference NotesItemListView}}">
+                                <Label Text=" {Binding Name}"></Label>
+                                <Label Text=" {Binding NoteTime,  Converter={StaticResource ShortDateTimePatternConverter}}"></Label>
+                            </StackLayout>                          
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="0" Grid.Column="1"  >
+                          <BoxView WidthRequest="3" VerticalOptions="FillAndExpand"
+                                   HorizontalOptions="Center" 
+                                   IsVisible="{ Binding Name ,Converter={StaticResource InequalityToBooleanConverter}, ConverterParameter=Placeholder}"
+                                   BackgroundColor="{x:Static statics:Palette.SubViewTwoBackgroundColor}"></BoxView>
+
+                            <Image VerticalOptions ="FillAndExpand" 
+                                   HorizontalOptions="Center"
+                                   IsVisible="{ Binding Name ,Converter={StaticResource EqualityToBooleanConverter}, ConverterParameter=Placeholder}"          
+                                   Source="{Binding . ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=TimelineDashLine}"></Image>
+
+
+                        </StackLayout>
+                        <Image Grid.Row="0" Grid.Column="1" VerticalOptions ="Center" Margin="0,30,0,0"
+                               HorizontalOptions="Center"
+                               IsVisible="{ Binding Name ,Converter={StaticResource InequalityToBooleanConverter}, ConverterParameter=Placeholder}"
+                               Source="{Binding SubKey ,  Converter={StaticResource EqualityToImageConverter}, ConverterParameter=Timeline}">
+                          
+                        </Image>
+                      
+                       <StackLayout Grid.Row="0" Grid.Column="2" VerticalOptions="Center"
+                                    IsVisible="{ Binding Name ,Converter={StaticResource InequalityToBooleanConverter}, ConverterParameter=Placeholder}">
+                         <StackLayout IsVisible="{ Binding SubKey ,Converter={StaticResource InequalityToBooleanConverter}, ConverterParameter=Paid}">
+                           <Frame   CornerRadius="10" Margin="0,30,0,0"
+                                     IsVisible="{Binding . ,Converter={StaticResource ListViewCellOddIndexConverter}, ConverterParameter={x:Reference NotesItemListView}}"
+                                     OutlineColor="Red"
+                                     VerticalOptions="Center"
+                                     HorizontalOptions="StartAndExpand"
+                                     Padding="10,10,10,10"
+                                     BackgroundColor="{x:Static statics:Palette.SubViewBackgroundColor}"
+                              >
+
+                             <Label Text=" {Binding Content}" TextColor="Black"></Label>
+                           </Frame>
+                         </StackLayout>
+                           <StackLayout IsVisible="{ Binding SubKey ,Converter={StaticResource EqualityToBooleanConverter}, ConverterParameter=Paid}">
+                               <Frame   CornerRadius="10" Margin="0,30,0,0"
+                                        IsVisible="{Binding . ,Converter={StaticResource ListViewCellOddIndexConverter}, ConverterParameter={x:Reference NotesItemListView}}"
+                                        OutlineColor="Red"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="StartAndExpand"
+                                        Padding="10,10,10,10"
+                                        BackgroundColor="Gray"
+                               >
+                                   <Label Text=" {Binding Content}" TextColor="Black"></Label>
+                               </Frame>
+                           </StackLayout>                         
+                            <StackLayout Orientation="Vertical" Margin="0,30,0,0"
+                                         VerticalOptions="Center"
+                                         HorizontalOptions="StartAndExpand"
+                                         Padding="10,10,10,10"
+                                         IsVisible="{Binding . ,Converter={StaticResource ListViewCellEvenIndexConverter}, ConverterParameter={x:Reference NotesItemListView}}">
+                                <Label Text=" {Binding Name}"></Label>
+                                <Label Text=" {Binding NoteTime,  Converter={StaticResource ShortDateTimePatternConverter}}"></Label>
+                            </StackLayout>                         
+                       </StackLayout> 
+
+                    </Grid>
+                </StackLayout>
+            </ViewCell>
+        </DataTemplate>
+    </ListView.ItemTemplate>
+</base:NonPersistentSelectedItemListView>
