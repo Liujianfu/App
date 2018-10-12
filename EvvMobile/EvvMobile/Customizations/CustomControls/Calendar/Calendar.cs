@@ -586,7 +586,7 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 					}
 					buttons[i].Date = start;
 
-					buttons[i].IsOutOfMonth = !(beginOfMonth && !endOfMonth);
+					buttons[i].IsOutOfMonth = !(beginOfMonth && !endOfMonth)&&CalendarViewType==DateTypeEnum.Normal;
 					buttons[i].IsEnabled = ShowNumOfMonths == 1 || !buttons[i].IsOutOfMonth;
 
 					SpecialDate sd = null;

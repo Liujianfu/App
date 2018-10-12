@@ -28,7 +28,7 @@
           RightArrowCommand="{Binding LoadOneMonthSchedulesCommand}"
           OnEndRenderCalendar="Calendar_OnOnEndRenderCalendar"
           AppointmentsSource="{Binding AppointmentsCountPerDay}"
-          AppointmentFlagColor="OrangeRed"
+          AppointmentFlagColor="{x:Static statics:Palette.AppointmentIndicatorColor}"
           BorderWidth ="1"
           CalendarViewType="3"
       >

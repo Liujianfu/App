@@ -70,7 +70,9 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                                 TextColor = element.TextColor,
                                 TextSize =(float)element.FontSize,
                                 AppointmentCount = element.AppointmentCount,
-                                AppointmentFlagColor =element.AppointmentFlagColor
+                                AppointmentFlagColor =element.AppointmentFlagColor,
+                                IsSelected  =element.IsSelected,
+
                             } });
                         }
 
@@ -197,6 +199,17 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
         public override void Draw(Canvas canvas)
         {
             base.Draw(canvas);
+            if(Pattern.IsSelected)
+            {
+                var radius = Bounds.Height() > Bounds.Width() ? (Bounds.Width()-10) / 2 : (Bounds.Height()-10) / 2;
+                var selectedBackPaint = new Paint();
+                selectedBackPaint.AntiAlias = true;
+                selectedBackPaint.SetStyle(Paint.Style.Fill);
+                selectedBackPaint.Color = Android.Graphics.Color.LightSkyBlue;
+                canvas.DrawOval(new RectF(Bounds.CenterX()- radius, Bounds.CenterY()- radius, Bounds.CenterX() + radius, Bounds.CenterY() + radius), selectedBackPaint);
+
+            }
+
             paint.Color = Pattern.TextColor.ToAndroid();
             paint.TextSize = Android.Util.TypedValue.ApplyDimension(Android.Util.ComplexUnitType.Sp, Pattern.TextSize > 0 ? Pattern.TextSize : 12, Forms.Context.Resources.DisplayMetrics);
             var bounds = new Rect();

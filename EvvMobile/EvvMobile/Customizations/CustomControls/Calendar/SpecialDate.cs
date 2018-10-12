@@ -94,6 +94,7 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 		public TextAlign TextAlign;
         public int AppointmentCount;
         public Color AppointmentFlagColor;
+        public bool IsSelected;
 
     }
 }

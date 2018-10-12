@@ -246,7 +246,7 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 				button.IsSelected = true;
 				button.FontSize = SelectedFontSize;
 				button.BorderWidth = SelectedBorderWidth;
-				button.BorderColor = SelectedBorderColor;
+				//button.BorderColor = SelectedBorderColor;
 				button.BackgroundColor = SelectedBackgroundColor != Color.Default ? SelectedBackgroundColor : (special != null && special.BackgroundColor.HasValue ? special.BackgroundColor.Value : defaultBackgroundColor);
 				button.TextColor = SelectedTextColor != Color.Default ? SelectedTextColor : (special != null && special.TextColor.HasValue ? special.TextColor.Value : defaultTextColor);
 				button.FontAttributes = SelectedFontAttributes != FontAttributes.None ? SelectedFontAttributes : (special != null && special.FontAttributes.HasValue ? special.FontAttributes.Value : defaultFontAttributes);
