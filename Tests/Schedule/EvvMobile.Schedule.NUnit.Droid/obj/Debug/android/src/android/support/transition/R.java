@@ -9,39 +9,39 @@ package android.support.transition;
 
 public final class R {
     public static final class anim {
-        public static int abc_fade_in=0x7f040000;
-        public static int abc_fade_out=0x7f040001;
-        public static int abc_grow_fade_in_from_bottom=0x7f040002;
-        public static int abc_popup_enter=0x7f040003;
-        public static int abc_popup_exit=0x7f040004;
-        public static int abc_shrink_fade_out_from_bottom=0x7f040005;
-        public static int abc_slide_in_bottom=0x7f040006;
-        public static int abc_slide_in_top=0x7f040007;
-        public static int abc_slide_out_bottom=0x7f040008;
-        public static int abc_slide_out_top=0x7f040009;
-        public static int design_bottom_sheet_slide_in=0x7f04000a;
-        public static int design_bottom_sheet_slide_out=0x7f04000b;
-        public static int design_fab_in=0x7f04000c;
-        public static int design_fab_out=0x7f04000d;
-        public static int design_snackbar_in=0x7f04000e;
-        public static int design_snackbar_out=0x7f04000f;
+        public static final int abc_fade_in=0x7f040000;
+        public static final int abc_fade_out=0x7f040001;
+        public static final int abc_grow_fade_in_from_bottom=0x7f040002;
+        public static final int abc_popup_enter=0x7f040003;
+        public static final int abc_popup_exit=0x7f040004;
+        public static final int abc_shrink_fade_out_from_bottom=0x7f040005;
+        public static final int abc_slide_in_bottom=0x7f040006;
+        public static final int abc_slide_in_top=0x7f040007;
+        public static final int abc_slide_out_bottom=0x7f040008;
+        public static final int abc_slide_out_top=0x7f040009;
+        public static final int design_bottom_sheet_slide_in=0x7f04000a;
+        public static final int design_bottom_sheet_slide_out=0x7f04000b;
+        public static final int design_fab_in=0x7f04000c;
+        public static final int design_fab_out=0x7f04000d;
+        public static final int design_snackbar_in=0x7f04000e;
+        public static final int design_snackbar_out=0x7f04000f;
     }
     public static final class animator {
-        public static int design_appbar_state_list_animator=0x7f050000;
+        public static final int design_appbar_state_list_animator=0x7f050000;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarDivider=0x7f01005f;
+        public static final int actionBarDivider=0x7f01005f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarItemBackground=0x7f010060;
+        public static final int actionBarItemBackground=0x7f010060;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarPopupTheme=0x7f010059;
+        public static final int actionBarPopupTheme=0x7f010059;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -59,117 +59,117 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int actionBarSize=0x7f01005e;
+        public static final int actionBarSize=0x7f01005e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarSplitStyle=0x7f01005b;
+        public static final int actionBarSplitStyle=0x7f01005b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarStyle=0x7f01005a;
+        public static final int actionBarStyle=0x7f01005a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarTabBarStyle=0x7f010055;
+        public static final int actionBarTabBarStyle=0x7f010055;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarTabStyle=0x7f010054;
+        public static final int actionBarTabStyle=0x7f010054;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarTabTextStyle=0x7f010056;
+        public static final int actionBarTabTextStyle=0x7f010056;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarTheme=0x7f01005c;
+        public static final int actionBarTheme=0x7f01005c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarWidgetTheme=0x7f01005d;
+        public static final int actionBarWidgetTheme=0x7f01005d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionButtonStyle=0x7f01007a;
+        public static final int actionButtonStyle=0x7f01007a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionDropDownStyle=0x7f010076;
+        public static final int actionDropDownStyle=0x7f010076;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionLayout=0x7f0100cc;
+        public static final int actionLayout=0x7f0100cc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionMenuTextAppearance=0x7f010061;
+        public static final int actionMenuTextAppearance=0x7f010061;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int actionMenuTextColor=0x7f010062;
+        public static final int actionMenuTextColor=0x7f010062;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeBackground=0x7f010065;
+        public static final int actionModeBackground=0x7f010065;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeCloseButtonStyle=0x7f010064;
+        public static final int actionModeCloseButtonStyle=0x7f010064;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeCloseDrawable=0x7f010067;
+        public static final int actionModeCloseDrawable=0x7f010067;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeCopyDrawable=0x7f010069;
+        public static final int actionModeCopyDrawable=0x7f010069;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeCutDrawable=0x7f010068;
+        public static final int actionModeCutDrawable=0x7f010068;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeFindDrawable=0x7f01006d;
+        public static final int actionModeFindDrawable=0x7f01006d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModePasteDrawable=0x7f01006a;
+        public static final int actionModePasteDrawable=0x7f01006a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModePopupWindowStyle=0x7f01006f;
+        public static final int actionModePopupWindowStyle=0x7f01006f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeSelectAllDrawable=0x7f01006b;
+        public static final int actionModeSelectAllDrawable=0x7f01006b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeShareDrawable=0x7f01006c;
+        public static final int actionModeShareDrawable=0x7f01006c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeSplitBackground=0x7f010066;
+        public static final int actionModeSplitBackground=0x7f010066;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeStyle=0x7f010063;
+        public static final int actionModeStyle=0x7f010063;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeWebSearchDrawable=0x7f01006e;
+        public static final int actionModeWebSearchDrawable=0x7f01006e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionOverflowButtonStyle=0x7f010057;
+        public static final int actionOverflowButtonStyle=0x7f010057;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionOverflowMenuStyle=0x7f010058;
+        public static final int actionOverflowMenuStyle=0x7f010058;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -177,7 +177,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int actionProviderClass=0x7f0100ce;
+        public static final int actionProviderClass=0x7f0100ce;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -185,15 +185,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int actionViewClass=0x7f0100cd;
+        public static final int actionViewClass=0x7f0100cd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int activityChooserViewStyle=0x7f010082;
+        public static final int activityChooserViewStyle=0x7f010082;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int alertDialogButtonGroupStyle=0x7f0100a7;
+        public static final int alertDialogButtonGroupStyle=0x7f0100a7;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -201,15 +201,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int alertDialogCenterButtons=0x7f0100a8;
+        public static final int alertDialogCenterButtons=0x7f0100a8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int alertDialogStyle=0x7f0100a6;
+        public static final int alertDialogStyle=0x7f0100a6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int alertDialogTheme=0x7f0100a9;
+        public static final int alertDialogTheme=0x7f0100a9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -217,7 +217,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int allowStacking=0x7f0100bc;
+        public static final int allowStacking=0x7f0100bc;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -225,7 +225,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int alpha=0x7f0100bd;
+        public static final int alpha=0x7f0100bd;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -235,7 +235,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int arrowHeadLength=0x7f0100c4;
+        public static final int arrowHeadLength=0x7f0100c4;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -245,27 +245,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int arrowShaftLength=0x7f0100c5;
+        public static final int arrowShaftLength=0x7f0100c5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int autoCompleteTextViewStyle=0x7f0100ae;
+        public static final int autoCompleteTextViewStyle=0x7f0100ae;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int background=0x7f010028;
+        public static final int background=0x7f010028;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int backgroundSplit=0x7f01002a;
+        public static final int backgroundSplit=0x7f01002a;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int backgroundStacked=0x7f010029;
+        public static final int backgroundStacked=0x7f010029;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -274,7 +274,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int backgroundTint=0x7f010101;
+        public static final int backgroundTint=0x7f010101;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -288,7 +288,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static int backgroundTintMode=0x7f010102;
+        public static final int backgroundTintMode=0x7f010102;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -298,7 +298,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int barLength=0x7f0100c6;
+        public static final int barLength=0x7f0100c6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -306,7 +306,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int behavior_autoHide=0x7f01012c;
+        public static final int behavior_autoHide=0x7f01012c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -314,7 +314,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int behavior_hideable=0x7f010109;
+        public static final int behavior_hideable=0x7f010109;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -324,7 +324,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int behavior_overlapTop=0x7f010135;
+        public static final int behavior_overlapTop=0x7f010135;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -342,7 +342,7 @@ containing a value of this type.
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
          */
-        public static int behavior_peekHeight=0x7f010108;
+        public static final int behavior_peekHeight=0x7f010108;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -350,7 +350,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int behavior_skipCollapsed=0x7f01010a;
+        public static final int behavior_skipCollapsed=0x7f01010a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -360,39 +360,39 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int borderWidth=0x7f01012a;
+        public static final int borderWidth=0x7f01012a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int borderlessButtonStyle=0x7f01007f;
+        public static final int borderlessButtonStyle=0x7f01007f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int bottomSheetDialogTheme=0x7f010124;
+        public static final int bottomSheetDialogTheme=0x7f010124;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int bottomSheetStyle=0x7f010125;
+        public static final int bottomSheetStyle=0x7f010125;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarButtonStyle=0x7f01007c;
+        public static final int buttonBarButtonStyle=0x7f01007c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarNegativeButtonStyle=0x7f0100ac;
+        public static final int buttonBarNegativeButtonStyle=0x7f0100ac;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarNeutralButtonStyle=0x7f0100ad;
+        public static final int buttonBarNeutralButtonStyle=0x7f0100ad;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarPositiveButtonStyle=0x7f0100ab;
+        public static final int buttonBarPositiveButtonStyle=0x7f0100ab;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarStyle=0x7f01007b;
+        public static final int buttonBarStyle=0x7f01007b;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -403,19 +403,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
          */
-        public static int buttonGravity=0x7f0100f6;
+        public static final int buttonGravity=0x7f0100f6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonPanelSideLayout=0x7f01003d;
+        public static final int buttonPanelSideLayout=0x7f01003d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonStyle=0x7f0100af;
+        public static final int buttonStyle=0x7f0100af;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonStyleSmall=0x7f0100b0;
+        public static final int buttonStyleSmall=0x7f0100b0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -424,7 +424,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int buttonTint=0x7f0100be;
+        public static final int buttonTint=0x7f0100be;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -438,7 +438,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static int buttonTintMode=0x7f0100bf;
+        public static final int buttonTintMode=0x7f0100bf;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -447,7 +447,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int cardBackgroundColor=0x7f010011;
+        public static final int cardBackgroundColor=0x7f010011;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -457,7 +457,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int cardCornerRadius=0x7f010012;
+        public static final int cardCornerRadius=0x7f010012;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -467,7 +467,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int cardElevation=0x7f010013;
+        public static final int cardElevation=0x7f010013;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -477,7 +477,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int cardMaxElevation=0x7f010014;
+        public static final int cardMaxElevation=0x7f010014;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -485,7 +485,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int cardPreventCornerOverlap=0x7f010016;
+        public static final int cardPreventCornerOverlap=0x7f010016;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -493,23 +493,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int cardUseCompatPadding=0x7f010015;
+        public static final int cardUseCompatPadding=0x7f010015;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int checkboxStyle=0x7f0100b1;
+        public static final int checkboxStyle=0x7f0100b1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int checkedTextViewStyle=0x7f0100b2;
+        public static final int checkedTextViewStyle=0x7f0100b2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int closeIcon=0x7f0100d9;
+        public static final int closeIcon=0x7f0100d9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int closeItemLayout=0x7f01003a;
+        public static final int closeItemLayout=0x7f01003a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -517,11 +517,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int collapseContentDescription=0x7f0100f8;
+        public static final int collapseContentDescription=0x7f0100f8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int collapseIcon=0x7f0100f7;
+        public static final int collapseIcon=0x7f0100f7;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -540,11 +540,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static int collapsedTitleGravity=0x7f010117;
+        public static final int collapsedTitleGravity=0x7f010117;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int collapsedTitleTextAppearance=0x7f010111;
+        public static final int collapsedTitleTextAppearance=0x7f010111;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -553,7 +553,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int color=0x7f0100c0;
+        public static final int color=0x7f0100c0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -562,7 +562,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorAccent=0x7f01009e;
+        public static final int colorAccent=0x7f01009e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -571,7 +571,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorBackgroundFloating=0x7f0100a5;
+        public static final int colorBackgroundFloating=0x7f0100a5;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -580,7 +580,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorButtonNormal=0x7f0100a2;
+        public static final int colorButtonNormal=0x7f0100a2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -589,7 +589,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorControlActivated=0x7f0100a0;
+        public static final int colorControlActivated=0x7f0100a0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -598,7 +598,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorControlHighlight=0x7f0100a1;
+        public static final int colorControlHighlight=0x7f0100a1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -607,7 +607,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorControlNormal=0x7f01009f;
+        public static final int colorControlNormal=0x7f01009f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -616,7 +616,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorPrimary=0x7f01009c;
+        public static final int colorPrimary=0x7f01009c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -625,7 +625,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorPrimaryDark=0x7f01009d;
+        public static final int colorPrimaryDark=0x7f01009d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -634,11 +634,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorSwitchThumbNormal=0x7f0100a3;
+        public static final int colorSwitchThumbNormal=0x7f0100a3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int commitIcon=0x7f0100de;
+        public static final int commitIcon=0x7f0100de;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -648,7 +648,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentInsetEnd=0x7f010033;
+        public static final int contentInsetEnd=0x7f010033;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -658,7 +658,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentInsetEndWithActions=0x7f010037;
+        public static final int contentInsetEndWithActions=0x7f010037;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -668,7 +668,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentInsetLeft=0x7f010034;
+        public static final int contentInsetLeft=0x7f010034;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -678,7 +678,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentInsetRight=0x7f010035;
+        public static final int contentInsetRight=0x7f010035;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -688,7 +688,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentInsetStart=0x7f010032;
+        public static final int contentInsetStart=0x7f010032;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -698,7 +698,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentInsetStartWithNavigation=0x7f010036;
+        public static final int contentInsetStartWithNavigation=0x7f010036;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -708,7 +708,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentPadding=0x7f010017;
+        public static final int contentPadding=0x7f010017;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -718,7 +718,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentPaddingBottom=0x7f01001b;
+        public static final int contentPaddingBottom=0x7f01001b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -728,7 +728,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentPaddingLeft=0x7f010018;
+        public static final int contentPaddingLeft=0x7f010018;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -738,7 +738,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentPaddingRight=0x7f010019;
+        public static final int contentPaddingRight=0x7f010019;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -748,7 +748,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentPaddingTop=0x7f01001a;
+        public static final int contentPaddingTop=0x7f01001a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -757,11 +757,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentScrim=0x7f010112;
+        public static final int contentScrim=0x7f010112;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int controlBackground=0x7f0100a4;
+        public static final int controlBackground=0x7f0100a4;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -769,7 +769,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int counterEnabled=0x7f01014b;
+        public static final int counterEnabled=0x7f01014b;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -777,19 +777,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int counterMaxLength=0x7f01014c;
+        public static final int counterMaxLength=0x7f01014c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int counterOverflowTextAppearance=0x7f01014e;
+        public static final int counterOverflowTextAppearance=0x7f01014e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int counterTextAppearance=0x7f01014d;
+        public static final int counterTextAppearance=0x7f01014d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int customNavigationLayout=0x7f01002b;
+        public static final int customNavigationLayout=0x7f01002b;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -797,7 +797,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int defaultQueryHint=0x7f0100d8;
+        public static final int defaultQueryHint=0x7f0100d8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -807,11 +807,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int dialogPreferredPadding=0x7f010074;
+        public static final int dialogPreferredPadding=0x7f010074;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int dialogTheme=0x7f010073;
+        public static final int dialogTheme=0x7f010073;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -827,15 +827,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
          */
-        public static int displayOptions=0x7f010021;
+        public static final int displayOptions=0x7f010021;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int divider=0x7f010027;
+        public static final int divider=0x7f010027;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int dividerHorizontal=0x7f010081;
+        public static final int dividerHorizontal=0x7f010081;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -845,11 +845,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int dividerPadding=0x7f0100ca;
+        public static final int dividerPadding=0x7f0100ca;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int dividerVertical=0x7f010080;
+        public static final int dividerVertical=0x7f010080;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -859,15 +859,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int drawableSize=0x7f0100c2;
+        public static final int drawableSize=0x7f0100c2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int drawerArrowStyle=0x7f01001c;
+        public static final int drawerArrowStyle=0x7f01001c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int dropDownListViewStyle=0x7f010093;
+        public static final int dropDownListViewStyle=0x7f010093;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -877,21 +877,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int dropdownListPreferredItemHeight=0x7f010077;
+        public static final int dropdownListPreferredItemHeight=0x7f010077;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int editTextBackground=0x7f010088;
+        public static final int editTextBackground=0x7f010088;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int editTextColor=0x7f010087;
+        public static final int editTextColor=0x7f010087;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int editTextStyle=0x7f0100b3;
+        public static final int editTextStyle=0x7f0100b3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -901,7 +901,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int elevation=0x7f010038;
+        public static final int elevation=0x7f010038;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -909,15 +909,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int errorEnabled=0x7f010149;
+        public static final int errorEnabled=0x7f010149;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int errorTextAppearance=0x7f01014a;
+        public static final int errorTextAppearance=0x7f01014a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int expandActivityOverflowButtonDrawable=0x7f01003c;
+        public static final int expandActivityOverflowButtonDrawable=0x7f01003c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -925,7 +925,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expanded=0x7f010103;
+        public static final int expanded=0x7f010103;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -944,7 +944,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static int expandedTitleGravity=0x7f010118;
+        public static final int expandedTitleGravity=0x7f010118;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -954,7 +954,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMargin=0x7f01010b;
+        public static final int expandedTitleMargin=0x7f01010b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -964,7 +964,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMarginBottom=0x7f01010f;
+        public static final int expandedTitleMarginBottom=0x7f01010f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -974,7 +974,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMarginEnd=0x7f01010e;
+        public static final int expandedTitleMarginEnd=0x7f01010e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -984,7 +984,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMarginStart=0x7f01010c;
+        public static final int expandedTitleMarginStart=0x7f01010c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -994,15 +994,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMarginTop=0x7f01010d;
+        public static final int expandedTitleMarginTop=0x7f01010d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int expandedTitleTextAppearance=0x7f010110;
+        public static final int expandedTitleTextAppearance=0x7f010110;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int externalRouteEnabledDrawable=0x7f010010;
+        public static final int externalRouteEnabledDrawable=0x7f010010;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1014,7 +1014,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int fabSize=0x7f010128;
+        public static final int fabSize=0x7f010128;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1022,7 +1022,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int foregroundInsidePadding=0x7f01012d;
+        public static final int foregroundInsidePadding=0x7f01012d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1032,15 +1032,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int gapBetweenBars=0x7f0100c3;
+        public static final int gapBetweenBars=0x7f0100c3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int goIcon=0x7f0100da;
+        public static final int goIcon=0x7f0100da;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int headerLayout=0x7f010133;
+        public static final int headerLayout=0x7f010133;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1050,7 +1050,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int height=0x7f01001d;
+        public static final int height=0x7f01001d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1058,7 +1058,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int hideOnContentScroll=0x7f010031;
+        public static final int hideOnContentScroll=0x7f010031;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1066,7 +1066,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int hintAnimationEnabled=0x7f01014f;
+        public static final int hintAnimationEnabled=0x7f01014f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1074,23 +1074,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int hintEnabled=0x7f010148;
+        public static final int hintEnabled=0x7f010148;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int hintTextAppearance=0x7f010147;
+        public static final int hintTextAppearance=0x7f010147;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int homeAsUpIndicator=0x7f010079;
+        public static final int homeAsUpIndicator=0x7f010079;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int homeLayout=0x7f01002c;
+        public static final int homeLayout=0x7f01002c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int icon=0x7f010025;
+        public static final int icon=0x7f010025;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1098,15 +1098,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int iconifiedByDefault=0x7f0100d6;
+        public static final int iconifiedByDefault=0x7f0100d6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int imageButtonStyle=0x7f010089;
+        public static final int imageButtonStyle=0x7f010089;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int indeterminateProgressStyle=0x7f01002e;
+        public static final int indeterminateProgressStyle=0x7f01002e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1114,13 +1114,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int initialActivityCount=0x7f01003b;
+        public static final int initialActivityCount=0x7f01003b;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int insetForeground=0x7f010134;
+        public static final int insetForeground=0x7f010134;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1128,11 +1128,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int isLightTheme=0x7f01001e;
+        public static final int isLightTheme=0x7f01001e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int itemBackground=0x7f010131;
+        public static final int itemBackground=0x7f010131;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1141,7 +1141,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int itemIconTint=0x7f01012f;
+        public static final int itemIconTint=0x7f01012f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1151,11 +1151,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int itemPadding=0x7f010030;
+        public static final int itemPadding=0x7f010030;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int itemTextAppearance=0x7f010132;
+        public static final int itemTextAppearance=0x7f010132;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1164,15 +1164,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int itemTextColor=0x7f010130;
+        public static final int itemTextColor=0x7f010130;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int keylines=0x7f01011c;
+        public static final int keylines=0x7f01011c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int layout=0x7f0100d5;
+        public static final int layout=0x7f0100d5;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1180,11 +1180,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layoutManager=0x7f010000;
+        public static final int layoutManager=0x7f010000;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int layout_anchor=0x7f01011f;
+        public static final int layout_anchor=0x7f01011f;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1207,7 +1207,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static int layout_anchorGravity=0x7f010121;
+        public static final int layout_anchorGravity=0x7f010121;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1215,7 +1215,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_behavior=0x7f01011e;
+        public static final int layout_behavior=0x7f01011e;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1227,7 +1227,7 @@ containing a value of this type.
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static int layout_collapseMode=0x7f01011a;
+        public static final int layout_collapseMode=0x7f01011a;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1235,7 +1235,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_collapseParallaxMultiplier=0x7f01011b;
+        public static final int layout_collapseParallaxMultiplier=0x7f01011b;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1252,7 +1252,7 @@ containing a value of this type.
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
          */
-        public static int layout_dodgeInsetEdges=0x7f010123;
+        public static final int layout_dodgeInsetEdges=0x7f010123;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1268,7 +1268,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static int layout_insetEdge=0x7f010122;
+        public static final int layout_insetEdge=0x7f010122;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1276,7 +1276,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_keyline=0x7f010120;
+        public static final int layout_keyline=0x7f010120;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1290,35 +1290,35 @@ containing a value of this type.
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
          */
-        public static int layout_scrollFlags=0x7f010106;
+        public static final int layout_scrollFlags=0x7f010106;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int layout_scrollInterpolator=0x7f010107;
+        public static final int layout_scrollInterpolator=0x7f010107;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int listChoiceBackgroundIndicator=0x7f01009b;
+        public static final int listChoiceBackgroundIndicator=0x7f01009b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int listDividerAlertDialog=0x7f010075;
+        public static final int listDividerAlertDialog=0x7f010075;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int listItemLayout=0x7f010041;
+        public static final int listItemLayout=0x7f010041;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int listLayout=0x7f01003e;
+        public static final int listLayout=0x7f01003e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int listMenuViewStyle=0x7f0100bb;
+        public static final int listMenuViewStyle=0x7f0100bb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int listPopupWindowStyle=0x7f010094;
+        public static final int listPopupWindowStyle=0x7f010094;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1328,7 +1328,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemHeight=0x7f01008e;
+        public static final int listPreferredItemHeight=0x7f01008e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1338,7 +1338,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemHeightLarge=0x7f010090;
+        public static final int listPreferredItemHeightLarge=0x7f010090;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1348,7 +1348,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemHeightSmall=0x7f01008f;
+        public static final int listPreferredItemHeightSmall=0x7f01008f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1358,7 +1358,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemPaddingLeft=0x7f010091;
+        public static final int listPreferredItemPaddingLeft=0x7f010091;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1368,11 +1368,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemPaddingRight=0x7f010092;
+        public static final int listPreferredItemPaddingRight=0x7f010092;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int logo=0x7f010026;
+        public static final int logo=0x7f010026;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1380,7 +1380,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int logoDescription=0x7f0100fb;
+        public static final int logoDescription=0x7f0100fb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1390,7 +1390,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int maxActionInlineWidth=0x7f010136;
+        public static final int maxActionInlineWidth=0x7f010136;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1400,7 +1400,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int maxButtonHeight=0x7f0100f5;
+        public static final int maxButtonHeight=0x7f0100f5;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1408,63 +1408,63 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int measureWithLargestChild=0x7f0100c8;
+        public static final int measureWithLargestChild=0x7f0100c8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteAudioTrackDrawable=0x7f010004;
+        public static final int mediaRouteAudioTrackDrawable=0x7f010004;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteButtonStyle=0x7f010005;
+        public static final int mediaRouteButtonStyle=0x7f010005;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteCloseDrawable=0x7f010006;
+        public static final int mediaRouteCloseDrawable=0x7f010006;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteControlPanelThemeOverlay=0x7f010007;
+        public static final int mediaRouteControlPanelThemeOverlay=0x7f010007;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteDefaultIconDrawable=0x7f010008;
+        public static final int mediaRouteDefaultIconDrawable=0x7f010008;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRoutePauseDrawable=0x7f010009;
+        public static final int mediaRoutePauseDrawable=0x7f010009;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRoutePlayDrawable=0x7f01000a;
+        public static final int mediaRoutePlayDrawable=0x7f01000a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteSpeakerGroupIconDrawable=0x7f01000b;
+        public static final int mediaRouteSpeakerGroupIconDrawable=0x7f01000b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteSpeakerIconDrawable=0x7f01000c;
+        public static final int mediaRouteSpeakerIconDrawable=0x7f01000c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteStopDrawable=0x7f01000d;
+        public static final int mediaRouteStopDrawable=0x7f01000d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteTheme=0x7f01000e;
+        public static final int mediaRouteTheme=0x7f01000e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int mediaRouteTvIconDrawable=0x7f01000f;
+        public static final int mediaRouteTvIconDrawable=0x7f01000f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int menu=0x7f01012e;
+        public static final int menu=0x7f01012e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int multiChoiceItemLayout=0x7f01003f;
+        public static final int multiChoiceItemLayout=0x7f01003f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1472,11 +1472,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int navigationContentDescription=0x7f0100fa;
+        public static final int navigationContentDescription=0x7f0100fa;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int navigationIcon=0x7f0100f9;
+        public static final int navigationIcon=0x7f0100f9;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1488,7 +1488,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static int navigationMode=0x7f010020;
+        public static final int navigationMode=0x7f010020;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1496,7 +1496,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int overlapAnchor=0x7f0100d1;
+        public static final int overlapAnchor=0x7f0100d1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1506,7 +1506,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int paddingBottomNoButtons=0x7f0100d3;
+        public static final int paddingBottomNoButtons=0x7f0100d3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1516,7 +1516,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int paddingEnd=0x7f0100ff;
+        public static final int paddingEnd=0x7f0100ff;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1526,7 +1526,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int paddingStart=0x7f0100fe;
+        public static final int paddingStart=0x7f0100fe;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1536,15 +1536,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int paddingTopNoTitle=0x7f0100d4;
+        public static final int paddingTopNoTitle=0x7f0100d4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int panelBackground=0x7f010098;
+        public static final int panelBackground=0x7f010098;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int panelMenuListTheme=0x7f01009a;
+        public static final int panelMenuListTheme=0x7f01009a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1554,7 +1554,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int panelMenuListWidth=0x7f010099;
+        public static final int panelMenuListWidth=0x7f010099;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1562,11 +1562,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int passwordToggleContentDescription=0x7f010152;
+        public static final int passwordToggleContentDescription=0x7f010152;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int passwordToggleDrawable=0x7f010151;
+        public static final int passwordToggleDrawable=0x7f010151;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1574,7 +1574,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int passwordToggleEnabled=0x7f010150;
+        public static final int passwordToggleEnabled=0x7f010150;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1583,7 +1583,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int passwordToggleTint=0x7f010153;
+        public static final int passwordToggleTint=0x7f010153;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1597,19 +1597,19 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static int passwordToggleTintMode=0x7f010154;
+        public static final int passwordToggleTintMode=0x7f010154;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int popupMenuStyle=0x7f010085;
+        public static final int popupMenuStyle=0x7f010085;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int popupTheme=0x7f010039;
+        public static final int popupTheme=0x7f010039;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int popupWindowStyle=0x7f010086;
+        public static final int popupWindowStyle=0x7f010086;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1617,7 +1617,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int preserveIconSpacing=0x7f0100cf;
+        public static final int preserveIconSpacing=0x7f0100cf;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1627,7 +1627,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int pressedTranslationZ=0x7f010129;
+        public static final int pressedTranslationZ=0x7f010129;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1637,15 +1637,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int progressBarPadding=0x7f01002f;
+        public static final int progressBarPadding=0x7f01002f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int progressBarStyle=0x7f01002d;
+        public static final int progressBarStyle=0x7f01002d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int queryBackground=0x7f0100e0;
+        public static final int queryBackground=0x7f0100e0;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1653,23 +1653,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int queryHint=0x7f0100d7;
+        public static final int queryHint=0x7f0100d7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int radioButtonStyle=0x7f0100b4;
+        public static final int radioButtonStyle=0x7f0100b4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int ratingBarStyle=0x7f0100b5;
+        public static final int ratingBarStyle=0x7f0100b5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int ratingBarStyleIndicator=0x7f0100b6;
+        public static final int ratingBarStyleIndicator=0x7f0100b6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int ratingBarStyleSmall=0x7f0100b7;
+        public static final int ratingBarStyleSmall=0x7f0100b7;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1677,7 +1677,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int reverseLayout=0x7f010002;
+        public static final int reverseLayout=0x7f010002;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1686,7 +1686,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int rippleColor=0x7f010127;
+        public static final int rippleColor=0x7f010127;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1694,7 +1694,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int scrimAnimationDuration=0x7f010116;
+        public static final int scrimAnimationDuration=0x7f010116;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1704,31 +1704,31 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int scrimVisibleHeightTrigger=0x7f010115;
+        public static final int scrimVisibleHeightTrigger=0x7f010115;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int searchHintIcon=0x7f0100dc;
+        public static final int searchHintIcon=0x7f0100dc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int searchIcon=0x7f0100db;
+        public static final int searchIcon=0x7f0100db;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int searchViewStyle=0x7f01008d;
+        public static final int searchViewStyle=0x7f01008d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int seekBarStyle=0x7f0100b8;
+        public static final int seekBarStyle=0x7f0100b8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int selectableItemBackground=0x7f01007d;
+        public static final int selectableItemBackground=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int selectableItemBackgroundBorderless=0x7f01007e;
+        public static final int selectableItemBackgroundBorderless=0x7f01007e;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1742,7 +1742,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static int showAsAction=0x7f0100cb;
+        public static final int showAsAction=0x7f0100cb;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1755,7 +1755,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static int showDividers=0x7f0100c9;
+        public static final int showDividers=0x7f0100c9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1763,7 +1763,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int showText=0x7f0100ec;
+        public static final int showText=0x7f0100ec;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1771,11 +1771,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int showTitle=0x7f010042;
+        public static final int showTitle=0x7f010042;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int singleChoiceItemLayout=0x7f010040;
+        public static final int singleChoiceItemLayout=0x7f010040;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1783,7 +1783,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int spanCount=0x7f010001;
+        public static final int spanCount=0x7f010001;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1791,15 +1791,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int spinBars=0x7f0100c1;
+        public static final int spinBars=0x7f0100c1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int spinnerDropDownItemStyle=0x7f010078;
+        public static final int spinnerDropDownItemStyle=0x7f010078;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int spinnerStyle=0x7f0100b9;
+        public static final int spinnerStyle=0x7f0100b9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1807,11 +1807,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int splitTrack=0x7f0100eb;
+        public static final int splitTrack=0x7f0100eb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int srcCompat=0x7f010043;
+        public static final int srcCompat=0x7f010043;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1819,7 +1819,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int stackFromEnd=0x7f010003;
+        public static final int stackFromEnd=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1827,7 +1827,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int state_above_anchor=0x7f0100d2;
+        public static final int state_above_anchor=0x7f0100d2;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1835,7 +1835,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int state_collapsed=0x7f010104;
+        public static final int state_collapsed=0x7f010104;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1843,11 +1843,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int state_collapsible=0x7f010105;
+        public static final int state_collapsible=0x7f010105;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int statusBarBackground=0x7f01011d;
+        public static final int statusBarBackground=0x7f01011d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1856,15 +1856,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int statusBarScrim=0x7f010113;
+        public static final int statusBarScrim=0x7f010113;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int subMenuArrow=0x7f0100d0;
+        public static final int subMenuArrow=0x7f0100d0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int submitBackground=0x7f0100e1;
+        public static final int submitBackground=0x7f0100e1;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1872,11 +1872,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int subtitle=0x7f010022;
+        public static final int subtitle=0x7f010022;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int subtitleTextAppearance=0x7f0100ee;
+        public static final int subtitleTextAppearance=0x7f0100ee;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1885,15 +1885,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int subtitleTextColor=0x7f0100fd;
+        public static final int subtitleTextColor=0x7f0100fd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int subtitleTextStyle=0x7f010024;
+        public static final int subtitleTextStyle=0x7f010024;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int suggestionRowLayout=0x7f0100df;
+        public static final int suggestionRowLayout=0x7f0100df;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1903,7 +1903,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int switchMinWidth=0x7f0100e9;
+        public static final int switchMinWidth=0x7f0100e9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1913,19 +1913,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int switchPadding=0x7f0100ea;
+        public static final int switchPadding=0x7f0100ea;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int switchStyle=0x7f0100ba;
+        public static final int switchStyle=0x7f0100ba;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int switchTextAppearance=0x7f0100e8;
+        public static final int switchTextAppearance=0x7f0100e8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int tabBackground=0x7f01013a;
+        public static final int tabBackground=0x7f01013a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1935,7 +1935,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabContentStart=0x7f010139;
+        public static final int tabContentStart=0x7f010139;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1946,7 +1946,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int tabGravity=0x7f01013c;
+        public static final int tabGravity=0x7f01013c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1955,7 +1955,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabIndicatorColor=0x7f010137;
+        public static final int tabIndicatorColor=0x7f010137;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1965,7 +1965,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabIndicatorHeight=0x7f010138;
+        public static final int tabIndicatorHeight=0x7f010138;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1975,7 +1975,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabMaxWidth=0x7f01013e;
+        public static final int tabMaxWidth=0x7f01013e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1985,7 +1985,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabMinWidth=0x7f01013d;
+        public static final int tabMinWidth=0x7f01013d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1996,7 +1996,7 @@ containing a value of this type.
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int tabMode=0x7f01013b;
+        public static final int tabMode=0x7f01013b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2006,7 +2006,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPadding=0x7f010146;
+        public static final int tabPadding=0x7f010146;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2016,7 +2016,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingBottom=0x7f010145;
+        public static final int tabPaddingBottom=0x7f010145;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2026,7 +2026,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingEnd=0x7f010144;
+        public static final int tabPaddingEnd=0x7f010144;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2036,7 +2036,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingStart=0x7f010142;
+        public static final int tabPaddingStart=0x7f010142;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2046,7 +2046,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingTop=0x7f010143;
+        public static final int tabPaddingTop=0x7f010143;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2055,11 +2055,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabSelectedTextColor=0x7f010141;
+        public static final int tabSelectedTextColor=0x7f010141;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int tabTextAppearance=0x7f01013f;
+        public static final int tabTextAppearance=0x7f01013f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2068,50 +2068,50 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabTextColor=0x7f010140;
+        public static final int tabTextColor=0x7f010140;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static int textAllCaps=0x7f010049;
+        public static final int textAllCaps=0x7f010049;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceLargePopupMenu=0x7f010070;
+        public static final int textAppearanceLargePopupMenu=0x7f010070;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceListItem=0x7f010095;
+        public static final int textAppearanceListItem=0x7f010095;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceListItemSecondary=0x7f010096;
+        public static final int textAppearanceListItemSecondary=0x7f010096;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceListItemSmall=0x7f010097;
+        public static final int textAppearanceListItemSmall=0x7f010097;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearancePopupMenuHeader=0x7f010072;
+        public static final int textAppearancePopupMenuHeader=0x7f010072;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceSearchResultSubtitle=0x7f01008b;
+        public static final int textAppearanceSearchResultSubtitle=0x7f01008b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceSearchResultTitle=0x7f01008a;
+        public static final int textAppearanceSearchResultTitle=0x7f01008a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceSmallPopupMenu=0x7f010071;
+        public static final int textAppearanceSmallPopupMenu=0x7f010071;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int textColorAlertDialogListItem=0x7f0100aa;
+        public static final int textColorAlertDialogListItem=0x7f0100aa;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2120,17 +2120,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int textColorError=0x7f010126;
+        public static final int textColorError=0x7f010126;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int textColorSearchUrl=0x7f01008c;
+        public static final int textColorSearchUrl=0x7f01008c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int theme=0x7f010100;
+        public static final int theme=0x7f010100;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2140,7 +2140,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int thickness=0x7f0100c7;
+        public static final int thickness=0x7f0100c7;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2150,7 +2150,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int thumbTextPadding=0x7f0100e7;
+        public static final int thumbTextPadding=0x7f0100e7;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2159,7 +2159,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int thumbTint=0x7f0100e2;
+        public static final int thumbTint=0x7f0100e2;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2174,11 +2174,11 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static int thumbTintMode=0x7f0100e3;
+        public static final int thumbTintMode=0x7f0100e3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int tickMark=0x7f010046;
+        public static final int tickMark=0x7f010046;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2187,7 +2187,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tickMarkTint=0x7f010047;
+        public static final int tickMarkTint=0x7f010047;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2202,7 +2202,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static int tickMarkTintMode=0x7f010048;
+        public static final int tickMarkTintMode=0x7f010048;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2211,7 +2211,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tint=0x7f010044;
+        public static final int tint=0x7f010044;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2225,7 +2225,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static int tintMode=0x7f010045;
+        public static final int tintMode=0x7f010045;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2233,7 +2233,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int title=0x7f01001f;
+        public static final int title=0x7f01001f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2241,7 +2241,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleEnabled=0x7f010119;
+        public static final int titleEnabled=0x7f010119;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2251,7 +2251,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMargin=0x7f0100ef;
+        public static final int titleMargin=0x7f0100ef;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2261,7 +2261,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginBottom=0x7f0100f3;
+        public static final int titleMarginBottom=0x7f0100f3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2271,7 +2271,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginEnd=0x7f0100f1;
+        public static final int titleMarginEnd=0x7f0100f1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2281,7 +2281,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginStart=0x7f0100f0;
+        public static final int titleMarginStart=0x7f0100f0;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2291,7 +2291,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginTop=0x7f0100f2;
+        public static final int titleMarginTop=0x7f0100f2;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2301,11 +2301,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMargins=0x7f0100f4;
+        public static final int titleMargins=0x7f0100f4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int titleTextAppearance=0x7f0100ed;
+        public static final int titleTextAppearance=0x7f0100ed;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2314,27 +2314,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleTextColor=0x7f0100fc;
+        public static final int titleTextColor=0x7f0100fc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int titleTextStyle=0x7f010023;
+        public static final int titleTextStyle=0x7f010023;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int toolbarId=0x7f010114;
+        public static final int toolbarId=0x7f010114;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int toolbarNavigationButtonStyle=0x7f010084;
+        public static final int toolbarNavigationButtonStyle=0x7f010084;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int toolbarStyle=0x7f010083;
+        public static final int toolbarStyle=0x7f010083;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int track=0x7f0100e4;
+        public static final int track=0x7f0100e4;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2343,7 +2343,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int trackTint=0x7f0100e5;
+        public static final int trackTint=0x7f0100e5;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2358,7 +2358,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static int trackTintMode=0x7f0100e6;
+        public static final int trackTintMode=0x7f0100e6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2366,11 +2366,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int useCompatPadding=0x7f01012b;
+        public static final int useCompatPadding=0x7f01012b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int voiceIcon=0x7f0100dd;
+        public static final int voiceIcon=0x7f0100dd;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2378,7 +2378,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowActionBar=0x7f01004a;
+        public static final int windowActionBar=0x7f01004a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2386,7 +2386,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowActionBarOverlay=0x7f01004c;
+        public static final int windowActionBarOverlay=0x7f01004c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2394,7 +2394,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowActionModeOverlay=0x7f01004d;
+        public static final int windowActionModeOverlay=0x7f01004d;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2407,7 +2407,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowFixedHeightMajor=0x7f010051;
+        public static final int windowFixedHeightMajor=0x7f010051;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2420,7 +2420,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowFixedHeightMinor=0x7f01004f;
+        public static final int windowFixedHeightMinor=0x7f01004f;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2433,7 +2433,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowFixedWidthMajor=0x7f01004e;
+        public static final int windowFixedWidthMajor=0x7f01004e;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2446,7 +2446,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowFixedWidthMinor=0x7f010050;
+        public static final int windowFixedWidthMinor=0x7f010050;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2459,7 +2459,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowMinWidthMajor=0x7f010052;
+        public static final int windowMinWidthMajor=0x7f010052;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2472,7 +2472,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowMinWidthMinor=0x7f010053;
+        public static final int windowMinWidthMinor=0x7f010053;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2480,1266 +2480,1266 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowNoTitle=0x7f01004b;
+        public static final int windowNoTitle=0x7f01004b;
     }
     public static final class bool {
-        public static int abc_action_bar_embed_tabs=0x7f0d0000;
-        public static int abc_allow_stacked_button_bar=0x7f0d0001;
-        public static int abc_config_actionMenuItemAllCaps=0x7f0d0002;
-        public static int abc_config_closeDialogWhenTouchOutside=0x7f0d0003;
-        public static int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0d0004;
+        public static final int abc_action_bar_embed_tabs=0x7f0d0000;
+        public static final int abc_allow_stacked_button_bar=0x7f0d0001;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f0d0002;
+        public static final int abc_config_closeDialogWhenTouchOutside=0x7f0d0003;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0d0004;
     }
     public static final class color {
-        public static int abc_background_cache_hint_selector_material_dark=0x7f0c004a;
-        public static int abc_background_cache_hint_selector_material_light=0x7f0c004b;
-        public static int abc_btn_colored_borderless_text_material=0x7f0c004c;
-        public static int abc_btn_colored_text_material=0x7f0c004d;
-        public static int abc_color_highlight_material=0x7f0c004e;
-        public static int abc_hint_foreground_material_dark=0x7f0c004f;
-        public static int abc_hint_foreground_material_light=0x7f0c0050;
-        public static int abc_input_method_navigation_guard=0x7f0c0005;
-        public static int abc_primary_text_disable_only_material_dark=0x7f0c0051;
-        public static int abc_primary_text_disable_only_material_light=0x7f0c0052;
-        public static int abc_primary_text_material_dark=0x7f0c0053;
-        public static int abc_primary_text_material_light=0x7f0c0054;
-        public static int abc_search_url_text=0x7f0c0055;
-        public static int abc_search_url_text_normal=0x7f0c0006;
-        public static int abc_search_url_text_pressed=0x7f0c0007;
-        public static int abc_search_url_text_selected=0x7f0c0008;
-        public static int abc_secondary_text_material_dark=0x7f0c0056;
-        public static int abc_secondary_text_material_light=0x7f0c0057;
-        public static int abc_tint_btn_checkable=0x7f0c0058;
-        public static int abc_tint_default=0x7f0c0059;
-        public static int abc_tint_edittext=0x7f0c005a;
-        public static int abc_tint_seek_thumb=0x7f0c005b;
-        public static int abc_tint_spinner=0x7f0c005c;
-        public static int abc_tint_switch_thumb=0x7f0c005d;
-        public static int abc_tint_switch_track=0x7f0c005e;
-        public static int accent_material_dark=0x7f0c0009;
-        public static int accent_material_light=0x7f0c000a;
-        public static int background_floating_material_dark=0x7f0c000b;
-        public static int background_floating_material_light=0x7f0c000c;
-        public static int background_material_dark=0x7f0c000d;
-        public static int background_material_light=0x7f0c000e;
-        public static int bright_foreground_disabled_material_dark=0x7f0c000f;
-        public static int bright_foreground_disabled_material_light=0x7f0c0010;
-        public static int bright_foreground_inverse_material_dark=0x7f0c0011;
-        public static int bright_foreground_inverse_material_light=0x7f0c0012;
-        public static int bright_foreground_material_dark=0x7f0c0013;
-        public static int bright_foreground_material_light=0x7f0c0014;
-        public static int button_material_dark=0x7f0c0015;
-        public static int button_material_light=0x7f0c0016;
-        public static int cardview_dark_background=0x7f0c0000;
-        public static int cardview_light_background=0x7f0c0001;
-        public static int cardview_shadow_end_color=0x7f0c0002;
-        public static int cardview_shadow_start_color=0x7f0c0003;
-        public static int design_bottom_navigation_shadow_color=0x7f0c003f;
-        public static int design_error=0x7f0c005f;
-        public static int design_fab_shadow_end_color=0x7f0c0040;
-        public static int design_fab_shadow_mid_color=0x7f0c0041;
-        public static int design_fab_shadow_start_color=0x7f0c0042;
-        public static int design_fab_stroke_end_inner_color=0x7f0c0043;
-        public static int design_fab_stroke_end_outer_color=0x7f0c0044;
-        public static int design_fab_stroke_top_inner_color=0x7f0c0045;
-        public static int design_fab_stroke_top_outer_color=0x7f0c0046;
-        public static int design_snackbar_background_color=0x7f0c0047;
-        public static int design_textinput_error_color_dark=0x7f0c0048;
-        public static int design_textinput_error_color_light=0x7f0c0049;
-        public static int design_tint_password_toggle=0x7f0c0060;
-        public static int dim_foreground_disabled_material_dark=0x7f0c0017;
-        public static int dim_foreground_disabled_material_light=0x7f0c0018;
-        public static int dim_foreground_material_dark=0x7f0c0019;
-        public static int dim_foreground_material_light=0x7f0c001a;
-        public static int foreground_material_dark=0x7f0c001b;
-        public static int foreground_material_light=0x7f0c001c;
-        public static int highlighted_text_material_dark=0x7f0c001d;
-        public static int highlighted_text_material_light=0x7f0c001e;
-        public static int material_blue_grey_800=0x7f0c001f;
-        public static int material_blue_grey_900=0x7f0c0020;
-        public static int material_blue_grey_950=0x7f0c0021;
-        public static int material_deep_teal_200=0x7f0c0022;
-        public static int material_deep_teal_500=0x7f0c0023;
-        public static int material_grey_100=0x7f0c0024;
-        public static int material_grey_300=0x7f0c0025;
-        public static int material_grey_50=0x7f0c0026;
-        public static int material_grey_600=0x7f0c0027;
-        public static int material_grey_800=0x7f0c0028;
-        public static int material_grey_850=0x7f0c0029;
-        public static int material_grey_900=0x7f0c002a;
-        public static int notification_action_color_filter=0x7f0c0004;
-        public static int notification_icon_bg_color=0x7f0c002b;
-        public static int notification_material_background_media_default_color=0x7f0c002c;
-        public static int primary_dark_material_dark=0x7f0c002d;
-        public static int primary_dark_material_light=0x7f0c002e;
-        public static int primary_material_dark=0x7f0c002f;
-        public static int primary_material_light=0x7f0c0030;
-        public static int primary_text_default_material_dark=0x7f0c0031;
-        public static int primary_text_default_material_light=0x7f0c0032;
-        public static int primary_text_disabled_material_dark=0x7f0c0033;
-        public static int primary_text_disabled_material_light=0x7f0c0034;
-        public static int ripple_material_dark=0x7f0c0035;
-        public static int ripple_material_light=0x7f0c0036;
-        public static int secondary_text_default_material_dark=0x7f0c0037;
-        public static int secondary_text_default_material_light=0x7f0c0038;
-        public static int secondary_text_disabled_material_dark=0x7f0c0039;
-        public static int secondary_text_disabled_material_light=0x7f0c003a;
-        public static int switch_thumb_disabled_material_dark=0x7f0c003b;
-        public static int switch_thumb_disabled_material_light=0x7f0c003c;
-        public static int switch_thumb_material_dark=0x7f0c0061;
-        public static int switch_thumb_material_light=0x7f0c0062;
-        public static int switch_thumb_normal_material_dark=0x7f0c003d;
-        public static int switch_thumb_normal_material_light=0x7f0c003e;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0c004a;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0c004b;
+        public static final int abc_btn_colored_borderless_text_material=0x7f0c004c;
+        public static final int abc_btn_colored_text_material=0x7f0c004d;
+        public static final int abc_color_highlight_material=0x7f0c004e;
+        public static final int abc_hint_foreground_material_dark=0x7f0c004f;
+        public static final int abc_hint_foreground_material_light=0x7f0c0050;
+        public static final int abc_input_method_navigation_guard=0x7f0c0005;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0c0051;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0c0052;
+        public static final int abc_primary_text_material_dark=0x7f0c0053;
+        public static final int abc_primary_text_material_light=0x7f0c0054;
+        public static final int abc_search_url_text=0x7f0c0055;
+        public static final int abc_search_url_text_normal=0x7f0c0006;
+        public static final int abc_search_url_text_pressed=0x7f0c0007;
+        public static final int abc_search_url_text_selected=0x7f0c0008;
+        public static final int abc_secondary_text_material_dark=0x7f0c0056;
+        public static final int abc_secondary_text_material_light=0x7f0c0057;
+        public static final int abc_tint_btn_checkable=0x7f0c0058;
+        public static final int abc_tint_default=0x7f0c0059;
+        public static final int abc_tint_edittext=0x7f0c005a;
+        public static final int abc_tint_seek_thumb=0x7f0c005b;
+        public static final int abc_tint_spinner=0x7f0c005c;
+        public static final int abc_tint_switch_thumb=0x7f0c005d;
+        public static final int abc_tint_switch_track=0x7f0c005e;
+        public static final int accent_material_dark=0x7f0c0009;
+        public static final int accent_material_light=0x7f0c000a;
+        public static final int background_floating_material_dark=0x7f0c000b;
+        public static final int background_floating_material_light=0x7f0c000c;
+        public static final int background_material_dark=0x7f0c000d;
+        public static final int background_material_light=0x7f0c000e;
+        public static final int bright_foreground_disabled_material_dark=0x7f0c000f;
+        public static final int bright_foreground_disabled_material_light=0x7f0c0010;
+        public static final int bright_foreground_inverse_material_dark=0x7f0c0011;
+        public static final int bright_foreground_inverse_material_light=0x7f0c0012;
+        public static final int bright_foreground_material_dark=0x7f0c0013;
+        public static final int bright_foreground_material_light=0x7f0c0014;
+        public static final int button_material_dark=0x7f0c0015;
+        public static final int button_material_light=0x7f0c0016;
+        public static final int cardview_dark_background=0x7f0c0000;
+        public static final int cardview_light_background=0x7f0c0001;
+        public static final int cardview_shadow_end_color=0x7f0c0002;
+        public static final int cardview_shadow_start_color=0x7f0c0003;
+        public static final int design_bottom_navigation_shadow_color=0x7f0c003f;
+        public static final int design_error=0x7f0c005f;
+        public static final int design_fab_shadow_end_color=0x7f0c0040;
+        public static final int design_fab_shadow_mid_color=0x7f0c0041;
+        public static final int design_fab_shadow_start_color=0x7f0c0042;
+        public static final int design_fab_stroke_end_inner_color=0x7f0c0043;
+        public static final int design_fab_stroke_end_outer_color=0x7f0c0044;
+        public static final int design_fab_stroke_top_inner_color=0x7f0c0045;
+        public static final int design_fab_stroke_top_outer_color=0x7f0c0046;
+        public static final int design_snackbar_background_color=0x7f0c0047;
+        public static final int design_textinput_error_color_dark=0x7f0c0048;
+        public static final int design_textinput_error_color_light=0x7f0c0049;
+        public static final int design_tint_password_toggle=0x7f0c0060;
+        public static final int dim_foreground_disabled_material_dark=0x7f0c0017;
+        public static final int dim_foreground_disabled_material_light=0x7f0c0018;
+        public static final int dim_foreground_material_dark=0x7f0c0019;
+        public static final int dim_foreground_material_light=0x7f0c001a;
+        public static final int foreground_material_dark=0x7f0c001b;
+        public static final int foreground_material_light=0x7f0c001c;
+        public static final int highlighted_text_material_dark=0x7f0c001d;
+        public static final int highlighted_text_material_light=0x7f0c001e;
+        public static final int material_blue_grey_800=0x7f0c001f;
+        public static final int material_blue_grey_900=0x7f0c0020;
+        public static final int material_blue_grey_950=0x7f0c0021;
+        public static final int material_deep_teal_200=0x7f0c0022;
+        public static final int material_deep_teal_500=0x7f0c0023;
+        public static final int material_grey_100=0x7f0c0024;
+        public static final int material_grey_300=0x7f0c0025;
+        public static final int material_grey_50=0x7f0c0026;
+        public static final int material_grey_600=0x7f0c0027;
+        public static final int material_grey_800=0x7f0c0028;
+        public static final int material_grey_850=0x7f0c0029;
+        public static final int material_grey_900=0x7f0c002a;
+        public static final int notification_action_color_filter=0x7f0c0004;
+        public static final int notification_icon_bg_color=0x7f0c002b;
+        public static final int notification_material_background_media_default_color=0x7f0c002c;
+        public static final int primary_dark_material_dark=0x7f0c002d;
+        public static final int primary_dark_material_light=0x7f0c002e;
+        public static final int primary_material_dark=0x7f0c002f;
+        public static final int primary_material_light=0x7f0c0030;
+        public static final int primary_text_default_material_dark=0x7f0c0031;
+        public static final int primary_text_default_material_light=0x7f0c0032;
+        public static final int primary_text_disabled_material_dark=0x7f0c0033;
+        public static final int primary_text_disabled_material_light=0x7f0c0034;
+        public static final int ripple_material_dark=0x7f0c0035;
+        public static final int ripple_material_light=0x7f0c0036;
+        public static final int secondary_text_default_material_dark=0x7f0c0037;
+        public static final int secondary_text_default_material_light=0x7f0c0038;
+        public static final int secondary_text_disabled_material_dark=0x7f0c0039;
+        public static final int secondary_text_disabled_material_light=0x7f0c003a;
+        public static final int switch_thumb_disabled_material_dark=0x7f0c003b;
+        public static final int switch_thumb_disabled_material_light=0x7f0c003c;
+        public static final int switch_thumb_material_dark=0x7f0c0061;
+        public static final int switch_thumb_material_light=0x7f0c0062;
+        public static final int switch_thumb_normal_material_dark=0x7f0c003d;
+        public static final int switch_thumb_normal_material_light=0x7f0c003e;
     }
     public static final class dimen {
-        public static int abc_action_bar_content_inset_material=0x7f070018;
-        public static int abc_action_bar_content_inset_with_nav=0x7f070019;
-        public static int abc_action_bar_default_height_material=0x7f07000d;
-        public static int abc_action_bar_default_padding_end_material=0x7f07001a;
-        public static int abc_action_bar_default_padding_start_material=0x7f07001b;
-        public static int abc_action_bar_elevation_material=0x7f070021;
-        public static int abc_action_bar_icon_vertical_padding_material=0x7f070022;
-        public static int abc_action_bar_overflow_padding_end_material=0x7f070023;
-        public static int abc_action_bar_overflow_padding_start_material=0x7f070024;
-        public static int abc_action_bar_progress_bar_size=0x7f07000e;
-        public static int abc_action_bar_stacked_max_height=0x7f070025;
-        public static int abc_action_bar_stacked_tab_max_width=0x7f070026;
-        public static int abc_action_bar_subtitle_bottom_margin_material=0x7f070027;
-        public static int abc_action_bar_subtitle_top_margin_material=0x7f070028;
-        public static int abc_action_button_min_height_material=0x7f070029;
-        public static int abc_action_button_min_width_material=0x7f07002a;
-        public static int abc_action_button_min_width_overflow_material=0x7f07002b;
-        public static int abc_alert_dialog_button_bar_height=0x7f07000c;
-        public static int abc_button_inset_horizontal_material=0x7f07002c;
-        public static int abc_button_inset_vertical_material=0x7f07002d;
-        public static int abc_button_padding_horizontal_material=0x7f07002e;
-        public static int abc_button_padding_vertical_material=0x7f07002f;
-        public static int abc_cascading_menus_min_smallest_width=0x7f070030;
-        public static int abc_config_prefDialogWidth=0x7f070011;
-        public static int abc_control_corner_material=0x7f070031;
-        public static int abc_control_inset_material=0x7f070032;
-        public static int abc_control_padding_material=0x7f070033;
-        public static int abc_dialog_fixed_height_major=0x7f070012;
-        public static int abc_dialog_fixed_height_minor=0x7f070013;
-        public static int abc_dialog_fixed_width_major=0x7f070014;
-        public static int abc_dialog_fixed_width_minor=0x7f070015;
-        public static int abc_dialog_list_padding_bottom_no_buttons=0x7f070034;
-        public static int abc_dialog_list_padding_top_no_title=0x7f070035;
-        public static int abc_dialog_min_width_major=0x7f070016;
-        public static int abc_dialog_min_width_minor=0x7f070017;
-        public static int abc_dialog_padding_material=0x7f070036;
-        public static int abc_dialog_padding_top_material=0x7f070037;
-        public static int abc_dialog_title_divider_material=0x7f070038;
-        public static int abc_disabled_alpha_material_dark=0x7f070039;
-        public static int abc_disabled_alpha_material_light=0x7f07003a;
-        public static int abc_dropdownitem_icon_width=0x7f07003b;
-        public static int abc_dropdownitem_text_padding_left=0x7f07003c;
-        public static int abc_dropdownitem_text_padding_right=0x7f07003d;
-        public static int abc_edit_text_inset_bottom_material=0x7f07003e;
-        public static int abc_edit_text_inset_horizontal_material=0x7f07003f;
-        public static int abc_edit_text_inset_top_material=0x7f070040;
-        public static int abc_floating_window_z=0x7f070041;
-        public static int abc_list_item_padding_horizontal_material=0x7f070042;
-        public static int abc_panel_menu_list_width=0x7f070043;
-        public static int abc_progress_bar_height_material=0x7f070044;
-        public static int abc_search_view_preferred_height=0x7f070045;
-        public static int abc_search_view_preferred_width=0x7f070046;
-        public static int abc_seekbar_track_background_height_material=0x7f070047;
-        public static int abc_seekbar_track_progress_height_material=0x7f070048;
-        public static int abc_select_dialog_padding_start_material=0x7f070049;
-        public static int abc_switch_padding=0x7f07001d;
-        public static int abc_text_size_body_1_material=0x7f07004a;
-        public static int abc_text_size_body_2_material=0x7f07004b;
-        public static int abc_text_size_button_material=0x7f07004c;
-        public static int abc_text_size_caption_material=0x7f07004d;
-        public static int abc_text_size_display_1_material=0x7f07004e;
-        public static int abc_text_size_display_2_material=0x7f07004f;
-        public static int abc_text_size_display_3_material=0x7f070050;
-        public static int abc_text_size_display_4_material=0x7f070051;
-        public static int abc_text_size_headline_material=0x7f070052;
-        public static int abc_text_size_large_material=0x7f070053;
-        public static int abc_text_size_medium_material=0x7f070054;
-        public static int abc_text_size_menu_header_material=0x7f070055;
-        public static int abc_text_size_menu_material=0x7f070056;
-        public static int abc_text_size_small_material=0x7f070057;
-        public static int abc_text_size_subhead_material=0x7f070058;
-        public static int abc_text_size_subtitle_material_toolbar=0x7f07000f;
-        public static int abc_text_size_title_material=0x7f070059;
-        public static int abc_text_size_title_material_toolbar=0x7f070010;
-        public static int cardview_compat_inset_shadow=0x7f070009;
-        public static int cardview_default_elevation=0x7f07000a;
-        public static int cardview_default_radius=0x7f07000b;
-        public static int design_appbar_elevation=0x7f070076;
-        public static int design_bottom_navigation_active_item_max_width=0x7f070077;
-        public static int design_bottom_navigation_active_text_size=0x7f070078;
-        public static int design_bottom_navigation_elevation=0x7f070079;
-        public static int design_bottom_navigation_height=0x7f07007a;
-        public static int design_bottom_navigation_item_max_width=0x7f07007b;
-        public static int design_bottom_navigation_item_min_width=0x7f07007c;
-        public static int design_bottom_navigation_margin=0x7f07007d;
-        public static int design_bottom_navigation_shadow_height=0x7f07007e;
-        public static int design_bottom_navigation_text_size=0x7f07007f;
-        public static int design_bottom_sheet_modal_elevation=0x7f070080;
-        public static int design_bottom_sheet_peek_height_min=0x7f070081;
-        public static int design_fab_border_width=0x7f070082;
-        public static int design_fab_elevation=0x7f070083;
-        public static int design_fab_image_size=0x7f070084;
-        public static int design_fab_size_mini=0x7f070085;
-        public static int design_fab_size_normal=0x7f070086;
-        public static int design_fab_translation_z_pressed=0x7f070087;
-        public static int design_navigation_elevation=0x7f070088;
-        public static int design_navigation_icon_padding=0x7f070089;
-        public static int design_navigation_icon_size=0x7f07008a;
-        public static int design_navigation_max_width=0x7f07006e;
-        public static int design_navigation_padding_bottom=0x7f07008b;
-        public static int design_navigation_separator_vertical_padding=0x7f07008c;
-        public static int design_snackbar_action_inline_max_width=0x7f07006f;
-        public static int design_snackbar_background_corner_radius=0x7f070070;
-        public static int design_snackbar_elevation=0x7f07008d;
-        public static int design_snackbar_extra_spacing_horizontal=0x7f070071;
-        public static int design_snackbar_max_width=0x7f070072;
-        public static int design_snackbar_min_width=0x7f070073;
-        public static int design_snackbar_padding_horizontal=0x7f07008e;
-        public static int design_snackbar_padding_vertical=0x7f07008f;
-        public static int design_snackbar_padding_vertical_2lines=0x7f070074;
-        public static int design_snackbar_text_size=0x7f070090;
-        public static int design_tab_max_width=0x7f070091;
-        public static int design_tab_scrollable_min_width=0x7f070075;
-        public static int design_tab_text_size=0x7f070092;
-        public static int design_tab_text_size_2line=0x7f070093;
-        public static int disabled_alpha_material_dark=0x7f07005a;
-        public static int disabled_alpha_material_light=0x7f07005b;
-        public static int highlight_alpha_material_colored=0x7f07005c;
-        public static int highlight_alpha_material_dark=0x7f07005d;
-        public static int highlight_alpha_material_light=0x7f07005e;
-        public static int hint_alpha_material_dark=0x7f07005f;
-        public static int hint_alpha_material_light=0x7f070060;
-        public static int hint_pressed_alpha_material_dark=0x7f070061;
-        public static int hint_pressed_alpha_material_light=0x7f070062;
-        public static int item_touch_helper_max_drag_scroll_per_frame=0x7f070000;
-        public static int item_touch_helper_swipe_escape_max_velocity=0x7f070001;
-        public static int item_touch_helper_swipe_escape_velocity=0x7f070002;
-        public static int mr_controller_volume_group_list_item_height=0x7f070003;
-        public static int mr_controller_volume_group_list_item_icon_size=0x7f070004;
-        public static int mr_controller_volume_group_list_max_height=0x7f070005;
-        public static int mr_controller_volume_group_list_padding_top=0x7f070008;
-        public static int mr_dialog_fixed_width_major=0x7f070006;
-        public static int mr_dialog_fixed_width_minor=0x7f070007;
-        public static int notification_action_icon_size=0x7f070063;
-        public static int notification_action_text_size=0x7f070064;
-        public static int notification_big_circle_margin=0x7f070065;
-        public static int notification_content_margin_start=0x7f07001e;
-        public static int notification_large_icon_height=0x7f070066;
-        public static int notification_large_icon_width=0x7f070067;
-        public static int notification_main_column_padding_top=0x7f07001f;
-        public static int notification_media_narrow_margin=0x7f070020;
-        public static int notification_right_icon_size=0x7f070068;
-        public static int notification_right_side_padding_top=0x7f07001c;
-        public static int notification_small_icon_background_padding=0x7f070069;
-        public static int notification_small_icon_size_as_large=0x7f07006a;
-        public static int notification_subtext_size=0x7f07006b;
-        public static int notification_top_pad=0x7f07006c;
-        public static int notification_top_pad_large_text=0x7f07006d;
+        public static final int abc_action_bar_content_inset_material=0x7f070018;
+        public static final int abc_action_bar_content_inset_with_nav=0x7f070019;
+        public static final int abc_action_bar_default_height_material=0x7f07000d;
+        public static final int abc_action_bar_default_padding_end_material=0x7f07001a;
+        public static final int abc_action_bar_default_padding_start_material=0x7f07001b;
+        public static final int abc_action_bar_elevation_material=0x7f070021;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f070022;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f070023;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f070024;
+        public static final int abc_action_bar_progress_bar_size=0x7f07000e;
+        public static final int abc_action_bar_stacked_max_height=0x7f070025;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f070026;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f070027;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f070028;
+        public static final int abc_action_button_min_height_material=0x7f070029;
+        public static final int abc_action_button_min_width_material=0x7f07002a;
+        public static final int abc_action_button_min_width_overflow_material=0x7f07002b;
+        public static final int abc_alert_dialog_button_bar_height=0x7f07000c;
+        public static final int abc_button_inset_horizontal_material=0x7f07002c;
+        public static final int abc_button_inset_vertical_material=0x7f07002d;
+        public static final int abc_button_padding_horizontal_material=0x7f07002e;
+        public static final int abc_button_padding_vertical_material=0x7f07002f;
+        public static final int abc_cascading_menus_min_smallest_width=0x7f070030;
+        public static final int abc_config_prefDialogWidth=0x7f070011;
+        public static final int abc_control_corner_material=0x7f070031;
+        public static final int abc_control_inset_material=0x7f070032;
+        public static final int abc_control_padding_material=0x7f070033;
+        public static final int abc_dialog_fixed_height_major=0x7f070012;
+        public static final int abc_dialog_fixed_height_minor=0x7f070013;
+        public static final int abc_dialog_fixed_width_major=0x7f070014;
+        public static final int abc_dialog_fixed_width_minor=0x7f070015;
+        public static final int abc_dialog_list_padding_bottom_no_buttons=0x7f070034;
+        public static final int abc_dialog_list_padding_top_no_title=0x7f070035;
+        public static final int abc_dialog_min_width_major=0x7f070016;
+        public static final int abc_dialog_min_width_minor=0x7f070017;
+        public static final int abc_dialog_padding_material=0x7f070036;
+        public static final int abc_dialog_padding_top_material=0x7f070037;
+        public static final int abc_dialog_title_divider_material=0x7f070038;
+        public static final int abc_disabled_alpha_material_dark=0x7f070039;
+        public static final int abc_disabled_alpha_material_light=0x7f07003a;
+        public static final int abc_dropdownitem_icon_width=0x7f07003b;
+        public static final int abc_dropdownitem_text_padding_left=0x7f07003c;
+        public static final int abc_dropdownitem_text_padding_right=0x7f07003d;
+        public static final int abc_edit_text_inset_bottom_material=0x7f07003e;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f07003f;
+        public static final int abc_edit_text_inset_top_material=0x7f070040;
+        public static final int abc_floating_window_z=0x7f070041;
+        public static final int abc_list_item_padding_horizontal_material=0x7f070042;
+        public static final int abc_panel_menu_list_width=0x7f070043;
+        public static final int abc_progress_bar_height_material=0x7f070044;
+        public static final int abc_search_view_preferred_height=0x7f070045;
+        public static final int abc_search_view_preferred_width=0x7f070046;
+        public static final int abc_seekbar_track_background_height_material=0x7f070047;
+        public static final int abc_seekbar_track_progress_height_material=0x7f070048;
+        public static final int abc_select_dialog_padding_start_material=0x7f070049;
+        public static final int abc_switch_padding=0x7f07001d;
+        public static final int abc_text_size_body_1_material=0x7f07004a;
+        public static final int abc_text_size_body_2_material=0x7f07004b;
+        public static final int abc_text_size_button_material=0x7f07004c;
+        public static final int abc_text_size_caption_material=0x7f07004d;
+        public static final int abc_text_size_display_1_material=0x7f07004e;
+        public static final int abc_text_size_display_2_material=0x7f07004f;
+        public static final int abc_text_size_display_3_material=0x7f070050;
+        public static final int abc_text_size_display_4_material=0x7f070051;
+        public static final int abc_text_size_headline_material=0x7f070052;
+        public static final int abc_text_size_large_material=0x7f070053;
+        public static final int abc_text_size_medium_material=0x7f070054;
+        public static final int abc_text_size_menu_header_material=0x7f070055;
+        public static final int abc_text_size_menu_material=0x7f070056;
+        public static final int abc_text_size_small_material=0x7f070057;
+        public static final int abc_text_size_subhead_material=0x7f070058;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f07000f;
+        public static final int abc_text_size_title_material=0x7f070059;
+        public static final int abc_text_size_title_material_toolbar=0x7f070010;
+        public static final int cardview_compat_inset_shadow=0x7f070009;
+        public static final int cardview_default_elevation=0x7f07000a;
+        public static final int cardview_default_radius=0x7f07000b;
+        public static final int design_appbar_elevation=0x7f070076;
+        public static final int design_bottom_navigation_active_item_max_width=0x7f070077;
+        public static final int design_bottom_navigation_active_text_size=0x7f070078;
+        public static final int design_bottom_navigation_elevation=0x7f070079;
+        public static final int design_bottom_navigation_height=0x7f07007a;
+        public static final int design_bottom_navigation_item_max_width=0x7f07007b;
+        public static final int design_bottom_navigation_item_min_width=0x7f07007c;
+        public static final int design_bottom_navigation_margin=0x7f07007d;
+        public static final int design_bottom_navigation_shadow_height=0x7f07007e;
+        public static final int design_bottom_navigation_text_size=0x7f07007f;
+        public static final int design_bottom_sheet_modal_elevation=0x7f070080;
+        public static final int design_bottom_sheet_peek_height_min=0x7f070081;
+        public static final int design_fab_border_width=0x7f070082;
+        public static final int design_fab_elevation=0x7f070083;
+        public static final int design_fab_image_size=0x7f070084;
+        public static final int design_fab_size_mini=0x7f070085;
+        public static final int design_fab_size_normal=0x7f070086;
+        public static final int design_fab_translation_z_pressed=0x7f070087;
+        public static final int design_navigation_elevation=0x7f070088;
+        public static final int design_navigation_icon_padding=0x7f070089;
+        public static final int design_navigation_icon_size=0x7f07008a;
+        public static final int design_navigation_max_width=0x7f07006e;
+        public static final int design_navigation_padding_bottom=0x7f07008b;
+        public static final int design_navigation_separator_vertical_padding=0x7f07008c;
+        public static final int design_snackbar_action_inline_max_width=0x7f07006f;
+        public static final int design_snackbar_background_corner_radius=0x7f070070;
+        public static final int design_snackbar_elevation=0x7f07008d;
+        public static final int design_snackbar_extra_spacing_horizontal=0x7f070071;
+        public static final int design_snackbar_max_width=0x7f070072;
+        public static final int design_snackbar_min_width=0x7f070073;
+        public static final int design_snackbar_padding_horizontal=0x7f07008e;
+        public static final int design_snackbar_padding_vertical=0x7f07008f;
+        public static final int design_snackbar_padding_vertical_2lines=0x7f070074;
+        public static final int design_snackbar_text_size=0x7f070090;
+        public static final int design_tab_max_width=0x7f070091;
+        public static final int design_tab_scrollable_min_width=0x7f070075;
+        public static final int design_tab_text_size=0x7f070092;
+        public static final int design_tab_text_size_2line=0x7f070093;
+        public static final int disabled_alpha_material_dark=0x7f07005a;
+        public static final int disabled_alpha_material_light=0x7f07005b;
+        public static final int highlight_alpha_material_colored=0x7f07005c;
+        public static final int highlight_alpha_material_dark=0x7f07005d;
+        public static final int highlight_alpha_material_light=0x7f07005e;
+        public static final int hint_alpha_material_dark=0x7f07005f;
+        public static final int hint_alpha_material_light=0x7f070060;
+        public static final int hint_pressed_alpha_material_dark=0x7f070061;
+        public static final int hint_pressed_alpha_material_light=0x7f070062;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f070000;
+        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f070001;
+        public static final int item_touch_helper_swipe_escape_velocity=0x7f070002;
+        public static final int mr_controller_volume_group_list_item_height=0x7f070003;
+        public static final int mr_controller_volume_group_list_item_icon_size=0x7f070004;
+        public static final int mr_controller_volume_group_list_max_height=0x7f070005;
+        public static final int mr_controller_volume_group_list_padding_top=0x7f070008;
+        public static final int mr_dialog_fixed_width_major=0x7f070006;
+        public static final int mr_dialog_fixed_width_minor=0x7f070007;
+        public static final int notification_action_icon_size=0x7f070063;
+        public static final int notification_action_text_size=0x7f070064;
+        public static final int notification_big_circle_margin=0x7f070065;
+        public static final int notification_content_margin_start=0x7f07001e;
+        public static final int notification_large_icon_height=0x7f070066;
+        public static final int notification_large_icon_width=0x7f070067;
+        public static final int notification_main_column_padding_top=0x7f07001f;
+        public static final int notification_media_narrow_margin=0x7f070020;
+        public static final int notification_right_icon_size=0x7f070068;
+        public static final int notification_right_side_padding_top=0x7f07001c;
+        public static final int notification_small_icon_background_padding=0x7f070069;
+        public static final int notification_small_icon_size_as_large=0x7f07006a;
+        public static final int notification_subtext_size=0x7f07006b;
+        public static final int notification_top_pad=0x7f07006c;
+        public static final int notification_top_pad_large_text=0x7f07006d;
     }
     public static final class drawable {
-        public static int abc_ab_share_pack_mtrl_alpha=0x7f020000;
-        public static int abc_action_bar_item_background_material=0x7f020001;
-        public static int abc_btn_borderless_material=0x7f020002;
-        public static int abc_btn_check_material=0x7f020003;
-        public static int abc_btn_check_to_on_mtrl_000=0x7f020004;
-        public static int abc_btn_check_to_on_mtrl_015=0x7f020005;
-        public static int abc_btn_colored_material=0x7f020006;
-        public static int abc_btn_default_mtrl_shape=0x7f020007;
-        public static int abc_btn_radio_material=0x7f020008;
-        public static int abc_btn_radio_to_on_mtrl_000=0x7f020009;
-        public static int abc_btn_radio_to_on_mtrl_015=0x7f02000a;
-        public static int abc_btn_switch_to_on_mtrl_00001=0x7f02000b;
-        public static int abc_btn_switch_to_on_mtrl_00012=0x7f02000c;
-        public static int abc_cab_background_internal_bg=0x7f02000d;
-        public static int abc_cab_background_top_material=0x7f02000e;
-        public static int abc_cab_background_top_mtrl_alpha=0x7f02000f;
-        public static int abc_control_background_material=0x7f020010;
-        public static int abc_dialog_material_background=0x7f020011;
-        public static int abc_edit_text_material=0x7f020012;
-        public static int abc_ic_ab_back_material=0x7f020013;
-        public static int abc_ic_arrow_drop_right_black_24dp=0x7f020014;
-        public static int abc_ic_clear_material=0x7f020015;
-        public static int abc_ic_commit_search_api_mtrl_alpha=0x7f020016;
-        public static int abc_ic_go_search_api_material=0x7f020017;
-        public static int abc_ic_menu_copy_mtrl_am_alpha=0x7f020018;
-        public static int abc_ic_menu_cut_mtrl_alpha=0x7f020019;
-        public static int abc_ic_menu_overflow_material=0x7f02001a;
-        public static int abc_ic_menu_paste_mtrl_am_alpha=0x7f02001b;
-        public static int abc_ic_menu_selectall_mtrl_alpha=0x7f02001c;
-        public static int abc_ic_menu_share_mtrl_alpha=0x7f02001d;
-        public static int abc_ic_search_api_material=0x7f02001e;
-        public static int abc_ic_star_black_16dp=0x7f02001f;
-        public static int abc_ic_star_black_36dp=0x7f020020;
-        public static int abc_ic_star_black_48dp=0x7f020021;
-        public static int abc_ic_star_half_black_16dp=0x7f020022;
-        public static int abc_ic_star_half_black_36dp=0x7f020023;
-        public static int abc_ic_star_half_black_48dp=0x7f020024;
-        public static int abc_ic_voice_search_api_material=0x7f020025;
-        public static int abc_item_background_holo_dark=0x7f020026;
-        public static int abc_item_background_holo_light=0x7f020027;
-        public static int abc_list_divider_mtrl_alpha=0x7f020028;
-        public static int abc_list_focused_holo=0x7f020029;
-        public static int abc_list_longpressed_holo=0x7f02002a;
-        public static int abc_list_pressed_holo_dark=0x7f02002b;
-        public static int abc_list_pressed_holo_light=0x7f02002c;
-        public static int abc_list_selector_background_transition_holo_dark=0x7f02002d;
-        public static int abc_list_selector_background_transition_holo_light=0x7f02002e;
-        public static int abc_list_selector_disabled_holo_dark=0x7f02002f;
-        public static int abc_list_selector_disabled_holo_light=0x7f020030;
-        public static int abc_list_selector_holo_dark=0x7f020031;
-        public static int abc_list_selector_holo_light=0x7f020032;
-        public static int abc_menu_hardkey_panel_mtrl_mult=0x7f020033;
-        public static int abc_popup_background_mtrl_mult=0x7f020034;
-        public static int abc_ratingbar_indicator_material=0x7f020035;
-        public static int abc_ratingbar_material=0x7f020036;
-        public static int abc_ratingbar_small_material=0x7f020037;
-        public static int abc_scrubber_control_off_mtrl_alpha=0x7f020038;
-        public static int abc_scrubber_control_to_pressed_mtrl_000=0x7f020039;
-        public static int abc_scrubber_control_to_pressed_mtrl_005=0x7f02003a;
-        public static int abc_scrubber_primary_mtrl_alpha=0x7f02003b;
-        public static int abc_scrubber_track_mtrl_alpha=0x7f02003c;
-        public static int abc_seekbar_thumb_material=0x7f02003d;
-        public static int abc_seekbar_tick_mark_material=0x7f02003e;
-        public static int abc_seekbar_track_material=0x7f02003f;
-        public static int abc_spinner_mtrl_am_alpha=0x7f020040;
-        public static int abc_spinner_textfield_background_material=0x7f020041;
-        public static int abc_switch_thumb_material=0x7f020042;
-        public static int abc_switch_track_mtrl_alpha=0x7f020043;
-        public static int abc_tab_indicator_material=0x7f020044;
-        public static int abc_tab_indicator_mtrl_alpha=0x7f020045;
-        public static int abc_text_cursor_material=0x7f020046;
-        public static int abc_text_select_handle_left_mtrl_dark=0x7f020047;
-        public static int abc_text_select_handle_left_mtrl_light=0x7f020048;
-        public static int abc_text_select_handle_middle_mtrl_dark=0x7f020049;
-        public static int abc_text_select_handle_middle_mtrl_light=0x7f02004a;
-        public static int abc_text_select_handle_right_mtrl_dark=0x7f02004b;
-        public static int abc_text_select_handle_right_mtrl_light=0x7f02004c;
-        public static int abc_textfield_activated_mtrl_alpha=0x7f02004d;
-        public static int abc_textfield_default_mtrl_alpha=0x7f02004e;
-        public static int abc_textfield_search_activated_mtrl_alpha=0x7f02004f;
-        public static int abc_textfield_search_default_mtrl_alpha=0x7f020050;
-        public static int abc_textfield_search_material=0x7f020051;
-        public static int abc_vector_test=0x7f020052;
-        public static int avd_hide_password=0x7f020053;
-        public static int avd_show_password=0x7f020054;
-        public static int design_bottom_navigation_item_background=0x7f020055;
-        public static int design_fab_background=0x7f020056;
-        public static int design_ic_visibility=0x7f020057;
-        public static int design_ic_visibility_off=0x7f020058;
-        public static int design_password_eye=0x7f020059;
-        public static int design_snackbar_background=0x7f02005a;
-        public static int ic_audiotrack_dark=0x7f02005b;
-        public static int ic_audiotrack_light=0x7f02005c;
-        public static int ic_dialog_close_dark=0x7f02005d;
-        public static int ic_dialog_close_light=0x7f02005e;
-        public static int ic_group_collapse_00=0x7f02005f;
-        public static int ic_group_collapse_01=0x7f020060;
-        public static int ic_group_collapse_02=0x7f020061;
-        public static int ic_group_collapse_03=0x7f020062;
-        public static int ic_group_collapse_04=0x7f020063;
-        public static int ic_group_collapse_05=0x7f020064;
-        public static int ic_group_collapse_06=0x7f020065;
-        public static int ic_group_collapse_07=0x7f020066;
-        public static int ic_group_collapse_08=0x7f020067;
-        public static int ic_group_collapse_09=0x7f020068;
-        public static int ic_group_collapse_10=0x7f020069;
-        public static int ic_group_collapse_11=0x7f02006a;
-        public static int ic_group_collapse_12=0x7f02006b;
-        public static int ic_group_collapse_13=0x7f02006c;
-        public static int ic_group_collapse_14=0x7f02006d;
-        public static int ic_group_collapse_15=0x7f02006e;
-        public static int ic_group_expand_00=0x7f02006f;
-        public static int ic_group_expand_01=0x7f020070;
-        public static int ic_group_expand_02=0x7f020071;
-        public static int ic_group_expand_03=0x7f020072;
-        public static int ic_group_expand_04=0x7f020073;
-        public static int ic_group_expand_05=0x7f020074;
-        public static int ic_group_expand_06=0x7f020075;
-        public static int ic_group_expand_07=0x7f020076;
-        public static int ic_group_expand_08=0x7f020077;
-        public static int ic_group_expand_09=0x7f020078;
-        public static int ic_group_expand_10=0x7f020079;
-        public static int ic_group_expand_11=0x7f02007a;
-        public static int ic_group_expand_12=0x7f02007b;
-        public static int ic_group_expand_13=0x7f02007c;
-        public static int ic_group_expand_14=0x7f02007d;
-        public static int ic_group_expand_15=0x7f02007e;
-        public static int ic_media_pause_dark=0x7f02007f;
-        public static int ic_media_pause_light=0x7f020080;
-        public static int ic_media_play_dark=0x7f020081;
-        public static int ic_media_play_light=0x7f020082;
-        public static int ic_media_stop_dark=0x7f020083;
-        public static int ic_media_stop_light=0x7f020084;
-        public static int ic_mr_button_connected_00_dark=0x7f020085;
-        public static int ic_mr_button_connected_00_light=0x7f020086;
-        public static int ic_mr_button_connected_01_dark=0x7f020087;
-        public static int ic_mr_button_connected_01_light=0x7f020088;
-        public static int ic_mr_button_connected_02_dark=0x7f020089;
-        public static int ic_mr_button_connected_02_light=0x7f02008a;
-        public static int ic_mr_button_connected_03_dark=0x7f02008b;
-        public static int ic_mr_button_connected_03_light=0x7f02008c;
-        public static int ic_mr_button_connected_04_dark=0x7f02008d;
-        public static int ic_mr_button_connected_04_light=0x7f02008e;
-        public static int ic_mr_button_connected_05_dark=0x7f02008f;
-        public static int ic_mr_button_connected_05_light=0x7f020090;
-        public static int ic_mr_button_connected_06_dark=0x7f020091;
-        public static int ic_mr_button_connected_06_light=0x7f020092;
-        public static int ic_mr_button_connected_07_dark=0x7f020093;
-        public static int ic_mr_button_connected_07_light=0x7f020094;
-        public static int ic_mr_button_connected_08_dark=0x7f020095;
-        public static int ic_mr_button_connected_08_light=0x7f020096;
-        public static int ic_mr_button_connected_09_dark=0x7f020097;
-        public static int ic_mr_button_connected_09_light=0x7f020098;
-        public static int ic_mr_button_connected_10_dark=0x7f020099;
-        public static int ic_mr_button_connected_10_light=0x7f02009a;
-        public static int ic_mr_button_connected_11_dark=0x7f02009b;
-        public static int ic_mr_button_connected_11_light=0x7f02009c;
-        public static int ic_mr_button_connected_12_dark=0x7f02009d;
-        public static int ic_mr_button_connected_12_light=0x7f02009e;
-        public static int ic_mr_button_connected_13_dark=0x7f02009f;
-        public static int ic_mr_button_connected_13_light=0x7f0200a0;
-        public static int ic_mr_button_connected_14_dark=0x7f0200a1;
-        public static int ic_mr_button_connected_14_light=0x7f0200a2;
-        public static int ic_mr_button_connected_15_dark=0x7f0200a3;
-        public static int ic_mr_button_connected_15_light=0x7f0200a4;
-        public static int ic_mr_button_connected_16_dark=0x7f0200a5;
-        public static int ic_mr_button_connected_16_light=0x7f0200a6;
-        public static int ic_mr_button_connected_17_dark=0x7f0200a7;
-        public static int ic_mr_button_connected_17_light=0x7f0200a8;
-        public static int ic_mr_button_connected_18_dark=0x7f0200a9;
-        public static int ic_mr_button_connected_18_light=0x7f0200aa;
-        public static int ic_mr_button_connected_19_dark=0x7f0200ab;
-        public static int ic_mr_button_connected_19_light=0x7f0200ac;
-        public static int ic_mr_button_connected_20_dark=0x7f0200ad;
-        public static int ic_mr_button_connected_20_light=0x7f0200ae;
-        public static int ic_mr_button_connected_21_dark=0x7f0200af;
-        public static int ic_mr_button_connected_21_light=0x7f0200b0;
-        public static int ic_mr_button_connected_22_dark=0x7f0200b1;
-        public static int ic_mr_button_connected_22_light=0x7f0200b2;
-        public static int ic_mr_button_connecting_00_dark=0x7f0200b3;
-        public static int ic_mr_button_connecting_00_light=0x7f0200b4;
-        public static int ic_mr_button_connecting_01_dark=0x7f0200b5;
-        public static int ic_mr_button_connecting_01_light=0x7f0200b6;
-        public static int ic_mr_button_connecting_02_dark=0x7f0200b7;
-        public static int ic_mr_button_connecting_02_light=0x7f0200b8;
-        public static int ic_mr_button_connecting_03_dark=0x7f0200b9;
-        public static int ic_mr_button_connecting_03_light=0x7f0200ba;
-        public static int ic_mr_button_connecting_04_dark=0x7f0200bb;
-        public static int ic_mr_button_connecting_04_light=0x7f0200bc;
-        public static int ic_mr_button_connecting_05_dark=0x7f0200bd;
-        public static int ic_mr_button_connecting_05_light=0x7f0200be;
-        public static int ic_mr_button_connecting_06_dark=0x7f0200bf;
-        public static int ic_mr_button_connecting_06_light=0x7f0200c0;
-        public static int ic_mr_button_connecting_07_dark=0x7f0200c1;
-        public static int ic_mr_button_connecting_07_light=0x7f0200c2;
-        public static int ic_mr_button_connecting_08_dark=0x7f0200c3;
-        public static int ic_mr_button_connecting_08_light=0x7f0200c4;
-        public static int ic_mr_button_connecting_09_dark=0x7f0200c5;
-        public static int ic_mr_button_connecting_09_light=0x7f0200c6;
-        public static int ic_mr_button_connecting_10_dark=0x7f0200c7;
-        public static int ic_mr_button_connecting_10_light=0x7f0200c8;
-        public static int ic_mr_button_connecting_11_dark=0x7f0200c9;
-        public static int ic_mr_button_connecting_11_light=0x7f0200ca;
-        public static int ic_mr_button_connecting_12_dark=0x7f0200cb;
-        public static int ic_mr_button_connecting_12_light=0x7f0200cc;
-        public static int ic_mr_button_connecting_13_dark=0x7f0200cd;
-        public static int ic_mr_button_connecting_13_light=0x7f0200ce;
-        public static int ic_mr_button_connecting_14_dark=0x7f0200cf;
-        public static int ic_mr_button_connecting_14_light=0x7f0200d0;
-        public static int ic_mr_button_connecting_15_dark=0x7f0200d1;
-        public static int ic_mr_button_connecting_15_light=0x7f0200d2;
-        public static int ic_mr_button_connecting_16_dark=0x7f0200d3;
-        public static int ic_mr_button_connecting_16_light=0x7f0200d4;
-        public static int ic_mr_button_connecting_17_dark=0x7f0200d5;
-        public static int ic_mr_button_connecting_17_light=0x7f0200d6;
-        public static int ic_mr_button_connecting_18_dark=0x7f0200d7;
-        public static int ic_mr_button_connecting_18_light=0x7f0200d8;
-        public static int ic_mr_button_connecting_19_dark=0x7f0200d9;
-        public static int ic_mr_button_connecting_19_light=0x7f0200da;
-        public static int ic_mr_button_connecting_20_dark=0x7f0200db;
-        public static int ic_mr_button_connecting_20_light=0x7f0200dc;
-        public static int ic_mr_button_connecting_21_dark=0x7f0200dd;
-        public static int ic_mr_button_connecting_21_light=0x7f0200de;
-        public static int ic_mr_button_connecting_22_dark=0x7f0200df;
-        public static int ic_mr_button_connecting_22_light=0x7f0200e0;
-        public static int ic_mr_button_disabled_dark=0x7f0200e1;
-        public static int ic_mr_button_disabled_light=0x7f0200e2;
-        public static int ic_mr_button_disconnected_dark=0x7f0200e3;
-        public static int ic_mr_button_disconnected_light=0x7f0200e4;
-        public static int ic_mr_button_grey=0x7f0200e5;
-        public static int ic_vol_type_speaker_dark=0x7f0200e6;
-        public static int ic_vol_type_speaker_group_dark=0x7f0200e7;
-        public static int ic_vol_type_speaker_group_light=0x7f0200e8;
-        public static int ic_vol_type_speaker_light=0x7f0200e9;
-        public static int ic_vol_type_tv_dark=0x7f0200ea;
-        public static int ic_vol_type_tv_light=0x7f0200eb;
-        public static int icon=0x7f0200ec;
-        public static int mr_button_connected_dark=0x7f0200ed;
-        public static int mr_button_connected_light=0x7f0200ee;
-        public static int mr_button_connecting_dark=0x7f0200ef;
-        public static int mr_button_connecting_light=0x7f0200f0;
-        public static int mr_button_dark=0x7f0200f1;
-        public static int mr_button_light=0x7f0200f2;
-        public static int mr_dialog_close_dark=0x7f0200f3;
-        public static int mr_dialog_close_light=0x7f0200f4;
-        public static int mr_dialog_material_background_dark=0x7f0200f5;
-        public static int mr_dialog_material_background_light=0x7f0200f6;
-        public static int mr_group_collapse=0x7f0200f7;
-        public static int mr_group_expand=0x7f0200f8;
-        public static int mr_media_pause_dark=0x7f0200f9;
-        public static int mr_media_pause_light=0x7f0200fa;
-        public static int mr_media_play_dark=0x7f0200fb;
-        public static int mr_media_play_light=0x7f0200fc;
-        public static int mr_media_stop_dark=0x7f0200fd;
-        public static int mr_media_stop_light=0x7f0200fe;
-        public static int mr_vol_type_audiotrack_dark=0x7f0200ff;
-        public static int mr_vol_type_audiotrack_light=0x7f020100;
-        public static int navigation_empty_icon=0x7f020101;
-        public static int notification_action_background=0x7f020102;
-        public static int notification_bg=0x7f020103;
-        public static int notification_bg_low=0x7f020104;
-        public static int notification_bg_low_normal=0x7f020105;
-        public static int notification_bg_low_pressed=0x7f020106;
-        public static int notification_bg_normal=0x7f020107;
-        public static int notification_bg_normal_pressed=0x7f020108;
-        public static int notification_icon_background=0x7f020109;
-        public static int notification_template_icon_bg=0x7f02010c;
-        public static int notification_template_icon_low_bg=0x7f02010d;
-        public static int notification_tile_bg=0x7f02010a;
-        public static int notify_panel_notification_icon_bg=0x7f02010b;
+        public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
+        public static final int abc_action_bar_item_background_material=0x7f020001;
+        public static final int abc_btn_borderless_material=0x7f020002;
+        public static final int abc_btn_check_material=0x7f020003;
+        public static final int abc_btn_check_to_on_mtrl_000=0x7f020004;
+        public static final int abc_btn_check_to_on_mtrl_015=0x7f020005;
+        public static final int abc_btn_colored_material=0x7f020006;
+        public static final int abc_btn_default_mtrl_shape=0x7f020007;
+        public static final int abc_btn_radio_material=0x7f020008;
+        public static final int abc_btn_radio_to_on_mtrl_000=0x7f020009;
+        public static final int abc_btn_radio_to_on_mtrl_015=0x7f02000a;
+        public static final int abc_btn_switch_to_on_mtrl_00001=0x7f02000b;
+        public static final int abc_btn_switch_to_on_mtrl_00012=0x7f02000c;
+        public static final int abc_cab_background_internal_bg=0x7f02000d;
+        public static final int abc_cab_background_top_material=0x7f02000e;
+        public static final int abc_cab_background_top_mtrl_alpha=0x7f02000f;
+        public static final int abc_control_background_material=0x7f020010;
+        public static final int abc_dialog_material_background=0x7f020011;
+        public static final int abc_edit_text_material=0x7f020012;
+        public static final int abc_ic_ab_back_material=0x7f020013;
+        public static final int abc_ic_arrow_drop_right_black_24dp=0x7f020014;
+        public static final int abc_ic_clear_material=0x7f020015;
+        public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f020016;
+        public static final int abc_ic_go_search_api_material=0x7f020017;
+        public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f020018;
+        public static final int abc_ic_menu_cut_mtrl_alpha=0x7f020019;
+        public static final int abc_ic_menu_overflow_material=0x7f02001a;
+        public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f02001b;
+        public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f02001c;
+        public static final int abc_ic_menu_share_mtrl_alpha=0x7f02001d;
+        public static final int abc_ic_search_api_material=0x7f02001e;
+        public static final int abc_ic_star_black_16dp=0x7f02001f;
+        public static final int abc_ic_star_black_36dp=0x7f020020;
+        public static final int abc_ic_star_black_48dp=0x7f020021;
+        public static final int abc_ic_star_half_black_16dp=0x7f020022;
+        public static final int abc_ic_star_half_black_36dp=0x7f020023;
+        public static final int abc_ic_star_half_black_48dp=0x7f020024;
+        public static final int abc_ic_voice_search_api_material=0x7f020025;
+        public static final int abc_item_background_holo_dark=0x7f020026;
+        public static final int abc_item_background_holo_light=0x7f020027;
+        public static final int abc_list_divider_mtrl_alpha=0x7f020028;
+        public static final int abc_list_focused_holo=0x7f020029;
+        public static final int abc_list_longpressed_holo=0x7f02002a;
+        public static final int abc_list_pressed_holo_dark=0x7f02002b;
+        public static final int abc_list_pressed_holo_light=0x7f02002c;
+        public static final int abc_list_selector_background_transition_holo_dark=0x7f02002d;
+        public static final int abc_list_selector_background_transition_holo_light=0x7f02002e;
+        public static final int abc_list_selector_disabled_holo_dark=0x7f02002f;
+        public static final int abc_list_selector_disabled_holo_light=0x7f020030;
+        public static final int abc_list_selector_holo_dark=0x7f020031;
+        public static final int abc_list_selector_holo_light=0x7f020032;
+        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f020033;
+        public static final int abc_popup_background_mtrl_mult=0x7f020034;
+        public static final int abc_ratingbar_indicator_material=0x7f020035;
+        public static final int abc_ratingbar_material=0x7f020036;
+        public static final int abc_ratingbar_small_material=0x7f020037;
+        public static final int abc_scrubber_control_off_mtrl_alpha=0x7f020038;
+        public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f020039;
+        public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f02003a;
+        public static final int abc_scrubber_primary_mtrl_alpha=0x7f02003b;
+        public static final int abc_scrubber_track_mtrl_alpha=0x7f02003c;
+        public static final int abc_seekbar_thumb_material=0x7f02003d;
+        public static final int abc_seekbar_tick_mark_material=0x7f02003e;
+        public static final int abc_seekbar_track_material=0x7f02003f;
+        public static final int abc_spinner_mtrl_am_alpha=0x7f020040;
+        public static final int abc_spinner_textfield_background_material=0x7f020041;
+        public static final int abc_switch_thumb_material=0x7f020042;
+        public static final int abc_switch_track_mtrl_alpha=0x7f020043;
+        public static final int abc_tab_indicator_material=0x7f020044;
+        public static final int abc_tab_indicator_mtrl_alpha=0x7f020045;
+        public static final int abc_text_cursor_material=0x7f020046;
+        public static final int abc_text_select_handle_left_mtrl_dark=0x7f020047;
+        public static final int abc_text_select_handle_left_mtrl_light=0x7f020048;
+        public static final int abc_text_select_handle_middle_mtrl_dark=0x7f020049;
+        public static final int abc_text_select_handle_middle_mtrl_light=0x7f02004a;
+        public static final int abc_text_select_handle_right_mtrl_dark=0x7f02004b;
+        public static final int abc_text_select_handle_right_mtrl_light=0x7f02004c;
+        public static final int abc_textfield_activated_mtrl_alpha=0x7f02004d;
+        public static final int abc_textfield_default_mtrl_alpha=0x7f02004e;
+        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f02004f;
+        public static final int abc_textfield_search_default_mtrl_alpha=0x7f020050;
+        public static final int abc_textfield_search_material=0x7f020051;
+        public static final int abc_vector_test=0x7f020052;
+        public static final int avd_hide_password=0x7f020053;
+        public static final int avd_show_password=0x7f020054;
+        public static final int design_bottom_navigation_item_background=0x7f020055;
+        public static final int design_fab_background=0x7f020056;
+        public static final int design_ic_visibility=0x7f020057;
+        public static final int design_ic_visibility_off=0x7f020058;
+        public static final int design_password_eye=0x7f020059;
+        public static final int design_snackbar_background=0x7f02005a;
+        public static final int ic_audiotrack_dark=0x7f02005b;
+        public static final int ic_audiotrack_light=0x7f02005c;
+        public static final int ic_dialog_close_dark=0x7f02005d;
+        public static final int ic_dialog_close_light=0x7f02005e;
+        public static final int ic_group_collapse_00=0x7f02005f;
+        public static final int ic_group_collapse_01=0x7f020060;
+        public static final int ic_group_collapse_02=0x7f020061;
+        public static final int ic_group_collapse_03=0x7f020062;
+        public static final int ic_group_collapse_04=0x7f020063;
+        public static final int ic_group_collapse_05=0x7f020064;
+        public static final int ic_group_collapse_06=0x7f020065;
+        public static final int ic_group_collapse_07=0x7f020066;
+        public static final int ic_group_collapse_08=0x7f020067;
+        public static final int ic_group_collapse_09=0x7f020068;
+        public static final int ic_group_collapse_10=0x7f020069;
+        public static final int ic_group_collapse_11=0x7f02006a;
+        public static final int ic_group_collapse_12=0x7f02006b;
+        public static final int ic_group_collapse_13=0x7f02006c;
+        public static final int ic_group_collapse_14=0x7f02006d;
+        public static final int ic_group_collapse_15=0x7f02006e;
+        public static final int ic_group_expand_00=0x7f02006f;
+        public static final int ic_group_expand_01=0x7f020070;
+        public static final int ic_group_expand_02=0x7f020071;
+        public static final int ic_group_expand_03=0x7f020072;
+        public static final int ic_group_expand_04=0x7f020073;
+        public static final int ic_group_expand_05=0x7f020074;
+        public static final int ic_group_expand_06=0x7f020075;
+        public static final int ic_group_expand_07=0x7f020076;
+        public static final int ic_group_expand_08=0x7f020077;
+        public static final int ic_group_expand_09=0x7f020078;
+        public static final int ic_group_expand_10=0x7f020079;
+        public static final int ic_group_expand_11=0x7f02007a;
+        public static final int ic_group_expand_12=0x7f02007b;
+        public static final int ic_group_expand_13=0x7f02007c;
+        public static final int ic_group_expand_14=0x7f02007d;
+        public static final int ic_group_expand_15=0x7f02007e;
+        public static final int ic_media_pause_dark=0x7f02007f;
+        public static final int ic_media_pause_light=0x7f020080;
+        public static final int ic_media_play_dark=0x7f020081;
+        public static final int ic_media_play_light=0x7f020082;
+        public static final int ic_media_stop_dark=0x7f020083;
+        public static final int ic_media_stop_light=0x7f020084;
+        public static final int ic_mr_button_connected_00_dark=0x7f020085;
+        public static final int ic_mr_button_connected_00_light=0x7f020086;
+        public static final int ic_mr_button_connected_01_dark=0x7f020087;
+        public static final int ic_mr_button_connected_01_light=0x7f020088;
+        public static final int ic_mr_button_connected_02_dark=0x7f020089;
+        public static final int ic_mr_button_connected_02_light=0x7f02008a;
+        public static final int ic_mr_button_connected_03_dark=0x7f02008b;
+        public static final int ic_mr_button_connected_03_light=0x7f02008c;
+        public static final int ic_mr_button_connected_04_dark=0x7f02008d;
+        public static final int ic_mr_button_connected_04_light=0x7f02008e;
+        public static final int ic_mr_button_connected_05_dark=0x7f02008f;
+        public static final int ic_mr_button_connected_05_light=0x7f020090;
+        public static final int ic_mr_button_connected_06_dark=0x7f020091;
+        public static final int ic_mr_button_connected_06_light=0x7f020092;
+        public static final int ic_mr_button_connected_07_dark=0x7f020093;
+        public static final int ic_mr_button_connected_07_light=0x7f020094;
+        public static final int ic_mr_button_connected_08_dark=0x7f020095;
+        public static final int ic_mr_button_connected_08_light=0x7f020096;
+        public static final int ic_mr_button_connected_09_dark=0x7f020097;
+        public static final int ic_mr_button_connected_09_light=0x7f020098;
+        public static final int ic_mr_button_connected_10_dark=0x7f020099;
+        public static final int ic_mr_button_connected_10_light=0x7f02009a;
+        public static final int ic_mr_button_connected_11_dark=0x7f02009b;
+        public static final int ic_mr_button_connected_11_light=0x7f02009c;
+        public static final int ic_mr_button_connected_12_dark=0x7f02009d;
+        public static final int ic_mr_button_connected_12_light=0x7f02009e;
+        public static final int ic_mr_button_connected_13_dark=0x7f02009f;
+        public static final int ic_mr_button_connected_13_light=0x7f0200a0;
+        public static final int ic_mr_button_connected_14_dark=0x7f0200a1;
+        public static final int ic_mr_button_connected_14_light=0x7f0200a2;
+        public static final int ic_mr_button_connected_15_dark=0x7f0200a3;
+        public static final int ic_mr_button_connected_15_light=0x7f0200a4;
+        public static final int ic_mr_button_connected_16_dark=0x7f0200a5;
+        public static final int ic_mr_button_connected_16_light=0x7f0200a6;
+        public static final int ic_mr_button_connected_17_dark=0x7f0200a7;
+        public static final int ic_mr_button_connected_17_light=0x7f0200a8;
+        public static final int ic_mr_button_connected_18_dark=0x7f0200a9;
+        public static final int ic_mr_button_connected_18_light=0x7f0200aa;
+        public static final int ic_mr_button_connected_19_dark=0x7f0200ab;
+        public static final int ic_mr_button_connected_19_light=0x7f0200ac;
+        public static final int ic_mr_button_connected_20_dark=0x7f0200ad;
+        public static final int ic_mr_button_connected_20_light=0x7f0200ae;
+        public static final int ic_mr_button_connected_21_dark=0x7f0200af;
+        public static final int ic_mr_button_connected_21_light=0x7f0200b0;
+        public static final int ic_mr_button_connected_22_dark=0x7f0200b1;
+        public static final int ic_mr_button_connected_22_light=0x7f0200b2;
+        public static final int ic_mr_button_connecting_00_dark=0x7f0200b3;
+        public static final int ic_mr_button_connecting_00_light=0x7f0200b4;
+        public static final int ic_mr_button_connecting_01_dark=0x7f0200b5;
+        public static final int ic_mr_button_connecting_01_light=0x7f0200b6;
+        public static final int ic_mr_button_connecting_02_dark=0x7f0200b7;
+        public static final int ic_mr_button_connecting_02_light=0x7f0200b8;
+        public static final int ic_mr_button_connecting_03_dark=0x7f0200b9;
+        public static final int ic_mr_button_connecting_03_light=0x7f0200ba;
+        public static final int ic_mr_button_connecting_04_dark=0x7f0200bb;
+        public static final int ic_mr_button_connecting_04_light=0x7f0200bc;
+        public static final int ic_mr_button_connecting_05_dark=0x7f0200bd;
+        public static final int ic_mr_button_connecting_05_light=0x7f0200be;
+        public static final int ic_mr_button_connecting_06_dark=0x7f0200bf;
+        public static final int ic_mr_button_connecting_06_light=0x7f0200c0;
+        public static final int ic_mr_button_connecting_07_dark=0x7f0200c1;
+        public static final int ic_mr_button_connecting_07_light=0x7f0200c2;
+        public static final int ic_mr_button_connecting_08_dark=0x7f0200c3;
+        public static final int ic_mr_button_connecting_08_light=0x7f0200c4;
+        public static final int ic_mr_button_connecting_09_dark=0x7f0200c5;
+        public static final int ic_mr_button_connecting_09_light=0x7f0200c6;
+        public static final int ic_mr_button_connecting_10_dark=0x7f0200c7;
+        public static final int ic_mr_button_connecting_10_light=0x7f0200c8;
+        public static final int ic_mr_button_connecting_11_dark=0x7f0200c9;
+        public static final int ic_mr_button_connecting_11_light=0x7f0200ca;
+        public static final int ic_mr_button_connecting_12_dark=0x7f0200cb;
+        public static final int ic_mr_button_connecting_12_light=0x7f0200cc;
+        public static final int ic_mr_button_connecting_13_dark=0x7f0200cd;
+        public static final int ic_mr_button_connecting_13_light=0x7f0200ce;
+        public static final int ic_mr_button_connecting_14_dark=0x7f0200cf;
+        public static final int ic_mr_button_connecting_14_light=0x7f0200d0;
+        public static final int ic_mr_button_connecting_15_dark=0x7f0200d1;
+        public static final int ic_mr_button_connecting_15_light=0x7f0200d2;
+        public static final int ic_mr_button_connecting_16_dark=0x7f0200d3;
+        public static final int ic_mr_button_connecting_16_light=0x7f0200d4;
+        public static final int ic_mr_button_connecting_17_dark=0x7f0200d5;
+        public static final int ic_mr_button_connecting_17_light=0x7f0200d6;
+        public static final int ic_mr_button_connecting_18_dark=0x7f0200d7;
+        public static final int ic_mr_button_connecting_18_light=0x7f0200d8;
+        public static final int ic_mr_button_connecting_19_dark=0x7f0200d9;
+        public static final int ic_mr_button_connecting_19_light=0x7f0200da;
+        public static final int ic_mr_button_connecting_20_dark=0x7f0200db;
+        public static final int ic_mr_button_connecting_20_light=0x7f0200dc;
+        public static final int ic_mr_button_connecting_21_dark=0x7f0200dd;
+        public static final int ic_mr_button_connecting_21_light=0x7f0200de;
+        public static final int ic_mr_button_connecting_22_dark=0x7f0200df;
+        public static final int ic_mr_button_connecting_22_light=0x7f0200e0;
+        public static final int ic_mr_button_disabled_dark=0x7f0200e1;
+        public static final int ic_mr_button_disabled_light=0x7f0200e2;
+        public static final int ic_mr_button_disconnected_dark=0x7f0200e3;
+        public static final int ic_mr_button_disconnected_light=0x7f0200e4;
+        public static final int ic_mr_button_grey=0x7f0200e5;
+        public static final int ic_vol_type_speaker_dark=0x7f0200e6;
+        public static final int ic_vol_type_speaker_group_dark=0x7f0200e7;
+        public static final int ic_vol_type_speaker_group_light=0x7f0200e8;
+        public static final int ic_vol_type_speaker_light=0x7f0200e9;
+        public static final int ic_vol_type_tv_dark=0x7f0200ea;
+        public static final int ic_vol_type_tv_light=0x7f0200eb;
+        public static final int icon=0x7f0200ec;
+        public static final int mr_button_connected_dark=0x7f0200ed;
+        public static final int mr_button_connected_light=0x7f0200ee;
+        public static final int mr_button_connecting_dark=0x7f0200ef;
+        public static final int mr_button_connecting_light=0x7f0200f0;
+        public static final int mr_button_dark=0x7f0200f1;
+        public static final int mr_button_light=0x7f0200f2;
+        public static final int mr_dialog_close_dark=0x7f0200f3;
+        public static final int mr_dialog_close_light=0x7f0200f4;
+        public static final int mr_dialog_material_background_dark=0x7f0200f5;
+        public static final int mr_dialog_material_background_light=0x7f0200f6;
+        public static final int mr_group_collapse=0x7f0200f7;
+        public static final int mr_group_expand=0x7f0200f8;
+        public static final int mr_media_pause_dark=0x7f0200f9;
+        public static final int mr_media_pause_light=0x7f0200fa;
+        public static final int mr_media_play_dark=0x7f0200fb;
+        public static final int mr_media_play_light=0x7f0200fc;
+        public static final int mr_media_stop_dark=0x7f0200fd;
+        public static final int mr_media_stop_light=0x7f0200fe;
+        public static final int mr_vol_type_audiotrack_dark=0x7f0200ff;
+        public static final int mr_vol_type_audiotrack_light=0x7f020100;
+        public static final int navigation_empty_icon=0x7f020101;
+        public static final int notification_action_background=0x7f020102;
+        public static final int notification_bg=0x7f020103;
+        public static final int notification_bg_low=0x7f020104;
+        public static final int notification_bg_low_normal=0x7f020105;
+        public static final int notification_bg_low_pressed=0x7f020106;
+        public static final int notification_bg_normal=0x7f020107;
+        public static final int notification_bg_normal_pressed=0x7f020108;
+        public static final int notification_icon_background=0x7f020109;
+        public static final int notification_template_icon_bg=0x7f02010c;
+        public static final int notification_template_icon_low_bg=0x7f02010d;
+        public static final int notification_tile_bg=0x7f02010a;
+        public static final int notify_panel_notification_icon_bg=0x7f02010b;
     }
     public static final class id {
-        public static int action0=0x7f08009e;
-        public static int action_bar=0x7f080064;
-        public static int action_bar_activity_content=0x7f080001;
-        public static int action_bar_container=0x7f080063;
-        public static int action_bar_root=0x7f08005f;
-        public static int action_bar_spinner=0x7f080002;
-        public static int action_bar_subtitle=0x7f080042;
-        public static int action_bar_title=0x7f080041;
-        public static int action_container=0x7f08009b;
-        public static int action_context_bar=0x7f080065;
-        public static int action_divider=0x7f0800a2;
-        public static int action_image=0x7f08009c;
-        public static int action_menu_divider=0x7f080003;
-        public static int action_menu_presenter=0x7f080004;
-        public static int action_mode_bar=0x7f080061;
-        public static int action_mode_bar_stub=0x7f080060;
-        public static int action_mode_close_button=0x7f080043;
-        public static int action_text=0x7f08009d;
-        public static int actions=0x7f0800ab;
-        public static int activity_chooser_view_content=0x7f080044;
-        public static int add=0x7f08001e;
-        public static int alertTitle=0x7f080058;
-        public static int all=0x7f08003d;
-        public static int always=0x7f080023;
-        public static int auto=0x7f08002f;
-        public static int beginning=0x7f080020;
-        public static int bottom=0x7f080028;
-        public static int buttonPanel=0x7f08004b;
-        public static int cancel_action=0x7f08009f;
-        public static int center=0x7f080030;
-        public static int center_horizontal=0x7f080031;
-        public static int center_vertical=0x7f080032;
-        public static int checkbox=0x7f08005b;
-        public static int chronometer=0x7f0800a7;
-        public static int clip_horizontal=0x7f080039;
-        public static int clip_vertical=0x7f08003a;
-        public static int collapseActionView=0x7f080024;
-        public static int container=0x7f080075;
-        public static int contentPanel=0x7f08004e;
-        public static int coordinator=0x7f080076;
-        public static int custom=0x7f080055;
-        public static int customPanel=0x7f080054;
-        public static int decor_content_parent=0x7f080062;
-        public static int default_activity_button=0x7f080047;
-        public static int design_bottom_sheet=0x7f080078;
-        public static int design_menu_item_action_area=0x7f08007f;
-        public static int design_menu_item_action_area_stub=0x7f08007e;
-        public static int design_menu_item_text=0x7f08007d;
-        public static int design_navigation_view=0x7f08007c;
-        public static int disableHome=0x7f080012;
-        public static int edit_query=0x7f080066;
-        public static int end=0x7f080021;
-        public static int end_padder=0x7f0800b1;
-        public static int enterAlways=0x7f08002a;
-        public static int enterAlwaysCollapsed=0x7f08002b;
-        public static int exitUntilCollapsed=0x7f08002c;
-        public static int expand_activities_button=0x7f080045;
-        public static int expanded_menu=0x7f08005a;
-        public static int fill=0x7f08003b;
-        public static int fill_horizontal=0x7f08003c;
-        public static int fill_vertical=0x7f080033;
-        public static int fixed=0x7f08003f;
-        public static int home=0x7f080005;
-        public static int homeAsUp=0x7f080013;
-        public static int icon=0x7f080049;
-        public static int icon_group=0x7f0800ac;
-        public static int ifRoom=0x7f080025;
-        public static int image=0x7f080046;
-        public static int info=0x7f0800a8;
-        public static int item_touch_helper_previous_elevation=0x7f080000;
-        public static int largeLabel=0x7f080074;
-        public static int left=0x7f080034;
-        public static int line1=0x7f0800ad;
-        public static int line3=0x7f0800af;
-        public static int listMode=0x7f08000f;
-        public static int list_item=0x7f080048;
-        public static int masked=0x7f0800b3;
-        public static int media_actions=0x7f0800a1;
-        public static int middle=0x7f080022;
-        public static int mini=0x7f08003e;
-        public static int mr_art=0x7f08008d;
-        public static int mr_chooser_list=0x7f080082;
-        public static int mr_chooser_route_desc=0x7f080085;
-        public static int mr_chooser_route_icon=0x7f080083;
-        public static int mr_chooser_route_name=0x7f080084;
-        public static int mr_chooser_title=0x7f080081;
-        public static int mr_close=0x7f08008a;
-        public static int mr_control_divider=0x7f080090;
-        public static int mr_control_playback_ctrl=0x7f080096;
-        public static int mr_control_subtitle=0x7f080099;
-        public static int mr_control_title=0x7f080098;
-        public static int mr_control_title_container=0x7f080097;
-        public static int mr_custom_control=0x7f08008b;
-        public static int mr_default_control=0x7f08008c;
-        public static int mr_dialog_area=0x7f080087;
-        public static int mr_expandable_area=0x7f080086;
-        public static int mr_group_expand_collapse=0x7f08009a;
-        public static int mr_media_main_control=0x7f08008e;
-        public static int mr_name=0x7f080089;
-        public static int mr_playback_control=0x7f08008f;
-        public static int mr_title_bar=0x7f080088;
-        public static int mr_volume_control=0x7f080091;
-        public static int mr_volume_group_list=0x7f080092;
-        public static int mr_volume_item_icon=0x7f080094;
-        public static int mr_volume_slider=0x7f080095;
-        public static int multiply=0x7f080019;
-        public static int navigation_header_container=0x7f08007b;
-        public static int never=0x7f080026;
-        public static int none=0x7f080014;
-        public static int normal=0x7f080010;
-        public static int notification_background=0x7f0800aa;
-        public static int notification_main_column=0x7f0800a4;
-        public static int notification_main_column_container=0x7f0800a3;
-        public static int parallax=0x7f080037;
-        public static int parentPanel=0x7f08004d;
-        public static int pin=0x7f080038;
-        public static int progress_circular=0x7f080006;
-        public static int progress_horizontal=0x7f080007;
-        public static int radio=0x7f08005d;
-        public static int right=0x7f080035;
-        public static int right_icon=0x7f0800a9;
-        public static int right_side=0x7f0800a5;
-        public static int screen=0x7f08001a;
-        public static int scroll=0x7f08002d;
-        public static int scrollIndicatorDown=0x7f080053;
-        public static int scrollIndicatorUp=0x7f08004f;
-        public static int scrollView=0x7f080050;
-        public static int scrollable=0x7f080040;
-        public static int search_badge=0x7f080068;
-        public static int search_bar=0x7f080067;
-        public static int search_button=0x7f080069;
-        public static int search_close_btn=0x7f08006e;
-        public static int search_edit_frame=0x7f08006a;
-        public static int search_go_btn=0x7f080070;
-        public static int search_mag_icon=0x7f08006b;
-        public static int search_plate=0x7f08006c;
-        public static int search_src_text=0x7f08006d;
-        public static int search_voice_btn=0x7f080071;
-        public static int select_dialog_listview=0x7f080072;
-        public static int shortcut=0x7f08005c;
-        public static int showCustom=0x7f080015;
-        public static int showHome=0x7f080016;
-        public static int showTitle=0x7f080017;
-        public static int smallLabel=0x7f080073;
-        public static int snackbar_action=0x7f08007a;
-        public static int snackbar_text=0x7f080079;
-        public static int snap=0x7f08002e;
-        public static int spacer=0x7f08004c;
-        public static int split_action_bar=0x7f080008;
-        public static int src_atop=0x7f08001b;
-        public static int src_in=0x7f08001c;
-        public static int src_over=0x7f08001d;
-        public static int start=0x7f080036;
-        public static int status_bar_latest_event_content=0x7f0800a0;
-        public static int submenuarrow=0x7f08005e;
-        public static int submit_area=0x7f08006f;
-        public static int tabMode=0x7f080011;
-        public static int text=0x7f0800b0;
-        public static int text2=0x7f0800ae;
-        public static int textSpacerNoButtons=0x7f080052;
-        public static int textSpacerNoTitle=0x7f080051;
-        public static int text_input_password_toggle=0x7f080080;
-        public static int textinput_counter=0x7f08000c;
-        public static int textinput_error=0x7f08000d;
-        public static int time=0x7f0800a6;
-        public static int title=0x7f08004a;
-        public static int titleDividerNoCustom=0x7f080059;
-        public static int title_template=0x7f080057;
-        public static int top=0x7f080029;
-        public static int topPanel=0x7f080056;
-        public static int touch_outside=0x7f080077;
-        public static int transition_current_scene=0x7f08000a;
-        public static int transition_scene_layoutid_cache=0x7f08000b;
-        public static int up=0x7f080009;
-        public static int useLogo=0x7f080018;
-        public static int view_offset_helper=0x7f08000e;
-        public static int visible=0x7f0800b2;
-        public static int volume_item_container=0x7f080093;
-        public static int withText=0x7f080027;
-        public static int wrap_content=0x7f08001f;
+        public static final int action0=0x7f08009e;
+        public static final int action_bar=0x7f080064;
+        public static final int action_bar_activity_content=0x7f080001;
+        public static final int action_bar_container=0x7f080063;
+        public static final int action_bar_root=0x7f08005f;
+        public static final int action_bar_spinner=0x7f080002;
+        public static final int action_bar_subtitle=0x7f080042;
+        public static final int action_bar_title=0x7f080041;
+        public static final int action_container=0x7f08009b;
+        public static final int action_context_bar=0x7f080065;
+        public static final int action_divider=0x7f0800a2;
+        public static final int action_image=0x7f08009c;
+        public static final int action_menu_divider=0x7f080003;
+        public static final int action_menu_presenter=0x7f080004;
+        public static final int action_mode_bar=0x7f080061;
+        public static final int action_mode_bar_stub=0x7f080060;
+        public static final int action_mode_close_button=0x7f080043;
+        public static final int action_text=0x7f08009d;
+        public static final int actions=0x7f0800ab;
+        public static final int activity_chooser_view_content=0x7f080044;
+        public static final int add=0x7f08001e;
+        public static final int alertTitle=0x7f080058;
+        public static final int all=0x7f08003d;
+        public static final int always=0x7f080023;
+        public static final int auto=0x7f08002f;
+        public static final int beginning=0x7f080020;
+        public static final int bottom=0x7f080028;
+        public static final int buttonPanel=0x7f08004b;
+        public static final int cancel_action=0x7f08009f;
+        public static final int center=0x7f080030;
+        public static final int center_horizontal=0x7f080031;
+        public static final int center_vertical=0x7f080032;
+        public static final int checkbox=0x7f08005b;
+        public static final int chronometer=0x7f0800a7;
+        public static final int clip_horizontal=0x7f080039;
+        public static final int clip_vertical=0x7f08003a;
+        public static final int collapseActionView=0x7f080024;
+        public static final int container=0x7f080075;
+        public static final int contentPanel=0x7f08004e;
+        public static final int coordinator=0x7f080076;
+        public static final int custom=0x7f080055;
+        public static final int customPanel=0x7f080054;
+        public static final int decor_content_parent=0x7f080062;
+        public static final int default_activity_button=0x7f080047;
+        public static final int design_bottom_sheet=0x7f080078;
+        public static final int design_menu_item_action_area=0x7f08007f;
+        public static final int design_menu_item_action_area_stub=0x7f08007e;
+        public static final int design_menu_item_text=0x7f08007d;
+        public static final int design_navigation_view=0x7f08007c;
+        public static final int disableHome=0x7f080012;
+        public static final int edit_query=0x7f080066;
+        public static final int end=0x7f080021;
+        public static final int end_padder=0x7f0800b1;
+        public static final int enterAlways=0x7f08002a;
+        public static final int enterAlwaysCollapsed=0x7f08002b;
+        public static final int exitUntilCollapsed=0x7f08002c;
+        public static final int expand_activities_button=0x7f080045;
+        public static final int expanded_menu=0x7f08005a;
+        public static final int fill=0x7f08003b;
+        public static final int fill_horizontal=0x7f08003c;
+        public static final int fill_vertical=0x7f080033;
+        public static final int fixed=0x7f08003f;
+        public static final int home=0x7f080005;
+        public static final int homeAsUp=0x7f080013;
+        public static final int icon=0x7f080049;
+        public static final int icon_group=0x7f0800ac;
+        public static final int ifRoom=0x7f080025;
+        public static final int image=0x7f080046;
+        public static final int info=0x7f0800a8;
+        public static final int item_touch_helper_previous_elevation=0x7f080000;
+        public static final int largeLabel=0x7f080074;
+        public static final int left=0x7f080034;
+        public static final int line1=0x7f0800ad;
+        public static final int line3=0x7f0800af;
+        public static final int listMode=0x7f08000f;
+        public static final int list_item=0x7f080048;
+        public static final int masked=0x7f0800b3;
+        public static final int media_actions=0x7f0800a1;
+        public static final int middle=0x7f080022;
+        public static final int mini=0x7f08003e;
+        public static final int mr_art=0x7f08008d;
+        public static final int mr_chooser_list=0x7f080082;
+        public static final int mr_chooser_route_desc=0x7f080085;
+        public static final int mr_chooser_route_icon=0x7f080083;
+        public static final int mr_chooser_route_name=0x7f080084;
+        public static final int mr_chooser_title=0x7f080081;
+        public static final int mr_close=0x7f08008a;
+        public static final int mr_control_divider=0x7f080090;
+        public static final int mr_control_playback_ctrl=0x7f080096;
+        public static final int mr_control_subtitle=0x7f080099;
+        public static final int mr_control_title=0x7f080098;
+        public static final int mr_control_title_container=0x7f080097;
+        public static final int mr_custom_control=0x7f08008b;
+        public static final int mr_default_control=0x7f08008c;
+        public static final int mr_dialog_area=0x7f080087;
+        public static final int mr_expandable_area=0x7f080086;
+        public static final int mr_group_expand_collapse=0x7f08009a;
+        public static final int mr_media_main_control=0x7f08008e;
+        public static final int mr_name=0x7f080089;
+        public static final int mr_playback_control=0x7f08008f;
+        public static final int mr_title_bar=0x7f080088;
+        public static final int mr_volume_control=0x7f080091;
+        public static final int mr_volume_group_list=0x7f080092;
+        public static final int mr_volume_item_icon=0x7f080094;
+        public static final int mr_volume_slider=0x7f080095;
+        public static final int multiply=0x7f080019;
+        public static final int navigation_header_container=0x7f08007b;
+        public static final int never=0x7f080026;
+        public static final int none=0x7f080014;
+        public static final int normal=0x7f080010;
+        public static final int notification_background=0x7f0800aa;
+        public static final int notification_main_column=0x7f0800a4;
+        public static final int notification_main_column_container=0x7f0800a3;
+        public static final int parallax=0x7f080037;
+        public static final int parentPanel=0x7f08004d;
+        public static final int pin=0x7f080038;
+        public static final int progress_circular=0x7f080006;
+        public static final int progress_horizontal=0x7f080007;
+        public static final int radio=0x7f08005d;
+        public static final int right=0x7f080035;
+        public static final int right_icon=0x7f0800a9;
+        public static final int right_side=0x7f0800a5;
+        public static final int screen=0x7f08001a;
+        public static final int scroll=0x7f08002d;
+        public static final int scrollIndicatorDown=0x7f080053;
+        public static final int scrollIndicatorUp=0x7f08004f;
+        public static final int scrollView=0x7f080050;
+        public static final int scrollable=0x7f080040;
+        public static final int search_badge=0x7f080068;
+        public static final int search_bar=0x7f080067;
+        public static final int search_button=0x7f080069;
+        public static final int search_close_btn=0x7f08006e;
+        public static final int search_edit_frame=0x7f08006a;
+        public static final int search_go_btn=0x7f080070;
+        public static final int search_mag_icon=0x7f08006b;
+        public static final int search_plate=0x7f08006c;
+        public static final int search_src_text=0x7f08006d;
+        public static final int search_voice_btn=0x7f080071;
+        public static final int select_dialog_listview=0x7f080072;
+        public static final int shortcut=0x7f08005c;
+        public static final int showCustom=0x7f080015;
+        public static final int showHome=0x7f080016;
+        public static final int showTitle=0x7f080017;
+        public static final int smallLabel=0x7f080073;
+        public static final int snackbar_action=0x7f08007a;
+        public static final int snackbar_text=0x7f080079;
+        public static final int snap=0x7f08002e;
+        public static final int spacer=0x7f08004c;
+        public static final int split_action_bar=0x7f080008;
+        public static final int src_atop=0x7f08001b;
+        public static final int src_in=0x7f08001c;
+        public static final int src_over=0x7f08001d;
+        public static final int start=0x7f080036;
+        public static final int status_bar_latest_event_content=0x7f0800a0;
+        public static final int submenuarrow=0x7f08005e;
+        public static final int submit_area=0x7f08006f;
+        public static final int tabMode=0x7f080011;
+        public static final int text=0x7f0800b0;
+        public static final int text2=0x7f0800ae;
+        public static final int textSpacerNoButtons=0x7f080052;
+        public static final int textSpacerNoTitle=0x7f080051;
+        public static final int text_input_password_toggle=0x7f080080;
+        public static final int textinput_counter=0x7f08000c;
+        public static final int textinput_error=0x7f08000d;
+        public static final int time=0x7f0800a6;
+        public static final int title=0x7f08004a;
+        public static final int titleDividerNoCustom=0x7f080059;
+        public static final int title_template=0x7f080057;
+        public static final int top=0x7f080029;
+        public static final int topPanel=0x7f080056;
+        public static final int touch_outside=0x7f080077;
+        public static final int transition_current_scene=0x7f08000a;
+        public static final int transition_scene_layoutid_cache=0x7f08000b;
+        public static final int up=0x7f080009;
+        public static final int useLogo=0x7f080018;
+        public static final int view_offset_helper=0x7f08000e;
+        public static final int visible=0x7f0800b2;
+        public static final int volume_item_container=0x7f080093;
+        public static final int withText=0x7f080027;
+        public static final int wrap_content=0x7f08001f;
     }
     public static final class integer {
-        public static int abc_config_activityDefaultDur=0x7f0a0003;
-        public static int abc_config_activityShortDur=0x7f0a0004;
-        public static int app_bar_elevation_anim_duration=0x7f0a0008;
-        public static int bottom_sheet_slide_duration=0x7f0a0009;
-        public static int cancel_button_image_alpha=0x7f0a0005;
-        public static int design_snackbar_text_max_lines=0x7f0a0007;
-        public static int hide_password_duration=0x7f0a000a;
-        public static int mr_controller_volume_group_list_animation_duration_ms=0x7f0a0000;
-        public static int mr_controller_volume_group_list_fade_in_duration_ms=0x7f0a0001;
-        public static int mr_controller_volume_group_list_fade_out_duration_ms=0x7f0a0002;
-        public static int show_password_duration=0x7f0a000b;
-        public static int status_bar_notification_info_maxnum=0x7f0a0006;
+        public static final int abc_config_activityDefaultDur=0x7f0a0003;
+        public static final int abc_config_activityShortDur=0x7f0a0004;
+        public static final int app_bar_elevation_anim_duration=0x7f0a0008;
+        public static final int bottom_sheet_slide_duration=0x7f0a0009;
+        public static final int cancel_button_image_alpha=0x7f0a0005;
+        public static final int design_snackbar_text_max_lines=0x7f0a0007;
+        public static final int hide_password_duration=0x7f0a000a;
+        public static final int mr_controller_volume_group_list_animation_duration_ms=0x7f0a0000;
+        public static final int mr_controller_volume_group_list_fade_in_duration_ms=0x7f0a0001;
+        public static final int mr_controller_volume_group_list_fade_out_duration_ms=0x7f0a0002;
+        public static final int show_password_duration=0x7f0a000b;
+        public static final int status_bar_notification_info_maxnum=0x7f0a0006;
     }
     public static final class interpolator {
-        public static int mr_fast_out_slow_in=0x7f060000;
-        public static int mr_linear_out_slow_in=0x7f060001;
+        public static final int mr_fast_out_slow_in=0x7f060000;
+        public static final int mr_linear_out_slow_in=0x7f060001;
     }
     public static final class layout {
-        public static int abc_action_bar_title_item=0x7f030000;
-        public static int abc_action_bar_up_container=0x7f030001;
-        public static int abc_action_bar_view_list_nav_layout=0x7f030002;
-        public static int abc_action_menu_item_layout=0x7f030003;
-        public static int abc_action_menu_layout=0x7f030004;
-        public static int abc_action_mode_bar=0x7f030005;
-        public static int abc_action_mode_close_item_material=0x7f030006;
-        public static int abc_activity_chooser_view=0x7f030007;
-        public static int abc_activity_chooser_view_list_item=0x7f030008;
-        public static int abc_alert_dialog_button_bar_material=0x7f030009;
-        public static int abc_alert_dialog_material=0x7f03000a;
-        public static int abc_alert_dialog_title_material=0x7f03000b;
-        public static int abc_dialog_title_material=0x7f03000c;
-        public static int abc_expanded_menu_layout=0x7f03000d;
-        public static int abc_list_menu_item_checkbox=0x7f03000e;
-        public static int abc_list_menu_item_icon=0x7f03000f;
-        public static int abc_list_menu_item_layout=0x7f030010;
-        public static int abc_list_menu_item_radio=0x7f030011;
-        public static int abc_popup_menu_header_item_layout=0x7f030012;
-        public static int abc_popup_menu_item_layout=0x7f030013;
-        public static int abc_screen_content_include=0x7f030014;
-        public static int abc_screen_simple=0x7f030015;
-        public static int abc_screen_simple_overlay_action_mode=0x7f030016;
-        public static int abc_screen_toolbar=0x7f030017;
-        public static int abc_search_dropdown_item_icons_2line=0x7f030018;
-        public static int abc_search_view=0x7f030019;
-        public static int abc_select_dialog_material=0x7f03001a;
-        public static int design_bottom_navigation_item=0x7f03001b;
-        public static int design_bottom_sheet_dialog=0x7f03001c;
-        public static int design_layout_snackbar=0x7f03001d;
-        public static int design_layout_snackbar_include=0x7f03001e;
-        public static int design_layout_tab_icon=0x7f03001f;
-        public static int design_layout_tab_text=0x7f030020;
-        public static int design_menu_item_action_area=0x7f030021;
-        public static int design_navigation_item=0x7f030022;
-        public static int design_navigation_item_header=0x7f030023;
-        public static int design_navigation_item_separator=0x7f030024;
-        public static int design_navigation_item_subheader=0x7f030025;
-        public static int design_navigation_menu=0x7f030026;
-        public static int design_navigation_menu_item=0x7f030027;
-        public static int design_text_input_password_icon=0x7f030028;
-        public static int mr_chooser_dialog=0x7f030029;
-        public static int mr_chooser_list_item=0x7f03002a;
-        public static int mr_controller_material_dialog_b=0x7f03002b;
-        public static int mr_controller_volume_item=0x7f03002c;
-        public static int mr_playback_control=0x7f03002d;
-        public static int mr_volume_control=0x7f03002e;
-        public static int notification_action=0x7f03002f;
-        public static int notification_action_tombstone=0x7f030030;
-        public static int notification_media_action=0x7f030031;
-        public static int notification_media_cancel_action=0x7f030032;
-        public static int notification_template_big_media=0x7f030033;
-        public static int notification_template_big_media_custom=0x7f030034;
-        public static int notification_template_big_media_narrow=0x7f030035;
-        public static int notification_template_big_media_narrow_custom=0x7f030036;
-        public static int notification_template_custom_big=0x7f030037;
-        public static int notification_template_icon_group=0x7f030038;
-        public static int notification_template_lines_media=0x7f030039;
-        public static int notification_template_media=0x7f03003a;
-        public static int notification_template_media_custom=0x7f03003b;
-        public static int notification_template_part_chronometer=0x7f03003c;
-        public static int notification_template_part_time=0x7f03003d;
-        public static int select_dialog_item_material=0x7f03003e;
-        public static int select_dialog_multichoice_material=0x7f03003f;
-        public static int select_dialog_singlechoice_material=0x7f030040;
-        public static int support_simple_spinner_dropdown_item=0x7f030041;
+        public static final int abc_action_bar_title_item=0x7f030000;
+        public static final int abc_action_bar_up_container=0x7f030001;
+        public static final int abc_action_bar_view_list_nav_layout=0x7f030002;
+        public static final int abc_action_menu_item_layout=0x7f030003;
+        public static final int abc_action_menu_layout=0x7f030004;
+        public static final int abc_action_mode_bar=0x7f030005;
+        public static final int abc_action_mode_close_item_material=0x7f030006;
+        public static final int abc_activity_chooser_view=0x7f030007;
+        public static final int abc_activity_chooser_view_list_item=0x7f030008;
+        public static final int abc_alert_dialog_button_bar_material=0x7f030009;
+        public static final int abc_alert_dialog_material=0x7f03000a;
+        public static final int abc_alert_dialog_title_material=0x7f03000b;
+        public static final int abc_dialog_title_material=0x7f03000c;
+        public static final int abc_expanded_menu_layout=0x7f03000d;
+        public static final int abc_list_menu_item_checkbox=0x7f03000e;
+        public static final int abc_list_menu_item_icon=0x7f03000f;
+        public static final int abc_list_menu_item_layout=0x7f030010;
+        public static final int abc_list_menu_item_radio=0x7f030011;
+        public static final int abc_popup_menu_header_item_layout=0x7f030012;
+        public static final int abc_popup_menu_item_layout=0x7f030013;
+        public static final int abc_screen_content_include=0x7f030014;
+        public static final int abc_screen_simple=0x7f030015;
+        public static final int abc_screen_simple_overlay_action_mode=0x7f030016;
+        public static final int abc_screen_toolbar=0x7f030017;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f030018;
+        public static final int abc_search_view=0x7f030019;
+        public static final int abc_select_dialog_material=0x7f03001a;
+        public static final int design_bottom_navigation_item=0x7f03001b;
+        public static final int design_bottom_sheet_dialog=0x7f03001c;
+        public static final int design_layout_snackbar=0x7f03001d;
+        public static final int design_layout_snackbar_include=0x7f03001e;
+        public static final int design_layout_tab_icon=0x7f03001f;
+        public static final int design_layout_tab_text=0x7f030020;
+        public static final int design_menu_item_action_area=0x7f030021;
+        public static final int design_navigation_item=0x7f030022;
+        public static final int design_navigation_item_header=0x7f030023;
+        public static final int design_navigation_item_separator=0x7f030024;
+        public static final int design_navigation_item_subheader=0x7f030025;
+        public static final int design_navigation_menu=0x7f030026;
+        public static final int design_navigation_menu_item=0x7f030027;
+        public static final int design_text_input_password_icon=0x7f030028;
+        public static final int mr_chooser_dialog=0x7f030029;
+        public static final int mr_chooser_list_item=0x7f03002a;
+        public static final int mr_controller_material_dialog_b=0x7f03002b;
+        public static final int mr_controller_volume_item=0x7f03002c;
+        public static final int mr_playback_control=0x7f03002d;
+        public static final int mr_volume_control=0x7f03002e;
+        public static final int notification_action=0x7f03002f;
+        public static final int notification_action_tombstone=0x7f030030;
+        public static final int notification_media_action=0x7f030031;
+        public static final int notification_media_cancel_action=0x7f030032;
+        public static final int notification_template_big_media=0x7f030033;
+        public static final int notification_template_big_media_custom=0x7f030034;
+        public static final int notification_template_big_media_narrow=0x7f030035;
+        public static final int notification_template_big_media_narrow_custom=0x7f030036;
+        public static final int notification_template_custom_big=0x7f030037;
+        public static final int notification_template_icon_group=0x7f030038;
+        public static final int notification_template_lines_media=0x7f030039;
+        public static final int notification_template_media=0x7f03003a;
+        public static final int notification_template_media_custom=0x7f03003b;
+        public static final int notification_template_part_chronometer=0x7f03003c;
+        public static final int notification_template_part_time=0x7f03003d;
+        public static final int select_dialog_item_material=0x7f03003e;
+        public static final int select_dialog_multichoice_material=0x7f03003f;
+        public static final int select_dialog_singlechoice_material=0x7f030040;
+        public static final int support_simple_spinner_dropdown_item=0x7f030041;
     }
     public static final class string {
-        public static int ApplicationName=0x7f09003f;
-        public static int Hello=0x7f09003e;
-        public static int abc_action_bar_home_description=0x7f090015;
-        public static int abc_action_bar_home_description_format=0x7f090016;
-        public static int abc_action_bar_home_subtitle_description_format=0x7f090017;
-        public static int abc_action_bar_up_description=0x7f090018;
-        public static int abc_action_menu_overflow_description=0x7f090019;
-        public static int abc_action_mode_done=0x7f09001a;
-        public static int abc_activity_chooser_view_see_all=0x7f09001b;
-        public static int abc_activitychooserview_choose_application=0x7f09001c;
-        public static int abc_capital_off=0x7f09001d;
-        public static int abc_capital_on=0x7f09001e;
-        public static int abc_font_family_body_1_material=0x7f09002a;
-        public static int abc_font_family_body_2_material=0x7f09002b;
-        public static int abc_font_family_button_material=0x7f09002c;
-        public static int abc_font_family_caption_material=0x7f09002d;
-        public static int abc_font_family_display_1_material=0x7f09002e;
-        public static int abc_font_family_display_2_material=0x7f09002f;
-        public static int abc_font_family_display_3_material=0x7f090030;
-        public static int abc_font_family_display_4_material=0x7f090031;
-        public static int abc_font_family_headline_material=0x7f090032;
-        public static int abc_font_family_menu_material=0x7f090033;
-        public static int abc_font_family_subhead_material=0x7f090034;
-        public static int abc_font_family_title_material=0x7f090035;
-        public static int abc_search_hint=0x7f09001f;
-        public static int abc_searchview_description_clear=0x7f090020;
-        public static int abc_searchview_description_query=0x7f090021;
-        public static int abc_searchview_description_search=0x7f090022;
-        public static int abc_searchview_description_submit=0x7f090023;
-        public static int abc_searchview_description_voice=0x7f090024;
-        public static int abc_shareactionprovider_share_with=0x7f090025;
-        public static int abc_shareactionprovider_share_with_application=0x7f090026;
-        public static int abc_toolbar_collapse_description=0x7f090027;
-        public static int appbar_scrolling_view_behavior=0x7f090036;
-        public static int bottom_sheet_behavior=0x7f090037;
-        public static int character_counter_pattern=0x7f090038;
-        public static int mr_button_content_description=0x7f090000;
-        public static int mr_cast_button_connected=0x7f090001;
-        public static int mr_cast_button_connecting=0x7f090002;
-        public static int mr_cast_button_disconnected=0x7f090003;
-        public static int mr_chooser_searching=0x7f090004;
-        public static int mr_chooser_title=0x7f090005;
-        public static int mr_controller_album_art=0x7f090006;
-        public static int mr_controller_casting_screen=0x7f090007;
-        public static int mr_controller_close_description=0x7f090008;
-        public static int mr_controller_collapse_group=0x7f090009;
-        public static int mr_controller_disconnect=0x7f09000a;
-        public static int mr_controller_expand_group=0x7f09000b;
-        public static int mr_controller_no_info_available=0x7f09000c;
-        public static int mr_controller_no_media_selected=0x7f09000d;
-        public static int mr_controller_pause=0x7f09000e;
-        public static int mr_controller_play=0x7f09000f;
-        public static int mr_controller_stop=0x7f090014;
-        public static int mr_controller_stop_casting=0x7f090010;
-        public static int mr_controller_volume_slider=0x7f090011;
-        public static int mr_system_route_name=0x7f090012;
-        public static int mr_user_route_category_name=0x7f090013;
-        public static int password_toggle_content_description=0x7f090039;
-        public static int path_password_eye=0x7f09003a;
-        public static int path_password_eye_mask_strike_through=0x7f09003b;
-        public static int path_password_eye_mask_visible=0x7f09003c;
-        public static int path_password_strike_through=0x7f09003d;
-        public static int search_menu_title=0x7f090028;
-        public static int status_bar_notification_info_overflow=0x7f090029;
+        public static final int ApplicationName=0x7f09003f;
+        public static final int Hello=0x7f09003e;
+        public static final int abc_action_bar_home_description=0x7f090015;
+        public static final int abc_action_bar_home_description_format=0x7f090016;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f090017;
+        public static final int abc_action_bar_up_description=0x7f090018;
+        public static final int abc_action_menu_overflow_description=0x7f090019;
+        public static final int abc_action_mode_done=0x7f09001a;
+        public static final int abc_activity_chooser_view_see_all=0x7f09001b;
+        public static final int abc_activitychooserview_choose_application=0x7f09001c;
+        public static final int abc_capital_off=0x7f09001d;
+        public static final int abc_capital_on=0x7f09001e;
+        public static final int abc_font_family_body_1_material=0x7f09002a;
+        public static final int abc_font_family_body_2_material=0x7f09002b;
+        public static final int abc_font_family_button_material=0x7f09002c;
+        public static final int abc_font_family_caption_material=0x7f09002d;
+        public static final int abc_font_family_display_1_material=0x7f09002e;
+        public static final int abc_font_family_display_2_material=0x7f09002f;
+        public static final int abc_font_family_display_3_material=0x7f090030;
+        public static final int abc_font_family_display_4_material=0x7f090031;
+        public static final int abc_font_family_headline_material=0x7f090032;
+        public static final int abc_font_family_menu_material=0x7f090033;
+        public static final int abc_font_family_subhead_material=0x7f090034;
+        public static final int abc_font_family_title_material=0x7f090035;
+        public static final int abc_search_hint=0x7f09001f;
+        public static final int abc_searchview_description_clear=0x7f090020;
+        public static final int abc_searchview_description_query=0x7f090021;
+        public static final int abc_searchview_description_search=0x7f090022;
+        public static final int abc_searchview_description_submit=0x7f090023;
+        public static final int abc_searchview_description_voice=0x7f090024;
+        public static final int abc_shareactionprovider_share_with=0x7f090025;
+        public static final int abc_shareactionprovider_share_with_application=0x7f090026;
+        public static final int abc_toolbar_collapse_description=0x7f090027;
+        public static final int appbar_scrolling_view_behavior=0x7f090036;
+        public static final int bottom_sheet_behavior=0x7f090037;
+        public static final int character_counter_pattern=0x7f090038;
+        public static final int mr_button_content_description=0x7f090000;
+        public static final int mr_cast_button_connected=0x7f090001;
+        public static final int mr_cast_button_connecting=0x7f090002;
+        public static final int mr_cast_button_disconnected=0x7f090003;
+        public static final int mr_chooser_searching=0x7f090004;
+        public static final int mr_chooser_title=0x7f090005;
+        public static final int mr_controller_album_art=0x7f090006;
+        public static final int mr_controller_casting_screen=0x7f090007;
+        public static final int mr_controller_close_description=0x7f090008;
+        public static final int mr_controller_collapse_group=0x7f090009;
+        public static final int mr_controller_disconnect=0x7f09000a;
+        public static final int mr_controller_expand_group=0x7f09000b;
+        public static final int mr_controller_no_info_available=0x7f09000c;
+        public static final int mr_controller_no_media_selected=0x7f09000d;
+        public static final int mr_controller_pause=0x7f09000e;
+        public static final int mr_controller_play=0x7f09000f;
+        public static final int mr_controller_stop=0x7f090014;
+        public static final int mr_controller_stop_casting=0x7f090010;
+        public static final int mr_controller_volume_slider=0x7f090011;
+        public static final int mr_system_route_name=0x7f090012;
+        public static final int mr_user_route_category_name=0x7f090013;
+        public static final int password_toggle_content_description=0x7f090039;
+        public static final int path_password_eye=0x7f09003a;
+        public static final int path_password_eye_mask_strike_through=0x7f09003b;
+        public static final int path_password_eye_mask_visible=0x7f09003c;
+        public static final int path_password_strike_through=0x7f09003d;
+        public static final int search_menu_title=0x7f090028;
+        public static final int status_bar_notification_info_overflow=0x7f090029;
     }
     public static final class style {
-        public static int AlertDialog_AppCompat=0x7f0b00ae;
-        public static int AlertDialog_AppCompat_Light=0x7f0b00af;
-        public static int Animation_AppCompat_Dialog=0x7f0b00b0;
-        public static int Animation_AppCompat_DropDownUp=0x7f0b00b1;
-        public static int Animation_Design_BottomSheetDialog=0x7f0b0170;
-        public static int Base_AlertDialog_AppCompat=0x7f0b00b2;
-        public static int Base_AlertDialog_AppCompat_Light=0x7f0b00b3;
-        public static int Base_Animation_AppCompat_Dialog=0x7f0b00b4;
-        public static int Base_Animation_AppCompat_DropDownUp=0x7f0b00b5;
-        public static int Base_CardView=0x7f0b000c;
-        public static int Base_DialogWindowTitle_AppCompat=0x7f0b00b6;
-        public static int Base_DialogWindowTitleBackground_AppCompat=0x7f0b00b7;
-        public static int Base_TextAppearance_AppCompat=0x7f0b004e;
-        public static int Base_TextAppearance_AppCompat_Body1=0x7f0b004f;
-        public static int Base_TextAppearance_AppCompat_Body2=0x7f0b0050;
-        public static int Base_TextAppearance_AppCompat_Button=0x7f0b0036;
-        public static int Base_TextAppearance_AppCompat_Caption=0x7f0b0051;
-        public static int Base_TextAppearance_AppCompat_Display1=0x7f0b0052;
-        public static int Base_TextAppearance_AppCompat_Display2=0x7f0b0053;
-        public static int Base_TextAppearance_AppCompat_Display3=0x7f0b0054;
-        public static int Base_TextAppearance_AppCompat_Display4=0x7f0b0055;
-        public static int Base_TextAppearance_AppCompat_Headline=0x7f0b0056;
-        public static int Base_TextAppearance_AppCompat_Inverse=0x7f0b001a;
-        public static int Base_TextAppearance_AppCompat_Large=0x7f0b0057;
-        public static int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b001b;
-        public static int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0058;
-        public static int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0059;
-        public static int Base_TextAppearance_AppCompat_Medium=0x7f0b005a;
-        public static int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b001c;
-        public static int Base_TextAppearance_AppCompat_Menu=0x7f0b005b;
-        public static int Base_TextAppearance_AppCompat_SearchResult=0x7f0b00b8;
-        public static int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b005c;
-        public static int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b005d;
-        public static int Base_TextAppearance_AppCompat_Small=0x7f0b005e;
-        public static int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b001d;
-        public static int Base_TextAppearance_AppCompat_Subhead=0x7f0b005f;
-        public static int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b001e;
-        public static int Base_TextAppearance_AppCompat_Title=0x7f0b0060;
-        public static int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b001f;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00a3;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0061;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0062;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0063;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0064;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0065;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0066;
-        public static int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b0067;
-        public static int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0b00aa;
-        public static int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0b00ab;
-        public static int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b00a4;
-        public static int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00b9;
-        public static int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0b0068;
-        public static int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0069;
-        public static int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b006a;
-        public static int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b006b;
-        public static int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b006c;
-        public static int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00ba;
-        public static int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b006d;
-        public static int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b006e;
-        public static int Base_Theme_AppCompat=0x7f0b006f;
-        public static int Base_Theme_AppCompat_CompactMenu=0x7f0b00bb;
-        public static int Base_Theme_AppCompat_Dialog=0x7f0b0020;
-        public static int Base_Theme_AppCompat_Dialog_Alert=0x7f0b0021;
-        public static int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b00bc;
-        public static int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b0022;
-        public static int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b0010;
-        public static int Base_Theme_AppCompat_Light=0x7f0b0070;
-        public static int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b00bd;
-        public static int Base_Theme_AppCompat_Light_Dialog=0x7f0b0023;
-        public static int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b0024;
-        public static int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b00be;
-        public static int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0025;
-        public static int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0011;
-        public static int Base_ThemeOverlay_AppCompat=0x7f0b00bf;
-        public static int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b00c0;
-        public static int Base_ThemeOverlay_AppCompat_Dark=0x7f0b00c1;
-        public static int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00c2;
-        public static int Base_ThemeOverlay_AppCompat_Dialog=0x7f0b0026;
-        public static int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0b0027;
-        public static int Base_ThemeOverlay_AppCompat_Light=0x7f0b00c3;
-        public static int Base_V11_Theme_AppCompat_Dialog=0x7f0b0028;
-        public static int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b0029;
-        public static int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0b002a;
-        public static int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b0032;
-        public static int Base_V12_Widget_AppCompat_EditText=0x7f0b0033;
-        public static int Base_V21_Theme_AppCompat=0x7f0b0071;
-        public static int Base_V21_Theme_AppCompat_Dialog=0x7f0b0072;
-        public static int Base_V21_Theme_AppCompat_Light=0x7f0b0073;
-        public static int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b0074;
-        public static int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0b0075;
-        public static int Base_V22_Theme_AppCompat=0x7f0b00a1;
-        public static int Base_V22_Theme_AppCompat_Light=0x7f0b00a2;
-        public static int Base_V23_Theme_AppCompat=0x7f0b00a5;
-        public static int Base_V23_Theme_AppCompat_Light=0x7f0b00a6;
-        public static int Base_V7_Theme_AppCompat=0x7f0b00c4;
-        public static int Base_V7_Theme_AppCompat_Dialog=0x7f0b00c5;
-        public static int Base_V7_Theme_AppCompat_Light=0x7f0b00c6;
-        public static int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b00c7;
-        public static int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0b00c8;
-        public static int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b00c9;
-        public static int Base_V7_Widget_AppCompat_EditText=0x7f0b00ca;
-        public static int Base_Widget_AppCompat_ActionBar=0x7f0b00cb;
-        public static int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00cc;
-        public static int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00cd;
-        public static int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0076;
-        public static int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0077;
-        public static int Base_Widget_AppCompat_ActionButton=0x7f0b0078;
-        public static int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0079;
-        public static int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b007a;
-        public static int Base_Widget_AppCompat_ActionMode=0x7f0b00ce;
-        public static int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00cf;
-        public static int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0034;
-        public static int Base_Widget_AppCompat_Button=0x7f0b007b;
-        public static int Base_Widget_AppCompat_Button_Borderless=0x7f0b007c;
-        public static int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b007d;
-        public static int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00d0;
-        public static int Base_Widget_AppCompat_Button_Colored=0x7f0b00a7;
-        public static int Base_Widget_AppCompat_Button_Small=0x7f0b007e;
-        public static int Base_Widget_AppCompat_ButtonBar=0x7f0b007f;
-        public static int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00d1;
-        public static int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0080;
-        public static int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0081;
-        public static int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00d2;
-        public static int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b000f;
-        public static int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00d3;
-        public static int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b0082;
-        public static int Base_Widget_AppCompat_EditText=0x7f0b0035;
-        public static int Base_Widget_AppCompat_ImageButton=0x7f0b0083;
-        public static int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00d4;
-        public static int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00d5;
-        public static int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00d6;
-        public static int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0084;
-        public static int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0085;
-        public static int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0086;
-        public static int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b0087;
-        public static int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0088;
-        public static int Base_Widget_AppCompat_ListMenuView=0x7f0b00d7;
-        public static int Base_Widget_AppCompat_ListPopupWindow=0x7f0b0089;
-        public static int Base_Widget_AppCompat_ListView=0x7f0b008a;
-        public static int Base_Widget_AppCompat_ListView_DropDown=0x7f0b008b;
-        public static int Base_Widget_AppCompat_ListView_Menu=0x7f0b008c;
-        public static int Base_Widget_AppCompat_PopupMenu=0x7f0b008d;
-        public static int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b008e;
-        public static int Base_Widget_AppCompat_PopupWindow=0x7f0b00d8;
-        public static int Base_Widget_AppCompat_ProgressBar=0x7f0b002b;
-        public static int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b002c;
-        public static int Base_Widget_AppCompat_RatingBar=0x7f0b008f;
-        public static int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0b00a8;
-        public static int Base_Widget_AppCompat_RatingBar_Small=0x7f0b00a9;
-        public static int Base_Widget_AppCompat_SearchView=0x7f0b00d9;
-        public static int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00da;
-        public static int Base_Widget_AppCompat_SeekBar=0x7f0b0090;
-        public static int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0b00db;
-        public static int Base_Widget_AppCompat_Spinner=0x7f0b0091;
-        public static int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b0012;
-        public static int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b0092;
-        public static int Base_Widget_AppCompat_Toolbar=0x7f0b00dc;
-        public static int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0093;
-        public static int Base_Widget_Design_AppBarLayout=0x7f0b0171;
-        public static int Base_Widget_Design_TabLayout=0x7f0b0172;
-        public static int CardView=0x7f0b000b;
-        public static int CardView_Dark=0x7f0b000d;
-        public static int CardView_Light=0x7f0b000e;
-        public static int Platform_AppCompat=0x7f0b002d;
-        public static int Platform_AppCompat_Light=0x7f0b002e;
-        public static int Platform_ThemeOverlay_AppCompat=0x7f0b0094;
-        public static int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b0095;
-        public static int Platform_ThemeOverlay_AppCompat_Light=0x7f0b0096;
-        public static int Platform_V11_AppCompat=0x7f0b002f;
-        public static int Platform_V11_AppCompat_Light=0x7f0b0030;
-        public static int Platform_V14_AppCompat=0x7f0b0037;
-        public static int Platform_V14_AppCompat_Light=0x7f0b0038;
-        public static int Platform_V21_AppCompat=0x7f0b0097;
-        public static int Platform_V21_AppCompat_Light=0x7f0b0098;
-        public static int Platform_V25_AppCompat=0x7f0b00ac;
-        public static int Platform_V25_AppCompat_Light=0x7f0b00ad;
-        public static int Platform_Widget_AppCompat_Spinner=0x7f0b0031;
-        public static int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b0040;
-        public static int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b0041;
-        public static int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b0042;
-        public static int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b0043;
-        public static int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b0044;
-        public static int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b0045;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0046;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b0047;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b0048;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b0049;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b004a;
-        public static int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b004b;
-        public static int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b004c;
-        public static int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b004d;
-        public static int TextAppearance_AppCompat=0x7f0b00dd;
-        public static int TextAppearance_AppCompat_Body1=0x7f0b00de;
-        public static int TextAppearance_AppCompat_Body2=0x7f0b00df;
-        public static int TextAppearance_AppCompat_Button=0x7f0b00e0;
-        public static int TextAppearance_AppCompat_Caption=0x7f0b00e1;
-        public static int TextAppearance_AppCompat_Display1=0x7f0b00e2;
-        public static int TextAppearance_AppCompat_Display2=0x7f0b00e3;
-        public static int TextAppearance_AppCompat_Display3=0x7f0b00e4;
-        public static int TextAppearance_AppCompat_Display4=0x7f0b00e5;
-        public static int TextAppearance_AppCompat_Headline=0x7f0b00e6;
-        public static int TextAppearance_AppCompat_Inverse=0x7f0b00e7;
-        public static int TextAppearance_AppCompat_Large=0x7f0b00e8;
-        public static int TextAppearance_AppCompat_Large_Inverse=0x7f0b00e9;
-        public static int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00ea;
-        public static int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00eb;
-        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00ec;
-        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00ed;
-        public static int TextAppearance_AppCompat_Medium=0x7f0b00ee;
-        public static int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00ef;
-        public static int TextAppearance_AppCompat_Menu=0x7f0b00f0;
-        public static int TextAppearance_AppCompat_Notification=0x7f0b0039;
-        public static int TextAppearance_AppCompat_Notification_Info=0x7f0b0099;
-        public static int TextAppearance_AppCompat_Notification_Info_Media=0x7f0b009a;
-        public static int TextAppearance_AppCompat_Notification_Line2=0x7f0b00f1;
-        public static int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0b00f2;
-        public static int TextAppearance_AppCompat_Notification_Media=0x7f0b009b;
-        public static int TextAppearance_AppCompat_Notification_Time=0x7f0b009c;
-        public static int TextAppearance_AppCompat_Notification_Time_Media=0x7f0b009d;
-        public static int TextAppearance_AppCompat_Notification_Title=0x7f0b003a;
-        public static int TextAppearance_AppCompat_Notification_Title_Media=0x7f0b009e;
-        public static int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00f3;
-        public static int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00f4;
-        public static int TextAppearance_AppCompat_Small=0x7f0b00f5;
-        public static int TextAppearance_AppCompat_Small_Inverse=0x7f0b00f6;
-        public static int TextAppearance_AppCompat_Subhead=0x7f0b00f7;
-        public static int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00f8;
-        public static int TextAppearance_AppCompat_Title=0x7f0b00f9;
-        public static int TextAppearance_AppCompat_Title_Inverse=0x7f0b00fa;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00fb;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00fc;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00fd;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00fe;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00ff;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0100;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b0101;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0102;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b0103;
-        public static int TextAppearance_AppCompat_Widget_Button=0x7f0b0104;
-        public static int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0b0105;
-        public static int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0b0106;
-        public static int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b0107;
-        public static int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0108;
-        public static int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0b0109;
-        public static int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b010a;
-        public static int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b010b;
-        public static int TextAppearance_AppCompat_Widget_Switch=0x7f0b010c;
-        public static int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b010d;
-        public static int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0b0173;
-        public static int TextAppearance_Design_Counter=0x7f0b0174;
-        public static int TextAppearance_Design_Counter_Overflow=0x7f0b0175;
-        public static int TextAppearance_Design_Error=0x7f0b0176;
-        public static int TextAppearance_Design_Hint=0x7f0b0177;
-        public static int TextAppearance_Design_Snackbar_Message=0x7f0b0178;
-        public static int TextAppearance_Design_Tab=0x7f0b0179;
-        public static int TextAppearance_MediaRouter_PrimaryText=0x7f0b0000;
-        public static int TextAppearance_MediaRouter_SecondaryText=0x7f0b0001;
-        public static int TextAppearance_MediaRouter_Title=0x7f0b0002;
-        public static int TextAppearance_StatusBar_EventContent=0x7f0b003b;
-        public static int TextAppearance_StatusBar_EventContent_Info=0x7f0b003c;
-        public static int TextAppearance_StatusBar_EventContent_Line2=0x7f0b003d;
-        public static int TextAppearance_StatusBar_EventContent_Time=0x7f0b003e;
-        public static int TextAppearance_StatusBar_EventContent_Title=0x7f0b003f;
-        public static int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b010e;
-        public static int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b010f;
-        public static int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0110;
-        public static int Theme_AppCompat=0x7f0b0111;
-        public static int Theme_AppCompat_CompactMenu=0x7f0b0112;
-        public static int Theme_AppCompat_DayNight=0x7f0b0013;
-        public static int Theme_AppCompat_DayNight_DarkActionBar=0x7f0b0014;
-        public static int Theme_AppCompat_DayNight_Dialog=0x7f0b0015;
-        public static int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0b0016;
-        public static int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0b0017;
-        public static int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0b0018;
-        public static int Theme_AppCompat_DayNight_NoActionBar=0x7f0b0019;
-        public static int Theme_AppCompat_Dialog=0x7f0b0113;
-        public static int Theme_AppCompat_Dialog_Alert=0x7f0b0114;
-        public static int Theme_AppCompat_Dialog_MinWidth=0x7f0b0115;
-        public static int Theme_AppCompat_DialogWhenLarge=0x7f0b0116;
-        public static int Theme_AppCompat_Light=0x7f0b0117;
-        public static int Theme_AppCompat_Light_DarkActionBar=0x7f0b0118;
-        public static int Theme_AppCompat_Light_Dialog=0x7f0b0119;
-        public static int Theme_AppCompat_Light_Dialog_Alert=0x7f0b011a;
-        public static int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b011b;
-        public static int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b011c;
-        public static int Theme_AppCompat_Light_NoActionBar=0x7f0b011d;
-        public static int Theme_AppCompat_NoActionBar=0x7f0b011e;
-        public static int Theme_Design=0x7f0b017a;
-        public static int Theme_Design_BottomSheetDialog=0x7f0b017b;
-        public static int Theme_Design_Light=0x7f0b017c;
-        public static int Theme_Design_Light_BottomSheetDialog=0x7f0b017d;
-        public static int Theme_Design_Light_NoActionBar=0x7f0b017e;
-        public static int Theme_Design_NoActionBar=0x7f0b017f;
-        public static int Theme_MediaRouter=0x7f0b0003;
-        public static int Theme_MediaRouter_Light=0x7f0b0004;
-        public static int Theme_MediaRouter_Light_DarkControlPanel=0x7f0b0005;
-        public static int Theme_MediaRouter_LightControlPanel=0x7f0b0006;
-        public static int ThemeOverlay_AppCompat=0x7f0b011f;
-        public static int ThemeOverlay_AppCompat_ActionBar=0x7f0b0120;
-        public static int ThemeOverlay_AppCompat_Dark=0x7f0b0121;
-        public static int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0122;
-        public static int ThemeOverlay_AppCompat_Dialog=0x7f0b0123;
-        public static int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0b0124;
-        public static int ThemeOverlay_AppCompat_Light=0x7f0b0125;
-        public static int ThemeOverlay_MediaRouter_Dark=0x7f0b0007;
-        public static int ThemeOverlay_MediaRouter_Light=0x7f0b0008;
-        public static int Widget_AppCompat_ActionBar=0x7f0b0126;
-        public static int Widget_AppCompat_ActionBar_Solid=0x7f0b0127;
-        public static int Widget_AppCompat_ActionBar_TabBar=0x7f0b0128;
-        public static int Widget_AppCompat_ActionBar_TabText=0x7f0b0129;
-        public static int Widget_AppCompat_ActionBar_TabView=0x7f0b012a;
-        public static int Widget_AppCompat_ActionButton=0x7f0b012b;
-        public static int Widget_AppCompat_ActionButton_CloseMode=0x7f0b012c;
-        public static int Widget_AppCompat_ActionButton_Overflow=0x7f0b012d;
-        public static int Widget_AppCompat_ActionMode=0x7f0b012e;
-        public static int Widget_AppCompat_ActivityChooserView=0x7f0b012f;
-        public static int Widget_AppCompat_AutoCompleteTextView=0x7f0b0130;
-        public static int Widget_AppCompat_Button=0x7f0b0131;
-        public static int Widget_AppCompat_Button_Borderless=0x7f0b0132;
-        public static int Widget_AppCompat_Button_Borderless_Colored=0x7f0b0133;
-        public static int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b0134;
-        public static int Widget_AppCompat_Button_Colored=0x7f0b0135;
-        public static int Widget_AppCompat_Button_Small=0x7f0b0136;
-        public static int Widget_AppCompat_ButtonBar=0x7f0b0137;
-        public static int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0138;
-        public static int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0139;
-        public static int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b013a;
-        public static int Widget_AppCompat_CompoundButton_Switch=0x7f0b013b;
-        public static int Widget_AppCompat_DrawerArrowToggle=0x7f0b013c;
-        public static int Widget_AppCompat_DropDownItem_Spinner=0x7f0b013d;
-        public static int Widget_AppCompat_EditText=0x7f0b013e;
-        public static int Widget_AppCompat_ImageButton=0x7f0b013f;
-        public static int Widget_AppCompat_Light_ActionBar=0x7f0b0140;
-        public static int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0141;
-        public static int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b0142;
-        public static int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0143;
-        public static int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0144;
-        public static int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0145;
-        public static int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0146;
-        public static int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0147;
-        public static int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0148;
-        public static int Widget_AppCompat_Light_ActionButton=0x7f0b0149;
-        public static int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b014a;
-        public static int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b014b;
-        public static int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b014c;
-        public static int Widget_AppCompat_Light_ActivityChooserView=0x7f0b014d;
-        public static int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b014e;
-        public static int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b014f;
-        public static int Widget_AppCompat_Light_ListPopupWindow=0x7f0b0150;
-        public static int Widget_AppCompat_Light_ListView_DropDown=0x7f0b0151;
-        public static int Widget_AppCompat_Light_PopupMenu=0x7f0b0152;
-        public static int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0153;
-        public static int Widget_AppCompat_Light_SearchView=0x7f0b0154;
-        public static int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0155;
-        public static int Widget_AppCompat_ListMenuView=0x7f0b0156;
-        public static int Widget_AppCompat_ListPopupWindow=0x7f0b0157;
-        public static int Widget_AppCompat_ListView=0x7f0b0158;
-        public static int Widget_AppCompat_ListView_DropDown=0x7f0b0159;
-        public static int Widget_AppCompat_ListView_Menu=0x7f0b015a;
-        public static int Widget_AppCompat_NotificationActionContainer=0x7f0b009f;
-        public static int Widget_AppCompat_NotificationActionText=0x7f0b00a0;
-        public static int Widget_AppCompat_PopupMenu=0x7f0b015b;
-        public static int Widget_AppCompat_PopupMenu_Overflow=0x7f0b015c;
-        public static int Widget_AppCompat_PopupWindow=0x7f0b015d;
-        public static int Widget_AppCompat_ProgressBar=0x7f0b015e;
-        public static int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b015f;
-        public static int Widget_AppCompat_RatingBar=0x7f0b0160;
-        public static int Widget_AppCompat_RatingBar_Indicator=0x7f0b0161;
-        public static int Widget_AppCompat_RatingBar_Small=0x7f0b0162;
-        public static int Widget_AppCompat_SearchView=0x7f0b0163;
-        public static int Widget_AppCompat_SearchView_ActionBar=0x7f0b0164;
-        public static int Widget_AppCompat_SeekBar=0x7f0b0165;
-        public static int Widget_AppCompat_SeekBar_Discrete=0x7f0b0166;
-        public static int Widget_AppCompat_Spinner=0x7f0b0167;
-        public static int Widget_AppCompat_Spinner_DropDown=0x7f0b0168;
-        public static int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0169;
-        public static int Widget_AppCompat_Spinner_Underlined=0x7f0b016a;
-        public static int Widget_AppCompat_TextView_SpinnerItem=0x7f0b016b;
-        public static int Widget_AppCompat_Toolbar=0x7f0b016c;
-        public static int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b016d;
-        public static int Widget_Design_AppBarLayout=0x7f0b016f;
-        public static int Widget_Design_BottomNavigationView=0x7f0b0180;
-        public static int Widget_Design_BottomSheet_Modal=0x7f0b0181;
-        public static int Widget_Design_CollapsingToolbar=0x7f0b0182;
-        public static int Widget_Design_CoordinatorLayout=0x7f0b0183;
-        public static int Widget_Design_FloatingActionButton=0x7f0b0184;
-        public static int Widget_Design_NavigationView=0x7f0b0185;
-        public static int Widget_Design_ScrimInsetsFrameLayout=0x7f0b0186;
-        public static int Widget_Design_Snackbar=0x7f0b0187;
-        public static int Widget_Design_TabLayout=0x7f0b016e;
-        public static int Widget_Design_TextInputLayout=0x7f0b0188;
-        public static int Widget_MediaRouter_Light_MediaRouteButton=0x7f0b0009;
-        public static int Widget_MediaRouter_MediaRouteButton=0x7f0b000a;
+        public static final int AlertDialog_AppCompat=0x7f0b00ae;
+        public static final int AlertDialog_AppCompat_Light=0x7f0b00af;
+        public static final int Animation_AppCompat_Dialog=0x7f0b00b0;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0b00b1;
+        public static final int Animation_Design_BottomSheetDialog=0x7f0b0170;
+        public static final int Base_AlertDialog_AppCompat=0x7f0b00b2;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0b00b3;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0b00b4;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0b00b5;
+        public static final int Base_CardView=0x7f0b000c;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0b00b6;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b00b7;
+        public static final int Base_TextAppearance_AppCompat=0x7f0b004e;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b004f;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b0050;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b0036;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b0051;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b0052;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b0053;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b0054;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b0055;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b0056;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b001a;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b0057;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b001b;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0058;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0059;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b005a;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b001c;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b005b;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b00b8;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b005c;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b005d;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b005e;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b001d;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b005f;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b001e;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b0060;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b001f;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00a3;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0061;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0062;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0063;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0064;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0065;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0066;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b0067;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0b00aa;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0b00ab;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b00a4;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00b9;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0b0068;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0069;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b006a;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b006b;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b006c;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00ba;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b006d;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b006e;
+        public static final int Base_Theme_AppCompat=0x7f0b006f;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b00bb;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f0b0020;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b0021;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b00bc;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b0022;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b0010;
+        public static final int Base_Theme_AppCompat_Light=0x7f0b0070;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b00bd;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b0023;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b0024;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b00be;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0025;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0011;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0b00bf;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b00c0;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b00c1;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00c2;
+        public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0b0026;
+        public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0b0027;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b00c3;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b0028;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b0029;
+        public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0b002a;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b0032;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0b0033;
+        public static final int Base_V21_Theme_AppCompat=0x7f0b0071;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b0072;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b0073;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b0074;
+        public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0b0075;
+        public static final int Base_V22_Theme_AppCompat=0x7f0b00a1;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f0b00a2;
+        public static final int Base_V23_Theme_AppCompat=0x7f0b00a5;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f0b00a6;
+        public static final int Base_V7_Theme_AppCompat=0x7f0b00c4;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b00c5;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b00c6;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b00c7;
+        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0b00c8;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b00c9;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0b00ca;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b00cb;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00cc;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00cd;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0076;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0077;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b0078;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0079;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b007a;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b00ce;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00cf;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0034;
+        public static final int Base_Widget_AppCompat_Button=0x7f0b007b;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0b007c;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b007d;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00d0;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0b00a7;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f0b007e;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b007f;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00d1;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0080;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0081;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00d2;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b000f;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00d3;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b0082;
+        public static final int Base_Widget_AppCompat_EditText=0x7f0b0035;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f0b0083;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00d4;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00d5;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00d6;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0084;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0085;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0086;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b0087;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0088;
+        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0b00d7;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b0089;
+        public static final int Base_Widget_AppCompat_ListView=0x7f0b008a;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b008b;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b008c;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b008d;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b008e;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b00d8;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b002b;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b002c;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f0b008f;
+        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0b00a8;
+        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0b00a9;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0b00d9;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00da;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f0b0090;
+        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0b00db;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f0b0091;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b0012;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b0092;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b00dc;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0093;
+        public static final int Base_Widget_Design_AppBarLayout=0x7f0b0171;
+        public static final int Base_Widget_Design_TabLayout=0x7f0b0172;
+        public static final int CardView=0x7f0b000b;
+        public static final int CardView_Dark=0x7f0b000d;
+        public static final int CardView_Light=0x7f0b000e;
+        public static final int Platform_AppCompat=0x7f0b002d;
+        public static final int Platform_AppCompat_Light=0x7f0b002e;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f0b0094;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b0095;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0b0096;
+        public static final int Platform_V11_AppCompat=0x7f0b002f;
+        public static final int Platform_V11_AppCompat_Light=0x7f0b0030;
+        public static final int Platform_V14_AppCompat=0x7f0b0037;
+        public static final int Platform_V14_AppCompat_Light=0x7f0b0038;
+        public static final int Platform_V21_AppCompat=0x7f0b0097;
+        public static final int Platform_V21_AppCompat_Light=0x7f0b0098;
+        public static final int Platform_V25_AppCompat=0x7f0b00ac;
+        public static final int Platform_V25_AppCompat_Light=0x7f0b00ad;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f0b0031;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b0040;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b0041;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b0042;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b0043;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b0044;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b0045;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0046;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b0047;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b0048;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b0049;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b004a;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b004b;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b004c;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b004d;
+        public static final int TextAppearance_AppCompat=0x7f0b00dd;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0b00de;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0b00df;
+        public static final int TextAppearance_AppCompat_Button=0x7f0b00e0;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0b00e1;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0b00e2;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0b00e3;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0b00e4;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0b00e5;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0b00e6;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0b00e7;
+        public static final int TextAppearance_AppCompat_Large=0x7f0b00e8;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b00e9;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00ea;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00eb;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00ec;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00ed;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0b00ee;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00ef;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0b00f0;
+        public static final int TextAppearance_AppCompat_Notification=0x7f0b0039;
+        public static final int TextAppearance_AppCompat_Notification_Info=0x7f0b0099;
+        public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f0b009a;
+        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0b00f1;
+        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0b00f2;
+        public static final int TextAppearance_AppCompat_Notification_Media=0x7f0b009b;
+        public static final int TextAppearance_AppCompat_Notification_Time=0x7f0b009c;
+        public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f0b009d;
+        public static final int TextAppearance_AppCompat_Notification_Title=0x7f0b003a;
+        public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f0b009e;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00f3;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00f4;
+        public static final int TextAppearance_AppCompat_Small=0x7f0b00f5;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b00f6;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0b00f7;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00f8;
+        public static final int TextAppearance_AppCompat_Title=0x7f0b00f9;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b00fa;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00fb;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00fc;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00fd;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00fe;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00ff;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0100;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b0101;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0102;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b0103;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0b0104;
+        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0b0105;
+        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0b0106;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b0107;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0108;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0b0109;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b010a;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b010b;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b010c;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b010d;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0b0173;
+        public static final int TextAppearance_Design_Counter=0x7f0b0174;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f0b0175;
+        public static final int TextAppearance_Design_Error=0x7f0b0176;
+        public static final int TextAppearance_Design_Hint=0x7f0b0177;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f0b0178;
+        public static final int TextAppearance_Design_Tab=0x7f0b0179;
+        public static final int TextAppearance_MediaRouter_PrimaryText=0x7f0b0000;
+        public static final int TextAppearance_MediaRouter_SecondaryText=0x7f0b0001;
+        public static final int TextAppearance_MediaRouter_Title=0x7f0b0002;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f0b003b;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0b003c;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0b003d;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0b003e;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0b003f;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b010e;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b010f;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0110;
+        public static final int Theme_AppCompat=0x7f0b0111;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0b0112;
+        public static final int Theme_AppCompat_DayNight=0x7f0b0013;
+        public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0b0014;
+        public static final int Theme_AppCompat_DayNight_Dialog=0x7f0b0015;
+        public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0b0016;
+        public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0b0017;
+        public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0b0018;
+        public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0b0019;
+        public static final int Theme_AppCompat_Dialog=0x7f0b0113;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0b0114;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b0115;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b0116;
+        public static final int Theme_AppCompat_Light=0x7f0b0117;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b0118;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0b0119;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b011a;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b011b;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b011c;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b011d;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0b011e;
+        public static final int Theme_Design=0x7f0b017a;
+        public static final int Theme_Design_BottomSheetDialog=0x7f0b017b;
+        public static final int Theme_Design_Light=0x7f0b017c;
+        public static final int Theme_Design_Light_BottomSheetDialog=0x7f0b017d;
+        public static final int Theme_Design_Light_NoActionBar=0x7f0b017e;
+        public static final int Theme_Design_NoActionBar=0x7f0b017f;
+        public static final int Theme_MediaRouter=0x7f0b0003;
+        public static final int Theme_MediaRouter_Light=0x7f0b0004;
+        public static final int Theme_MediaRouter_Light_DarkControlPanel=0x7f0b0005;
+        public static final int Theme_MediaRouter_LightControlPanel=0x7f0b0006;
+        public static final int ThemeOverlay_AppCompat=0x7f0b011f;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b0120;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b0121;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0122;
+        public static final int ThemeOverlay_AppCompat_Dialog=0x7f0b0123;
+        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0b0124;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0b0125;
+        public static final int ThemeOverlay_MediaRouter_Dark=0x7f0b0007;
+        public static final int ThemeOverlay_MediaRouter_Light=0x7f0b0008;
+        public static final int Widget_AppCompat_ActionBar=0x7f0b0126;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b0127;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b0128;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b0129;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b012a;
+        public static final int Widget_AppCompat_ActionButton=0x7f0b012b;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b012c;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b012d;
+        public static final int Widget_AppCompat_ActionMode=0x7f0b012e;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b012f;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b0130;
+        public static final int Widget_AppCompat_Button=0x7f0b0131;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0b0132;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0b0133;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b0134;
+        public static final int Widget_AppCompat_Button_Colored=0x7f0b0135;
+        public static final int Widget_AppCompat_Button_Small=0x7f0b0136;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0b0137;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0138;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0139;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b013a;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b013b;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b013c;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b013d;
+        public static final int Widget_AppCompat_EditText=0x7f0b013e;
+        public static final int Widget_AppCompat_ImageButton=0x7f0b013f;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b0140;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0141;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b0142;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0143;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0144;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0145;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0146;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0147;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0148;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b0149;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b014a;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b014b;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b014c;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b014d;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b014e;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b014f;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b0150;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b0151;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b0152;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0153;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f0b0154;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0155;
+        public static final int Widget_AppCompat_ListMenuView=0x7f0b0156;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b0157;
+        public static final int Widget_AppCompat_ListView=0x7f0b0158;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b0159;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f0b015a;
+        public static final int Widget_AppCompat_NotificationActionContainer=0x7f0b009f;
+        public static final int Widget_AppCompat_NotificationActionText=0x7f0b00a0;
+        public static final int Widget_AppCompat_PopupMenu=0x7f0b015b;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b015c;
+        public static final int Widget_AppCompat_PopupWindow=0x7f0b015d;
+        public static final int Widget_AppCompat_ProgressBar=0x7f0b015e;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b015f;
+        public static final int Widget_AppCompat_RatingBar=0x7f0b0160;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0b0161;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f0b0162;
+        public static final int Widget_AppCompat_SearchView=0x7f0b0163;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0b0164;
+        public static final int Widget_AppCompat_SeekBar=0x7f0b0165;
+        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0b0166;
+        public static final int Widget_AppCompat_Spinner=0x7f0b0167;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b0168;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0169;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0b016a;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0b016b;
+        public static final int Widget_AppCompat_Toolbar=0x7f0b016c;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b016d;
+        public static final int Widget_Design_AppBarLayout=0x7f0b016f;
+        public static final int Widget_Design_BottomNavigationView=0x7f0b0180;
+        public static final int Widget_Design_BottomSheet_Modal=0x7f0b0181;
+        public static final int Widget_Design_CollapsingToolbar=0x7f0b0182;
+        public static final int Widget_Design_CoordinatorLayout=0x7f0b0183;
+        public static final int Widget_Design_FloatingActionButton=0x7f0b0184;
+        public static final int Widget_Design_NavigationView=0x7f0b0185;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0b0186;
+        public static final int Widget_Design_Snackbar=0x7f0b0187;
+        public static final int Widget_Design_TabLayout=0x7f0b016e;
+        public static final int Widget_Design_TextInputLayout=0x7f0b0188;
+        public static final int Widget_MediaRouter_Light_MediaRouteButton=0x7f0b0009;
+        public static final int Widget_MediaRouter_MediaRouteButton=0x7f0b000a;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -3748,35 +3748,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background android.support.transition:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit android.support.transition:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked android.support.transition:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd android.support.transition:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions android.support.transition:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft android.support.transition:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight android.support.transition:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart android.support.transition:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation android.support.transition:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout android.support.transition:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions android.support.transition:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider android.support.transition:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation android.support.transition:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height android.support.transition:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll android.support.transition:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator android.support.transition:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout android.support.transition:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon android.support.transition:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle android.support.transition:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding android.support.transition:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo android.support.transition:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode android.support.transition:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme android.support.transition:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding android.support.transition:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle android.support.transition:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle android.support.transition:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle android.support.transition:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title android.support.transition:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle android.support.transition:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background EvvMobile.Schedule.NUnit.Droid:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit EvvMobile.Schedule.NUnit.Droid:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked EvvMobile.Schedule.NUnit.Droid:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd EvvMobile.Schedule.NUnit.Droid:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions EvvMobile.Schedule.NUnit.Droid:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft EvvMobile.Schedule.NUnit.Droid:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight EvvMobile.Schedule.NUnit.Droid:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart EvvMobile.Schedule.NUnit.Droid:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation EvvMobile.Schedule.NUnit.Droid:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout EvvMobile.Schedule.NUnit.Droid:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions EvvMobile.Schedule.NUnit.Droid:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider EvvMobile.Schedule.NUnit.Droid:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation EvvMobile.Schedule.NUnit.Droid:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height EvvMobile.Schedule.NUnit.Droid:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll EvvMobile.Schedule.NUnit.Droid:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator EvvMobile.Schedule.NUnit.Droid:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout EvvMobile.Schedule.NUnit.Droid:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon EvvMobile.Schedule.NUnit.Droid:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle EvvMobile.Schedule.NUnit.Droid:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding EvvMobile.Schedule.NUnit.Droid:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo EvvMobile.Schedule.NUnit.Droid:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode EvvMobile.Schedule.NUnit.Droid:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme EvvMobile.Schedule.NUnit.Droid:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding EvvMobile.Schedule.NUnit.Droid:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle EvvMobile.Schedule.NUnit.Droid:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle EvvMobile.Schedule.NUnit.Droid:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle EvvMobile.Schedule.NUnit.Droid:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title EvvMobile.Schedule.NUnit.Droid:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle EvvMobile.Schedule.NUnit.Droid:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3819,17 +3819,17 @@ containing a value of this type.
             0x7f010079
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#background}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:background
+          @attr name EvvMobile.Schedule.NUnit.Droid:background
         */
-        public static int ActionBar_background = 10;
+        public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3837,11 +3837,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.transition:backgroundSplit
+          @attr name EvvMobile.Schedule.NUnit.Droid:backgroundSplit
         */
-        public static int ActionBar_backgroundSplit = 12;
+        public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3849,11 +3849,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.transition:backgroundStacked
+          @attr name EvvMobile.Schedule.NUnit.Droid:backgroundStacked
         */
-        public static int ActionBar_backgroundStacked = 11;
+        public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3865,11 +3865,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetEnd
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetEnd
         */
-        public static int ActionBar_contentInsetEnd = 21;
+        public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3881,11 +3881,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetEndWithActions
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetEndWithActions
         */
-        public static int ActionBar_contentInsetEndWithActions = 25;
+        public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3897,11 +3897,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetLeft
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetLeft
         */
-        public static int ActionBar_contentInsetLeft = 22;
+        public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3913,11 +3913,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetRight
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetRight
         */
-        public static int ActionBar_contentInsetRight = 23;
+        public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3929,11 +3929,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetStart
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetStart
         */
-        public static int ActionBar_contentInsetStart = 20;
+        public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3945,21 +3945,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetStartWithNavigation
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetStartWithNavigation
         */
-        public static int ActionBar_contentInsetStartWithNavigation = 24;
+        public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:customNavigationLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:customNavigationLayout
         */
-        public static int ActionBar_customNavigationLayout = 13;
+        public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3977,21 +3977,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name android.support.transition:displayOptions
+          @attr name EvvMobile.Schedule.NUnit.Droid:displayOptions
         */
-        public static int ActionBar_displayOptions = 3;
+        public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#divider}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:divider
+          @attr name EvvMobile.Schedule.NUnit.Droid:divider
         */
-        public static int ActionBar_divider = 9;
+        public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#elevation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4003,11 +4003,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:elevation
+          @attr name EvvMobile.Schedule.NUnit.Droid:elevation
         */
-        public static int ActionBar_elevation = 26;
+        public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#height}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4019,11 +4019,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:height
+          @attr name EvvMobile.Schedule.NUnit.Droid:height
         */
-        public static int ActionBar_height = 0;
+        public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4033,51 +4033,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:hideOnContentScroll
+          @attr name EvvMobile.Schedule.NUnit.Droid:hideOnContentScroll
         */
-        public static int ActionBar_hideOnContentScroll = 19;
+        public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:homeAsUpIndicator
+          @attr name EvvMobile.Schedule.NUnit.Droid:homeAsUpIndicator
         */
-        public static int ActionBar_homeAsUpIndicator = 28;
+        public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:homeLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:homeLayout
         */
-        public static int ActionBar_homeLayout = 14;
+        public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#icon}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:icon
+          @attr name EvvMobile.Schedule.NUnit.Droid:icon
         */
-        public static int ActionBar_icon = 7;
+        public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:indeterminateProgressStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:indeterminateProgressStyle
         */
-        public static int ActionBar_indeterminateProgressStyle = 16;
+        public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4089,21 +4089,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:itemPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:itemPadding
         */
-        public static int ActionBar_itemPadding = 18;
+        public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#logo}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:logo
+          @attr name EvvMobile.Schedule.NUnit.Droid:logo
         */
-        public static int ActionBar_logo = 8;
+        public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4117,21 +4117,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name android.support.transition:navigationMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:navigationMode
         */
-        public static int ActionBar_navigationMode = 2;
+        public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:popupTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:popupTheme
         */
-        public static int ActionBar_popupTheme = 27;
+        public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4143,21 +4143,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:progressBarPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:progressBarPadding
         */
-        public static int ActionBar_progressBarPadding = 17;
+        public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:progressBarStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:progressBarStyle
         */
-        public static int ActionBar_progressBarStyle = 15;
+        public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4167,21 +4167,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:subtitle
+          @attr name EvvMobile.Schedule.NUnit.Droid:subtitle
         */
-        public static int ActionBar_subtitle = 4;
+        public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:subtitleTextStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:subtitleTextStyle
         */
-        public static int ActionBar_subtitleTextStyle = 6;
+        public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#title}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4191,19 +4191,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:title
+          @attr name EvvMobile.Schedule.NUnit.Droid:title
         */
-        public static int ActionBar_title = 1;
+        public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:titleTextStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleTextStyle
         */
-        public static int ActionBar_titleTextStyle = 5;
+        public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -4222,7 +4222,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBarLayout} array.
           @attr name android:layout_gravity
         */
-        public static int ActionBarLayout_android_layout_gravity = 0;
+        public static final int ActionBarLayout_android_layout_gravity = 0;
         /** Attributes that can be used with a ActionMenuItemView.
            <p>Includes the following attributes:</p>
            <table>
@@ -4241,7 +4241,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionMenuItemView} array.
           @attr name android:minWidth
         */
-        public static int ActionMenuItemView_android_minWidth = 0;
+        public static final int ActionMenuItemView_android_minWidth = 0;
         /** Attributes that can be used with a ActionMenuView.
          */
         public static final int[] ActionMenuView = {
@@ -4253,12 +4253,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background android.support.transition:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit android.support.transition:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout android.support.transition:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height android.support.transition:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle android.support.transition:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle android.support.transition:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background EvvMobile.Schedule.NUnit.Droid:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit EvvMobile.Schedule.NUnit.Droid:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout EvvMobile.Schedule.NUnit.Droid:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height EvvMobile.Schedule.NUnit.Droid:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle EvvMobile.Schedule.NUnit.Droid:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle EvvMobile.Schedule.NUnit.Droid:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4272,17 +4272,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01002a, 0x7f01003a
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#background}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:background
+          @attr name EvvMobile.Schedule.NUnit.Droid:background
         */
-        public static int ActionMode_background = 3;
+        public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4290,21 +4290,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.transition:backgroundSplit
+          @attr name EvvMobile.Schedule.NUnit.Droid:backgroundSplit
         */
-        public static int ActionMode_backgroundSplit = 4;
+        public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:closeItemLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:closeItemLayout
         */
-        public static int ActionMode_closeItemLayout = 5;
+        public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#height}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4316,37 +4316,37 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:height
+          @attr name EvvMobile.Schedule.NUnit.Droid:height
         */
-        public static int ActionMode_height = 0;
+        public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:subtitleTextStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:subtitleTextStyle
         */
-        public static int ActionMode_subtitleTextStyle = 2;
+        public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:titleTextStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleTextStyle
         */
-        public static int ActionMode_titleTextStyle = 1;
+        public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable android.support.transition:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount android.support.transition:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable EvvMobile.Schedule.NUnit.Droid:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount EvvMobile.Schedule.NUnit.Droid:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -4355,17 +4355,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01003b, 0x7f01003c
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:expandActivityOverflowButtonDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:expandActivityOverflowButtonDrawable
         */
-        public static int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
+        public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4375,9 +4375,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:initialActivityCount
+          @attr name EvvMobile.Schedule.NUnit.Droid:initialActivityCount
         */
-        public static int ActivityChooserView_initialActivityCount = 0;
+        public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
            <p>Includes the following attributes:</p>
            <table>
@@ -4385,12 +4385,12 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout android.support.transition:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout android.support.transition:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout android.support.transition:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout android.support.transition:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_showTitle android.support.transition:showTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout android.support.transition:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout EvvMobile.Schedule.NUnit.Droid:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout EvvMobile.Schedule.NUnit.Droid:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout EvvMobile.Schedule.NUnit.Droid:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout EvvMobile.Schedule.NUnit.Droid:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_showTitle EvvMobile.Schedule.NUnit.Droid:showTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout EvvMobile.Schedule.NUnit.Droid:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4409,49 +4409,49 @@ containing a value of this type.
           attribute's value can be found in the {@link #AlertDialog} array.
           @attr name android:layout
         */
-        public static int AlertDialog_android_layout = 0;
+        public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:buttonPanelSideLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonPanelSideLayout
         */
-        public static int AlertDialog_buttonPanelSideLayout = 1;
+        public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:listItemLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:listItemLayout
         */
-        public static int AlertDialog_listItemLayout = 5;
+        public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:listLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:listLayout
         */
-        public static int AlertDialog_listLayout = 2;
+        public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:multiChoiceItemLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:multiChoiceItemLayout
         */
-        public static int AlertDialog_multiChoiceItemLayout = 3;
+        public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#showTitle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#showTitle}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -4461,19 +4461,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:showTitle
+          @attr name EvvMobile.Schedule.NUnit.Droid:showTitle
         */
-        public static int AlertDialog_showTitle = 6;
+        public static final int AlertDialog_showTitle = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:singleChoiceItemLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:singleChoiceItemLayout
         */
-        public static int AlertDialog_singleChoiceItemLayout = 4;
+        public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -4481,8 +4481,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation android.support.transition:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded android.support.transition:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation EvvMobile.Schedule.NUnit.Droid:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded EvvMobile.Schedule.NUnit.Droid:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -4496,9 +4496,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppBarLayout} array.
           @attr name android:background
         */
-        public static int AppBarLayout_android_background = 0;
+        public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#elevation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4510,11 +4510,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:elevation
+          @attr name EvvMobile.Schedule.NUnit.Droid:elevation
         */
-        public static int AppBarLayout_elevation = 1;
+        public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#expanded}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4524,17 +4524,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:expanded
+          @attr name EvvMobile.Schedule.NUnit.Droid:expanded
         */
-        public static int AppBarLayout_expanded = 2;
+        public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayoutStates.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed android.support.transition:state_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible android.support.transition:state_collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed EvvMobile.Schedule.NUnit.Droid:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible EvvMobile.Schedule.NUnit.Droid:state_collapsible}</code></td><td></td></tr>
            </table>
            @see #AppBarLayoutStates_state_collapsed
            @see #AppBarLayoutStates_state_collapsible
@@ -4543,7 +4543,7 @@ containing a value of this type.
             0x7f010104, 0x7f010105
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#state_collapsed}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#state_collapsed}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -4553,11 +4553,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:state_collapsed
+          @attr name EvvMobile.Schedule.NUnit.Droid:state_collapsed
         */
-        public static int AppBarLayoutStates_state_collapsed = 0;
+        public static final int AppBarLayoutStates_state_collapsed = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#state_collapsible}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#state_collapsible}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -4567,17 +4567,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:state_collapsible
+          @attr name EvvMobile.Schedule.NUnit.Droid:state_collapsible
         */
-        public static int AppBarLayoutStates_state_collapsible = 1;
+        public static final int AppBarLayoutStates_state_collapsible = 1;
         /** Attributes that can be used with a AppBarLayout_Layout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags android.support.transition:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator android.support.transition:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags EvvMobile.Schedule.NUnit.Droid:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator EvvMobile.Schedule.NUnit.Droid:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_Layout_layout_scrollFlags
            @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -4586,7 +4586,7 @@ containing a value of this type.
             0x7f010106, 0x7f010107
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
@@ -4602,19 +4602,19 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name android.support.transition:layout_scrollFlags
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_scrollFlags
         */
-        public static int AppBarLayout_Layout_layout_scrollFlags = 0;
+        public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:layout_scrollInterpolator
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_scrollInterpolator
         */
-        public static int AppBarLayout_Layout_layout_scrollInterpolator = 1;
+        public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
            <p>Includes the following attributes:</p>
            <table>
@@ -4622,9 +4622,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat android.support.transition:srcCompat}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tint android.support.transition:tint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tintMode android.support.transition:tintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat EvvMobile.Schedule.NUnit.Droid:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tint EvvMobile.Schedule.NUnit.Droid:tint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tintMode EvvMobile.Schedule.NUnit.Droid:tintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -4639,19 +4639,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #AppCompatImageView} array.
           @attr name android:src
         */
-        public static int AppCompatImageView_android_src = 0;
+        public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:srcCompat
+          @attr name EvvMobile.Schedule.NUnit.Droid:srcCompat
         */
-        public static int AppCompatImageView_srcCompat = 1;
+        public static final int AppCompatImageView_srcCompat = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tint}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -4662,11 +4662,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tint
+          @attr name EvvMobile.Schedule.NUnit.Droid:tint
         */
-        public static int AppCompatImageView_tint = 2;
+        public static final int AppCompatImageView_tint = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tintMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tintMode}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -4682,9 +4682,9 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name android.support.transition:tintMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:tintMode
         */
-        public static int AppCompatImageView_tintMode = 3;
+        public static final int AppCompatImageView_tintMode = 3;
         /** Attributes that can be used with a AppCompatSeekBar.
            <p>Includes the following attributes:</p>
            <table>
@@ -4692,9 +4692,9 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark android.support.transition:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint android.support.transition:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode android.support.transition:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark EvvMobile.Schedule.NUnit.Droid:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint EvvMobile.Schedule.NUnit.Droid:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode EvvMobile.Schedule.NUnit.Droid:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -4709,19 +4709,19 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
           @attr name android:thumb
         */
-        public static int AppCompatSeekBar_android_thumb = 0;
+        public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:tickMark
+          @attr name EvvMobile.Schedule.NUnit.Droid:tickMark
         */
-        public static int AppCompatSeekBar_tickMark = 1;
+        public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -4732,11 +4732,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tickMarkTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:tickMarkTint
         */
-        public static int AppCompatSeekBar_tickMarkTint = 2;
+        public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -4753,9 +4753,9 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name android.support.transition:tickMarkTintMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:tickMarkTintMode
         */
-        public static int AppCompatSeekBar_tickMarkTintMode = 3;
+        public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
            <p>Includes the following attributes:</p>
            <table>
@@ -4787,43 +4787,43 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatTextHelper} array.
           @attr name android:drawableBottom
         */
-        public static int AppCompatTextHelper_android_drawableBottom = 2;
+        public static final int AppCompatTextHelper_android_drawableBottom = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#drawableEnd}
           attribute's value can be found in the {@link #AppCompatTextHelper} array.
           @attr name android:drawableEnd
         */
-        public static int AppCompatTextHelper_android_drawableEnd = 6;
+        public static final int AppCompatTextHelper_android_drawableEnd = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#drawableLeft}
           attribute's value can be found in the {@link #AppCompatTextHelper} array.
           @attr name android:drawableLeft
         */
-        public static int AppCompatTextHelper_android_drawableLeft = 3;
+        public static final int AppCompatTextHelper_android_drawableLeft = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#drawableRight}
           attribute's value can be found in the {@link #AppCompatTextHelper} array.
           @attr name android:drawableRight
         */
-        public static int AppCompatTextHelper_android_drawableRight = 4;
+        public static final int AppCompatTextHelper_android_drawableRight = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#drawableStart}
           attribute's value can be found in the {@link #AppCompatTextHelper} array.
           @attr name android:drawableStart
         */
-        public static int AppCompatTextHelper_android_drawableStart = 5;
+        public static final int AppCompatTextHelper_android_drawableStart = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#drawableTop}
           attribute's value can be found in the {@link #AppCompatTextHelper} array.
           @attr name android:drawableTop
         */
-        public static int AppCompatTextHelper_android_drawableTop = 1;
+        public static final int AppCompatTextHelper_android_drawableTop = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
           attribute's value can be found in the {@link #AppCompatTextHelper} array.
           @attr name android:textAppearance
         */
-        public static int AppCompatTextHelper_android_textAppearance = 0;
+        public static final int AppCompatTextHelper_android_textAppearance = 0;
         /** Attributes that can be used with a AppCompatTextView.
            <p>Includes the following attributes:</p>
            <table>
@@ -4831,7 +4831,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps android.support.transition:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps EvvMobile.Schedule.NUnit.Droid:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4844,140 +4844,140 @@ containing a value of this type.
           attribute's value can be found in the {@link #AppCompatTextView} array.
           @attr name android:textAppearance
         */
-        public static int AppCompatTextView_android_textAppearance = 0;
+        public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name android.support.transition:textAllCaps
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAllCaps
         */
-        public static int AppCompatTextView_textAllCaps = 1;
+        public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider android.support.transition:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground android.support.transition:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme android.support.transition:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize android.support.transition:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle android.support.transition:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle android.support.transition:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle android.support.transition:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle android.support.transition:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle android.support.transition:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme android.support.transition:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme android.support.transition:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle android.support.transition:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle android.support.transition:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance android.support.transition:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor android.support.transition:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground android.support.transition:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle android.support.transition:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable android.support.transition:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable android.support.transition:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable android.support.transition:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable android.support.transition:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable android.support.transition:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle android.support.transition:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable android.support.transition:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable android.support.transition:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground android.support.transition:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle android.support.transition:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable android.support.transition:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle android.support.transition:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle android.support.transition:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle android.support.transition:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle android.support.transition:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons android.support.transition:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle android.support.transition:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme android.support.transition:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider EvvMobile.Schedule.NUnit.Droid:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground EvvMobile.Schedule.NUnit.Droid:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme EvvMobile.Schedule.NUnit.Droid:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize EvvMobile.Schedule.NUnit.Droid:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle EvvMobile.Schedule.NUnit.Droid:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle EvvMobile.Schedule.NUnit.Droid:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle EvvMobile.Schedule.NUnit.Droid:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle EvvMobile.Schedule.NUnit.Droid:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle EvvMobile.Schedule.NUnit.Droid:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme EvvMobile.Schedule.NUnit.Droid:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme EvvMobile.Schedule.NUnit.Droid:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle EvvMobile.Schedule.NUnit.Droid:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle EvvMobile.Schedule.NUnit.Droid:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance EvvMobile.Schedule.NUnit.Droid:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor EvvMobile.Schedule.NUnit.Droid:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground EvvMobile.Schedule.NUnit.Droid:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle EvvMobile.Schedule.NUnit.Droid:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable EvvMobile.Schedule.NUnit.Droid:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable EvvMobile.Schedule.NUnit.Droid:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable EvvMobile.Schedule.NUnit.Droid:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable EvvMobile.Schedule.NUnit.Droid:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable EvvMobile.Schedule.NUnit.Droid:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle EvvMobile.Schedule.NUnit.Droid:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable EvvMobile.Schedule.NUnit.Droid:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable EvvMobile.Schedule.NUnit.Droid:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground EvvMobile.Schedule.NUnit.Droid:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle EvvMobile.Schedule.NUnit.Droid:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable EvvMobile.Schedule.NUnit.Droid:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle EvvMobile.Schedule.NUnit.Droid:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle EvvMobile.Schedule.NUnit.Droid:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle EvvMobile.Schedule.NUnit.Droid:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle EvvMobile.Schedule.NUnit.Droid:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons EvvMobile.Schedule.NUnit.Droid:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle EvvMobile.Schedule.NUnit.Droid:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme EvvMobile.Schedule.NUnit.Droid:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle android.support.transition:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle android.support.transition:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle android.support.transition:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle android.support.transition:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle android.support.transition:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle android.support.transition:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle android.support.transition:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle android.support.transition:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall android.support.transition:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle android.support.transition:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle android.support.transition:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent android.support.transition:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating android.support.transition:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal android.support.transition:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated android.support.transition:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight android.support.transition:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal android.support.transition:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary android.support.transition:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark android.support.transition:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal android.support.transition:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground android.support.transition:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding android.support.transition:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme android.support.transition:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal android.support.transition:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical android.support.transition:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle android.support.transition:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight android.support.transition:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground android.support.transition:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor android.support.transition:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle android.support.transition:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator android.support.transition:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle android.support.transition:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator android.support.transition:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog android.support.transition:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle android.support.transition:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle android.support.transition:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight android.support.transition:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge android.support.transition:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall android.support.transition:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft android.support.transition:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight android.support.transition:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground android.support.transition:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme android.support.transition:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth android.support.transition:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle android.support.transition:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle android.support.transition:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle android.support.transition:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle android.support.transition:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator android.support.transition:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall android.support.transition:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle android.support.transition:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle android.support.transition:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground android.support.transition:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless android.support.transition:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle android.support.transition:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle android.support.transition:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle android.support.transition:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu android.support.transition:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem android.support.transition:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary android.support.transition:textAppearanceListItemSecondary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall android.support.transition:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader android.support.transition:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle android.support.transition:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle android.support.transition:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu android.support.transition:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem android.support.transition:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl android.support.transition:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle android.support.transition:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle android.support.transition:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar android.support.transition:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay android.support.transition:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay android.support.transition:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor android.support.transition:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor android.support.transition:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor android.support.transition:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor android.support.transition:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor android.support.transition:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor android.support.transition:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle android.support.transition:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle EvvMobile.Schedule.NUnit.Droid:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle EvvMobile.Schedule.NUnit.Droid:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle EvvMobile.Schedule.NUnit.Droid:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle EvvMobile.Schedule.NUnit.Droid:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle EvvMobile.Schedule.NUnit.Droid:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle EvvMobile.Schedule.NUnit.Droid:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle EvvMobile.Schedule.NUnit.Droid:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle EvvMobile.Schedule.NUnit.Droid:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall EvvMobile.Schedule.NUnit.Droid:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle EvvMobile.Schedule.NUnit.Droid:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle EvvMobile.Schedule.NUnit.Droid:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent EvvMobile.Schedule.NUnit.Droid:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating EvvMobile.Schedule.NUnit.Droid:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal EvvMobile.Schedule.NUnit.Droid:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated EvvMobile.Schedule.NUnit.Droid:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight EvvMobile.Schedule.NUnit.Droid:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal EvvMobile.Schedule.NUnit.Droid:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary EvvMobile.Schedule.NUnit.Droid:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark EvvMobile.Schedule.NUnit.Droid:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal EvvMobile.Schedule.NUnit.Droid:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground EvvMobile.Schedule.NUnit.Droid:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding EvvMobile.Schedule.NUnit.Droid:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme EvvMobile.Schedule.NUnit.Droid:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal EvvMobile.Schedule.NUnit.Droid:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical EvvMobile.Schedule.NUnit.Droid:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle EvvMobile.Schedule.NUnit.Droid:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight EvvMobile.Schedule.NUnit.Droid:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground EvvMobile.Schedule.NUnit.Droid:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor EvvMobile.Schedule.NUnit.Droid:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle EvvMobile.Schedule.NUnit.Droid:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator EvvMobile.Schedule.NUnit.Droid:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle EvvMobile.Schedule.NUnit.Droid:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator EvvMobile.Schedule.NUnit.Droid:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog EvvMobile.Schedule.NUnit.Droid:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle EvvMobile.Schedule.NUnit.Droid:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle EvvMobile.Schedule.NUnit.Droid:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight EvvMobile.Schedule.NUnit.Droid:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge EvvMobile.Schedule.NUnit.Droid:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall EvvMobile.Schedule.NUnit.Droid:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft EvvMobile.Schedule.NUnit.Droid:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight EvvMobile.Schedule.NUnit.Droid:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground EvvMobile.Schedule.NUnit.Droid:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme EvvMobile.Schedule.NUnit.Droid:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth EvvMobile.Schedule.NUnit.Droid:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle EvvMobile.Schedule.NUnit.Droid:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle EvvMobile.Schedule.NUnit.Droid:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle EvvMobile.Schedule.NUnit.Droid:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle EvvMobile.Schedule.NUnit.Droid:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator EvvMobile.Schedule.NUnit.Droid:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall EvvMobile.Schedule.NUnit.Droid:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle EvvMobile.Schedule.NUnit.Droid:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle EvvMobile.Schedule.NUnit.Droid:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground EvvMobile.Schedule.NUnit.Droid:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless EvvMobile.Schedule.NUnit.Droid:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle EvvMobile.Schedule.NUnit.Droid:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle EvvMobile.Schedule.NUnit.Droid:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle EvvMobile.Schedule.NUnit.Droid:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu EvvMobile.Schedule.NUnit.Droid:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem EvvMobile.Schedule.NUnit.Droid:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary EvvMobile.Schedule.NUnit.Droid:textAppearanceListItemSecondary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall EvvMobile.Schedule.NUnit.Droid:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader EvvMobile.Schedule.NUnit.Droid:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle EvvMobile.Schedule.NUnit.Droid:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle EvvMobile.Schedule.NUnit.Droid:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu EvvMobile.Schedule.NUnit.Droid:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem EvvMobile.Schedule.NUnit.Droid:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl EvvMobile.Schedule.NUnit.Droid:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle EvvMobile.Schedule.NUnit.Droid:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle EvvMobile.Schedule.NUnit.Droid:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar EvvMobile.Schedule.NUnit.Droid:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay EvvMobile.Schedule.NUnit.Droid:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay EvvMobile.Schedule.NUnit.Droid:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor EvvMobile.Schedule.NUnit.Droid:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor EvvMobile.Schedule.NUnit.Droid:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor EvvMobile.Schedule.NUnit.Droid:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor EvvMobile.Schedule.NUnit.Droid:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor EvvMobile.Schedule.NUnit.Droid:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor EvvMobile.Schedule.NUnit.Droid:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle EvvMobile.Schedule.NUnit.Droid:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -5128,37 +5128,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarDivider
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarDivider
         */
-        public static int AppCompatTheme_actionBarDivider = 23;
+        public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarItemBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarItemBackground
         */
-        public static int AppCompatTheme_actionBarItemBackground = 24;
+        public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarPopupTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarPopupTheme
         */
-        public static int AppCompatTheme_actionBarPopupTheme = 17;
+        public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5178,111 +5178,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name android.support.transition:actionBarSize
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarSize
         */
-        public static int AppCompatTheme_actionBarSize = 22;
+        public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarSplitStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarSplitStyle
         */
-        public static int AppCompatTheme_actionBarSplitStyle = 19;
+        public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarStyle
         */
-        public static int AppCompatTheme_actionBarStyle = 18;
+        public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarTabBarStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarTabBarStyle
         */
-        public static int AppCompatTheme_actionBarTabBarStyle = 13;
+        public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarTabStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarTabStyle
         */
-        public static int AppCompatTheme_actionBarTabStyle = 12;
+        public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarTabTextStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarTabTextStyle
         */
-        public static int AppCompatTheme_actionBarTabTextStyle = 14;
+        public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarTheme
         */
-        public static int AppCompatTheme_actionBarTheme = 20;
+        public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionBarWidgetTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionBarWidgetTheme
         */
-        public static int AppCompatTheme_actionBarWidgetTheme = 21;
+        public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionButtonStyle
         */
-        public static int AppCompatTheme_actionButtonStyle = 50;
+        public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionDropDownStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionDropDownStyle
         */
-        public static int AppCompatTheme_actionDropDownStyle = 46;
+        public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionMenuTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionMenuTextAppearance
         */
-        public static int AppCompatTheme_actionMenuTextAppearance = 25;
+        public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5290,181 +5290,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.transition:actionMenuTextColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionMenuTextColor
         */
-        public static int AppCompatTheme_actionMenuTextColor = 26;
+        public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeBackground
         */
-        public static int AppCompatTheme_actionModeBackground = 29;
+        public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeCloseButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeCloseButtonStyle
         */
-        public static int AppCompatTheme_actionModeCloseButtonStyle = 28;
+        public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeCloseDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeCloseDrawable
         */
-        public static int AppCompatTheme_actionModeCloseDrawable = 31;
+        public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeCopyDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeCopyDrawable
         */
-        public static int AppCompatTheme_actionModeCopyDrawable = 33;
+        public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeCutDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeCutDrawable
         */
-        public static int AppCompatTheme_actionModeCutDrawable = 32;
+        public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeFindDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeFindDrawable
         */
-        public static int AppCompatTheme_actionModeFindDrawable = 37;
+        public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModePasteDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModePasteDrawable
         */
-        public static int AppCompatTheme_actionModePasteDrawable = 34;
+        public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModePopupWindowStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModePopupWindowStyle
         */
-        public static int AppCompatTheme_actionModePopupWindowStyle = 39;
+        public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeSelectAllDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeSelectAllDrawable
         */
-        public static int AppCompatTheme_actionModeSelectAllDrawable = 35;
+        public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeShareDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeShareDrawable
         */
-        public static int AppCompatTheme_actionModeShareDrawable = 36;
+        public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeSplitBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeSplitBackground
         */
-        public static int AppCompatTheme_actionModeSplitBackground = 30;
+        public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeStyle
         */
-        public static int AppCompatTheme_actionModeStyle = 27;
+        public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionModeWebSearchDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionModeWebSearchDrawable
         */
-        public static int AppCompatTheme_actionModeWebSearchDrawable = 38;
+        public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionOverflowButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionOverflowButtonStyle
         */
-        public static int AppCompatTheme_actionOverflowButtonStyle = 15;
+        public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionOverflowMenuStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionOverflowMenuStyle
         */
-        public static int AppCompatTheme_actionOverflowMenuStyle = 16;
+        public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:activityChooserViewStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:activityChooserViewStyle
         */
-        public static int AppCompatTheme_activityChooserViewStyle = 58;
+        public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:alertDialogButtonGroupStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:alertDialogButtonGroupStyle
         */
-        public static int AppCompatTheme_alertDialogButtonGroupStyle = 95;
+        public static final int AppCompatTheme_alertDialogButtonGroupStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5474,153 +5474,153 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:alertDialogCenterButtons
+          @attr name EvvMobile.Schedule.NUnit.Droid:alertDialogCenterButtons
         */
-        public static int AppCompatTheme_alertDialogCenterButtons = 96;
+        public static final int AppCompatTheme_alertDialogCenterButtons = 96;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:alertDialogStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:alertDialogStyle
         */
-        public static int AppCompatTheme_alertDialogStyle = 94;
+        public static final int AppCompatTheme_alertDialogStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:alertDialogTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:alertDialogTheme
         */
-        public static int AppCompatTheme_alertDialogTheme = 97;
+        public static final int AppCompatTheme_alertDialogTheme = 97;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
           @attr name android:windowAnimationStyle
         */
-        public static int AppCompatTheme_android_windowAnimationStyle = 1;
+        public static final int AppCompatTheme_android_windowAnimationStyle = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
           @attr name android:windowIsFloating
         */
-        public static int AppCompatTheme_android_windowIsFloating = 0;
+        public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:autoCompleteTextViewStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:autoCompleteTextViewStyle
         */
-        public static int AppCompatTheme_autoCompleteTextViewStyle = 102;
+        public static final int AppCompatTheme_autoCompleteTextViewStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:borderlessButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:borderlessButtonStyle
         */
-        public static int AppCompatTheme_borderlessButtonStyle = 55;
+        public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:buttonBarButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonBarButtonStyle
         */
-        public static int AppCompatTheme_buttonBarButtonStyle = 52;
+        public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:buttonBarNegativeButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonBarNegativeButtonStyle
         */
-        public static int AppCompatTheme_buttonBarNegativeButtonStyle = 100;
+        public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:buttonBarNeutralButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonBarNeutralButtonStyle
         */
-        public static int AppCompatTheme_buttonBarNeutralButtonStyle = 101;
+        public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:buttonBarPositiveButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonBarPositiveButtonStyle
         */
-        public static int AppCompatTheme_buttonBarPositiveButtonStyle = 99;
+        public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:buttonBarStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonBarStyle
         */
-        public static int AppCompatTheme_buttonBarStyle = 51;
+        public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:buttonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonStyle
         */
-        public static int AppCompatTheme_buttonStyle = 103;
+        public static final int AppCompatTheme_buttonStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:buttonStyleSmall
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonStyleSmall
         */
-        public static int AppCompatTheme_buttonStyleSmall = 104;
+        public static final int AppCompatTheme_buttonStyleSmall = 104;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:checkboxStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:checkboxStyle
         */
-        public static int AppCompatTheme_checkboxStyle = 105;
+        public static final int AppCompatTheme_checkboxStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:checkedTextViewStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:checkedTextViewStyle
         */
-        public static int AppCompatTheme_checkedTextViewStyle = 106;
+        public static final int AppCompatTheme_checkedTextViewStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5631,11 +5631,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:colorAccent
+          @attr name EvvMobile.Schedule.NUnit.Droid:colorAccent
         */
-        public static int AppCompatTheme_colorAccent = 86;
+        public static final int AppCompatTheme_colorAccent = 86;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5646,11 +5646,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:colorBackgroundFloating
+          @attr name EvvMobile.Schedule.NUnit.Droid:colorBackgroundFloating
         */
-        public static int AppCompatTheme_colorBackgroundFloating = 93;
+        public static final int AppCompatTheme_colorBackgroundFloating = 93;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5661,11 +5661,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:colorButtonNormal
+          @attr name EvvMobile.Schedule.NUnit.Droid:colorButtonNormal
         */
-        public static int AppCompatTheme_colorButtonNormal = 90;
+        public static final int AppCompatTheme_colorButtonNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5676,11 +5676,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:colorControlActivated
+          @attr name EvvMobile.Schedule.NUnit.Droid:colorControlActivated
         */
-        public static int AppCompatTheme_colorControlActivated = 88;
+        public static final int AppCompatTheme_colorControlActivated = 88;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5691,11 +5691,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:colorControlHighlight
+          @attr name EvvMobile.Schedule.NUnit.Droid:colorControlHighlight
         */
-        public static int AppCompatTheme_colorControlHighlight = 89;
+        public static final int AppCompatTheme_colorControlHighlight = 89;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5706,11 +5706,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:colorControlNormal
+          @attr name EvvMobile.Schedule.NUnit.Droid:colorControlNormal
         */
-        public static int AppCompatTheme_colorControlNormal = 87;
+        public static final int AppCompatTheme_colorControlNormal = 87;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5721,11 +5721,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:colorPrimary
+          @attr name EvvMobile.Schedule.NUnit.Droid:colorPrimary
         */
-        public static int AppCompatTheme_colorPrimary = 84;
+        public static final int AppCompatTheme_colorPrimary = 84;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5736,11 +5736,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:colorPrimaryDark
+          @attr name EvvMobile.Schedule.NUnit.Droid:colorPrimaryDark
         */
-        public static int AppCompatTheme_colorPrimaryDark = 85;
+        public static final int AppCompatTheme_colorPrimaryDark = 85;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5751,21 +5751,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:colorSwitchThumbNormal
+          @attr name EvvMobile.Schedule.NUnit.Droid:colorSwitchThumbNormal
         */
-        public static int AppCompatTheme_colorSwitchThumbNormal = 91;
+        public static final int AppCompatTheme_colorSwitchThumbNormal = 91;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:controlBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:controlBackground
         */
-        public static int AppCompatTheme_controlBackground = 92;
+        public static final int AppCompatTheme_controlBackground = 92;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5777,51 +5777,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:dialogPreferredPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:dialogPreferredPadding
         */
-        public static int AppCompatTheme_dialogPreferredPadding = 44;
+        public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:dialogTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:dialogTheme
         */
-        public static int AppCompatTheme_dialogTheme = 43;
+        public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:dividerHorizontal
+          @attr name EvvMobile.Schedule.NUnit.Droid:dividerHorizontal
         */
-        public static int AppCompatTheme_dividerHorizontal = 57;
+        public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:dividerVertical
+          @attr name EvvMobile.Schedule.NUnit.Droid:dividerVertical
         */
-        public static int AppCompatTheme_dividerVertical = 56;
+        public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:dropDownListViewStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:dropDownListViewStyle
         */
-        public static int AppCompatTheme_dropDownListViewStyle = 75;
+        public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5833,21 +5833,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:dropdownListPreferredItemHeight
+          @attr name EvvMobile.Schedule.NUnit.Droid:dropdownListPreferredItemHeight
         */
-        public static int AppCompatTheme_dropdownListPreferredItemHeight = 47;
+        public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:editTextBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:editTextBackground
         */
-        public static int AppCompatTheme_editTextBackground = 64;
+        public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5855,81 +5855,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.transition:editTextColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:editTextColor
         */
-        public static int AppCompatTheme_editTextColor = 63;
+        public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:editTextStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:editTextStyle
         */
-        public static int AppCompatTheme_editTextStyle = 107;
+        public static final int AppCompatTheme_editTextStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:homeAsUpIndicator
+          @attr name EvvMobile.Schedule.NUnit.Droid:homeAsUpIndicator
         */
-        public static int AppCompatTheme_homeAsUpIndicator = 49;
+        public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:imageButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:imageButtonStyle
         */
-        public static int AppCompatTheme_imageButtonStyle = 65;
+        public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:listChoiceBackgroundIndicator
+          @attr name EvvMobile.Schedule.NUnit.Droid:listChoiceBackgroundIndicator
         */
-        public static int AppCompatTheme_listChoiceBackgroundIndicator = 83;
+        public static final int AppCompatTheme_listChoiceBackgroundIndicator = 83;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:listDividerAlertDialog
+          @attr name EvvMobile.Schedule.NUnit.Droid:listDividerAlertDialog
         */
-        public static int AppCompatTheme_listDividerAlertDialog = 45;
+        public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:listMenuViewStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:listMenuViewStyle
         */
-        public static int AppCompatTheme_listMenuViewStyle = 115;
+        public static final int AppCompatTheme_listMenuViewStyle = 115;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:listPopupWindowStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:listPopupWindowStyle
         */
-        public static int AppCompatTheme_listPopupWindowStyle = 76;
+        public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5941,11 +5941,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:listPreferredItemHeight
+          @attr name EvvMobile.Schedule.NUnit.Droid:listPreferredItemHeight
         */
-        public static int AppCompatTheme_listPreferredItemHeight = 70;
+        public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5957,11 +5957,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:listPreferredItemHeightLarge
+          @attr name EvvMobile.Schedule.NUnit.Droid:listPreferredItemHeightLarge
         */
-        public static int AppCompatTheme_listPreferredItemHeightLarge = 72;
+        public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5973,11 +5973,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:listPreferredItemHeightSmall
+          @attr name EvvMobile.Schedule.NUnit.Droid:listPreferredItemHeightSmall
         */
-        public static int AppCompatTheme_listPreferredItemHeightSmall = 71;
+        public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5989,11 +5989,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:listPreferredItemPaddingLeft
+          @attr name EvvMobile.Schedule.NUnit.Droid:listPreferredItemPaddingLeft
         */
-        public static int AppCompatTheme_listPreferredItemPaddingLeft = 73;
+        public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6005,31 +6005,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:listPreferredItemPaddingRight
+          @attr name EvvMobile.Schedule.NUnit.Droid:listPreferredItemPaddingRight
         */
-        public static int AppCompatTheme_listPreferredItemPaddingRight = 74;
+        public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:panelBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:panelBackground
         */
-        public static int AppCompatTheme_panelBackground = 80;
+        public static final int AppCompatTheme_panelBackground = 80;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:panelMenuListTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:panelMenuListTheme
         */
-        public static int AppCompatTheme_panelMenuListTheme = 82;
+        public static final int AppCompatTheme_panelMenuListTheme = 82;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6041,221 +6041,221 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:panelMenuListWidth
+          @attr name EvvMobile.Schedule.NUnit.Droid:panelMenuListWidth
         */
-        public static int AppCompatTheme_panelMenuListWidth = 81;
+        public static final int AppCompatTheme_panelMenuListWidth = 81;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:popupMenuStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:popupMenuStyle
         */
-        public static int AppCompatTheme_popupMenuStyle = 61;
+        public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:popupWindowStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:popupWindowStyle
         */
-        public static int AppCompatTheme_popupWindowStyle = 62;
+        public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:radioButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:radioButtonStyle
         */
-        public static int AppCompatTheme_radioButtonStyle = 108;
+        public static final int AppCompatTheme_radioButtonStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:ratingBarStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:ratingBarStyle
         */
-        public static int AppCompatTheme_ratingBarStyle = 109;
+        public static final int AppCompatTheme_ratingBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:ratingBarStyleIndicator
+          @attr name EvvMobile.Schedule.NUnit.Droid:ratingBarStyleIndicator
         */
-        public static int AppCompatTheme_ratingBarStyleIndicator = 110;
+        public static final int AppCompatTheme_ratingBarStyleIndicator = 110;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:ratingBarStyleSmall
+          @attr name EvvMobile.Schedule.NUnit.Droid:ratingBarStyleSmall
         */
-        public static int AppCompatTheme_ratingBarStyleSmall = 111;
+        public static final int AppCompatTheme_ratingBarStyleSmall = 111;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:searchViewStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:searchViewStyle
         */
-        public static int AppCompatTheme_searchViewStyle = 69;
+        public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:seekBarStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:seekBarStyle
         */
-        public static int AppCompatTheme_seekBarStyle = 112;
+        public static final int AppCompatTheme_seekBarStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:selectableItemBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:selectableItemBackground
         */
-        public static int AppCompatTheme_selectableItemBackground = 53;
+        public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:selectableItemBackgroundBorderless
+          @attr name EvvMobile.Schedule.NUnit.Droid:selectableItemBackgroundBorderless
         */
-        public static int AppCompatTheme_selectableItemBackgroundBorderless = 54;
+        public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:spinnerDropDownItemStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:spinnerDropDownItemStyle
         */
-        public static int AppCompatTheme_spinnerDropDownItemStyle = 48;
+        public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:spinnerStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:spinnerStyle
         */
-        public static int AppCompatTheme_spinnerStyle = 113;
+        public static final int AppCompatTheme_spinnerStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:switchStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:switchStyle
         */
-        public static int AppCompatTheme_switchStyle = 114;
+        public static final int AppCompatTheme_switchStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:textAppearanceLargePopupMenu
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAppearanceLargePopupMenu
         */
-        public static int AppCompatTheme_textAppearanceLargePopupMenu = 40;
+        public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:textAppearanceListItem
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAppearanceListItem
         */
-        public static int AppCompatTheme_textAppearanceListItem = 77;
+        public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAppearanceListItemSecondary}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAppearanceListItemSecondary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:textAppearanceListItemSecondary
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAppearanceListItemSecondary
         */
-        public static int AppCompatTheme_textAppearanceListItemSecondary = 78;
+        public static final int AppCompatTheme_textAppearanceListItemSecondary = 78;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:textAppearanceListItemSmall
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAppearanceListItemSmall
         */
-        public static int AppCompatTheme_textAppearanceListItemSmall = 79;
+        public static final int AppCompatTheme_textAppearanceListItemSmall = 79;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:textAppearancePopupMenuHeader
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAppearancePopupMenuHeader
         */
-        public static int AppCompatTheme_textAppearancePopupMenuHeader = 42;
+        public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:textAppearanceSearchResultSubtitle
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAppearanceSearchResultSubtitle
         */
-        public static int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
+        public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:textAppearanceSearchResultTitle
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAppearanceSearchResultTitle
         */
-        public static int AppCompatTheme_textAppearanceSearchResultTitle = 66;
+        public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:textAppearanceSmallPopupMenu
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAppearanceSmallPopupMenu
         */
-        public static int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
+        public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6263,11 +6263,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.transition:textColorAlertDialogListItem
+          @attr name EvvMobile.Schedule.NUnit.Droid:textColorAlertDialogListItem
         */
-        public static int AppCompatTheme_textColorAlertDialogListItem = 98;
+        public static final int AppCompatTheme_textColorAlertDialogListItem = 98;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6275,31 +6275,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.transition:textColorSearchUrl
+          @attr name EvvMobile.Schedule.NUnit.Droid:textColorSearchUrl
         */
-        public static int AppCompatTheme_textColorSearchUrl = 68;
+        public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:toolbarNavigationButtonStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:toolbarNavigationButtonStyle
         */
-        public static int AppCompatTheme_toolbarNavigationButtonStyle = 60;
+        public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:toolbarStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:toolbarStyle
         */
-        public static int AppCompatTheme_toolbarStyle = 59;
+        public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6309,11 +6309,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowActionBar
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowActionBar
         */
-        public static int AppCompatTheme_windowActionBar = 2;
+        public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6323,11 +6323,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowActionBarOverlay
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowActionBarOverlay
         */
-        public static int AppCompatTheme_windowActionBarOverlay = 4;
+        public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6337,11 +6337,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowActionModeOverlay
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowActionModeOverlay
         */
-        public static int AppCompatTheme_windowActionModeOverlay = 5;
+        public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6356,11 +6356,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowFixedHeightMajor
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowFixedHeightMajor
         */
-        public static int AppCompatTheme_windowFixedHeightMajor = 9;
+        public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6375,11 +6375,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowFixedHeightMinor
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowFixedHeightMinor
         */
-        public static int AppCompatTheme_windowFixedHeightMinor = 7;
+        public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6394,11 +6394,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowFixedWidthMajor
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowFixedWidthMajor
         */
-        public static int AppCompatTheme_windowFixedWidthMajor = 6;
+        public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6413,11 +6413,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowFixedWidthMinor
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowFixedWidthMinor
         */
-        public static int AppCompatTheme_windowFixedWidthMinor = 8;
+        public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6432,11 +6432,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowMinWidthMajor
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowMinWidthMajor
         */
-        public static int AppCompatTheme_windowMinWidthMajor = 10;
+        public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6451,11 +6451,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowMinWidthMinor
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowMinWidthMinor
         */
-        public static int AppCompatTheme_windowMinWidthMinor = 11;
+        public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6465,20 +6465,20 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:windowNoTitle
+          @attr name EvvMobile.Schedule.NUnit.Droid:windowNoTitle
         */
-        public static int AppCompatTheme_windowNoTitle = 3;
+        public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomNavigationView.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomNavigationView_elevation android.support.transition:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemBackground android.support.transition:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemIconTint android.support.transition:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemTextColor android.support.transition:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_menu android.support.transition:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_elevation EvvMobile.Schedule.NUnit.Droid:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemBackground EvvMobile.Schedule.NUnit.Droid:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemIconTint EvvMobile.Schedule.NUnit.Droid:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextColor EvvMobile.Schedule.NUnit.Droid:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_menu EvvMobile.Schedule.NUnit.Droid:menu}</code></td><td></td></tr>
            </table>
            @see #BottomNavigationView_elevation
            @see #BottomNavigationView_itemBackground
@@ -6491,7 +6491,7 @@ containing a value of this type.
             0x7f010131
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#elevation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#elevation}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6503,21 +6503,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:elevation
+          @attr name EvvMobile.Schedule.NUnit.Droid:elevation
         */
-        public static int BottomNavigationView_elevation = 0;
+        public static final int BottomNavigationView_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#itemBackground}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:itemBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:itemBackground
         */
-        public static int BottomNavigationView_itemBackground = 4;
+        public static final int BottomNavigationView_itemBackground = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#itemIconTint}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6528,11 +6528,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:itemIconTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:itemIconTint
         */
-        public static int BottomNavigationView_itemIconTint = 2;
+        public static final int BottomNavigationView_itemIconTint = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#itemTextColor}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6543,28 +6543,28 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:itemTextColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:itemTextColor
         */
-        public static int BottomNavigationView_itemTextColor = 3;
+        public static final int BottomNavigationView_itemTextColor = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#menu}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#menu}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:menu
+          @attr name EvvMobile.Schedule.NUnit.Droid:menu
         */
-        public static int BottomNavigationView_menu = 1;
+        public static final int BottomNavigationView_menu = 1;
         /** Attributes that can be used with a BottomSheetBehavior_Layout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable android.support.transition:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight android.support.transition:behavior_peekHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed android.support.transition:behavior_skipCollapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable EvvMobile.Schedule.NUnit.Droid:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight EvvMobile.Schedule.NUnit.Droid:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed EvvMobile.Schedule.NUnit.Droid:behavior_skipCollapsed}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Layout_behavior_hideable
            @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -6574,7 +6574,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010108, 0x7f010109, 0x7f01010a
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6584,11 +6584,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:behavior_hideable
+          @attr name EvvMobile.Schedule.NUnit.Droid:behavior_hideable
         */
-        public static int BottomSheetBehavior_Layout_behavior_hideable = 1;
+        public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6608,11 +6608,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name android.support.transition:behavior_peekHeight
+          @attr name EvvMobile.Schedule.NUnit.Droid:behavior_peekHeight
         */
-        public static int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
+        public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#behavior_skipCollapsed}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#behavior_skipCollapsed}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6622,16 +6622,16 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:behavior_skipCollapsed
+          @attr name EvvMobile.Schedule.NUnit.Droid:behavior_skipCollapsed
         */
-        public static int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
+        public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
         /** Attributes that can be used with a ButtonBarLayout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking android.support.transition:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking EvvMobile.Schedule.NUnit.Droid:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -6639,7 +6639,7 @@ containing a value of this type.
             0x7f0100bc
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -6649,9 +6649,9 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:allowStacking
+          @attr name EvvMobile.Schedule.NUnit.Droid:allowStacking
         */
-        public static int ButtonBarLayout_allowStacking = 0;
+        public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
            <p>Includes the following attributes:</p>
            <table>
@@ -6660,17 +6660,17 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor android.support.transition:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius android.support.transition:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation android.support.transition:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation android.support.transition:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap android.support.transition:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding android.support.transition:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding android.support.transition:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom android.support.transition:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft android.support.transition:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight android.support.transition:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop android.support.transition:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor EvvMobile.Schedule.NUnit.Droid:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius EvvMobile.Schedule.NUnit.Droid:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation EvvMobile.Schedule.NUnit.Droid:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation EvvMobile.Schedule.NUnit.Droid:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap EvvMobile.Schedule.NUnit.Droid:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding EvvMobile.Schedule.NUnit.Droid:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding EvvMobile.Schedule.NUnit.Droid:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom EvvMobile.Schedule.NUnit.Droid:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft EvvMobile.Schedule.NUnit.Droid:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight EvvMobile.Schedule.NUnit.Droid:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop EvvMobile.Schedule.NUnit.Droid:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_android_minHeight
            @see #CardView_android_minWidth
@@ -6697,15 +6697,15 @@ containing a value of this type.
           attribute's value can be found in the {@link #CardView} array.
           @attr name android:minHeight
         */
-        public static int CardView_android_minHeight = 1;
+        public static final int CardView_android_minHeight = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minWidth}
           attribute's value can be found in the {@link #CardView} array.
           @attr name android:minWidth
         */
-        public static int CardView_android_minWidth = 0;
+        public static final int CardView_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6716,11 +6716,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:cardBackgroundColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:cardBackgroundColor
         */
-        public static int CardView_cardBackgroundColor = 2;
+        public static final int CardView_cardBackgroundColor = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6732,11 +6732,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:cardCornerRadius
+          @attr name EvvMobile.Schedule.NUnit.Droid:cardCornerRadius
         */
-        public static int CardView_cardCornerRadius = 3;
+        public static final int CardView_cardCornerRadius = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6748,11 +6748,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:cardElevation
+          @attr name EvvMobile.Schedule.NUnit.Droid:cardElevation
         */
-        public static int CardView_cardElevation = 4;
+        public static final int CardView_cardElevation = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6764,11 +6764,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:cardMaxElevation
+          @attr name EvvMobile.Schedule.NUnit.Droid:cardMaxElevation
         */
-        public static int CardView_cardMaxElevation = 5;
+        public static final int CardView_cardMaxElevation = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6778,11 +6778,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:cardPreventCornerOverlap
+          @attr name EvvMobile.Schedule.NUnit.Droid:cardPreventCornerOverlap
         */
-        public static int CardView_cardPreventCornerOverlap = 7;
+        public static final int CardView_cardPreventCornerOverlap = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6792,11 +6792,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:cardUseCompatPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:cardUseCompatPadding
         */
-        public static int CardView_cardUseCompatPadding = 6;
+        public static final int CardView_cardUseCompatPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6808,11 +6808,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentPadding
         */
-        public static int CardView_contentPadding = 8;
+        public static final int CardView_contentPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6824,11 +6824,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentPaddingBottom
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentPaddingBottom
         */
-        public static int CardView_contentPaddingBottom = 12;
+        public static final int CardView_contentPaddingBottom = 12;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6840,11 +6840,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentPaddingLeft
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentPaddingLeft
         */
-        public static int CardView_contentPaddingLeft = 9;
+        public static final int CardView_contentPaddingLeft = 9;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6856,11 +6856,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentPaddingRight
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentPaddingRight
         */
-        public static int CardView_contentPaddingRight = 10;
+        public static final int CardView_contentPaddingRight = 10;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6872,31 +6872,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentPaddingTop
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentPaddingTop
         */
-        public static int CardView_contentPaddingTop = 11;
+        public static final int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a CollapsingToolbarLayout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity android.support.transition:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance android.support.transition:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim android.support.transition:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity android.support.transition:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin android.support.transition:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom android.support.transition:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd android.support.transition:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart android.support.transition:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop android.support.transition:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance android.support.transition:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration android.support.transition:scrimAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger android.support.transition:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim android.support.transition:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title android.support.transition:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled android.support.transition:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId android.support.transition:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity EvvMobile.Schedule.NUnit.Droid:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance EvvMobile.Schedule.NUnit.Droid:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim EvvMobile.Schedule.NUnit.Droid:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity EvvMobile.Schedule.NUnit.Droid:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin EvvMobile.Schedule.NUnit.Droid:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom EvvMobile.Schedule.NUnit.Droid:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd EvvMobile.Schedule.NUnit.Droid:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart EvvMobile.Schedule.NUnit.Droid:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop EvvMobile.Schedule.NUnit.Droid:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance EvvMobile.Schedule.NUnit.Droid:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration EvvMobile.Schedule.NUnit.Droid:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger EvvMobile.Schedule.NUnit.Droid:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim EvvMobile.Schedule.NUnit.Droid:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title EvvMobile.Schedule.NUnit.Droid:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled EvvMobile.Schedule.NUnit.Droid:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId EvvMobile.Schedule.NUnit.Droid:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -6922,7 +6922,7 @@ containing a value of this type.
             0x7f010116, 0x7f010117, 0x7f010118, 0x7f010119
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6943,21 +6943,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name android.support.transition:collapsedTitleGravity
+          @attr name EvvMobile.Schedule.NUnit.Droid:collapsedTitleGravity
         */
-        public static int CollapsingToolbarLayout_collapsedTitleGravity = 13;
+        public static final int CollapsingToolbarLayout_collapsedTitleGravity = 13;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:collapsedTitleTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:collapsedTitleTextAppearance
         */
-        public static int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
+        public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6968,11 +6968,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentScrim
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentScrim
         */
-        public static int CollapsingToolbarLayout_contentScrim = 8;
+        public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6993,11 +6993,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name android.support.transition:expandedTitleGravity
+          @attr name EvvMobile.Schedule.NUnit.Droid:expandedTitleGravity
         */
-        public static int CollapsingToolbarLayout_expandedTitleGravity = 14;
+        public static final int CollapsingToolbarLayout_expandedTitleGravity = 14;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7009,11 +7009,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:expandedTitleMargin
+          @attr name EvvMobile.Schedule.NUnit.Droid:expandedTitleMargin
         */
-        public static int CollapsingToolbarLayout_expandedTitleMargin = 1;
+        public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7025,11 +7025,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:expandedTitleMarginBottom
+          @attr name EvvMobile.Schedule.NUnit.Droid:expandedTitleMarginBottom
         */
-        public static int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
+        public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7041,11 +7041,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:expandedTitleMarginEnd
+          @attr name EvvMobile.Schedule.NUnit.Droid:expandedTitleMarginEnd
         */
-        public static int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
+        public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7057,11 +7057,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:expandedTitleMarginStart
+          @attr name EvvMobile.Schedule.NUnit.Droid:expandedTitleMarginStart
         */
-        public static int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
+        public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7073,21 +7073,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:expandedTitleMarginTop
+          @attr name EvvMobile.Schedule.NUnit.Droid:expandedTitleMarginTop
         */
-        public static int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
+        public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:expandedTitleTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:expandedTitleTextAppearance
         */
-        public static int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
+        public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#scrimAnimationDuration}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#scrimAnimationDuration}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7097,11 +7097,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:scrimAnimationDuration
+          @attr name EvvMobile.Schedule.NUnit.Droid:scrimAnimationDuration
         */
-        public static int CollapsingToolbarLayout_scrimAnimationDuration = 12;
+        public static final int CollapsingToolbarLayout_scrimAnimationDuration = 12;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#scrimVisibleHeightTrigger}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#scrimVisibleHeightTrigger}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7113,11 +7113,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:scrimVisibleHeightTrigger
+          @attr name EvvMobile.Schedule.NUnit.Droid:scrimVisibleHeightTrigger
         */
-        public static int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
+        public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7128,11 +7128,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:statusBarScrim
+          @attr name EvvMobile.Schedule.NUnit.Droid:statusBarScrim
         */
-        public static int CollapsingToolbarLayout_statusBarScrim = 9;
+        public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#title}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7142,11 +7142,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:title
+          @attr name EvvMobile.Schedule.NUnit.Droid:title
         */
-        public static int CollapsingToolbarLayout_title = 0;
+        public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7156,27 +7156,27 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:titleEnabled
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleEnabled
         */
-        public static int CollapsingToolbarLayout_titleEnabled = 15;
+        public static final int CollapsingToolbarLayout_titleEnabled = 15;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:toolbarId
+          @attr name EvvMobile.Schedule.NUnit.Droid:toolbarId
         */
-        public static int CollapsingToolbarLayout_toolbarId = 10;
+        public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode android.support.transition:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier android.support.transition:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode EvvMobile.Schedule.NUnit.Droid:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier EvvMobile.Schedule.NUnit.Droid:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_Layout_layout_collapseMode
            @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -7185,7 +7185,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01011a, 0x7f01011b
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -7199,11 +7199,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name android.support.transition:layout_collapseMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_collapseMode
         */
-        public static int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
+        public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -7213,16 +7213,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:layout_collapseParallaxMultiplier
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_collapseParallaxMultiplier
         */
-        public static int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
+        public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a ColorStateListItem.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha android.support.transition:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha EvvMobile.Schedule.NUnit.Droid:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -7234,7 +7234,7 @@ containing a value of this type.
             0x010101a5, 0x0101031f, 0x7f0100bd
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#alpha}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -7244,21 +7244,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:alpha
+          @attr name EvvMobile.Schedule.NUnit.Droid:alpha
         */
-        public static int ColorStateListItem_alpha = 2;
+        public static final int ColorStateListItem_alpha = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
           @attr name android:alpha
         */
-        public static int ColorStateListItem_android_alpha = 1;
+        public static final int ColorStateListItem_android_alpha = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#color}
           attribute's value can be found in the {@link #ColorStateListItem} array.
           @attr name android:color
         */
-        public static int ColorStateListItem_android_color = 0;
+        public static final int ColorStateListItem_android_color = 0;
         /** Attributes that can be used with a CompoundButton.
            <p>Includes the following attributes:</p>
            <table>
@@ -7266,8 +7266,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint android.support.transition:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode android.support.transition:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint EvvMobile.Schedule.NUnit.Droid:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode EvvMobile.Schedule.NUnit.Droid:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -7281,9 +7281,9 @@ containing a value of this type.
           attribute's value can be found in the {@link #CompoundButton} array.
           @attr name android:button
         */
-        public static int CompoundButton_android_button = 0;
+        public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -7294,11 +7294,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:buttonTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonTint
         */
-        public static int CompoundButton_buttonTint = 1;
+        public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -7314,17 +7314,17 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name android.support.transition:buttonTintMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonTintMode
         */
-        public static int CompoundButton_buttonTintMode = 2;
+        public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines android.support.transition:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground android.support.transition:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines EvvMobile.Schedule.NUnit.Droid:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground EvvMobile.Schedule.NUnit.Droid:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -7333,25 +7333,25 @@ containing a value of this type.
             0x7f01011c, 0x7f01011d
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#keylines}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:keylines
+          @attr name EvvMobile.Schedule.NUnit.Droid:keylines
         */
-        public static int CoordinatorLayout_keylines = 0;
+        public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:statusBarBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:statusBarBackground
         */
-        public static int CoordinatorLayout_statusBarBackground = 1;
+        public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
            <p>Includes the following attributes:</p>
            <table>
@@ -7359,12 +7359,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor android.support.transition:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity android.support.transition:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior android.support.transition:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges android.support.transition:layout_dodgeInsetEdges}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge android.support.transition:layout_insetEdge}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline android.support.transition:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor EvvMobile.Schedule.NUnit.Droid:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity EvvMobile.Schedule.NUnit.Droid:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior EvvMobile.Schedule.NUnit.Droid:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges EvvMobile.Schedule.NUnit.Droid:layout_dodgeInsetEdges}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge EvvMobile.Schedule.NUnit.Droid:layout_insetEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline EvvMobile.Schedule.NUnit.Droid:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -7383,19 +7383,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
           @attr name android:layout_gravity
         */
-        public static int CoordinatorLayout_Layout_android_layout_gravity = 0;
+        public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:layout_anchor
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_anchor
         */
-        public static int CoordinatorLayout_Layout_layout_anchor = 2;
+        public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7420,11 +7420,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name android.support.transition:layout_anchorGravity
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_anchorGravity
         */
-        public static int CoordinatorLayout_Layout_layout_anchorGravity = 4;
+        public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7434,11 +7434,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:layout_behavior
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_behavior
         */
-        public static int CoordinatorLayout_Layout_layout_behavior = 1;
+        public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_dodgeInsetEdges}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_dodgeInsetEdges}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7457,11 +7457,11 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
-          @attr name android.support.transition:layout_dodgeInsetEdges
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_dodgeInsetEdges
         */
-        public static int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
+        public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_insetEdge}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_insetEdge}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7479,11 +7479,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name android.support.transition:layout_insetEdge
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_insetEdge
         */
-        public static int CoordinatorLayout_Layout_layout_insetEdge = 5;
+        public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7493,18 +7493,18 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:layout_keyline
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout_keyline
         */
-        public static int CoordinatorLayout_Layout_layout_keyline = 3;
+        public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme android.support.transition:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle android.support.transition:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError android.support.transition:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme EvvMobile.Schedule.NUnit.Droid:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle EvvMobile.Schedule.NUnit.Droid:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError EvvMobile.Schedule.NUnit.Droid:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -7514,27 +7514,27 @@ containing a value of this type.
             0x7f010124, 0x7f010125, 0x7f010126
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:bottomSheetDialogTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:bottomSheetDialogTheme
         */
-        public static int DesignTheme_bottomSheetDialogTheme = 0;
+        public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:bottomSheetStyle
+          @attr name EvvMobile.Schedule.NUnit.Droid:bottomSheetStyle
         */
-        public static int DesignTheme_bottomSheetStyle = 1;
+        public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -7545,23 +7545,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:textColorError
+          @attr name EvvMobile.Schedule.NUnit.Droid:textColorError
         */
-        public static int DesignTheme_textColorError = 2;
+        public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength android.support.transition:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength android.support.transition:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength android.support.transition:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color android.support.transition:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize android.support.transition:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars android.support.transition:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars android.support.transition:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness android.support.transition:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength EvvMobile.Schedule.NUnit.Droid:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength EvvMobile.Schedule.NUnit.Droid:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength EvvMobile.Schedule.NUnit.Droid:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color EvvMobile.Schedule.NUnit.Droid:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize EvvMobile.Schedule.NUnit.Droid:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars EvvMobile.Schedule.NUnit.Droid:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars EvvMobile.Schedule.NUnit.Droid:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness EvvMobile.Schedule.NUnit.Droid:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -7577,7 +7577,7 @@ containing a value of this type.
             0x7f0100c4, 0x7f0100c5, 0x7f0100c6, 0x7f0100c7
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7589,11 +7589,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:arrowHeadLength
+          @attr name EvvMobile.Schedule.NUnit.Droid:arrowHeadLength
         */
-        public static int DrawerArrowToggle_arrowHeadLength = 4;
+        public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7605,11 +7605,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:arrowShaftLength
+          @attr name EvvMobile.Schedule.NUnit.Droid:arrowShaftLength
         */
-        public static int DrawerArrowToggle_arrowShaftLength = 5;
+        public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#barLength}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7621,11 +7621,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:barLength
+          @attr name EvvMobile.Schedule.NUnit.Droid:barLength
         */
-        public static int DrawerArrowToggle_barLength = 6;
+        public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#color}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7636,11 +7636,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:color
+          @attr name EvvMobile.Schedule.NUnit.Droid:color
         */
-        public static int DrawerArrowToggle_color = 0;
+        public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7652,11 +7652,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:drawableSize
+          @attr name EvvMobile.Schedule.NUnit.Droid:drawableSize
         */
-        public static int DrawerArrowToggle_drawableSize = 2;
+        public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7668,11 +7668,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:gapBetweenBars
+          @attr name EvvMobile.Schedule.NUnit.Droid:gapBetweenBars
         */
-        public static int DrawerArrowToggle_gapBetweenBars = 3;
+        public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7682,11 +7682,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:spinBars
+          @attr name EvvMobile.Schedule.NUnit.Droid:spinBars
         */
-        public static int DrawerArrowToggle_spinBars = 1;
+        public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#thickness}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7698,23 +7698,23 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:thickness
+          @attr name EvvMobile.Schedule.NUnit.Droid:thickness
         */
-        public static int DrawerArrowToggle_thickness = 7;
+        public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint android.support.transition:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode android.support.transition:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth android.support.transition:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation android.support.transition:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize android.support.transition:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ android.support.transition:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor android.support.transition:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding android.support.transition:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint EvvMobile.Schedule.NUnit.Droid:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode EvvMobile.Schedule.NUnit.Droid:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth EvvMobile.Schedule.NUnit.Droid:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation EvvMobile.Schedule.NUnit.Droid:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize EvvMobile.Schedule.NUnit.Droid:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ EvvMobile.Schedule.NUnit.Droid:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor EvvMobile.Schedule.NUnit.Droid:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding EvvMobile.Schedule.NUnit.Droid:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -7730,7 +7730,7 @@ containing a value of this type.
             0x7f010128, 0x7f010129, 0x7f01012a, 0x7f01012b
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7741,11 +7741,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:backgroundTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:backgroundTint
         */
-        public static int FloatingActionButton_backgroundTint = 1;
+        public static final int FloatingActionButton_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7761,11 +7761,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name android.support.transition:backgroundTintMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:backgroundTintMode
         */
-        public static int FloatingActionButton_backgroundTintMode = 2;
+        public static final int FloatingActionButton_backgroundTintMode = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7777,11 +7777,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:borderWidth
+          @attr name EvvMobile.Schedule.NUnit.Droid:borderWidth
         */
-        public static int FloatingActionButton_borderWidth = 6;
+        public static final int FloatingActionButton_borderWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#elevation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7793,11 +7793,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:elevation
+          @attr name EvvMobile.Schedule.NUnit.Droid:elevation
         */
-        public static int FloatingActionButton_elevation = 0;
+        public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7811,11 +7811,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name android.support.transition:fabSize
+          @attr name EvvMobile.Schedule.NUnit.Droid:fabSize
         */
-        public static int FloatingActionButton_fabSize = 4;
+        public static final int FloatingActionButton_fabSize = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7827,11 +7827,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:pressedTranslationZ
+          @attr name EvvMobile.Schedule.NUnit.Droid:pressedTranslationZ
         */
-        public static int FloatingActionButton_pressedTranslationZ = 5;
+        public static final int FloatingActionButton_pressedTranslationZ = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7842,11 +7842,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:rippleColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:rippleColor
         */
-        public static int FloatingActionButton_rippleColor = 3;
+        public static final int FloatingActionButton_rippleColor = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7856,16 +7856,16 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:useCompatPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:useCompatPadding
         */
-        public static int FloatingActionButton_useCompatPadding = 7;
+        public static final int FloatingActionButton_useCompatPadding = 7;
         /** Attributes that can be used with a FloatingActionButton_Behavior_Layout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide android.support.transition:behavior_autoHide}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide EvvMobile.Schedule.NUnit.Droid:behavior_autoHide}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
          */
@@ -7873,7 +7873,7 @@ containing a value of this type.
             0x7f01012c
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#behavior_autoHide}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#behavior_autoHide}
           attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
 
 
@@ -7883,9 +7883,9 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:behavior_autoHide
+          @attr name EvvMobile.Schedule.NUnit.Droid:behavior_autoHide
         */
-        public static int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
+        public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
         /** Attributes that can be used with a ForegroundLinearLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -7894,7 +7894,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding android.support.transition:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding EvvMobile.Schedule.NUnit.Droid:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -7908,15 +7908,15 @@ containing a value of this type.
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
           @attr name android:foreground
         */
-        public static int ForegroundLinearLayout_android_foreground = 0;
+        public static final int ForegroundLinearLayout_android_foreground = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#foregroundGravity}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
           @attr name android:foregroundGravity
         */
-        public static int ForegroundLinearLayout_android_foregroundGravity = 1;
+        public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -7926,9 +7926,9 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:foregroundInsidePadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:foregroundInsidePadding
         */
-        public static int ForegroundLinearLayout_foregroundInsidePadding = 2;
+        public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -7940,10 +7940,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider android.support.transition:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding android.support.transition:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild android.support.transition:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers android.support.transition:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider EvvMobile.Schedule.NUnit.Droid:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding EvvMobile.Schedule.NUnit.Droid:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild EvvMobile.Schedule.NUnit.Droid:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers EvvMobile.Schedule.NUnit.Droid:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -7965,43 +7965,43 @@ containing a value of this type.
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
           @attr name android:baselineAligned
         */
-        public static int LinearLayoutCompat_android_baselineAligned = 2;
+        public static final int LinearLayoutCompat_android_baselineAligned = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
           @attr name android:baselineAlignedChildIndex
         */
-        public static int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
+        public static final int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
           @attr name android:gravity
         */
-        public static int LinearLayoutCompat_android_gravity = 0;
+        public static final int LinearLayoutCompat_android_gravity = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
           @attr name android:orientation
         */
-        public static int LinearLayoutCompat_android_orientation = 1;
+        public static final int LinearLayoutCompat_android_orientation = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#weightSum}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
           @attr name android:weightSum
         */
-        public static int LinearLayoutCompat_android_weightSum = 4;
+        public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#divider}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:divider
+          @attr name EvvMobile.Schedule.NUnit.Droid:divider
         */
-        public static int LinearLayoutCompat_divider = 5;
+        public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -8013,11 +8013,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:dividerPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:dividerPadding
         */
-        public static int LinearLayoutCompat_dividerPadding = 8;
+        public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -8027,11 +8027,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:measureWithLargestChild
+          @attr name EvvMobile.Schedule.NUnit.Droid:measureWithLargestChild
         */
-        public static int LinearLayoutCompat_measureWithLargestChild = 6;
+        public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -8046,9 +8046,9 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name android.support.transition:showDividers
+          @attr name EvvMobile.Schedule.NUnit.Droid:showDividers
         */
-        public static int LinearLayoutCompat_showDividers = 7;
+        public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
            <p>Includes the following attributes:</p>
            <table>
@@ -8073,25 +8073,25 @@ containing a value of this type.
           attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
           @attr name android:layout_gravity
         */
-        public static int LinearLayoutCompat_Layout_android_layout_gravity = 0;
+        public static final int LinearLayoutCompat_Layout_android_layout_gravity = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_height}
           attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
           @attr name android:layout_height
         */
-        public static int LinearLayoutCompat_Layout_android_layout_height = 2;
+        public static final int LinearLayoutCompat_Layout_android_layout_height = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_weight}
           attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
           @attr name android:layout_weight
         */
-        public static int LinearLayoutCompat_Layout_android_layout_weight = 3;
+        public static final int LinearLayoutCompat_Layout_android_layout_weight = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_width}
           attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
           @attr name android:layout_width
         */
-        public static int LinearLayoutCompat_Layout_android_layout_width = 1;
+        public static final int LinearLayoutCompat_Layout_android_layout_width = 1;
         /** Attributes that can be used with a ListPopupWindow.
            <p>Includes the following attributes:</p>
            <table>
@@ -8112,13 +8112,13 @@ containing a value of this type.
           attribute's value can be found in the {@link #ListPopupWindow} array.
           @attr name android:dropDownHorizontalOffset
         */
-        public static int ListPopupWindow_android_dropDownHorizontalOffset = 0;
+        public static final int ListPopupWindow_android_dropDownHorizontalOffset = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dropDownVerticalOffset}
           attribute's value can be found in the {@link #ListPopupWindow} array.
           @attr name android:dropDownVerticalOffset
         */
-        public static int ListPopupWindow_android_dropDownVerticalOffset = 1;
+        public static final int ListPopupWindow_android_dropDownVerticalOffset = 1;
         /** Attributes that can be used with a MediaRouteButton.
            <p>Includes the following attributes:</p>
            <table>
@@ -8127,8 +8127,8 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_buttonTint android.support.transition:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable android.support.transition:externalRouteEnabledDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_buttonTint EvvMobile.Schedule.NUnit.Droid:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable EvvMobile.Schedule.NUnit.Droid:externalRouteEnabledDrawable}</code></td><td></td></tr>
            </table>
            @see #MediaRouteButton_android_minHeight
            @see #MediaRouteButton_android_minWidth
@@ -8143,15 +8143,15 @@ containing a value of this type.
           attribute's value can be found in the {@link #MediaRouteButton} array.
           @attr name android:minHeight
         */
-        public static int MediaRouteButton_android_minHeight = 1;
+        public static final int MediaRouteButton_android_minHeight = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minWidth}
           attribute's value can be found in the {@link #MediaRouteButton} array.
           @attr name android:minWidth
         */
-        public static int MediaRouteButton_android_minWidth = 0;
+        public static final int MediaRouteButton_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonTint}
           attribute's value can be found in the {@link #MediaRouteButton} array.
 
 
@@ -8162,19 +8162,19 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:buttonTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonTint
         */
-        public static int MediaRouteButton_buttonTint = 3;
+        public static final int MediaRouteButton_buttonTint = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#externalRouteEnabledDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#externalRouteEnabledDrawable}
           attribute's value can be found in the {@link #MediaRouteButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:externalRouteEnabledDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:externalRouteEnabledDrawable
         */
-        public static int MediaRouteButton_externalRouteEnabledDrawable = 2;
+        public static final int MediaRouteButton_externalRouteEnabledDrawable = 2;
         /** Attributes that can be used with a MenuGroup.
            <p>Includes the following attributes:</p>
            <table>
@@ -8204,46 +8204,46 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #MenuGroup} array.
           @attr name android:checkableBehavior
         */
-        public static int MenuGroup_android_checkableBehavior = 5;
+        public static final int MenuGroup_android_checkableBehavior = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#enabled}
           attribute's value can be found in the {@link #MenuGroup} array.
           @attr name android:enabled
         */
-        public static int MenuGroup_android_enabled = 0;
+        public static final int MenuGroup_android_enabled = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#id}
           attribute's value can be found in the {@link #MenuGroup} array.
           @attr name android:id
         */
-        public static int MenuGroup_android_id = 1;
+        public static final int MenuGroup_android_id = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
           attribute's value can be found in the {@link #MenuGroup} array.
           @attr name android:menuCategory
         */
-        public static int MenuGroup_android_menuCategory = 3;
+        public static final int MenuGroup_android_menuCategory = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
           attribute's value can be found in the {@link #MenuGroup} array.
           @attr name android:orderInCategory
         */
-        public static int MenuGroup_android_orderInCategory = 4;
+        public static final int MenuGroup_android_orderInCategory = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#visible}
           attribute's value can be found in the {@link #MenuGroup} array.
           @attr name android:visible
         */
-        public static int MenuGroup_android_visible = 2;
+        public static final int MenuGroup_android_visible = 2;
         /** Attributes that can be used with a MenuItem.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout android.support.transition:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass android.support.transition:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass android.support.transition:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout EvvMobile.Schedule.NUnit.Droid:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass EvvMobile.Schedule.NUnit.Droid:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass EvvMobile.Schedule.NUnit.Droid:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -8257,7 +8257,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction android.support.transition:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction EvvMobile.Schedule.NUnit.Droid:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -8285,17 +8285,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100ce
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:actionLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionLayout
         */
-        public static int MenuItem_actionLayout = 14;
+        public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -8305,11 +8305,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:actionProviderClass
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionProviderClass
         */
-        public static int MenuItem_actionProviderClass = 16;
+        public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -8319,89 +8319,89 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:actionViewClass
+          @attr name EvvMobile.Schedule.NUnit.Droid:actionViewClass
         */
-        public static int MenuItem_actionViewClass = 15;
+        public static final int MenuItem_actionViewClass = 15;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:alphabeticShortcut
         */
-        public static int MenuItem_android_alphabeticShortcut = 9;
+        public static final int MenuItem_android_alphabeticShortcut = 9;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#checkable}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:checkable
         */
-        public static int MenuItem_android_checkable = 11;
+        public static final int MenuItem_android_checkable = 11;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#checked}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:checked
         */
-        public static int MenuItem_android_checked = 3;
+        public static final int MenuItem_android_checked = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#enabled}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:enabled
         */
-        public static int MenuItem_android_enabled = 1;
+        public static final int MenuItem_android_enabled = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#icon}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:icon
         */
-        public static int MenuItem_android_icon = 0;
+        public static final int MenuItem_android_icon = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#id}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:id
         */
-        public static int MenuItem_android_id = 2;
+        public static final int MenuItem_android_id = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:menuCategory
         */
-        public static int MenuItem_android_menuCategory = 5;
+        public static final int MenuItem_android_menuCategory = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:numericShortcut
         */
-        public static int MenuItem_android_numericShortcut = 10;
+        public static final int MenuItem_android_numericShortcut = 10;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#onClick}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:onClick
         */
-        public static int MenuItem_android_onClick = 12;
+        public static final int MenuItem_android_onClick = 12;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:orderInCategory
         */
-        public static int MenuItem_android_orderInCategory = 6;
+        public static final int MenuItem_android_orderInCategory = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#title}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:title
         */
-        public static int MenuItem_android_title = 7;
+        public static final int MenuItem_android_title = 7;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#titleCondensed}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:titleCondensed
         */
-        public static int MenuItem_android_titleCondensed = 8;
+        public static final int MenuItem_android_titleCondensed = 8;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#visible}
           attribute's value can be found in the {@link #MenuItem} array.
           @attr name android:visible
         */
-        public static int MenuItem_android_visible = 4;
+        public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -8417,9 +8417,9 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name android.support.transition:showAsAction
+          @attr name EvvMobile.Schedule.NUnit.Droid:showAsAction
         */
-        public static int MenuItem_showAsAction = 13;
+        public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
            <p>Includes the following attributes:</p>
            <table>
@@ -8433,8 +8433,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing android.support.transition:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow android.support.transition:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing EvvMobile.Schedule.NUnit.Droid:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow EvvMobile.Schedule.NUnit.Droid:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -8456,45 +8456,45 @@ containing a value of this type.
           attribute's value can be found in the {@link #MenuView} array.
           @attr name android:headerBackground
         */
-        public static int MenuView_android_headerBackground = 4;
+        public static final int MenuView_android_headerBackground = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
           attribute's value can be found in the {@link #MenuView} array.
           @attr name android:horizontalDivider
         */
-        public static int MenuView_android_horizontalDivider = 2;
+        public static final int MenuView_android_horizontalDivider = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
           attribute's value can be found in the {@link #MenuView} array.
           @attr name android:itemBackground
         */
-        public static int MenuView_android_itemBackground = 5;
+        public static final int MenuView_android_itemBackground = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#itemIconDisabledAlpha}
           attribute's value can be found in the {@link #MenuView} array.
           @attr name android:itemIconDisabledAlpha
         */
-        public static int MenuView_android_itemIconDisabledAlpha = 6;
+        public static final int MenuView_android_itemIconDisabledAlpha = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #MenuView} array.
           @attr name android:itemTextAppearance
         */
-        public static int MenuView_android_itemTextAppearance = 1;
+        public static final int MenuView_android_itemTextAppearance = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
           attribute's value can be found in the {@link #MenuView} array.
           @attr name android:verticalDivider
         */
-        public static int MenuView_android_verticalDivider = 3;
+        public static final int MenuView_android_verticalDivider = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
           attribute's value can be found in the {@link #MenuView} array.
           @attr name android:windowAnimationStyle
         */
-        public static int MenuView_android_windowAnimationStyle = 0;
+        public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -8504,19 +8504,19 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:preserveIconSpacing
+          @attr name EvvMobile.Schedule.NUnit.Droid:preserveIconSpacing
         */
-        public static int MenuView_preserveIconSpacing = 7;
+        public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:subMenuArrow
+          @attr name EvvMobile.Schedule.NUnit.Droid:subMenuArrow
         */
-        public static int MenuView_subMenuArrow = 8;
+        public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
            <p>Includes the following attributes:</p>
            <table>
@@ -8526,13 +8526,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation android.support.transition:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout android.support.transition:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground android.support.transition:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint android.support.transition:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance android.support.transition:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor android.support.transition:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu android.support.transition:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation EvvMobile.Schedule.NUnit.Droid:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout EvvMobile.Schedule.NUnit.Droid:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground EvvMobile.Schedule.NUnit.Droid:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint EvvMobile.Schedule.NUnit.Droid:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance EvvMobile.Schedule.NUnit.Droid:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor EvvMobile.Schedule.NUnit.Droid:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu EvvMobile.Schedule.NUnit.Droid:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -8555,21 +8555,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #NavigationView} array.
           @attr name android:background
         */
-        public static int NavigationView_android_background = 0;
+        public static final int NavigationView_android_background = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#fitsSystemWindows}
           attribute's value can be found in the {@link #NavigationView} array.
           @attr name android:fitsSystemWindows
         */
-        public static int NavigationView_android_fitsSystemWindows = 1;
+        public static final int NavigationView_android_fitsSystemWindows = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
           attribute's value can be found in the {@link #NavigationView} array.
           @attr name android:maxWidth
         */
-        public static int NavigationView_android_maxWidth = 2;
+        public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#elevation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -8581,31 +8581,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:elevation
+          @attr name EvvMobile.Schedule.NUnit.Droid:elevation
         */
-        public static int NavigationView_elevation = 3;
+        public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:headerLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:headerLayout
         */
-        public static int NavigationView_headerLayout = 9;
+        public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:itemBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:itemBackground
         */
-        public static int NavigationView_itemBackground = 7;
+        public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -8616,21 +8616,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:itemIconTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:itemIconTint
         */
-        public static int NavigationView_itemIconTint = 5;
+        public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:itemTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:itemTextAppearance
         */
-        public static int NavigationView_itemTextAppearance = 8;
+        public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -8641,19 +8641,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:itemTextColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:itemTextColor
         */
-        public static int NavigationView_itemTextColor = 6;
+        public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#menu}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:menu
+          @attr name EvvMobile.Schedule.NUnit.Droid:menu
         */
-        public static int NavigationView_menu = 4;
+        public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
            <p>Includes the following attributes:</p>
            <table>
@@ -8662,7 +8662,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor android.support.transition:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor EvvMobile.Schedule.NUnit.Droid:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -8676,15 +8676,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #PopupWindow} array.
           @attr name android:popupAnimationStyle
         */
-        public static int PopupWindow_android_popupAnimationStyle = 1;
+        public static final int PopupWindow_android_popupAnimationStyle = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
           attribute's value can be found in the {@link #PopupWindow} array.
           @attr name android:popupBackground
         */
-        public static int PopupWindow_android_popupBackground = 0;
+        public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -8694,16 +8694,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:overlapAnchor
+          @attr name EvvMobile.Schedule.NUnit.Droid:overlapAnchor
         */
-        public static int PopupWindow_overlapAnchor = 2;
+        public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor android.support.transition:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor EvvMobile.Schedule.NUnit.Droid:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -8711,7 +8711,7 @@ containing a value of this type.
             0x7f0100d2
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -8721,17 +8721,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:state_above_anchor
+          @attr name EvvMobile.Schedule.NUnit.Droid:state_above_anchor
         */
-        public static int PopupWindowBackgroundState_state_above_anchor = 0;
+        public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecycleListView.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons android.support.transition:paddingBottomNoButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle android.support.transition:paddingTopNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons EvvMobile.Schedule.NUnit.Droid:paddingBottomNoButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle EvvMobile.Schedule.NUnit.Droid:paddingTopNoTitle}</code></td><td></td></tr>
            </table>
            @see #RecycleListView_paddingBottomNoButtons
            @see #RecycleListView_paddingTopNoTitle
@@ -8740,7 +8740,7 @@ containing a value of this type.
             0x7f0100d3, 0x7f0100d4
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#paddingBottomNoButtons}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#paddingBottomNoButtons}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -8752,11 +8752,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:paddingBottomNoButtons
+          @attr name EvvMobile.Schedule.NUnit.Droid:paddingBottomNoButtons
         */
-        public static int RecycleListView_paddingBottomNoButtons = 0;
+        public static final int RecycleListView_paddingBottomNoButtons = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#paddingTopNoTitle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#paddingTopNoTitle}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -8768,9 +8768,9 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:paddingTopNoTitle
+          @attr name EvvMobile.Schedule.NUnit.Droid:paddingTopNoTitle
         */
-        public static int RecycleListView_paddingTopNoTitle = 1;
+        public static final int RecycleListView_paddingTopNoTitle = 1;
         /** Attributes that can be used with a RecyclerView.
            <p>Includes the following attributes:</p>
            <table>
@@ -8779,10 +8779,10 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager android.support.transition:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout android.support.transition:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount android.support.transition:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd android.support.transition:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager EvvMobile.Schedule.NUnit.Droid:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout EvvMobile.Schedule.NUnit.Droid:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount EvvMobile.Schedule.NUnit.Droid:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd EvvMobile.Schedule.NUnit.Droid:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
@@ -8800,15 +8800,15 @@ containing a value of this type.
           attribute's value can be found in the {@link #RecyclerView} array.
           @attr name android:descendantFocusability
         */
-        public static int RecyclerView_android_descendantFocusability = 1;
+        public static final int RecyclerView_android_descendantFocusability = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
           attribute's value can be found in the {@link #RecyclerView} array.
           @attr name android:orientation
         */
-        public static int RecyclerView_android_orientation = 0;
+        public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8818,11 +8818,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:layoutManager
+          @attr name EvvMobile.Schedule.NUnit.Droid:layoutManager
         */
-        public static int RecyclerView_layoutManager = 2;
+        public static final int RecyclerView_layoutManager = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8832,11 +8832,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:reverseLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:reverseLayout
         */
-        public static int RecyclerView_reverseLayout = 4;
+        public static final int RecyclerView_reverseLayout = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8846,11 +8846,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:spanCount
+          @attr name EvvMobile.Schedule.NUnit.Droid:spanCount
         */
-        public static int RecyclerView_spanCount = 3;
+        public static final int RecyclerView_spanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8860,16 +8860,16 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:stackFromEnd
+          @attr name EvvMobile.Schedule.NUnit.Droid:stackFromEnd
         */
-        public static int RecyclerView_stackFromEnd = 5;
+        public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground android.support.transition:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground EvvMobile.Schedule.NUnit.Droid:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -8877,7 +8877,7 @@ containing a value of this type.
             0x7f010134
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -8885,16 +8885,16 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.transition:insetForeground
+          @attr name EvvMobile.Schedule.NUnit.Droid:insetForeground
         */
-        public static int ScrimInsetsFrameLayout_insetForeground = 0;
+        public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Layout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop android.support.transition:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop EvvMobile.Schedule.NUnit.Droid:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Layout_behavior_overlapTop
          */
@@ -8902,7 +8902,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010135
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
 
 
@@ -8914,9 +8914,9 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:behavior_overlapTop
+          @attr name EvvMobile.Schedule.NUnit.Droid:behavior_overlapTop
         */
-        public static int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
+        public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
@@ -8927,19 +8927,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon android.support.transition:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon android.support.transition:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint android.support.transition:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon android.support.transition:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault android.support.transition:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout android.support.transition:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground android.support.transition:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint android.support.transition:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon android.support.transition:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon android.support.transition:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground android.support.transition:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout android.support.transition:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon android.support.transition:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon EvvMobile.Schedule.NUnit.Droid:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon EvvMobile.Schedule.NUnit.Droid:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint EvvMobile.Schedule.NUnit.Droid:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon EvvMobile.Schedule.NUnit.Droid:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault EvvMobile.Schedule.NUnit.Droid:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout EvvMobile.Schedule.NUnit.Droid:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground EvvMobile.Schedule.NUnit.Droid:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint EvvMobile.Schedule.NUnit.Droid:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon EvvMobile.Schedule.NUnit.Droid:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon EvvMobile.Schedule.NUnit.Droid:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground EvvMobile.Schedule.NUnit.Droid:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout EvvMobile.Schedule.NUnit.Droid:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon EvvMobile.Schedule.NUnit.Droid:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -8971,47 +8971,47 @@ containing a value of this type.
           attribute's value can be found in the {@link #SearchView} array.
           @attr name android:focusable
         */
-        public static int SearchView_android_focusable = 0;
+        public static final int SearchView_android_focusable = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
           attribute's value can be found in the {@link #SearchView} array.
           @attr name android:imeOptions
         */
-        public static int SearchView_android_imeOptions = 3;
+        public static final int SearchView_android_imeOptions = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#inputType}
           attribute's value can be found in the {@link #SearchView} array.
           @attr name android:inputType
         */
-        public static int SearchView_android_inputType = 2;
+        public static final int SearchView_android_inputType = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
           attribute's value can be found in the {@link #SearchView} array.
           @attr name android:maxWidth
         */
-        public static int SearchView_android_maxWidth = 1;
+        public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:closeIcon
+          @attr name EvvMobile.Schedule.NUnit.Droid:closeIcon
         */
-        public static int SearchView_closeIcon = 8;
+        public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:commitIcon
+          @attr name EvvMobile.Schedule.NUnit.Droid:commitIcon
         */
-        public static int SearchView_commitIcon = 13;
+        public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -9021,21 +9021,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:defaultQueryHint
+          @attr name EvvMobile.Schedule.NUnit.Droid:defaultQueryHint
         */
-        public static int SearchView_defaultQueryHint = 7;
+        public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:goIcon
+          @attr name EvvMobile.Schedule.NUnit.Droid:goIcon
         */
-        public static int SearchView_goIcon = 9;
+        public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -9045,31 +9045,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:iconifiedByDefault
+          @attr name EvvMobile.Schedule.NUnit.Droid:iconifiedByDefault
         */
-        public static int SearchView_iconifiedByDefault = 5;
+        public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#layout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:layout
+          @attr name EvvMobile.Schedule.NUnit.Droid:layout
         */
-        public static int SearchView_layout = 4;
+        public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:queryBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:queryBackground
         */
-        public static int SearchView_queryBackground = 15;
+        public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -9079,59 +9079,59 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:queryHint
+          @attr name EvvMobile.Schedule.NUnit.Droid:queryHint
         */
-        public static int SearchView_queryHint = 6;
+        public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:searchHintIcon
+          @attr name EvvMobile.Schedule.NUnit.Droid:searchHintIcon
         */
-        public static int SearchView_searchHintIcon = 11;
+        public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:searchIcon
+          @attr name EvvMobile.Schedule.NUnit.Droid:searchIcon
         */
-        public static int SearchView_searchIcon = 10;
+        public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:submitBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:submitBackground
         */
-        public static int SearchView_submitBackground = 16;
+        public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:suggestionRowLayout
+          @attr name EvvMobile.Schedule.NUnit.Droid:suggestionRowLayout
         */
-        public static int SearchView_suggestionRowLayout = 14;
+        public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:voiceIcon
+          @attr name EvvMobile.Schedule.NUnit.Droid:voiceIcon
         */
-        public static int SearchView_voiceIcon = 12;
+        public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -9139,8 +9139,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation android.support.transition:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth android.support.transition:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation EvvMobile.Schedule.NUnit.Droid:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth EvvMobile.Schedule.NUnit.Droid:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -9154,9 +9154,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #SnackbarLayout} array.
           @attr name android:maxWidth
         */
-        public static int SnackbarLayout_android_maxWidth = 0;
+        public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#elevation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -9168,11 +9168,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:elevation
+          @attr name EvvMobile.Schedule.NUnit.Droid:elevation
         */
-        public static int SnackbarLayout_elevation = 1;
+        public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -9184,9 +9184,9 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:maxActionInlineWidth
+          @attr name EvvMobile.Schedule.NUnit.Droid:maxActionInlineWidth
         */
-        public static int SnackbarLayout_maxActionInlineWidth = 2;
+        public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>
@@ -9197,7 +9197,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme android.support.transition:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme EvvMobile.Schedule.NUnit.Droid:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -9214,35 +9214,35 @@ containing a value of this type.
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:dropDownWidth
         */
-        public static int Spinner_android_dropDownWidth = 3;
+        public static final int Spinner_android_dropDownWidth = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#entries}
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:entries
         */
-        public static int Spinner_android_entries = 0;
+        public static final int Spinner_android_entries = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:popupBackground
         */
-        public static int Spinner_android_popupBackground = 1;
+        public static final int Spinner_android_popupBackground = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:prompt
         */
-        public static int Spinner_android_prompt = 2;
+        public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:popupTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:popupTheme
         */
-        public static int Spinner_popupTheme = 4;
+        public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -9252,17 +9252,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText android.support.transition:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack android.support.transition:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth android.support.transition:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding android.support.transition:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance android.support.transition:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding android.support.transition:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint android.support.transition:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode android.support.transition:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track android.support.transition:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint android.support.transition:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode android.support.transition:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText EvvMobile.Schedule.NUnit.Droid:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack EvvMobile.Schedule.NUnit.Droid:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth EvvMobile.Schedule.NUnit.Droid:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding EvvMobile.Schedule.NUnit.Droid:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance EvvMobile.Schedule.NUnit.Droid:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding EvvMobile.Schedule.NUnit.Droid:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint EvvMobile.Schedule.NUnit.Droid:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode EvvMobile.Schedule.NUnit.Droid:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track EvvMobile.Schedule.NUnit.Droid:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint EvvMobile.Schedule.NUnit.Droid:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode EvvMobile.Schedule.NUnit.Droid:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -9290,21 +9290,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #SwitchCompat} array.
           @attr name android:textOff
         */
-        public static int SwitchCompat_android_textOff = 1;
+        public static final int SwitchCompat_android_textOff = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOn}
           attribute's value can be found in the {@link #SwitchCompat} array.
           @attr name android:textOn
         */
-        public static int SwitchCompat_android_textOn = 0;
+        public static final int SwitchCompat_android_textOn = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#thumb}
           attribute's value can be found in the {@link #SwitchCompat} array.
           @attr name android:thumb
         */
-        public static int SwitchCompat_android_thumb = 2;
+        public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#showText}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9314,11 +9314,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:showText
+          @attr name EvvMobile.Schedule.NUnit.Droid:showText
         */
-        public static int SwitchCompat_showText = 13;
+        public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9328,11 +9328,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:splitTrack
+          @attr name EvvMobile.Schedule.NUnit.Droid:splitTrack
         */
-        public static int SwitchCompat_splitTrack = 12;
+        public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9344,11 +9344,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:switchMinWidth
+          @attr name EvvMobile.Schedule.NUnit.Droid:switchMinWidth
         */
-        public static int SwitchCompat_switchMinWidth = 10;
+        public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9360,21 +9360,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:switchPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:switchPadding
         */
-        public static int SwitchCompat_switchPadding = 11;
+        public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:switchTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:switchTextAppearance
         */
-        public static int SwitchCompat_switchTextAppearance = 9;
+        public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9386,11 +9386,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:thumbTextPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:thumbTextPadding
         */
-        public static int SwitchCompat_thumbTextPadding = 8;
+        public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9401,11 +9401,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:thumbTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:thumbTint
         */
-        public static int SwitchCompat_thumbTint = 3;
+        public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9422,21 +9422,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name android.support.transition:thumbTintMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:thumbTintMode
         */
-        public static int SwitchCompat_thumbTintMode = 4;
+        public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#track}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:track
+          @attr name EvvMobile.Schedule.NUnit.Droid:track
         */
-        public static int SwitchCompat_track = 5;
+        public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9447,11 +9447,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:trackTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:trackTint
         */
-        public static int SwitchCompat_trackTint = 6;
+        public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9468,9 +9468,9 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name android.support.transition:trackTintMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:trackTintMode
         */
-        public static int SwitchCompat_trackTintMode = 7;
+        public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
            <p>Includes the following attributes:</p>
            <table>
@@ -9493,41 +9493,41 @@ containing a value of this type.
           attribute's value can be found in the {@link #TabItem} array.
           @attr name android:icon
         */
-        public static int TabItem_android_icon = 0;
+        public static final int TabItem_android_icon = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
           attribute's value can be found in the {@link #TabItem} array.
           @attr name android:layout
         */
-        public static int TabItem_android_layout = 1;
+        public static final int TabItem_android_layout = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#text}
           attribute's value can be found in the {@link #TabItem} array.
           @attr name android:text
         */
-        public static int TabItem_android_text = 2;
+        public static final int TabItem_android_text = 2;
         /** Attributes that can be used with a TabLayout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground android.support.transition:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart android.support.transition:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity android.support.transition:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor android.support.transition:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight android.support.transition:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth android.support.transition:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth android.support.transition:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode android.support.transition:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding android.support.transition:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom android.support.transition:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd android.support.transition:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart android.support.transition:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop android.support.transition:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor android.support.transition:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance android.support.transition:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor android.support.transition:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground EvvMobile.Schedule.NUnit.Droid:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart EvvMobile.Schedule.NUnit.Droid:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity EvvMobile.Schedule.NUnit.Droid:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor EvvMobile.Schedule.NUnit.Droid:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight EvvMobile.Schedule.NUnit.Droid:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth EvvMobile.Schedule.NUnit.Droid:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth EvvMobile.Schedule.NUnit.Droid:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode EvvMobile.Schedule.NUnit.Droid:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding EvvMobile.Schedule.NUnit.Droid:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom EvvMobile.Schedule.NUnit.Droid:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd EvvMobile.Schedule.NUnit.Droid:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart EvvMobile.Schedule.NUnit.Droid:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop EvvMobile.Schedule.NUnit.Droid:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor EvvMobile.Schedule.NUnit.Droid:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance EvvMobile.Schedule.NUnit.Droid:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor EvvMobile.Schedule.NUnit.Droid:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -9553,17 +9553,17 @@ containing a value of this type.
             0x7f010143, 0x7f010144, 0x7f010145, 0x7f010146
         };
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:tabBackground
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabBackground
         */
-        public static int TabLayout_tabBackground = 3;
+        public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9575,11 +9575,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabContentStart
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabContentStart
         */
-        public static int TabLayout_tabContentStart = 2;
+        public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9592,11 +9592,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name android.support.transition:tabGravity
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabGravity
         */
-        public static int TabLayout_tabGravity = 5;
+        public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9607,11 +9607,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabIndicatorColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabIndicatorColor
         */
-        public static int TabLayout_tabIndicatorColor = 0;
+        public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9623,11 +9623,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabIndicatorHeight
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabIndicatorHeight
         */
-        public static int TabLayout_tabIndicatorHeight = 1;
+        public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9639,11 +9639,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabMaxWidth
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabMaxWidth
         */
-        public static int TabLayout_tabMaxWidth = 7;
+        public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9655,11 +9655,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabMinWidth
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabMinWidth
         */
-        public static int TabLayout_tabMinWidth = 6;
+        public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9672,11 +9672,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name android.support.transition:tabMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabMode
         */
-        public static int TabLayout_tabMode = 4;
+        public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9688,11 +9688,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabPadding
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabPadding
         */
-        public static int TabLayout_tabPadding = 15;
+        public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9704,11 +9704,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabPaddingBottom
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabPaddingBottom
         */
-        public static int TabLayout_tabPaddingBottom = 14;
+        public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9720,11 +9720,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabPaddingEnd
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabPaddingEnd
         */
-        public static int TabLayout_tabPaddingEnd = 13;
+        public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9736,11 +9736,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabPaddingStart
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabPaddingStart
         */
-        public static int TabLayout_tabPaddingStart = 11;
+        public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9752,11 +9752,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabPaddingTop
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabPaddingTop
         */
-        public static int TabLayout_tabPaddingTop = 12;
+        public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9767,21 +9767,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabSelectedTextColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabSelectedTextColor
         */
-        public static int TabLayout_tabSelectedTextColor = 10;
+        public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:tabTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabTextAppearance
         */
-        public static int TabLayout_tabTextAppearance = 8;
+        public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9792,9 +9792,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:tabTextColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:tabTextColor
         */
-        public static int TabLayout_tabTextColor = 9;
+        public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
            <p>Includes the following attributes:</p>
            <table>
@@ -9810,7 +9810,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps android.support.transition:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps EvvMobile.Schedule.NUnit.Droid:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -9833,66 +9833,66 @@ containing a value of this type.
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowColor
         */
-        public static int TextAppearance_android_shadowColor = 5;
+        public static final int TextAppearance_android_shadowColor = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowDx
         */
-        public static int TextAppearance_android_shadowDx = 6;
+        public static final int TextAppearance_android_shadowDx = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowDy
         */
-        public static int TextAppearance_android_shadowDy = 7;
+        public static final int TextAppearance_android_shadowDy = 7;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowRadius
         */
-        public static int TextAppearance_android_shadowRadius = 8;
+        public static final int TextAppearance_android_shadowRadius = 8;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textColor}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:textColor
         */
-        public static int TextAppearance_android_textColor = 3;
+        public static final int TextAppearance_android_textColor = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:textColorHint
         */
-        public static int TextAppearance_android_textColorHint = 4;
+        public static final int TextAppearance_android_textColorHint = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textSize}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:textSize
         */
-        public static int TextAppearance_android_textSize = 0;
+        public static final int TextAppearance_android_textSize = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textStyle}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:textStyle
         */
-        public static int TextAppearance_android_textStyle = 2;
+        public static final int TextAppearance_android_textStyle = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#typeface}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:typeface
         */
-        public static int TextAppearance_android_typeface = 1;
+        public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name android.support.transition:textAllCaps
+          @attr name EvvMobile.Schedule.NUnit.Droid:textAllCaps
         */
-        public static int TextAppearance_textAllCaps = 9;
+        public static final int TextAppearance_textAllCaps = 9;
         /** Attributes that can be used with a TextInputLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -9901,20 +9901,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled android.support.transition:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength android.support.transition:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance android.support.transition:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance android.support.transition:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled android.support.transition:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance android.support.transition:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled android.support.transition:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled android.support.transition:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance android.support.transition:hintTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription android.support.transition:passwordToggleContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable android.support.transition:passwordToggleDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled android.support.transition:passwordToggleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTint android.support.transition:passwordToggleTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode android.support.transition:passwordToggleTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled EvvMobile.Schedule.NUnit.Droid:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength EvvMobile.Schedule.NUnit.Droid:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance EvvMobile.Schedule.NUnit.Droid:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance EvvMobile.Schedule.NUnit.Droid:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled EvvMobile.Schedule.NUnit.Droid:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance EvvMobile.Schedule.NUnit.Droid:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled EvvMobile.Schedule.NUnit.Droid:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled EvvMobile.Schedule.NUnit.Droid:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance EvvMobile.Schedule.NUnit.Droid:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription EvvMobile.Schedule.NUnit.Droid:passwordToggleContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable EvvMobile.Schedule.NUnit.Droid:passwordToggleDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled EvvMobile.Schedule.NUnit.Droid:passwordToggleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTint EvvMobile.Schedule.NUnit.Droid:passwordToggleTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode EvvMobile.Schedule.NUnit.Droid:passwordToggleTintMode}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -9944,15 +9944,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #TextInputLayout} array.
           @attr name android:hint
         */
-        public static int TextInputLayout_android_hint = 1;
+        public static final int TextInputLayout_android_hint = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
           attribute's value can be found in the {@link #TextInputLayout} array.
           @attr name android:textColorHint
         */
-        public static int TextInputLayout_android_textColorHint = 0;
+        public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9962,11 +9962,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:counterEnabled
+          @attr name EvvMobile.Schedule.NUnit.Droid:counterEnabled
         */
-        public static int TextInputLayout_counterEnabled = 6;
+        public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9976,31 +9976,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:counterMaxLength
+          @attr name EvvMobile.Schedule.NUnit.Droid:counterMaxLength
         */
-        public static int TextInputLayout_counterMaxLength = 7;
+        public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:counterOverflowTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:counterOverflowTextAppearance
         */
-        public static int TextInputLayout_counterOverflowTextAppearance = 9;
+        public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:counterTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:counterTextAppearance
         */
-        public static int TextInputLayout_counterTextAppearance = 8;
+        public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10010,21 +10010,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:errorEnabled
+          @attr name EvvMobile.Schedule.NUnit.Droid:errorEnabled
         */
-        public static int TextInputLayout_errorEnabled = 4;
+        public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:errorTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:errorTextAppearance
         */
-        public static int TextInputLayout_errorTextAppearance = 5;
+        public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10034,11 +10034,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:hintAnimationEnabled
+          @attr name EvvMobile.Schedule.NUnit.Droid:hintAnimationEnabled
         */
-        public static int TextInputLayout_hintAnimationEnabled = 10;
+        public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10048,21 +10048,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:hintEnabled
+          @attr name EvvMobile.Schedule.NUnit.Droid:hintEnabled
         */
-        public static int TextInputLayout_hintEnabled = 3;
+        public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:hintTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:hintTextAppearance
         */
-        public static int TextInputLayout_hintTextAppearance = 2;
+        public static final int TextInputLayout_hintTextAppearance = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#passwordToggleContentDescription}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#passwordToggleContentDescription}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10072,21 +10072,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:passwordToggleContentDescription
+          @attr name EvvMobile.Schedule.NUnit.Droid:passwordToggleContentDescription
         */
-        public static int TextInputLayout_passwordToggleContentDescription = 13;
+        public static final int TextInputLayout_passwordToggleContentDescription = 13;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#passwordToggleDrawable}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#passwordToggleDrawable}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:passwordToggleDrawable
+          @attr name EvvMobile.Schedule.NUnit.Droid:passwordToggleDrawable
         */
-        public static int TextInputLayout_passwordToggleDrawable = 12;
+        public static final int TextInputLayout_passwordToggleDrawable = 12;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#passwordToggleEnabled}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#passwordToggleEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10096,11 +10096,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:passwordToggleEnabled
+          @attr name EvvMobile.Schedule.NUnit.Droid:passwordToggleEnabled
         */
-        public static int TextInputLayout_passwordToggleEnabled = 11;
+        public static final int TextInputLayout_passwordToggleEnabled = 11;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#passwordToggleTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#passwordToggleTint}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10111,11 +10111,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:passwordToggleTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:passwordToggleTint
         */
-        public static int TextInputLayout_passwordToggleTint = 14;
+        public static final int TextInputLayout_passwordToggleTint = 14;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#passwordToggleTintMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#passwordToggleTintMode}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10131,9 +10131,9 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name android.support.transition:passwordToggleTintMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:passwordToggleTintMode
         */
-        public static int TextInputLayout_passwordToggleTintMode = 15;
+        public static final int TextInputLayout_passwordToggleTintMode = 15;
         /** Attributes that can be used with a Toolbar.
            <p>Includes the following attributes:</p>
            <table>
@@ -10142,33 +10142,33 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity android.support.transition:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription android.support.transition:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon android.support.transition:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd android.support.transition:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions android.support.transition:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft android.support.transition:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight android.support.transition:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart android.support.transition:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation android.support.transition:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo android.support.transition:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription android.support.transition:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight android.support.transition:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription android.support.transition:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon android.support.transition:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme android.support.transition:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle android.support.transition:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance android.support.transition:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor android.support.transition:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title android.support.transition:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin android.support.transition:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom android.support.transition:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd android.support.transition:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart android.support.transition:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop android.support.transition:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins android.support.transition:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance android.support.transition:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor android.support.transition:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity EvvMobile.Schedule.NUnit.Droid:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription EvvMobile.Schedule.NUnit.Droid:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon EvvMobile.Schedule.NUnit.Droid:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd EvvMobile.Schedule.NUnit.Droid:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions EvvMobile.Schedule.NUnit.Droid:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft EvvMobile.Schedule.NUnit.Droid:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight EvvMobile.Schedule.NUnit.Droid:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart EvvMobile.Schedule.NUnit.Droid:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation EvvMobile.Schedule.NUnit.Droid:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo EvvMobile.Schedule.NUnit.Droid:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription EvvMobile.Schedule.NUnit.Droid:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight EvvMobile.Schedule.NUnit.Droid:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription EvvMobile.Schedule.NUnit.Droid:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon EvvMobile.Schedule.NUnit.Droid:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme EvvMobile.Schedule.NUnit.Droid:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle EvvMobile.Schedule.NUnit.Droid:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance EvvMobile.Schedule.NUnit.Droid:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor EvvMobile.Schedule.NUnit.Droid:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title EvvMobile.Schedule.NUnit.Droid:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin EvvMobile.Schedule.NUnit.Droid:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom EvvMobile.Schedule.NUnit.Droid:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd EvvMobile.Schedule.NUnit.Droid:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart EvvMobile.Schedule.NUnit.Droid:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop EvvMobile.Schedule.NUnit.Droid:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins EvvMobile.Schedule.NUnit.Droid:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance EvvMobile.Schedule.NUnit.Droid:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor EvvMobile.Schedule.NUnit.Droid:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -10215,15 +10215,15 @@ containing a value of this type.
           attribute's value can be found in the {@link #Toolbar} array.
           @attr name android:gravity
         */
-        public static int Toolbar_android_gravity = 0;
+        public static final int Toolbar_android_gravity = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minHeight}
           attribute's value can be found in the {@link #Toolbar} array.
           @attr name android:minHeight
         */
-        public static int Toolbar_android_minHeight = 1;
+        public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10236,11 +10236,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name android.support.transition:buttonGravity
+          @attr name EvvMobile.Schedule.NUnit.Droid:buttonGravity
         */
-        public static int Toolbar_buttonGravity = 21;
+        public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10250,21 +10250,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:collapseContentDescription
+          @attr name EvvMobile.Schedule.NUnit.Droid:collapseContentDescription
         */
-        public static int Toolbar_collapseContentDescription = 23;
+        public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:collapseIcon
+          @attr name EvvMobile.Schedule.NUnit.Droid:collapseIcon
         */
-        public static int Toolbar_collapseIcon = 22;
+        public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10276,11 +10276,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetEnd
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetEnd
         */
-        public static int Toolbar_contentInsetEnd = 6;
+        public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10292,11 +10292,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetEndWithActions
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetEndWithActions
         */
-        public static int Toolbar_contentInsetEndWithActions = 10;
+        public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10308,11 +10308,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetLeft
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetLeft
         */
-        public static int Toolbar_contentInsetLeft = 7;
+        public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10324,11 +10324,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetRight
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetRight
         */
-        public static int Toolbar_contentInsetRight = 8;
+        public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10340,11 +10340,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetStart
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetStart
         */
-        public static int Toolbar_contentInsetStart = 5;
+        public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10356,21 +10356,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:contentInsetStartWithNavigation
+          @attr name EvvMobile.Schedule.NUnit.Droid:contentInsetStartWithNavigation
         */
-        public static int Toolbar_contentInsetStartWithNavigation = 9;
+        public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#logo}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:logo
+          @attr name EvvMobile.Schedule.NUnit.Droid:logo
         */
-        public static int Toolbar_logo = 4;
+        public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10380,11 +10380,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:logoDescription
+          @attr name EvvMobile.Schedule.NUnit.Droid:logoDescription
         */
-        public static int Toolbar_logoDescription = 26;
+        public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10396,11 +10396,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:maxButtonHeight
+          @attr name EvvMobile.Schedule.NUnit.Droid:maxButtonHeight
         */
-        public static int Toolbar_maxButtonHeight = 20;
+        public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10410,31 +10410,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:navigationContentDescription
+          @attr name EvvMobile.Schedule.NUnit.Droid:navigationContentDescription
         */
-        public static int Toolbar_navigationContentDescription = 25;
+        public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:navigationIcon
+          @attr name EvvMobile.Schedule.NUnit.Droid:navigationIcon
         */
-        public static int Toolbar_navigationIcon = 24;
+        public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:popupTheme
+          @attr name EvvMobile.Schedule.NUnit.Droid:popupTheme
         */
-        public static int Toolbar_popupTheme = 11;
+        public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10444,21 +10444,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:subtitle
+          @attr name EvvMobile.Schedule.NUnit.Droid:subtitle
         */
-        public static int Toolbar_subtitle = 3;
+        public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:subtitleTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:subtitleTextAppearance
         */
-        public static int Toolbar_subtitleTextAppearance = 13;
+        public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10469,11 +10469,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:subtitleTextColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:subtitleTextColor
         */
-        public static int Toolbar_subtitleTextColor = 28;
+        public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#title}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10483,11 +10483,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:title
+          @attr name EvvMobile.Schedule.NUnit.Droid:title
         */
-        public static int Toolbar_title = 2;
+        public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10499,11 +10499,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:titleMargin
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleMargin
         */
-        public static int Toolbar_titleMargin = 14;
+        public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10515,11 +10515,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:titleMarginBottom
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleMarginBottom
         */
-        public static int Toolbar_titleMarginBottom = 18;
+        public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10531,11 +10531,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:titleMarginEnd
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleMarginEnd
         */
-        public static int Toolbar_titleMarginEnd = 16;
+        public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10547,11 +10547,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:titleMarginStart
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleMarginStart
         */
-        public static int Toolbar_titleMarginStart = 15;
+        public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10563,11 +10563,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:titleMarginTop
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleMarginTop
         */
-        public static int Toolbar_titleMarginTop = 17;
+        public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10579,21 +10579,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:titleMargins
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleMargins
         */
-        public static int Toolbar_titleMargins = 19;
+        public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:titleTextAppearance
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleTextAppearance
         */
-        public static int Toolbar_titleTextAppearance = 12;
+        public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10604,9 +10604,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:titleTextColor
+          @attr name EvvMobile.Schedule.NUnit.Droid:titleTextColor
         */
-        public static int Toolbar_titleTextColor = 27;
+        public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
            <p>Includes the following attributes:</p>
            <table>
@@ -10615,9 +10615,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd android.support.transition:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart android.support.transition:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme android.support.transition:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd EvvMobile.Schedule.NUnit.Droid:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart EvvMobile.Schedule.NUnit.Droid:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme EvvMobile.Schedule.NUnit.Droid:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -10634,15 +10634,15 @@ containing a value of this type.
           attribute's value can be found in the {@link #View} array.
           @attr name android:focusable
         */
-        public static int View_android_focusable = 1;
+        public static final int View_android_focusable = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
           @attr name android:theme
         */
-        public static int View_android_theme = 0;
+        public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -10654,11 +10654,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:paddingEnd
+          @attr name EvvMobile.Schedule.NUnit.Droid:paddingEnd
         */
-        public static int View_paddingEnd = 3;
+        public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -10670,19 +10670,19 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:paddingStart
+          @attr name EvvMobile.Schedule.NUnit.Droid:paddingStart
         */
-        public static int View_paddingStart = 2;
+        public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#theme}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.transition:theme
+          @attr name EvvMobile.Schedule.NUnit.Droid:theme
         */
-        public static int View_theme = 4;
+        public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
            <p>Includes the following attributes:</p>
            <table>
@@ -10690,8 +10690,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint android.support.transition:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode android.support.transition:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint EvvMobile.Schedule.NUnit.Droid:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode EvvMobile.Schedule.NUnit.Droid:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -10705,9 +10705,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
           @attr name android:background
         */
-        public static int ViewBackgroundHelper_android_background = 0;
+        public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -10718,11 +10718,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android.support.transition:backgroundTint
+          @attr name EvvMobile.Schedule.NUnit.Droid:backgroundTint
         */
-        public static int ViewBackgroundHelper_backgroundTint = 1;
+        public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link android.support.transition.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link EvvMobile.Schedule.NUnit.Droid.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -10738,9 +10738,9 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name android.support.transition:backgroundTintMode
+          @attr name EvvMobile.Schedule.NUnit.Droid:backgroundTintMode
         */
-        public static int ViewBackgroundHelper_backgroundTintMode = 2;
+        public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -10763,18 +10763,18 @@ containing a value of this type.
           attribute's value can be found in the {@link #ViewStubCompat} array.
           @attr name android:id
         */
-        public static int ViewStubCompat_android_id = 0;
+        public static final int ViewStubCompat_android_id = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
           attribute's value can be found in the {@link #ViewStubCompat} array.
           @attr name android:inflatedId
         */
-        public static int ViewStubCompat_android_inflatedId = 2;
+        public static final int ViewStubCompat_android_inflatedId = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
           attribute's value can be found in the {@link #ViewStubCompat} array.
           @attr name android:layout
         */
-        public static int ViewStubCompat_android_layout = 1;
+        public static final int ViewStubCompat_android_layout = 1;
     };
 }

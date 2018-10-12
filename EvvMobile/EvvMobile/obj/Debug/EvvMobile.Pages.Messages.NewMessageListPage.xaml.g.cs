@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.Messages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\Mobile\\Dev\\EvvMobile\\EvvMobile\\Pages\\Messages\\NewMessage" +
-        "ListPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\Messages\\NewMessageListPag" +
+        "e.xaml")]
     public partial class NewMessageListPage : global::EvvMobile.Pages.Messages.NewMessageListPageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

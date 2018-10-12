@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.BarCode {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\Mobile\\Dev\\EvvMobile\\EvvMobile\\Pages\\BarCode\\BarCodeScan" +
-        "Page.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\BarCode\\BarCodeScanPage.xa" +
+        "ml")]
     public partial class BarCodeScanPage : global::EvvMobile.Pages.BarCode.BarCodeScanPageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -211,18 +211,9 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 						TitleLabels = new List<Label>(ShowNumOfMonths);
 					}
 					TitleLabels.Add(label);
-					/*if (i == ShowNumOfMonths - 1)
-					{
-						MonthNavigationLayout.Children.Remove(TitleRightArrow);
-						ContentView.Children.Add(new StackLayout { 
-							Orientation = StackOrientation.Horizontal, 
-							Padding = new Thickness(TitleLeftArrow.FontSize*1.5,0,0,0), Children = { label, TitleRightArrow }  
-						});
-					}
-					else 
-					{*/
-						ContentView.Children.Add(label);
-					//}
+
+					ContentView.Children.Add(label);
+
 				}
 
 				if (ShowNumberOfWeek)

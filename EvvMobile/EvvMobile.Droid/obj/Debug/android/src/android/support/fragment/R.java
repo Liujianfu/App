@@ -3670,6 +3670,13 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f08000f;
         public static final int common_signin_button_text=0x7f080010;
         public static final int common_signin_button_text_long=0x7f080011;
+        public static final int default_web_client_id=0x7f080055;
+        public static final int firebase_database_url=0x7f080056;
+        public static final int gcm_defaultSenderId=0x7f080053;
+        public static final int google_api_key=0x7f080057;
+        public static final int google_app_id=0x7f080054;
+        public static final int google_crash_reporting_api_key=0x7f080058;
+        public static final int google_storage_bucket=0x7f080059;
         public static final int library_name=0x7f080000;
         public static final int mr_button_content_description=0x7f080013;
         public static final int mr_cast_button_connected=0x7f080014;

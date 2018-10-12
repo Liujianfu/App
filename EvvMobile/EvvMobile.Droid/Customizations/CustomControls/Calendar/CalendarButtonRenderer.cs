@@ -27,10 +27,10 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                 if (Control.Text == element.TextWithoutMeasure || (string.IsNullOrEmpty(Control.Text) && string.IsNullOrEmpty(element.TextWithoutMeasure))) return;
               //  Control.Text = element.TextWithoutMeasure;
             };
+
             Control.SetPadding(1, 1, 1, 10);
             Control.ViewTreeObserver.GlobalLayout += (sender, args) => ChangeBackgroundPattern();
         }
-
         protected override void OnElementPropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             base.OnElementPropertyChanged(sender, e);
@@ -48,7 +48,7 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
 
             if (e.PropertyName == nameof(Element.BorderWidth) || e.PropertyName == nameof(Element.BorderColor) || 
                 e.PropertyName == nameof(Element.BackgroundColor) ||e.PropertyName == nameof(element.AppointmentCount)||
-                e.PropertyName == nameof(Element.TextColor) ||e.PropertyName == "Renderer")
+                e.PropertyName == nameof(Element.Height) || e.PropertyName == nameof(Element.TextColor) ||e.PropertyName == "Renderer")
             {
                 if (element.BackgroundPattern == null)
                 {
@@ -68,39 +68,12 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                                 Text = element.TextWithoutMeasure,
                                 TextAlign = TextAlign.CenterTop,
                                 TextColor = element.TextColor,
-                                TextSize =(float)element.FontSize
+                                TextSize =(float)element.FontSize,
+                                AppointmentCount = element.AppointmentCount,
+                                AppointmentFlagColor =element.AppointmentFlagColor
                             } });
                         }
 
-                        if (element.AppointmentCount > 0)
-                        {
-                            if (Control.Width != 0)
-                            {
-                                for (int i = 0; i < 3 && i < element.AppointmentCount; i++)
-                                {
-                                    var dotdrawable = new GradientDrawable();
-                                    dotdrawable.SetColor(element.AppointmentFlagColor.ToAndroid());
-
-                                    switch (i)
-                                    {
-                                        case 0:
-                                          //  dotdrawable.SetColor(element.AppointmentFlagColor.ToAndroid());
-
-                                            break;
-                                        case 1:
-                                         //   dotdrawable.SetColor(Palette.AppointmentIndicatorColor1.ToAndroid());
-                                            break;
-                                        case 2:
-                                          //  dotdrawable.SetColor(Palette.AppointmentIndicatorColor2.ToAndroid());
-                                            break;
-                                    }
-                                    
-                                    dotdrawable.SetShape(ShapeType.Oval);
-                                    d.Add(dotdrawable);
-
-                                }                                
-                            }
-                        }
                         var layer = new LayerDrawable(d.ToArray());
                         int startIndex = 0;
                         layer.SetLayerInset(0, 0, 0, 0, 0);
@@ -110,33 +83,8 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                             layer.SetLayerInset(1, 0, 0, 0, 0);
                             startIndex++;
                         }
-                        if (element.AppointmentCount > 0)
-                        {
-                            var diameter = (int)(Control.Height / 2 - 30) / 2;
-                            if (diameter <= 0)
-                                diameter = 8;
-                            var startX = 10;
-                            if (element.AppointmentCount == 1)
-                                startX = (int)(Control.Width/2 - diameter / 2);
-                            else
-                            if (element.AppointmentCount == 2)
-                                startX = (int)(Control.Width /2- diameter-5);
-                            else
-                                startX = (int)(Control.Width / 2 - diameter / 2 - diameter - 5);
-                            var topY = (int)Control.Height *3/ 4;
-                            for (int l =0; l < d.Count- startIndex; l++)
-                            {
-                                layer.SetLayerInset(l+ startIndex, startX + (diameter +10) * l, topY, (int)Control.Width - (startX + (diameter + 10) * l + diameter),
-                                    (int)(Control.Height / 4 - diameter));                               
-                            }
-                        }
-
                  
-
-                        Control.SetBackground(layer);
-                       
-                        
-
+                        Control.SetBackground(layer);   
 
                     }
                     else
@@ -273,6 +221,28 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                 y = Bounds.Bottom - Math.Abs(bounds.Bottom);
             }
             canvas.DrawText(Pattern.Text.ToCharArray(), 0, Pattern.Text.Length, x, y, paint);
+
+            if(Pattern.AppointmentCount >0)
+            {
+                var dotpaint = new Paint();
+                dotpaint.AntiAlias = true;
+                dotpaint.SetStyle(Paint.Style.Fill);
+                dotpaint.Color = Pattern.AppointmentFlagColor.ToAndroid();
+                var startX = 10;
+                if (Pattern.AppointmentCount == 1)
+                    startX = (int)(Bounds.CenterX() - 5);
+                else
+                if (Pattern.AppointmentCount == 2)
+                    startX = (int)(Bounds.CenterX() - 15);
+                else
+                    startX = (int)(Bounds.CenterX() - 25);
+                for(int i=0;i< Pattern.AppointmentCount&&i<3;i++)
+                {
+                    canvas.DrawOval(new RectF(startX+i*20, y + 20, startX + 10 + i * 20, y+10), dotpaint);
+
+                }
+
+            }
         }
     }
 }

@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6248a2d9-e467-4015-b8d7-5ffc2b76ef02</PackageIdentityName>
     <PackageIdentityPublisher>CN=jianfu.liu</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\bin\x86\Debug\EvvMobile.UWP.exe">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\bin\x86\Debug\EvvMobile.UWP.exe">
       <PackagePath>entrypoint\EvvMobile.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jianfu.liu\.nuget\packages\AutoMapper\4.0.4\lib\win\AutoMapper.dll">
@@ -493,85 +493,85 @@
     <AppxPackagedFile Include="C:\Users\jianfu.liu\.nuget\packages\Xamarin.Forms.Maps\2.3.4.247\lib\uap10.0\Xamarin.Forms.Maps.dll">
       <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\Libs\Evv.Message.Portable.Schedulers.dll">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\Libs\Evv.Message.Portable.Schedulers.dll">
       <PackagePath>Evv.Message.Portable.Schedulers.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile.Database\bin\Debug\EvvMobile.Database.dll">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile.Database\bin\Debug\EvvMobile.Database.dll">
       <PackagePath>EvvMobile.Database.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile\bin\Debug\EvvMobile.dll">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile\bin\Debug\EvvMobile.dll">
       <PackagePath>EvvMobile.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile\bin\Debug\EvvMobile.DataService.dll">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile\bin\Debug\EvvMobile.DataService.dll">
       <PackagePath>EvvMobile.DataService.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile\bin\Debug\EvvMobile.RestfulWebService.Infrastructure.dll">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile\bin\Debug\EvvMobile.RestfulWebService.Infrastructure.dll">
       <PackagePath>EvvMobile.RestfulWebService.Infrastructure.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile\bin\Debug\ZXing.Net.Mobile.Forms.dll">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile\bin\Debug\ZXing.Net.Mobile.Forms.dll">
       <PackagePath>ZXing.Net.Mobile.Forms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile\bin\Debug\zxing.portable.dll">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile\bin\Debug\zxing.portable.dll">
       <PackagePath>zxing.portable.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile\bin\Debug\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile\bin\Debug\ZXing.Net.Mobile.Core.dll">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile\bin\Debug\ZXing.Net.Mobile.Core.dll">
       <PackagePath>ZXing.Net.Mobile.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jianfu.liu\.nuget\packages\Win2D.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\ClockIn.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\ClockIn.png">
       <PackagePath>Assets\ClockIn.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\ClockInDisabled.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\ClockInDisabled.png">
       <PackagePath>Assets\ClockInDisabled.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\ClockOut.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\ClockOut.png">
       <PackagePath>Assets\ClockOut.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\ClockOutDisabled.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\ClockOutDisabled.png">
       <PackagePath>Assets\ClockOutDisabled.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\Home.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\Home.png">
       <PackagePath>Assets\Home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\pin.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\pin.png">
       <PackagePath>pin.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\bin\x86\Debug\EvvMobile.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\bin\x86\Debug\EvvMobile.UWP.xr.xml">
       <PackagePath>EvvMobile.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -589,11 +589,11 @@
     <AppxPackagedFile Include="C:\Users\jianfu.liu\.nuget\packages\Xamarin.Forms\2.3.4.247\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\Mobile\Dev\EvvMobile\EvvMobile.UWP\bin\x86\Debug\Core\EvvMobile.UWP.exe">
+    <AppxPackagedFile Include="C:\WorkingFolder\EvvProd\App\EvvMobile\EvvMobile.UWP\bin\x86\Debug\Core\EvvMobile.UWP.exe">
       <PackagePath>EvvMobile.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

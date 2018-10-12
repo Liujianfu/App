@@ -7,15 +7,12 @@
              xmlns:statics="clr-namespace:EvvMobile.Statics;assembly=EvvMobile"
              x:Class="EvvMobile.Pages.Schedules.CalendarPage">
 
-  <RelativeLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+  <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                   BackgroundColor="{x:Static statics:Palette.LevelOneBackgroundColor}" >
     <StackLayout 
-                 RelativeLayout.YConstraint="0"
-                 RelativeLayout.WidthConstraint="{ConstraintExpression
-            Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
-                 RelativeLayout.HeightConstraint="{ConstraintExpression
-            Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}">
+                 >
       <controls:Calendar
+          x:Name="MyClalendar"
           Margin="10,0,10,0"
           SelectedBorderWidth="4"
           DisabledBorderColor="Black"
@@ -33,6 +30,7 @@
           AppointmentsSource="{Binding AppointmentsCountPerDay}"
           AppointmentFlagColor="OrangeRed"
           BorderWidth ="1"
+          CalendarViewType="3"
       >
       </controls:Calendar>      
     </StackLayout>
@@ -40,12 +38,7 @@
       x:Name="ListviewLayout"
       Margin="10,5,10,0"
                  BackgroundColor="{x:Static statics:Palette.LevelOneBackgroundColor}"
-                 RelativeLayout.YConstraint="{ConstraintExpression
-            Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}"
-                 RelativeLayout.WidthConstraint="{ConstraintExpression
-            Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
-                 RelativeLayout.HeightConstraint="{ConstraintExpression
-            Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}">
+                >
     <views:CalendarScheduleListView 
         x:Name="ItemListView" 
         ItemsSource="{Binding SelectedScheduleItems}"
@@ -54,7 +47,7 @@
       ></views:CalendarScheduleListView>
     </StackLayout>
 
-  </RelativeLayout>    
+  </StackLayout>    
 
 
 

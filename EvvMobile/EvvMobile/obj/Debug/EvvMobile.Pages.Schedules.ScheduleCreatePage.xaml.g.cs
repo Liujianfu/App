@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.Schedules {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\Mobile\\Dev\\EvvMobile\\EvvMobile\\Pages\\Schedules\\ScheduleC" +
-        "reatePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\Schedules\\ScheduleCreatePa" +
+        "ge.xaml")]
     public partial class ScheduleCreatePage : global::EvvMobile.Pages.Schedules.ScheduleCreatePageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -11,9 +11,12 @@
 namespace EvvMobile.Pages.Schedules {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\Mobile\\Dev\\EvvMobile\\EvvMobile\\Pages\\Schedules\\CalendarP" +
-        "age.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\Schedules\\CalendarPage.xam" +
+        "l")]
     public partial class CalendarPage : global::EvvMobile.Pages.Schedules.CalendarPageXaml {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EvvMobile.Customizations.CustomControls.Calendar.Calendar MyClalendar;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.StackLayout ListviewLayout;
@@ -24,6 +27,7 @@ namespace EvvMobile.Pages.Schedules {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CalendarPage));
+            MyClalendar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EvvMobile.Customizations.CustomControls.Calendar.Calendar>(this, "MyClalendar");
             ListviewLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "ListviewLayout");
             ItemListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EvvMobile.Views.Schedules.CalendarScheduleListView>(this, "ItemListView");
         }

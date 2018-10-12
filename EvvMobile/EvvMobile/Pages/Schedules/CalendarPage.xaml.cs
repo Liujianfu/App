@@ -58,6 +58,10 @@ namespace EvvMobile.Pages.Schedules
         private double _height;
         private void Calendar_OnOnEndRenderCalendar(object sender, DateTimeEventArgs e)
         {
+            if (MyClalendar.CalendarViewType == DateTypeEnum.Week)
+                ViewModel.DaysOfLoadedSchedule = 7;
+            else if (MyClalendar.CalendarViewType == DateTypeEnum.Normal)
+                ViewModel.DaysOfLoadedSchedule = 41;
 
             if (ViewModel.LoadOneMonthSchedulesCommand.CanExecute(e.DateTime) && !ViewModel.IsInitialized)
             {

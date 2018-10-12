@@ -26,7 +26,9 @@ namespace EvvMobile.ViewModels.Schedules
             }
             _selectedScheduleItems = new List<ScheduleViewModel>();
             _appointmentsCountPerDay = new ObservableCollection<int>();
-           
+            DaysOfLoadedSchedule = 41;
+
+
         }
         #region Properties
 
@@ -47,6 +49,8 @@ namespace EvvMobile.ViewModels.Schedules
             get { return _appointmentsCountPerDay; }
             set { SetProperty(ref _appointmentsCountPerDay, value, AppointmentsCountPerDayPropertyName); }
         }
+
+        public int DaysOfLoadedSchedule { get; set; }
         #endregion
 
         #region Commands
@@ -71,7 +75,8 @@ namespace EvvMobile.ViewModels.Schedules
             var schedulerDataService = SystemViewModel.Instance.SchedulerDataService;
             var startDate = dateTime.Date;
             StartDate = startDate;
-            var endDate = startDate.AddDays(41);
+
+            var endDate = startDate.AddDays(DaysOfLoadedSchedule);
 
             var searchCriteria = new ServiceVisitSearchCriteriaDto
             {

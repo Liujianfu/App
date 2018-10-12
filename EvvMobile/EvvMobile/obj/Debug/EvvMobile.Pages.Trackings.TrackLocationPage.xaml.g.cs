@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.Trackings {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\Mobile\\Dev\\EvvMobile\\EvvMobile\\Pages\\Trackings\\TrackLoca" +
-        "tionPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\Trackings\\TrackLocationPag" +
+        "e.xaml")]
     public partial class TrackLocationPage : global::EvvMobile.Pages.Trackings.TrackLocationPageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
