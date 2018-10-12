@@ -70,7 +70,6 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                                 TextColor = element.TextColor,
                                 TextSize =(float)element.FontSize,
                                 AppointmentCount = element.AppointmentCount,
-                                AppointmentFlagColor =element.AppointmentFlagColor,
                                 IsSelected  =element.IsSelected,
 
                             } });
@@ -240,7 +239,6 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                 var dotpaint = new Paint();
                 dotpaint.AntiAlias = true;
                 dotpaint.SetStyle(Paint.Style.Fill);
-                dotpaint.Color = Pattern.AppointmentFlagColor.ToAndroid();
                 var startX = 10;
                 if (Pattern.AppointmentCount == 1)
                     startX = (int)(Bounds.CenterX() - 5);
@@ -251,6 +249,18 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                     startX = (int)(Bounds.CenterX() - 25);
                 for(int i=0;i< Pattern.AppointmentCount&&i<3;i++)
                 {
+                    switch (i)
+                    {
+                        case 0:
+                            dotpaint.Color =Palette.AppointmentIndicatorColor.ToAndroid();
+                            break;
+                        case 1:
+                            dotpaint.Color =Palette.AppointmentIndicatorColor1.ToAndroid();
+                            break;
+                        case 2:
+                            dotpaint.Color =Palette.AppointmentIndicatorColor2.ToAndroid();
+                            break;
+                    }
                     canvas.DrawOval(new RectF(startX+i*20, y + 20, startX + 10 + i * 20, y+10), dotpaint);
 
                 }
