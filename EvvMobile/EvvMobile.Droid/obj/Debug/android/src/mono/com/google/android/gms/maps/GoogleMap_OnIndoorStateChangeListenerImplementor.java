@@ -14,7 +14,7 @@ public class GoogleMap_OnIndoorStateChangeListenerImplementor
 			"n_onIndoorBuildingFocused:()V:GetOnIndoorBuildingFocusedHandler:Android.Gms.Maps.GoogleMap/IOnIndoorStateChangeListenerInvoker, Xamarin.GooglePlayServices.Maps\n" +
 			"n_onIndoorLevelActivated:(Lcom/google/android/gms/maps/model/IndoorBuilding;)V:GetOnIndoorLevelActivated_Lcom_google_android_gms_maps_model_IndoorBuilding_Handler:Android.Gms.Maps.GoogleMap/IOnIndoorStateChangeListenerInvoker, Xamarin.GooglePlayServices.Maps\n" +
 			"";
-		mono.android.Runtime.register ("Android.Gms.Maps.GoogleMap+IOnIndoorStateChangeListenerImplementor, Xamarin.GooglePlayServices.Maps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", GoogleMap_OnIndoorStateChangeListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Android.Gms.Maps.GoogleMap+IOnIndoorStateChangeListenerImplementor, Xamarin.GooglePlayServices.Maps", GoogleMap_OnIndoorStateChangeListenerImplementor.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class GoogleMap_OnIndoorStateChangeListenerImplementor
 	{
 		super ();
 		if (getClass () == GoogleMap_OnIndoorStateChangeListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Android.Gms.Maps.GoogleMap+IOnIndoorStateChangeListenerImplementor, Xamarin.GooglePlayServices.Maps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Android.Gms.Maps.GoogleMap+IOnIndoorStateChangeListenerImplementor, Xamarin.GooglePlayServices.Maps", "", this, new java.lang.Object[] {  });
 	}
 
 

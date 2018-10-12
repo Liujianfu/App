@@ -13,7 +13,7 @@ public class GoogleMap_OnCameraMoveStartedListenerImplementor
 		__md_methods = 
 			"n_onCameraMoveStarted:(I)V:GetOnCameraMoveStarted_IHandler:Android.Gms.Maps.GoogleMap/IOnCameraMoveStartedListenerInvoker, Xamarin.GooglePlayServices.Maps\n" +
 			"";
-		mono.android.Runtime.register ("Android.Gms.Maps.GoogleMap+IOnCameraMoveStartedListenerImplementor, Xamarin.GooglePlayServices.Maps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", GoogleMap_OnCameraMoveStartedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Android.Gms.Maps.GoogleMap+IOnCameraMoveStartedListenerImplementor, Xamarin.GooglePlayServices.Maps", GoogleMap_OnCameraMoveStartedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class GoogleMap_OnCameraMoveStartedListenerImplementor
 	{
 		super ();
 		if (getClass () == GoogleMap_OnCameraMoveStartedListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Android.Gms.Maps.GoogleMap+IOnCameraMoveStartedListenerImplementor, Xamarin.GooglePlayServices.Maps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Android.Gms.Maps.GoogleMap+IOnCameraMoveStartedListenerImplementor, Xamarin.GooglePlayServices.Maps", "", this, new java.lang.Object[] {  });
 	}
 
 

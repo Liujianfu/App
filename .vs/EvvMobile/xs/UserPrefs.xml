@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{24A5138C-EE7A-44CE-85D2-BD903B2AC2B6}|Default">
+  <MonoDevelop.Ide.ItemProperties.EvvMobile.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.EvvMobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.622E5C1E-E647-4DEB-82CA-DC6ACC6EB977" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EvvMobile/EvvMobile/Pages/Schedules/CalendarPage.xaml">
+    <Files>
+      <File FileName="EvvMobile/EvvMobile.iOS/AppDelegate.cs" Line="49" Column="10" />
+      <File FileName="EvvMobile/EvvMobile.iOS/Customizations/CustomControls/Calendar/CalendarButtonRenderer.cs" Line="114" Column="14" />
+      <File FileName="EvvMobile/EvvMobile/Customizations/CustomControls/Calendar/CalendarButton.cs" Line="1" Column="1" />
+      <File FileName="EvvMobile/EvvMobile.iOS/Localization/Localize.cs" Line="1" Column="1" />
+      <File FileName="EvvMobile/EvvMobile.iOS/Notifications/PushNotificationService.cs" Line="14" Column="56" />
+      <File FileName="EvvMobile/EvvMobile/Notifications/NotificationRegistrationService.cs" Line="18" Column="32" />
+      <File FileName="EvvMobile/EvvMobile/Customizations/CustomControls/Calendar/Calendar.Weekdays.cs" Line="168" Column="29" />
+      <File FileName="EvvMobile/EvvMobile/Customizations/CustomControls/Calendar/Calendar.MonthNavigation.cs" Line="462" Column="27" />
+      <File FileName="EvvMobile/EvvMobile/Pages/Schedules/CalendarPage.xaml" Line="20" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile.iOS/Customizations/CustomControls/Calendar/CalendarButtonRenderer.cs" relfile="EvvMobile/EvvMobile.iOS/Customizations/CustomControls/Calendar/CalendarButtonRenderer.cs" line="125" column="1" />
+      <Breakpoint file="/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile.iOS/Customizations/CustomControls/Calendar/CalendarButtonRenderer.cs" relfile="EvvMobile/EvvMobile.iOS/Customizations/CustomControls/Calendar/CalendarButtonRenderer.cs" line="108" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

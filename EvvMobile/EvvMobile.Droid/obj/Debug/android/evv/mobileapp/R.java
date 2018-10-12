@@ -3092,7 +3092,13 @@ containing a value of this type.
         public static final int addblue40=0x7f020054;
         public static final int analysis=0x7f020055;
         public static final int avd_hide_password=0x7f020056;
+        public static final int avd_hide_password_1=0x7f020142;
+        public static final int avd_hide_password_2=0x7f020143;
+        public static final int avd_hide_password_3=0x7f020144;
         public static final int avd_show_password=0x7f020057;
+        public static final int avd_show_password_1=0x7f020145;
+        public static final int avd_show_password_2=0x7f020146;
+        public static final int avd_show_password_3=0x7f020147;
         public static final int back=0x7f020058;
         public static final int calendar=0x7f020059;
         public static final int clockin=0x7f02005a;
@@ -3670,13 +3676,6 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f08000f;
         public static final int common_signin_button_text=0x7f080010;
         public static final int common_signin_button_text_long=0x7f080011;
-        public static final int default_web_client_id=0x7f080055;
-        public static final int firebase_database_url=0x7f080056;
-        public static final int gcm_defaultSenderId=0x7f080053;
-        public static final int google_api_key=0x7f080057;
-        public static final int google_app_id=0x7f080054;
-        public static final int google_crash_reporting_api_key=0x7f080058;
-        public static final int google_storage_bucket=0x7f080059;
         public static final int library_name=0x7f080000;
         public static final int mr_button_content_description=0x7f080013;
         public static final int mr_cast_button_connected=0x7f080014;

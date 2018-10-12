@@ -5,7 +5,7 @@ public class ApplicationRegistration {
 	public static void registerApplications ()
 	{
 				// Application and Instrumentation ACWs must be registered first.
-		mono.android.Runtime.register ("EvvMobile.Droid.MainApplication, EvvMobile.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", md5789a0303b7a7b695295c266e400cda40.MainApplication.class, md5789a0303b7a7b695295c266e400cda40.MainApplication.__md_methods);
+		mono.android.Runtime.register ("EvvMobile.Droid.MainApplication, EvvMobile.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", md570c284d8039e27cc19c1345bdf8d3cbc.MainApplication.class, md570c284d8039e27cc19c1345bdf8d3cbc.MainApplication.__md_methods);
 		
 	}
 }

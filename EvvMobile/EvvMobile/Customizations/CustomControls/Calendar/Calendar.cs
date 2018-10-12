@@ -310,7 +310,7 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 		#region DatesFontSize
 
 		public static readonly BindableProperty DatesFontSizeProperty =
-			BindableProperty.Create(nameof(DatesFontSize), typeof(double), typeof(Calendar), 14.0,
+			BindableProperty.Create(nameof(DatesFontSize), typeof(double), typeof(Calendar), 16.0,
 									propertyChanged: (bindable, oldValue, newValue) => (bindable as Calendar).ChangeDatesFontSize((double)newValue, (double)oldValue));
 
 		protected void ChangeDatesFontSize(double newValue, double oldValue)

@@ -2346,8 +2346,26 @@ namespace EvvMobile.Droid
 			// aapt resource value: 0x7f020056
 			public const int avd_hide_password = 2130837590;
 			
+			// aapt resource value: 0x7f020142
+			public const int avd_hide_password_1 = 2130837826;
+			
+			// aapt resource value: 0x7f020143
+			public const int avd_hide_password_2 = 2130837827;
+			
+			// aapt resource value: 0x7f020144
+			public const int avd_hide_password_3 = 2130837828;
+			
 			// aapt resource value: 0x7f020057
 			public const int avd_show_password = 2130837591;
+			
+			// aapt resource value: 0x7f020145
+			public const int avd_show_password_1 = 2130837829;
+			
+			// aapt resource value: 0x7f020146
+			public const int avd_show_password_2 = 2130837830;
+			
+			// aapt resource value: 0x7f020147
+			public const int avd_show_password_3 = 2130837831;
 			
 			// aapt resource value: 0x7f020058
 			public const int back = 2130837592;
@@ -4114,27 +4132,6 @@ namespace EvvMobile.Droid
 			
 			// aapt resource value: 0x7f080011
 			public const int common_signin_button_text_long = 2131230737;
-			
-			// aapt resource value: 0x7f080055
-			public const int default_web_client_id = 2131230805;
-			
-			// aapt resource value: 0x7f080056
-			public const int firebase_database_url = 2131230806;
-			
-			// aapt resource value: 0x7f080053
-			public const int gcm_defaultSenderId = 2131230803;
-			
-			// aapt resource value: 0x7f080057
-			public const int google_api_key = 2131230807;
-			
-			// aapt resource value: 0x7f080054
-			public const int google_app_id = 2131230804;
-			
-			// aapt resource value: 0x7f080058
-			public const int google_crash_reporting_api_key = 2131230808;
-			
-			// aapt resource value: 0x7f080059
-			public const int google_storage_bucket = 2131230809;
 			
 			// aapt resource value: 0x7f080000
 			public const int library_name = 2131230720;

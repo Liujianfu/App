@@ -110,6 +110,8 @@ class MonoPackageManager_Resources {
 		"AutoMapper.Android.dll",
 		"AutoMapper.dll",
 		"Evv.Message.Portable.Schedulers.dll",
+		"EvvMobile.Database.dll",
+		"EvvMobile.dll",
 		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
 		"ImageCircle.Forms.Plugin.Abstractions.dll",
@@ -180,12 +182,10 @@ class MonoPackageManager_Resources {
 		"ZXing.Net.Mobile.Forms.dll",
 		"zxing.portable.dll",
 		"ZXingNetMobile.dll",
-		"EvvMobile.Database.dll",
-		"EvvMobile.dll",
 		"EvvMobile.DataService.dll",
 		"EvvMobile.RestfulWebService.Infrastructure.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_26";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_27";
 }

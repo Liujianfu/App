@@ -13,7 +13,7 @@ public class GoogleMap_OnPoiClickListenerImplementor
 		__md_methods = 
 			"n_onPoiClick:(Lcom/google/android/gms/maps/model/PointOfInterest;)V:GetOnPoiClick_Lcom_google_android_gms_maps_model_PointOfInterest_Handler:Android.Gms.Maps.GoogleMap/IOnPoiClickListenerInvoker, Xamarin.GooglePlayServices.Maps\n" +
 			"";
-		mono.android.Runtime.register ("Android.Gms.Maps.GoogleMap+IOnPoiClickListenerImplementor, Xamarin.GooglePlayServices.Maps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", GoogleMap_OnPoiClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Android.Gms.Maps.GoogleMap+IOnPoiClickListenerImplementor, Xamarin.GooglePlayServices.Maps", GoogleMap_OnPoiClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class GoogleMap_OnPoiClickListenerImplementor
 	{
 		super ();
 		if (getClass () == GoogleMap_OnPoiClickListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Android.Gms.Maps.GoogleMap+IOnPoiClickListenerImplementor, Xamarin.GooglePlayServices.Maps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Android.Gms.Maps.GoogleMap+IOnPoiClickListenerImplementor, Xamarin.GooglePlayServices.Maps", "", this, new java.lang.Object[] {  });
 	}
 
 

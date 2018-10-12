@@ -13,7 +13,7 @@ public class CustomTabsClient_CustomTabsCallbackImpl
 			"n_onNavigationEvent:(ILandroid/os/Bundle;)V:GetOnNavigationEvent_ILandroid_os_Bundle_Handler\n" +
 			"n_extraCallback:(Ljava/lang/String;Landroid/os/Bundle;)V:GetExtraCallback_Ljava_lang_String_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("Android.Support.CustomTabs.CustomTabsClient+CustomTabsCallbackImpl, Xamarin.Android.Support.CustomTabs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", CustomTabsClient_CustomTabsCallbackImpl.class, __md_methods);
+		mono.android.Runtime.register ("Android.Support.CustomTabs.CustomTabsClient+CustomTabsCallbackImpl, Xamarin.Android.Support.CustomTabs", CustomTabsClient_CustomTabsCallbackImpl.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class CustomTabsClient_CustomTabsCallbackImpl
 	{
 		super ();
 		if (getClass () == CustomTabsClient_CustomTabsCallbackImpl.class)
-			mono.android.TypeManager.Activate ("Android.Support.CustomTabs.CustomTabsClient+CustomTabsCallbackImpl, Xamarin.Android.Support.CustomTabs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Android.Support.CustomTabs.CustomTabsClient+CustomTabsCallbackImpl, Xamarin.Android.Support.CustomTabs", "", this, new java.lang.Object[] {  });
 	}
 
 

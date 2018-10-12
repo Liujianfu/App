@@ -23,10 +23,10 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
         {
             base.OnElementPropertyChanged(sender, e);
             var element = Element as CalendarButton;
-            if (e.PropertyName == nameof(element.TextWithoutMeasure) || e.PropertyName == "Renderer")
+            if (element.IsNotDateButton&&(e.PropertyName == nameof(element.TextWithoutMeasure) || e.PropertyName == "Renderer"))
             {
                 Control.SetTitle(element.TextWithoutMeasure, UIControlState.Normal);
-                Control.SetTitle(element.TextWithoutMeasure, UIControlState.Disabled);
+               Control.SetTitle(element.TextWithoutMeasure, UIControlState.Disabled);
             }
             if (e.PropertyName == nameof(element.TextColor) || e.PropertyName == "Renderer")
             {
@@ -40,6 +40,12 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             if (e.PropertyName == nameof(element.BackgroundImage))
             {
                 DrawBackgroundImage();
+            }
+            if (e.PropertyName == nameof(Element.BorderWidth) || e.PropertyName == nameof(element.IsSelected) ||
+                e.PropertyName == nameof(Element.BackgroundColor) || e.PropertyName == nameof(element.AppointmentCount) ||
+                e.PropertyName == nameof(Element.Height) || e.PropertyName == nameof(Element.TextColor) || e.PropertyName == "Renderer")
+            {
+                DrawAppointments();
             }
         }
 
@@ -56,36 +62,37 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
         protected  void DrawAppointments()
         {
             var element = Element as CalendarButton;
-            if (element != null && element.AppointmentCount > 0)
+            if (element == null || Control.Frame.Width == 0||element.IsNotDateButton) return;
+            UIImage image;
+            UIGraphics.BeginImageContext(Control.Frame.Size);
+            using (CGContext g = UIGraphics.GetCurrentContext())
             {
-                CAShapeLayer btnShapeLayer = new CAShapeLayer();
-                var btn = (UIButton)Control;
-                btnShapeLayer.Frame = btn.Bounds;
-                for (int i = 0; i < 3&& i< element.AppointmentCount; i++)
-                {
-                    CAShapeLayer subShapeLayer = new CAShapeLayer();
-                    subShapeLayer.Frame = btn.Bounds;
-                    subShapeLayer.BackgroundColor = UIColor.Clear.CGColor;
-                    switch (i)
-                    {
-                        case 0:
-                            subShapeLayer.FillColor = Palette.AppointmentIndicatorColor.ToCGColor();
-                            break;
-                        case 1:
-                            subShapeLayer.FillColor = Palette.AppointmentIndicatorColor1.ToCGColor();
-                            break;
-                        case 2:
-                            subShapeLayer.FillColor = Palette.AppointmentIndicatorColor2.ToCGColor();
-                            break;
-                    }
-                    
-                    UIBezierPath maskPath = UIBezierPath.FromOval(new CGRect(5 + 10 * i, element.Height - 5, 5, 5));
-                    subShapeLayer.Path = maskPath.CGPath;
-                    btnShapeLayer.AddSublayer(subShapeLayer);
-                }
-                btn.Layer.InsertSublayer(btnShapeLayer, 0);
+                
 
+                    g.SetFillColor(element.BackgroundColor.ToCGColor());
+                    
+                    var w = (int)Math.Ceiling(Control.Frame.Width );
+                  
+                    var h = (int)Math.Ceiling(Control.Frame.Height);
+                    var r = new CGRect { X = 0, Y = 0, Width = w, Height = h };
+                    g.FillRect(r);
+                    DrawText(g, new Pattern{
+                    Text = element.TextWithoutMeasure,
+                        TextAlign = TextAlign.Middle,
+                        TextColor = element.TextColor,
+                        TextSize = (float)element.FontSize,
+                        AppointmentCount = element.AppointmentCount+3,
+
+                        IsSelected = element.IsSelected
+                     }, r);
+
+
+
+                image = UIGraphics.GetImageFromCurrentImageContext();
             }
+            UIGraphics.EndImageContext();
+            Control.SetBackgroundImage(image, UIControlState.Normal);
+            Control.SetBackgroundImage(image, UIControlState.Disabled);
         }
         protected async void DrawBackgroundImage()
         {
@@ -118,27 +125,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
                     DrawText(g, p, r);
                 }
 
-                if (element.AppointmentCount > 0)
-                {
-                    for (int i = 0; i < 3 && i < element.AppointmentCount; i++)
-                    {
-                        var circleArea = new CGRect(5 + 10 * i, Control.Frame.Height - 5, 5, 5);
-                        switch (i)
-                        {
-                            case 0:      
-                                g.SetFillColor(Palette.AppointmentIndicatorColor.ToCGColor());
-                                break;
-                            case 1:
-                                g.SetFillColor(Palette.AppointmentIndicatorColor1.ToCGColor());
-                                break;
-                            case 2:
-                                g.SetFillColor(Palette.AppointmentIndicatorColor2.ToCGColor());
-                                break;
-                        }
-                        g.FillEllipseInRect(circleArea.Inset(1, 1));
-                    }
-
-                }
+               
                 image = UIGraphics.GetImageFromCurrentImageContext();
             }
             UIGraphics.EndImageContext();
@@ -155,6 +142,15 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
         protected void DrawText(CGContext g, Pattern p, CGRect r)
         {
             if (string.IsNullOrEmpty(p.Text)) return;
+            if (p.IsSelected)
+            {
+                var radius = Bounds.Height > Bounds.Width? (Bounds.Width - 4) / 2 : (Bounds.Height - 4) / 2;
+                g.SetFillColor(Color.LightSkyBlue.ToCGColor());
+
+                var circleArea = new CGRect(r.X+Bounds.Width/2-radius, r.Y+ Bounds.Height/2-radius, 2*radius, 2*radius);
+                g.FillEllipseInRect(circleArea.Inset(1, 1));
+            }
+
             var bounds = p.Text.StringSize(UIFont.FromName("Helvetica", p.TextSize));
             var al = (int)p.TextAlign;
             var x = r.X; ;
@@ -167,10 +163,10 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             {
                 x = (r.X + r.Width) - bounds.Width - 2;
             }
-            var y = r.Y + (int)Math.Round(bounds.Height / 2.0) + 2;
+            var y = r.Y + (int)Math.Round(bounds.Height / 2.0)+2;
             if ((al & 16) == 16) // middle
             {
-                y = r.Y + (int)Math.Ceiling(r.Height / 2.0) + (int)Math.Round(bounds.Height / 5.0);
+                y = r.Y + (int)Math.Ceiling(r.Height / 2.0) + (int)Math.Round(bounds.Height / 6.0);
             }
             else if ((al & 32) == 32) // bottom
             {
@@ -184,6 +180,39 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             g.SelectFont("Helvetica", p.TextSize, CGTextEncoding.MacRoman);
             g.ShowTextAtPoint(x, Bounds.Height - y, p.Text);
             g.RestoreState();
+
+            if (p.AppointmentCount>0)
+            {
+                for (int i = 0; i < 3&&i<p.AppointmentCount; i++)
+                {
+                    var startX = 10;
+                    if (p.AppointmentCount == 1)
+                        startX = (int)((int)Math.Round(Bounds.Width / 2.0) - 3);
+                    else
+                        if (p.AppointmentCount == 2)
+                            startX = (int)((int)Math.Round(Bounds.Width / 2.0) - 8);
+                    else
+                            startX = (int)((int)Math.Round(Bounds.Width / 2.0)- 13);
+            
+
+
+                    var circleArea = new CGRect(startX + i * 10, y+ 5, 6, 6);
+                    switch (i)
+                    {
+                        case 0:
+                            g.SetFillColor(Palette.AppointmentIndicatorColor.ToCGColor());
+                            break;
+                        case 1:
+                            g.SetFillColor(Palette.AppointmentIndicatorColor1.ToCGColor());
+                            break;
+                        case 2:
+                            g.SetFillColor(Palette.AppointmentIndicatorColor2.ToCGColor());
+                            break;
+                    }
+                    g.FillEllipseInRect(circleArea.Inset(1, 1));
+                }
+
+            }
         }
     }
 
