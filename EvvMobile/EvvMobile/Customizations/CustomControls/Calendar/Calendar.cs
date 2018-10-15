@@ -525,7 +525,8 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 							FontFamily = DatesFontFamily,
 							HorizontalOptions = LayoutOptions.FillAndExpand,
 							VerticalOptions = LayoutOptions.FillAndExpand,
-                            AppointmentFlagColor = AppointmentFlagColor
+                            AppointmentFlagColor = AppointmentFlagColor,
+                            
 						});
 						var b = buttons.Last();
 						b.Clicked += DateClickedEvent;

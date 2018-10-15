@@ -25,10 +25,13 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
             {
                 var element = Element as CalendarButton;
                 if (Control.Text == element.TextWithoutMeasure || (string.IsNullOrEmpty(Control.Text) && string.IsNullOrEmpty(element.TextWithoutMeasure))) return;
-              //  Control.Text = element.TextWithoutMeasure;
+                  Control.Text = element.TextWithoutMeasure;
             };
-
-            Control.SetPadding(1, 1, 1, 10);
+            var btnelement = Element as CalendarButton;
+            if(btnelement!=null&& !btnelement.IsNotDateButton)
+                Control.SetPadding(1, 1, 1, 30);
+            else
+                Control.SetPadding(1, 1, 1, 10);
             Control.ViewTreeObserver.GlobalLayout += (sender, args) => ChangeBackgroundPattern();
         }
         protected override void OnElementPropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
@@ -38,7 +41,8 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
 
             if (e.PropertyName == nameof(element.TextWithoutMeasure) || e.PropertyName == "Renderer")
             {
-               // Control.Text = element.TextWithoutMeasure;
+                Control.Text = element.TextWithoutMeasure;
+
             }
 
             if (e.PropertyName == nameof(Element.TextColor) || e.PropertyName == "Renderer")
@@ -46,7 +50,7 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                 Control.SetTextColor(Element.TextColor.ToAndroid());
             }
 
-            if (e.PropertyName == nameof(Element.BorderWidth) || e.PropertyName == nameof(Element.BorderColor) || 
+            if (e.PropertyName == nameof(element.IsSelected) || e.PropertyName == nameof(Element.BorderColor) || 
                 e.PropertyName == nameof(Element.BackgroundColor) ||e.PropertyName == nameof(element.AppointmentCount)||
                 e.PropertyName == nameof(Element.Height) || e.PropertyName == nameof(Element.TextColor) ||e.PropertyName == "Renderer")
             {
@@ -62,9 +66,9 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
 
                             var d = new List<Drawable>();
                              d.Add(drawable);
-                        if(string.IsNullOrWhiteSpace(Control.Text))
+                        if(!element.IsNotDateButton)
                         {
-                            d.Add((Drawable)new TextDrawable(Android.Graphics.Color.Transparent) { Pattern = new Pattern {
+                            d.Add((Drawable)new EventsDrawable(Android.Graphics.Color.Transparent) { Pattern = new Pattern {
                                 Text = element.TextWithoutMeasure,
                                 TextAlign = TextAlign.CenterTop,
                                 TextColor = element.TextColor,
@@ -76,13 +80,10 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                         }
 
                         var layer = new LayerDrawable(d.ToArray());
-                        int startIndex = 0;
                         layer.SetLayerInset(0, 0, 0, 0, 0);
-                        startIndex++;
-                        if (string.IsNullOrWhiteSpace(Control.Text))
+                        if (!element.IsNotDateButton)
                         {
                             layer.SetLayerInset(1, 0, 0, 0, 0);
-                            startIndex++;
                         }
                  
                         Control.SetBackground(layer);   
@@ -180,7 +181,61 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
             var d = "";
         }
     }
+    public class EventsDrawable : ColorDrawable
+    {
+        public Pattern Pattern { get; set; }
 
+        public EventsDrawable(Android.Graphics.Color color)
+            : base(color)
+        {
+        }
+        public override void Draw(Canvas canvas)
+        {
+            base.Draw(canvas);
+            if (Pattern.IsSelected)
+            {
+                var radius = Bounds.Height() > Bounds.Width() ? (Bounds.Width() - 10) / 2 : (Bounds.Height() - 10) / 2;
+                var selectedBackPaint = new Paint();
+                selectedBackPaint.AntiAlias = true;
+                selectedBackPaint.SetStyle(Paint.Style.Fill);
+                selectedBackPaint.Color = Android.Graphics.Color.LightSkyBlue;
+                canvas.DrawOval(new RectF(Bounds.CenterX() - radius, Bounds.CenterY() - radius, Bounds.CenterX() + radius, Bounds.CenterY() + radius), selectedBackPaint);
+
+            }
+            if (Pattern.AppointmentCount > 0)
+            {
+                var dotpaint = new Paint();
+                dotpaint.AntiAlias = true;
+                dotpaint.SetStyle(Paint.Style.Fill);
+                var startX = 10;
+                if (Pattern.AppointmentCount == 1)
+                    startX = (int)(Bounds.CenterX() - 5);
+                else
+                if (Pattern.AppointmentCount == 2)
+                    startX = (int)(Bounds.CenterX() - 15);
+                else
+                    startX = (int)(Bounds.CenterX() - 25);
+                for (int i = 0; i < Pattern.AppointmentCount && i < 3; i++)
+                {
+                    switch (i)
+                    {
+                        case 0:
+                            dotpaint.Color = Palette.AppointmentIndicatorColor.ToAndroid();
+                            break;
+                        case 1:
+                            dotpaint.Color = Palette.AppointmentIndicatorColor1.ToAndroid();
+                            break;
+                        case 2:
+                            dotpaint.Color = Palette.AppointmentIndicatorColor2.ToAndroid();
+                            break;
+                    }
+                    canvas.DrawOval(new RectF(startX + i * 20, Bounds.Bottom - 30, startX + 10 + i * 20, Bounds.Bottom - 20), dotpaint);
+
+                }
+
+            }
+        }
+    }
     public class TextDrawable : ColorDrawable
     {
         Paint paint;
@@ -198,17 +253,6 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
         public override void Draw(Canvas canvas)
         {
             base.Draw(canvas);
-            if(Pattern.IsSelected)
-            {
-                var radius = Bounds.Height() > Bounds.Width() ? (Bounds.Width()-10) / 2 : (Bounds.Height()-10) / 2;
-                var selectedBackPaint = new Paint();
-                selectedBackPaint.AntiAlias = true;
-                selectedBackPaint.SetStyle(Paint.Style.Fill);
-                selectedBackPaint.Color = Android.Graphics.Color.LightSkyBlue;
-                canvas.DrawOval(new RectF(Bounds.CenterX()- radius, Bounds.CenterY()- radius, Bounds.CenterX() + radius, Bounds.CenterY() + radius), selectedBackPaint);
-
-            }
-
             paint.Color = Pattern.TextColor.ToAndroid();
             paint.TextSize = Android.Util.TypedValue.ApplyDimension(Android.Util.ComplexUnitType.Sp, Pattern.TextSize > 0 ? Pattern.TextSize : 12, Forms.Context.Resources.DisplayMetrics);
             var bounds = new Rect();
@@ -233,39 +277,7 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                 y = Bounds.Bottom - Math.Abs(bounds.Bottom);
             }
             canvas.DrawText(Pattern.Text.ToCharArray(), 0, Pattern.Text.Length, x, y, paint);
-
-            if(Pattern.AppointmentCount >0)
-            {
-                var dotpaint = new Paint();
-                dotpaint.AntiAlias = true;
-                dotpaint.SetStyle(Paint.Style.Fill);
-                var startX = 10;
-                if (Pattern.AppointmentCount == 1)
-                    startX = (int)(Bounds.CenterX() - 5);
-                else
-                if (Pattern.AppointmentCount == 2)
-                    startX = (int)(Bounds.CenterX() - 15);
-                else
-                    startX = (int)(Bounds.CenterX() - 25);
-                for(int i=0;i< Pattern.AppointmentCount&&i<3;i++)
-                {
-                    switch (i)
-                    {
-                        case 0:
-                            dotpaint.Color =Palette.AppointmentIndicatorColor.ToAndroid();
-                            break;
-                        case 1:
-                            dotpaint.Color =Palette.AppointmentIndicatorColor1.ToAndroid();
-                            break;
-                        case 2:
-                            dotpaint.Color =Palette.AppointmentIndicatorColor2.ToAndroid();
-                            break;
-                    }
-                    canvas.DrawOval(new RectF(startX+i*20, y + 20, startX + 10 + i * 20, y+10), dotpaint);
-
-                }
-
-            }
+            
         }
     }
 }

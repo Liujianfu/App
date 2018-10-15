@@ -19,6 +19,25 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
     [Preserve(AllMembers = true)]
     public class CalendarButtonRenderer : ButtonRenderer
     {
+        protected override void OnElementChanged(ElementChangedEventArgs<Xamarin.Forms.Button> e)
+        {
+            base.OnElementChanged(e);
+            if (Control == null) return;
+
+            var btnelement = Element as CalendarButton;
+            if (btnelement != null && !btnelement.IsNotDateButton)
+                Control.ContentEdgeInsets = new UIEdgeInsets(
+                (float)1,
+                (float)1,
+                (float)1,
+                (float)20);
+            else
+                Control.ContentEdgeInsets = new UIEdgeInsets(
+                    (float)1,
+                    (float)1,
+                    (float)1,
+                    (float)1);
+        }
         protected override void OnElementPropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             base.OnElementPropertyChanged(sender, e);
@@ -41,8 +60,10 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             {
                 DrawBackgroundImage();
             }
-            if (e.PropertyName == nameof(Element.BorderWidth) || e.PropertyName == nameof(element.IsSelected) ||
-                e.PropertyName == nameof(Element.BackgroundColor) || e.PropertyName == nameof(element.AppointmentCount) ||
+            if (e.PropertyName == nameof(Element.BorderColor) || e.PropertyName == nameof(Element.BorderWidth) ||
+                e.PropertyName == nameof(element.IsSelected) ||
+                e.PropertyName == nameof(Element.BackgroundColor) || 
+                e.PropertyName == nameof(element.AppointmentCount) ||
                 e.PropertyName == nameof(Element.Height) || e.PropertyName == nameof(Element.TextColor) || e.PropertyName == "Renderer")
             {
                 DrawAppointments();
@@ -66,8 +87,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             UIImage image;
             UIGraphics.BeginImageContext(Control.Frame.Size);
             using (CGContext g = UIGraphics.GetCurrentContext())
-            {
-                
+            {                
 
                     g.SetFillColor(element.BackgroundColor.ToCGColor());
                     
@@ -151,7 +171,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
                 g.FillEllipseInRect(circleArea.Inset(1, 1));
             }
 
-            var bounds = p.Text.StringSize(UIFont.FromName("Helvetica", p.TextSize));
+        /*    var bounds = p.Text.StringSize(UIFont.FromName("Helvetica", p.TextSize));
             var al = (int)p.TextAlign;
             var x = r.X; ;
 
@@ -179,7 +199,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             g.SetTextDrawingMode(CGTextDrawingMode.Fill);
             g.SelectFont("Helvetica", p.TextSize, CGTextEncoding.MacRoman);
             g.ShowTextAtPoint(x, Bounds.Height - y, p.Text);
-            g.RestoreState();
+            g.RestoreState();*/
 
             if (p.AppointmentCount>0)
             {
@@ -196,7 +216,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             
 
 
-                    var circleArea = new CGRect(startX + i * 10, y+ 5, 6, 6);
+                    var circleArea = new CGRect(startX + i * 10, r.Y + Bounds.Height-15, 6, 6);
                     switch (i)
                     {
                         case 0:
