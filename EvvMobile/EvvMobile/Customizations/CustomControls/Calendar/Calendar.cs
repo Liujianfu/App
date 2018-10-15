@@ -494,7 +494,7 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 		protected void CreateButtons()
 		{
 			var columDef = new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) };
-			var rowDef = new RowDefinition { Height = new GridLength(1, GridUnitType.Star) };
+			var rowDef = new RowDefinition { Height = new GridLength(1, GridUnitType.Auto) };
 			buttons.Clear();
 			MainCalendars.Clear();
 			for (var i = 0; i < ShowNumOfMonths; i++)
@@ -513,21 +513,23 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 				{
 					for (int c = 0; c < 7; c++)
 					{
-						buttons.Add(new CalendarButton
-						{
-							BorderRadius = 0,
-							BorderWidth = BorderWidth,
-							BorderColor = BorderColor,
-							FontSize = DatesFontSize,
-							BackgroundColor = DatesBackgroundColor,
-							TextColor = DatesTextColor,
-							FontAttributes = DatesFontAttributes,
-							FontFamily = DatesFontFamily,
-							HorizontalOptions = LayoutOptions.FillAndExpand,
-							VerticalOptions = LayoutOptions.FillAndExpand,
+                        var newBtn = new CalendarButton
+                        {
+                            BorderRadius = 0,
+                            BorderWidth = BorderWidth,
+                            BorderColor = BorderColor,
+                            FontSize = DatesFontSize,
+                            BackgroundColor = DatesBackgroundColor,
+                            TextColor = DatesTextColor,
+                            FontAttributes = DatesFontAttributes,
+                            FontFamily = DatesFontFamily,
+                            HorizontalOptions = LayoutOptions.FillAndExpand,
+                            VerticalOptions = LayoutOptions.FillAndExpand,
                             AppointmentFlagColor = AppointmentFlagColor,
-                            
-						});
+
+                        };
+                        newBtn.VerticalOptions = LayoutOptions.FillAndExpand;
+                        buttons.Add(newBtn);
 						var b = buttons.Last();
 						b.Clicked += DateClickedEvent;
 						mainCalendar.Children.Add(b, c, r);

@@ -50,9 +50,9 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
                 Control.SetTextColor(Element.TextColor.ToAndroid());
             }
 
-            if (e.PropertyName == nameof(element.IsSelected) || e.PropertyName == nameof(Element.BorderColor) || 
+            if (e.PropertyName == nameof(element.IsSelected) || 
                 e.PropertyName == nameof(Element.BackgroundColor) ||e.PropertyName == nameof(element.AppointmentCount)||
-                e.PropertyName == nameof(Element.Height) || e.PropertyName == nameof(Element.TextColor) ||e.PropertyName == "Renderer")
+                e.PropertyName == nameof(Element.Height) ||e.PropertyName == "Renderer")
             {
                 if (element.BackgroundPattern == null)
                 {
