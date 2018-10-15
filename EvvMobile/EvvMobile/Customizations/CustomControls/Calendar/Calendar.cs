@@ -22,9 +22,11 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 			{
 				FontAttributes = FontAttributes.Bold,
 				BackgroundColor = Color.Transparent,
-				FontSize = 24,
-				Text = "<",
-				TextColor = Color.FromHex("#c82727"),
+				HeightRequest=20,
+                WidthRequest=20,
+				Text = "",
+                BackgroundImage = new FileImageSource { File = "leftarrow.png" },
+                TextColor = Color.FromHex("#c82727"),
 			    IsNotDateButton=true
             };
 			TitleLabel = new Label { 
@@ -40,8 +42,10 @@ namespace EvvMobile.Customizations.CustomControls.Calendar
 			{
 				FontAttributes = FontAttributes.Bold,
 				BackgroundColor = Color.Transparent,
-				FontSize = 24,
-				Text = ">",
+                HeightRequest = 20,
+                WidthRequest = 20,
+                BackgroundImage = new FileImageSource { File = "rightarrow.png" },
+                Text = "",
 				TextColor = Color.FromHex("#c82727"),
 			    IsNotDateButton = true
             };

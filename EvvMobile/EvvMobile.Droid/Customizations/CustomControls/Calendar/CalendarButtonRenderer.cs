@@ -111,23 +111,27 @@ namespace EvvMobile.Droid.Customizations.CustomControls.Calendar
             }
         }
 
-        protected async void ChangeBackgroundImage()
+        protected  void ChangeBackgroundImage()
         {
             var element = Element as CalendarButton;
             if (element == null || element.BackgroundImage == null) return;
 
             var d = new List<Drawable>();
-            var image = await GetBitmap(element.BackgroundImage);
-            d.Add(new BitmapDrawable(image));
-            var drawable = new GradientDrawable();
-            drawable.SetShape(ShapeType.Rectangle);
-            var borderWidth = (int)Math.Ceiling(Element.BorderWidth);
-            drawable.SetStroke(borderWidth > 0 ? borderWidth + 1 : borderWidth, Element.BorderColor.ToAndroid());
-            drawable.SetColor(Android.Graphics.Color.Transparent);
-            d.Add(drawable);
-            var layer = new LayerDrawable(d.ToArray());
-            layer.SetLayerInset(d.Count - 1, 0, 0, 0, 0);
-            Control.SetBackground(layer);
+            var image =  GetBitmap(element.BackgroundImage).Result;
+            if(image!=null)
+            {
+                d.Add(new BitmapDrawable(image));
+                var drawable = new GradientDrawable();
+                drawable.SetShape(ShapeType.Rectangle);
+                var borderWidth = (int)Math.Ceiling(Element.BorderWidth);
+                drawable.SetStroke(borderWidth > 0 ? borderWidth + 1 : borderWidth, Element.BorderColor.ToAndroid());
+                drawable.SetColor(Android.Graphics.Color.Transparent);
+                d.Add(drawable);
+                var layer = new LayerDrawable(d.ToArray());
+                layer.SetLayerInset(d.Count - 1, 0, 0, 0, 0);
+                Control.SetBackground(layer);
+            }
+
         }
 
         protected void ChangeBackgroundPattern()

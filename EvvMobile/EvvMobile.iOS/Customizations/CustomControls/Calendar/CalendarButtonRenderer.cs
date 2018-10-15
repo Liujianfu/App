@@ -113,11 +113,11 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             Control.SetBackgroundImage(image, UIControlState.Normal);
             Control.SetBackgroundImage(image, UIControlState.Disabled);
         }
-        protected async void DrawBackgroundImage()
+        protected  void DrawBackgroundImage()
         {
             var element = Element as CalendarButton;
             if (element == null || element.BackgroundImage == null) return;
-            var image = await GetImage(element.BackgroundImage);
+            var image = GetImage(element.BackgroundImage).Result;
             Control.SetBackgroundImage(image, UIControlState.Normal);
             Control.SetBackgroundImage(image, UIControlState.Disabled);
         }
