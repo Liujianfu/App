@@ -100,7 +100,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
                         TextAlign = TextAlign.Middle,
                         TextColor = element.TextColor,
                         TextSize = (float)element.FontSize,
-                        AppointmentCount = element.AppointmentCount+3,
+                        AppointmentCount = element.AppointmentCount,
 
                         IsSelected = element.IsSelected
                      }, r);
