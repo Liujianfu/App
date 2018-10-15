@@ -29,8 +29,8 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
                 Control.ContentEdgeInsets = new UIEdgeInsets(
                 (float)1,
                 (float)1,
-                (float)1,
-                (float)20);
+                (float)10,
+                (float)1);
             else
                 Control.ContentEdgeInsets = new UIEdgeInsets(
                     (float)1,
@@ -42,7 +42,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
         {
             base.OnElementPropertyChanged(sender, e);
             var element = Element as CalendarButton;
-            if (element.IsNotDateButton&&(e.PropertyName == nameof(element.TextWithoutMeasure) || e.PropertyName == "Renderer"))
+            if (e.PropertyName == nameof(element.TextWithoutMeasure) || e.PropertyName == "Renderer")
             {
                 Control.SetTitle(element.TextWithoutMeasure, UIControlState.Normal);
                Control.SetTitle(element.TextWithoutMeasure, UIControlState.Disabled);
@@ -60,11 +60,10 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             {
                 DrawBackgroundImage();
             }
-            if (e.PropertyName == nameof(Element.BorderColor) || e.PropertyName == nameof(Element.BorderWidth) ||
-                e.PropertyName == nameof(element.IsSelected) ||
+            if (e.PropertyName == nameof(element.IsSelected) ||
                 e.PropertyName == nameof(Element.BackgroundColor) || 
                 e.PropertyName == nameof(element.AppointmentCount) ||
-                e.PropertyName == nameof(Element.Height) || e.PropertyName == nameof(Element.TextColor) || e.PropertyName == "Renderer")
+                e.PropertyName == nameof(Element.Height) || e.PropertyName == "Renderer")
             {
                 DrawAppointments();
             }
@@ -96,7 +95,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
                     var h = (int)Math.Ceiling(Control.Frame.Height);
                     var r = new CGRect { X = 0, Y = 0, Width = w, Height = h };
                     g.FillRect(r);
-                    DrawText(g, new Pattern{
+                  DrawEvents(g, new Pattern{
                     Text = element.TextWithoutMeasure,
                         TextAlign = TextAlign.Middle,
                         TextColor = element.TextColor,
@@ -158,20 +157,54 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             var handler = new FileImageSourceHandler();
             return handler.LoadImageAsync(image);
         }
-
-        protected void DrawText(CGContext g, Pattern p, CGRect r)
+        protected void DrawEvents(CGContext g, Pattern p, CGRect r)
         {
             if (string.IsNullOrEmpty(p.Text)) return;
             if (p.IsSelected)
             {
-                var radius = Bounds.Height > Bounds.Width? (Bounds.Width - 4) / 2 : (Bounds.Height - 4) / 2;
+                var radius = Bounds.Height > Bounds.Width ? (Bounds.Width - 4) / 2 : (Bounds.Height - 4) / 2;
                 g.SetFillColor(Color.LightSkyBlue.ToCGColor());
 
-                var circleArea = new CGRect(r.X+Bounds.Width/2-radius, r.Y+ Bounds.Height/2-radius, 2*radius, 2*radius);
+                var circleArea = new CGRect(r.X + Bounds.Width / 2 - radius, r.Y + Bounds.Height / 2 - radius, 2 * radius, 2 * radius);
                 g.FillEllipseInRect(circleArea.Inset(1, 1));
             }
+            if (p.AppointmentCount > 0)
+            {
+                for (int i = 0; i < 3 && i < p.AppointmentCount; i++)
+                {
+                    var startX = 10;
+                    if (p.AppointmentCount == 1)
+                        startX = (int)((int)Math.Round(Bounds.Width / 2.0) - 3);
+                    else
+                        if (p.AppointmentCount == 2)
+                        startX = (int)((int)Math.Round(Bounds.Width / 2.0) - 8);
+                    else
+                        startX = (int)((int)Math.Round(Bounds.Width / 2.0) - 13);
 
-        /*    var bounds = p.Text.StringSize(UIFont.FromName("Helvetica", p.TextSize));
+
+
+                    var circleArea = new CGRect(startX + i * 10, r.Y + Bounds.Height - 5, 6, 6);
+                    switch (i)
+                    {
+                        case 0:
+                            g.SetFillColor(Palette.AppointmentIndicatorColor.ToCGColor());
+                            break;
+                        case 1:
+                            g.SetFillColor(Palette.AppointmentIndicatorColor1.ToCGColor());
+                            break;
+                        case 2:
+                            g.SetFillColor(Palette.AppointmentIndicatorColor2.ToCGColor());
+                            break;
+                    }
+                    g.FillEllipseInRect(circleArea.Inset(1, 1));
+                }
+
+            }
+        }
+        protected void DrawText(CGContext g, Pattern p, CGRect r)
+        {
+            if (string.IsNullOrEmpty(p.Text)) return;
+            var bounds = p.Text.StringSize(UIFont.FromName("Helvetica", p.TextSize));
             var al = (int)p.TextAlign;
             var x = r.X; ;
 
@@ -199,40 +232,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
             g.SetTextDrawingMode(CGTextDrawingMode.Fill);
             g.SelectFont("Helvetica", p.TextSize, CGTextEncoding.MacRoman);
             g.ShowTextAtPoint(x, Bounds.Height - y, p.Text);
-            g.RestoreState();*/
-
-            if (p.AppointmentCount>0)
-            {
-                for (int i = 0; i < 3&&i<p.AppointmentCount; i++)
-                {
-                    var startX = 10;
-                    if (p.AppointmentCount == 1)
-                        startX = (int)((int)Math.Round(Bounds.Width / 2.0) - 3);
-                    else
-                        if (p.AppointmentCount == 2)
-                            startX = (int)((int)Math.Round(Bounds.Width / 2.0) - 8);
-                    else
-                            startX = (int)((int)Math.Round(Bounds.Width / 2.0)- 13);
-            
-
-
-                    var circleArea = new CGRect(startX + i * 10, r.Y + Bounds.Height-15, 6, 6);
-                    switch (i)
-                    {
-                        case 0:
-                            g.SetFillColor(Palette.AppointmentIndicatorColor.ToCGColor());
-                            break;
-                        case 1:
-                            g.SetFillColor(Palette.AppointmentIndicatorColor1.ToCGColor());
-                            break;
-                        case 2:
-                            g.SetFillColor(Palette.AppointmentIndicatorColor2.ToCGColor());
-                            break;
-                    }
-                    g.FillEllipseInRect(circleArea.Inset(1, 1));
-                }
-
-            }
+            g.RestoreState();
         }
     }
 
