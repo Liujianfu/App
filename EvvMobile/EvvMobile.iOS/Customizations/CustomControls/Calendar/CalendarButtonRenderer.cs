@@ -183,7 +183,7 @@ namespace EvvMobile.iOS.Customizations.CustomControls.Calendar
 
 
 
-                    var circleArea = new CGRect(startX + i * 10, r.Y + Bounds.Height - 5, 6, 6);
+                    var circleArea = new CGRect(startX + i * 10, r.Y + (int)Math.Round(Bounds.Height / 2.0) + 5, 6, 6);
                     switch (i)
                     {
                         case 0:
