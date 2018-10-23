@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.Clients {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Pages/Clients/ClientProfilePa" +
-        "ge.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\Clients\\ClientProfilePage." +
+        "xaml")]
     public partial class ClientProfilePage : global::EvvMobile.Pages.Clients.ClientProfilePageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

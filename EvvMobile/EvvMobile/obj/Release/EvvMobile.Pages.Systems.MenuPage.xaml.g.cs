@@ -11,7 +11,7 @@
 namespace EvvMobile.Pages.Systems {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Pages/Systems/MenuPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\Systems\\MenuPage.xaml")]
     public partial class MenuPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

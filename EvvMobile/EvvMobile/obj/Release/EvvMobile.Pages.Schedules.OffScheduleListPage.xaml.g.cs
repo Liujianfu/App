@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.Schedules {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Pages/Schedules/OffScheduleLi" +
-        "stPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\Schedules\\OffScheduleListP" +
+        "age.xaml")]
     public partial class OffScheduleListPage : global::EvvMobile.Pages.Schedules.OffScheduleListPageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

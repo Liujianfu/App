@@ -11,8 +11,8 @@
 namespace EvvMobile.Views.Schedules {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Views/Schedules/DeclineTaskVi" +
-        "ew.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Views\\Schedules\\DeclineTaskView." +
+        "xaml")]
     public partial class DeclineTaskView : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -11,7 +11,7 @@
 namespace EvvMobile.Pages.MainPage {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Pages/MainPage/HomePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\MainPage\\HomePage.xaml")]
     public partial class HomePage : global::EvvMobile.Pages.MainPage.MainPageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

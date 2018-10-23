@@ -11,8 +11,8 @@
 namespace EvvMobile.Views.Schedules {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Views/Schedules/VisitTaskList" +
-        "View.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Views\\Schedules\\VisitTaskListVie" +
+        "w.xaml")]
     public partial class VisitTaskListView : global::EvvMobile.Views.Base.NonPersistentSelectedItemListView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

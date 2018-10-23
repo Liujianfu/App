@@ -11,8 +11,8 @@
 namespace EvvMobile.Views.Messages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Views/Messages/MessageListVie" +
-        "w.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Views\\Messages\\MessageListView.x" +
+        "aml")]
     public partial class MessageListView : global::EvvMobile.Views.Base.NonPersistentSelectedItemListView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

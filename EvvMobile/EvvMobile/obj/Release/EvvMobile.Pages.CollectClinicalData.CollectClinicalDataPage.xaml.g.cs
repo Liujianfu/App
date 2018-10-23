@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.CollectClinicalData {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Pages/CollectClinicalData/Col" +
-        "lectClinicalDataPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\CollectClinicalData\\Collec" +
+        "tClinicalDataPage.xaml")]
     public partial class CollectClinicalDataPage : global::EvvMobile.Pages.CollectClinicalData.CollectClinicalDataPageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

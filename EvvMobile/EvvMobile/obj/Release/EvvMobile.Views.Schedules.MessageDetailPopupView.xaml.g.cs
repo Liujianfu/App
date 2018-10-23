@@ -11,8 +11,8 @@
 namespace EvvMobile.Views.Schedules {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Views/Schedules/MessageDetail" +
-        "PopupView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Views\\Schedules\\MessageDetailPop" +
+        "upView.xaml")]
     public partial class MessageDetailPopupView : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
