@@ -1,12 +1,27 @@
-﻿<Properties StartupConfiguration="{00E6D7AA-A40C-4E7D-A906-6C9B5D39890D}|Default">
+﻿<Properties StartupConfiguration="{0F0C8648-DACF-4734-8E58-23DFBC226C85}|Default">
   <MonoDevelop.Ide.ItemProperties.CareVisit FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BF/Droid/Fragments/BrowseFragment.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Plugin.CurrentActivity.2.1.0.4/readme.txt">
     <Files>
       <File FileName="CareVisit/Services/CloudDataStore.cs" Line="71" Column="49" />
       <File FileName="Droid/MainApplication.cs" Line="37" Column="1" />
       <File FileName="BF/Droid/packages.config" Line="1" Column="1" />
       <File FileName="BF/Droid/Resources/values/styles.xml" Line="2" Column="1" />
       <File FileName="BF/Droid/Fragments/BrowseFragment.cs" Line="15" Column="61" />
+      <File FileName="CareVisit.Core/Class1.cs" Line="1" Column="1" />
+      <File FileName="CareVisit/App.cs" Line="10" Column="38" />
+      <File FileName="CareVisit.Core/App.cs" Line="3" Column="25" />
+      <File FileName="CareVisit.Core/ViewModels/AboutViewModel.cs" Line="3" Column="25" />
+      <File FileName="CareVisit.Core/ViewModels/BaseViewModel.cs" Line="6" Column="25" />
+      <File FileName="CareVisit.Core/ViewModels/ItemDetailViewModel.cs" Line="3" Column="25" />
+      <File FileName="CareVisit.Core/ViewModels/ItemsViewModel.cs" Line="6" Column="25" />
+      <File FileName="CareVisit.Core/Services/CloudDataStore.cs" Line="11" Column="24" />
+      <File FileName="CareVisit.Core/Services/IDataStore.cs" Line="4" Column="25" />
+      <File FileName="CareVisit.Core/Services/MockDataStore.cs" Line="6" Column="25" />
+      <File FileName="CareVisit.Core/Models/Item.cs" Line="3" Column="25" />
+      <File FileName="CareVisit.Core/Helpers/Command.cs" Line="4" Column="25" />
+      <File FileName="CareVisit.Core/Helpers/ServiceLocator.cs" Line="8" Column="23" />
+      <File FileName="Source Not Available" />
+      <File FileName="packages/Plugin.CurrentActivity.2.1.0.4/readme.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -18,5 +33,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CareVisit.Droid FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CareVisit.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
 </Properties>

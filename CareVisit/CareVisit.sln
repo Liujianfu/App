@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareVisit.BF.Droid", "BF\Dr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareVisit.BF.iOS", "BF\iOS\CareVisit.BF.iOS.csproj", "{3643152D-8132-41FD-9F7A-35BA707DEFAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareVisit.Core", "CareVisit.Core\CareVisit.Core.csproj", "{923FBB20-C74D-4821-A6C6-1E0500BA6941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -69,5 +71,17 @@ Global
 		{3643152D-8132-41FD-9F7A-35BA707DEFAB}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{3643152D-8132-41FD-9F7A-35BA707DEFAB}.Release|Any CPU.ActiveCfg = Release|iPhone
 		{3643152D-8132-41FD-9F7A-35BA707DEFAB}.Release|Any CPU.Build.0 = Release|iPhone
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Release|iPhone.Build.0 = Release|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923FBB20-C74D-4821-A6C6-1E0500BA6941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
