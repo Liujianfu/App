@@ -3,7 +3,7 @@
 using Android.App;
 using Android.OS;
 using Android.Runtime;
-
+using CareVisit.Core;
 using Plugin.CurrentActivity;
 
 namespace CareVisit.BF.Droid

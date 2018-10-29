@@ -6,7 +6,7 @@ using Android.Widget;
 using Android.Support.V4.Widget;
 using Android.App;
 using Android.Content;
-
+using CareVisit.Core;
 namespace CareVisit.BF.Droid
 {
     public class BrowseFragment : Android.Support.V4.App.Fragment, IFragmentVisible

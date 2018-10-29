@@ -153,6 +153,11 @@
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
-  <Import Project="..\..\CareVisit\CareVisit.projitems" Label="Shared" Condition="Exists('..\..\CareVisit\CareVisit.projitems')" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\CareVisit.Core\CareVisit.Core.csproj">
+      <Project>{923FBB20-C74D-4821-A6C6-1E0500BA6941}</Project>
+      <Name>CareVisit.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

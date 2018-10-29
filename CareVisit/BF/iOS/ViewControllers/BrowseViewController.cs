@@ -3,7 +3,7 @@ using System.Collections.Specialized;
 
 using Foundation;
 using UIKit;
-
+using CareVisit.Core;
 namespace CareVisit.BF.iOS
 {
     public partial class BrowseViewController : UITableViewController

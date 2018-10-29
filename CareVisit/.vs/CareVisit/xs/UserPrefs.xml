@@ -1,20 +1,19 @@
 ﻿<Properties StartupConfiguration="{0F0C8648-DACF-4734-8E58-23DFBC226C85}|Default">
-  <MonoDevelop.Ide.ItemProperties.CareVisit FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Plugin.CurrentActivity.2.1.0.4/readme.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
     <Files>
       <File FileName="CareVisit/Services/CloudDataStore.cs" Line="71" Column="49" />
-      <File FileName="Droid/MainApplication.cs" Line="37" Column="1" />
+      <File FileName="Droid/MainApplication.cs" Line="8" Column="1" />
       <File FileName="BF/Droid/packages.config" Line="1" Column="1" />
       <File FileName="BF/Droid/Resources/values/styles.xml" Line="2" Column="1" />
-      <File FileName="BF/Droid/Fragments/BrowseFragment.cs" Line="15" Column="61" />
+      <File FileName="BF/Droid/Fragments/BrowseFragment.cs" Line="9" Column="22" />
       <File FileName="CareVisit.Core/Class1.cs" Line="1" Column="1" />
       <File FileName="CareVisit/App.cs" Line="10" Column="38" />
       <File FileName="CareVisit.Core/App.cs" Line="3" Column="25" />
-      <File FileName="CareVisit.Core/ViewModels/AboutViewModel.cs" Line="3" Column="25" />
+      <File FileName="CareVisit.Core/ViewModels/AboutViewModel.cs" Line="11" Column="48" />
       <File FileName="CareVisit.Core/ViewModels/BaseViewModel.cs" Line="6" Column="25" />
       <File FileName="CareVisit.Core/ViewModels/ItemDetailViewModel.cs" Line="3" Column="25" />
       <File FileName="CareVisit.Core/ViewModels/ItemsViewModel.cs" Line="6" Column="25" />
-      <File FileName="CareVisit.Core/Services/CloudDataStore.cs" Line="11" Column="24" />
+      <File FileName="CareVisit.Core/Services/CloudDataStore.cs" Line="10" Column="1" />
       <File FileName="CareVisit.Core/Services/IDataStore.cs" Line="4" Column="25" />
       <File FileName="CareVisit.Core/Services/MockDataStore.cs" Line="6" Column="25" />
       <File FileName="CareVisit.Core/Models/Item.cs" Line="3" Column="25" />
@@ -22,7 +21,65 @@
       <File FileName="CareVisit.Core/Helpers/ServiceLocator.cs" Line="8" Column="23" />
       <File FileName="Source Not Available" />
       <File FileName="packages/Plugin.CurrentActivity.2.1.0.4/readme.txt" Line="1" Column="1" />
+      <File FileName="Droid/Resources/drawable/background_splash.xml" Line="13" Column="14" />
+      <File FileName="Droid/Resources/values/colors.xml" Line="1" Column="1" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="27" Column="40" />
+      <File FileName="Droid/Activities/AddItemActivity.cs" Line="7" Column="1" />
+      <File FileName="Droid/Activities/BaseActivity.cs" Line="4" Column="1" />
+      <File FileName="Droid/Activities/BrowseItemDetailActivity.cs" Line="5" Column="22" />
+      <File FileName="Droid/Activities/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Droid/Activities/SplashActivity.cs" Line="1" Column="1" />
+      <File FileName="Droid/Fragments/AboutFragment.cs" Line="5" Column="22" />
+      <File FileName="Droid/Fragments/BrowseFragment.cs" Line="9" Column="22" />
+      <File FileName="Droid/Fragments/IFragmentVisible.cs" Line="8" Column="1" />
+      <File FileName="BF/Droid/MainApplication.cs" Line="6" Column="22" />
+      <File FileName="BF/Droid/Helpers/RecyclerClickEvent.cs" Line="1" Column="1" />
+      <File FileName="BF/Droid/Helpers/BaseRecycleViewAdapter.cs" Line="1" Column="1" />
+      <File FileName="BF/Droid/Fragments/IFragmentVisible.cs" Line="1" Column="1" />
+      <File FileName="BF/Droid/Fragments/AboutFragment.cs" Line="5" Column="22" />
+      <File FileName="BF/Droid/Activities/AddItemActivity.cs" Line="7" Column="22" />
+      <File FileName="BF/Droid/Activities/BaseActivity.cs" Line="1" Column="1" />
+      <File FileName="BF/Droid/Activities/BrowseItemDetailActivity.cs" Line="5" Column="22" />
+      <File FileName="BF/Droid/Activities/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="BF/Droid/Activities/SplashActivity.cs" Line="1" Column="1" />
+      <File FileName="BF/iOS/ViewControllers/DetailViewControllers/BrowseItemDetailViewController.cs" Line="3" Column="22" />
+      <File FileName="BF/iOS/ViewControllers/AboutViewController.cs" Line="3" Column="22" />
+      <File FileName="BF/iOS/ViewControllers/BrowseViewController.cs" Line="6" Column="22" />
+      <File FileName="BF/iOS/ViewControllers/ItemNewViewController.cs" Line="4" Column="22" />
+      <File FileName="BF/iOS/ViewControllers/TabBarController.cs" Line="1" Column="1" />
+      <File FileName="BF/iOS/AppDelegate.cs" Line="3" Column="22" />
+      <File FileName="iOS/ViewControllers/DetailViewControllers/BrowseItemDetailViewController.cs" Line="3" Column="22" />
+      <File FileName="iOS/ViewControllers/AboutViewController.cs" Line="3" Column="22" />
+      <File FileName="iOS/ViewControllers/BrowseViewController.cs" Line="6" Column="22" />
+      <File FileName="iOS/ViewControllers/ItemNewViewController.cs" Line="4" Column="22" />
+      <File FileName="iOS/ViewControllers/TabBarController.cs" Line="1" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="3" Column="22" />
+      <File FileName="iOS/Main.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CareVisit" expanded="True">
+            <Node name="CareVisit.Droid" expanded="True">
+              <Node name="References" expanded="True">
+                <Node name="From Packages" expanded="True" />
+              </Node>
+              <Node name="Activities" expanded="True" />
+              <Node name="Fragments" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="CareVisit.iOS" expanded="True" selected="True">
+              <Node name="ViewControllers" expanded="True">
+                <Node name="DetailViewControllers" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.ItemProperties.CareVisit.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0EC2E133-1174-4700-9430-134F2FEE4C80">

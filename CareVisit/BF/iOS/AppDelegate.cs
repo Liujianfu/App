@@ -1,6 +1,6 @@
 ﻿using Foundation;
 using UIKit;
-
+using CareVisit.Core;
 namespace CareVisit.BF.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the

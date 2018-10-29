@@ -1,6 +1,6 @@
 ﻿using System;
 using UIKit;
-
+using CareVisit.Core;
 namespace CareVisit.BF.iOS
 {
     public partial class AboutViewController : UIViewController

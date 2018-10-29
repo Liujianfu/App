@@ -1,7 +1,7 @@
 ﻿using System;
 
 using UIKit;
-
+using CareVisit.Core;
 namespace CareVisit.iOS
 {
     public partial class ItemNewViewController : UIViewController

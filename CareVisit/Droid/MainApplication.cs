@@ -5,7 +5,7 @@ using Android.OS;
 using Android.Runtime;
 
 using Plugin.CurrentActivity;
-
+using CareVisit.Core;
 namespace CareVisit.Droid
 {
     //You can specify additional application information in this attribute

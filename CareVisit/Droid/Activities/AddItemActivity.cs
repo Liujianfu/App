@@ -4,7 +4,7 @@ using Android.App;
 using Android.OS;
 using Android.Widget;
 using Android.Support.Design.Widget;
-
+using CareVisit.Core;
 namespace CareVisit.Droid
 {
     [Activity(Label = "AddItemActivity")]

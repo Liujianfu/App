@@ -2,7 +2,7 @@
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-
+using CareVisit.Core;
 namespace CareVisit.BF.Droid
 {
     public class AboutFragment : Android.Support.V4.App.Fragment, IFragmentVisible

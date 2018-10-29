@@ -2,7 +2,7 @@
 using Android.Content;
 using Android.OS;
 using Android.Widget;
-
+using CareVisit.Core;
 namespace CareVisit.BF.Droid
 {
     [Activity(Label = "Details", ParentActivity = typeof(MainActivity))]

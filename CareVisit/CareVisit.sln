@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CareVisit", "CareVisit\CareVisit.shproj", "{65CBD942-17EA-480C-9646-248E3DD0FA27}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareVisit.iOS", "iOS\CareVisit.iOS.csproj", "{00E6D7AA-A40C-4E7D-A906-6C9B5D39890D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareVisit.Droid", "Droid\CareVisit.Droid.csproj", "{0F0C8648-DACF-4734-8E58-23DFBC226C85}"
