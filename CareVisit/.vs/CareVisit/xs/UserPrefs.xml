@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{00E6D7AA-A40C-4E7D-A906-6C9B5D39890D}|Default">
+  <MonoDevelop.Ide.ItemProperties.CareVisit FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BF/Droid/Fragments/BrowseFragment.cs">
+    <Files>
+      <File FileName="CareVisit/Services/CloudDataStore.cs" Line="71" Column="49" />
+      <File FileName="Droid/MainApplication.cs" Line="37" Column="1" />
+      <File FileName="BF/Droid/packages.config" Line="1" Column="1" />
+      <File FileName="BF/Droid/Resources/values/styles.xml" Line="2" Column="1" />
+      <File FileName="BF/Droid/Fragments/BrowseFragment.cs" Line="15" Column="61" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.CareVisit.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0EC2E133-1174-4700-9430-134F2FEE4C80">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.CareVisit.iOS>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CareVisit.Droid FirstBuild="True" />
+</Properties>

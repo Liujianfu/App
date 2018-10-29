@@ -1,0 +1,2 @@
+/Users/jianfu.liu/Projects/CareVisit/packages/Xam.Plugin.Connectivity.3.2.0/lib/MonoAndroid10/Plugin.Connectivity.dll
+/Users/jianfu.liu/Projects/CareVisit/packages/Plugin.Share.7.1.1/lib/MonoAndroid10/Plugin.Share.dll
