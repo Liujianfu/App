@@ -11,8 +11,8 @@
 namespace EvvMobile.Views.MainPage {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Views/MainPage/MainPageTodayS" +
-        "hiftsListView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Views\\MainPage\\MainPageTodayShif" +
+        "tsListView.xaml")]
     public partial class MainPageTodayShiftsListView : global::EvvMobile.Views.Base.NonPersistentSelectedItemListView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

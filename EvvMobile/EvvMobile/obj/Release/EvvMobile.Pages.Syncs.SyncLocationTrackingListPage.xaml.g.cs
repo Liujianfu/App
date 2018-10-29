@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.Syncs {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Pages/Syncs/SyncLocationTrack" +
-        "ingListPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\Syncs\\SyncLocationTracking" +
+        "ListPage.xaml")]
     public partial class SyncLocationTrackingListPage : global::EvvMobile.Pages.Syncs.SyncLocationTrackingListPageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

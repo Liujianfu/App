@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.About {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Pages/About/AboutDetailPage.x" +
-        "aml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\About\\AboutDetailPage.xaml" +
+        "")]
     public partial class AboutDetailPage : global::EvvMobile.Pages.About.AboutDetailPageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

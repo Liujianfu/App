@@ -11,8 +11,8 @@
 namespace EvvMobile.Views.CollectClinicalData {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Views/CollectClinicalData/Cli" +
-        "nicalMeasurementView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Views\\CollectClinicalData\\Clinic" +
+        "alMeasurementView.xaml")]
     public partial class ClinicalMeasurementView : global::EvvMobile.Views.CollectClinicalData.ClinicalMeasurementViewXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

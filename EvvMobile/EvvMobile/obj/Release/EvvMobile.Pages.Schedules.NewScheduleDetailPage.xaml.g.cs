@@ -11,8 +11,8 @@
 namespace EvvMobile.Pages.Schedules {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jianfu.liu/Downloads/App/EvvMobile/EvvMobile/Pages/Schedules/NewScheduleDe" +
-        "tailPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\WorkingFolder\\EvvProd\\App\\EvvMobile\\EvvMobile\\Pages\\Schedules\\NewScheduleDetai" +
+        "lPage.xaml")]
     public partial class NewScheduleDetailPage : global::EvvMobile.Pages.Schedules.NewScheduleDetailPageXaml {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
