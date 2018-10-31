@@ -1,1 +1,0 @@
-C:\WorkingFolder\EvvProd\Mobile\Dev\Tests\Schedule\EvvMobile.Schedule.NUnit.Droid\obj\Debug\EvvMobile.Schedule.NUnit.Droid.csprojResolveAssemblyReference.cache
