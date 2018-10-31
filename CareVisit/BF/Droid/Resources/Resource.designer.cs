@@ -4119,11 +4119,11 @@ namespace CareVisit.BF.Droid
 			// aapt resource value: 0x7f09003c
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131296316;
 			
-			// aapt resource value: 0x7f090186
-			public const int SplashTheme = 2131296646;
+			// aapt resource value: 0x7f090188
+			public const int SplashTheme = 2131296648;
 			
-			// aapt resource value: 0x7f090187
-			public const int SplashTheme_Base = 2131296647;
+			// aapt resource value: 0x7f090189
+			public const int SplashTheme_Base = 2131296649;
 			
 			// aapt resource value: 0x7f0900cb
 			public const int TextAppearance_AppCompat = 2131296459;
@@ -4647,8 +4647,8 @@ namespace CareVisit.BF.Droid
 			// aapt resource value: 0x7f090159
 			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131296601;
 			
-			// aapt resource value: 0x7f090189
-			public const int Widget_CardContent = 2131296649;
+			// aapt resource value: 0x7f090187
+			public const int Widget_CardContent = 2131296647;
 			
 			// aapt resource value: 0x7f090181
 			public const int Widget_Compat_NotificationActionContainer = 2131296641;
@@ -4689,8 +4689,8 @@ namespace CareVisit.BF.Droid
 			// aapt resource value: 0x7f09017c
 			public const int Widget_Design_TextInputLayout = 2131296636;
 			
-			// aapt resource value: 0x7f090188
-			public const int button_primary = 2131296648;
+			// aapt resource value: 0x7f090186
+			public const int button_primary = 2131296646;
 			
 			static Style()
 			{

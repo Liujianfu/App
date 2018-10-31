@@ -2,7 +2,7 @@
 using Android.Content;
 using Android.OS;
 using Android.Support.V7.App;
-
+using CareVisit.Droid.Activities;
 namespace CareVisit.Droid
 {
     [Activity(Label = "@string/app_name", Theme = "@style/SplashTheme", MainLauncher = true)]
@@ -12,7 +12,7 @@ namespace CareVisit.Droid
         {
             base.OnCreate(savedInstanceState);
 
-            var newIntent = new Intent(this, typeof(MainActivity));
+            var newIntent = new Intent(this, typeof(LoginActivity));
             newIntent.AddFlags(ActivityFlags.ClearTop);
             newIntent.AddFlags(ActivityFlags.SingleTop);
 

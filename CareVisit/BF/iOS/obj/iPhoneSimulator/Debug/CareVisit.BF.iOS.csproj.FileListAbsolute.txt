@@ -1,0 +1,15 @@
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/bin/iPhoneSimulator/Debug/CareVisit.BF.iOS.exe
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/bin/iPhoneSimulator/Debug/CareVisit.BF.iOS.pdb
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/bin/iPhoneSimulator/Debug/CareVisit.Core.dll
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/bin/iPhoneSimulator/Debug/CareVisit.Core.pdb
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/CareVisit.BF.iOS.csprojAssemblyReference.cache
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/CareVisit.BF.iOS.csproj.CoreCompileInputs.cache
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/CareVisit.BF.iOS.csproj.CopyComplete
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/CareVisit.BF.iOS.exe
+/Users/jianfu.liu/Downloads/App/CareVisit/BF/iOS/obj/iPhoneSimulator/Debug/CareVisit.BF.iOS.pdb
