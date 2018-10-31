@@ -23,7 +23,10 @@ using Android.Content.Res;
 
 namespace CareVisit.Droid.Activities
 {
-    [Activity(Label = "@string/app_name", Icon = "@drawable/carevisit_logo", Theme = "@style/CustomDrawerTheme")]
+    [Activity(Label = "@string/app_name", Icon = "@drawable/carevisit_logo", Theme = "@style/CustomDrawerTheme",
+          LaunchMode = LaunchMode.SingleInstance,
+        ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
+        ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : AppCompatActivity
     {
         //Declaring Variables to access throught this activity  

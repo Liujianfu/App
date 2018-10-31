@@ -4,38 +4,32 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using EvvMobile.Statics;
-using Xamarin.Auth;
-using Xamarin.Utilities;
+using Newtonsoft.Json;
 
-namespace EvvMobile.Authorization
+
+namespace CareVisit.Core.Helpers
 {
     public class IdentityServerResourceOwerAuthenticator
     {
-        public static string ClientId = "A8375B66";
-        public static string ClientSecret = "A32D8C3CBE9A";
-        public static string Scope = "openid offline_access";//offline_access is for Identity Server, to get refresh token
-        public static string ResponseType = "code id_token token";
-        public static string AuthorizeUrl = "https://jianfuliult4.fei.local/Identity/connect/authorize/";//
-        public static string AccessTokenUrl = "https://jianfuliult4.fei.local/Identity/connect/token";
-        public static string UserInfoUrl = "https://www.googleapis.com/oauth2/v2/userinfo";
-        public static string RedirectUrl = "https://jianfuliult4.fei.local/Identity/connect/authorize/";
+        private string AuthClientId = "A8375B66";//should get from back end
+        private string AuthClientSecret = "A32D8C3CBE9A";//should get from back end
+        private string AuthScope = "openid offline_access";//offline_access is for Identity Server, to get refresh token
+        private string AccessTokenUrl = "https://jianfuliult4.fei.local/Identity/connect/token";
 
-        public IdentityServerResourceOwerAuthenticator(string clientId, string clientSecret, string scope, GetUsernameAsyncFunc getUsernameAsync = null)
+        public IdentityServerResourceOwerAuthenticator(string clientId, string clientSecret, string scope)
         {
             if (string.IsNullOrEmpty(clientId))
             {
-                throw new ArgumentException("clientId must be provided", "clientId");
+                throw new ArgumentException("clientId must be provided", nameof(clientId));
             }
-            this._clientId = clientId;
+            this.AuthClientId = clientId;
             if (string.IsNullOrEmpty(clientSecret))
             {
-                throw new ArgumentException("clientSecret must be provided", "clientSecret");
+                throw new ArgumentException("clientSecret must be provided", nameof(clientSecret));
             }
-            this._clientSecret = clientSecret;
-            this._scope = scope ?? "";
+            this.AuthClientSecret = clientSecret;
+            this.AuthScope = scope ?? "";
 
-            _client = new HttpClient();
         }
 
 
@@ -49,7 +43,7 @@ namespace EvvMobile.Authorization
         /// <value>The client identifier.</value>
         public string ClientId
         {
-            get { return this._clientId; }
+            get { return this.AuthClientId; }
         }
 
         /// <summary>
@@ -58,7 +52,7 @@ namespace EvvMobile.Authorization
         /// <value>The client secret.</value>
         public string ClientSecret
         {
-            get { return this._clientSecret; }
+            get { return this.AuthClientSecret; }
         }
 
         /// <summary>
@@ -67,17 +61,17 @@ namespace EvvMobile.Authorization
         /// <value>The authorization scope.</value>
         public string Scope
         {
-            get { return this._scope; }
+            get { return this.AuthScope; }
         }
 
 
 
-        public IDictionary<string, string> Tokens
+        public LoginToken Tokens
         {
-            get { return _authenticationResults; }
+            get { return _authenticationResult; }
         }
 
-        public async Task<IDictionary<string, string>> LoginForResourceOwner(string userName, string passWord)
+        public async Task<LoginToken> LoginForResourceOwner(string userName, string passWord)
         {
             if (string.IsNullOrEmpty(userName))
             {
@@ -87,52 +81,45 @@ namespace EvvMobile.Authorization
             {
                 throw new ArgumentException("passWord must be provided", "passWord");
             }
-            _authenticationResults.Clear();
+
             _userName = userName;
             _passWord = passWord;
             var loginCredential = new Dictionary<string, string>();
             loginCredential.Add("Username", _userName);
             loginCredential.Add("Password", _passWord);
             loginCredential.Add("grant_type", "password");
-            loginCredential.Add("client_id", IdentityServer3OpenIdAuthConstants.ClientId);
-            loginCredential.Add("client_secret", _clientSecret);
-            loginCredential.Add("scope", IdentityServer3OpenIdAuthConstants.Scope);
-            var loginUrl = IdentityServer3OpenIdAuthConstants.AccessTokenUrl; 
+            loginCredential.Add("client_id", ClientId);
+            loginCredential.Add("client_secret", ClientSecret);
+            loginCredential.Add("scope", Scope);
+            var loginUrl = AccessTokenUrl; 
             var signInResponse = await PostForm(loginUrl, loginCredential);
-            if (signInResponse != null && signInResponse.StatusCode == HttpStatusCode.OK)
+            if (signInResponse != null && signInResponse.IsSuccessStatusCode)
             {
                 var text = signInResponse.Content.ReadAsStringAsync().Result;
 
                 // Parse the response
-                var data = text.Contains("{") ? WebEx.JsonDecode(text) : WebEx.FormDecode(text);
+                var data = JsonConvert.DeserializeObject<LoginToken>(text);
+                _authenticationResult = data;
 
-
-                if (data.ContainsKey("access_token"))
+                if (!string.IsNullOrWhiteSpace(data.access_token))
                 {
                     //
                     // We found an access_token
                     //
-                    _authenticationResults.Add("access_token", data["access_token"]);
                     _isAuthenticated = true;
                 }
-                if (data.ContainsKey("id_token"))
+                if (!string.IsNullOrWhiteSpace(data.id_token))
                 {
                     //
                     // We found an id_token
                     //
-                    _authenticationResults.Add("id_token", data["id_token"]);
+
                     _isAuthenticated = true;
                 }
-                if (data.ContainsKey("refresh_token"))
-                {
-                    //
-                    // We found an refresh_token
-                    //
-                    _authenticationResults.Add("refresh_token", data["refresh_token"]);
-                }
+
 
             }
-            return _authenticationResults;
+            return _authenticationResult;
         }
 
 
@@ -154,74 +141,74 @@ namespace EvvMobile.Authorization
         {
             if (string.IsNullOrWhiteSpace(refreshToken))
             {
-                refreshToken = _authenticationResults["refresh_token"];
+                refreshToken = _authenticationResult.refresh_token;
             }
             var queryValues = new Dictionary<string, string>
             {
                 {"refresh_token", refreshToken},
-                {"client_id", _clientId},
+                {"client_id", ClientId},
                 {"grant_type", "refresh_token"}
             };
 
-            if (!string.IsNullOrEmpty(_clientSecret))
+            if (!string.IsNullOrEmpty(ClientSecret))
             {
-                queryValues["client_secret"] = _clientSecret;
+                queryValues["client_secret"] = ClientSecret;
             }
 
             var results= await RequestAccessTokenAsync(queryValues);
-            if (results.ContainsKey("access_token"))
-            {
-                //
-                // We found an access_token
-                //
-                _authenticationResults.Remove("access_token");
-                _authenticationResults.Add("access_token", results["access_token"]);
-                _isAuthenticated = true;
-            }
-            if (results.ContainsKey("id_token"))
-            {
-                //
-                // We found an id_token
-                //
-                _authenticationResults.Remove("id_token");
-                _authenticationResults.Add("id_token", results["id_token"]);
-                _isAuthenticated = true;
-            }
-            if (results.ContainsKey("refresh_token"))
-            {
-                //
-                // We found an refresh_token
-                //
-                _authenticationResults.Remove("refresh_token");
-                _authenticationResults.Add("refresh_token", results["refresh_token"]);
-            }
 
-            return int.Parse(results["expires_in"]);
-        }
-        protected async Task<IDictionary<string, string>> RequestAccessTokenAsync(IDictionary<string, string> queryValues)
-        {
-            var query = queryValues.FormEncode();
-            var httpClient = new HttpClient();
+            if(results!=null){
+                _authenticationResult = results;
+                if (!string.IsNullOrWhiteSpace(results.access_token))
+                {
+                    //
+                    // We found an access_token
+                    //
 
-            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, IdentityServer3OpenIdAuthConstants.AccessTokenUrl);
-            request.Content = new StringContent(query, Encoding.UTF8, "application/x-www-form-urlencoded");
-            var response = await httpClient.SendAsync(request);
-            var text = await response.Content.ReadAsStringAsync();
+                    _isAuthenticated = true;
+                }
+                if (!string.IsNullOrWhiteSpace(results.id_token))
+                {
+                    //
+                    // We found an id_token
+                    //
 
-            var data = text.Contains("{") ? WebEx.JsonDecode(text) : WebEx.FormDecode(text);
+                    _isAuthenticated = true;
+                }
 
-            if (data.ContainsKey("error"))
-            {
-                throw new AuthException("Error authenticating: " + data["error"]);
-            }
-            else if (data.ContainsKey("access_token"))
-            {
-                return data;
+
+                return results.expires_in;
             }
             else
             {
-                throw new AuthException("Expected access_token in access token response, but did not receive one.");
+                _isAuthenticated = false;
             }
+            return 0;
+        }
+        protected async Task<LoginToken> RequestAccessTokenAsync(IDictionary<string, string> queryValues)
+        {
+
+            var signInResponse = await PostForm(AccessTokenUrl, queryValues);
+            if (signInResponse != null && signInResponse.IsSuccessStatusCode)
+            {
+                var text = signInResponse.Content.ReadAsStringAsync().Result;
+
+                // Parse the response
+                var data = JsonConvert.DeserializeObject<LoginToken>(text);
+                if (!string.IsNullOrWhiteSpace(data.error))
+                {
+                    //throw new Exception("Error authenticating: " + data.error);
+                }
+                else if (!string.IsNullOrWhiteSpace(data.access_token))
+                {
+                    return data;
+                }
+                else
+                {
+                    //throw new Exception("Expected access_token in access token response, but did not receive one.");
+                }
+            }
+            return null;
         }
 
         protected async Task<HttpResponseMessage> PostForm(string url, IDictionary<string, string>  value, bool includeCsrf = true)
@@ -230,14 +217,15 @@ namespace EvvMobile.Authorization
 
             try
             {
+                var httpClient = new HttpClient();
+
+                httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
                 var body = ToFormBody(value);
-                HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, url);
-                request.Content = new StringContent(body, Encoding.UTF8, "application/x-www-form-urlencoded");
-                
-                var response = await _client.SendAsync(request);
+                 
+                var response = await httpClient.PostAsync(AccessTokenUrl, new StringContent(body, Encoding.UTF8, "application/x-www-form-urlencoded"));
                 return response;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return null;
             }
@@ -247,14 +235,12 @@ namespace EvvMobile.Authorization
 
 
 
-        private string _clientId;
-        private string _clientSecret;
-        private string _scope;
+
         private bool _isAuthenticated;
-        private HttpClient _client;
+
         private string _userName;
         private string _passWord;
-        private IDictionary<string, string> _authenticationResults = new Dictionary<string, string>();
+        private LoginToken _authenticationResult=new LoginToken();
 
     }
 }

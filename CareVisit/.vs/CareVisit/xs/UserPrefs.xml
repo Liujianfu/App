@@ -1,21 +1,23 @@
 ﻿<Properties StartupConfiguration="{0F0C8648-DACF-4734-8E58-23DFBC226C85}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Resources/values/styles.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CareVisit.Core/Helpers/LoginToken.cs">
     <Files>
-      <File FileName="Droid/Activities/MainActivity.cs" Line="37" Column="1" />
-      <File FileName="CareVisit.Core/Services/IAccountService.cs" Line="6" Column="54" />
-      <File FileName="CareVisit.Core/Services/AccountService.cs" Line="13" Column="1" />
-      <File FileName="Droid/Resources/values/Strings.xml" Line="5" Column="30" />
-      <File FileName="Droid/Activities/BaseActivity.cs" Line="13" Column="20" />
-      <File FileName="Droid/Fragments/IFragmentVisible.cs" Line="8" Column="1" />
+      <File FileName="Droid/Activities/MainActivity.cs" Line="29" Column="55" />
+      <File FileName="CareVisit.Core/Services/IAccountService.cs" Line="1" Column="1" />
+      <File FileName="CareVisit.Core/Services/AccountService.cs" Line="1" Column="1" />
+      <File FileName="Droid/Resources/values/Strings.xml" Line="1" Column="1" />
+      <File FileName="Droid/Activities/BaseActivity.cs" Line="1" Column="1" />
+      <File FileName="Droid/Fragments/IFragmentVisible.cs" Line="1" Column="1" />
       <File FileName="Droid/Helpers/BaseRecycleViewAdapter.cs" Line="1" Column="1" />
       <File FileName="Droid/Helpers/RecyclerClickEvent.cs" Line="1" Column="1" />
       <File FileName="Droid/Resources/drawable/loginbackground.xml" Line="1" Column="1" />
-      <File FileName="Droid/Resources/menu/left_menu_items.axml" Line="33" Column="40" />
-      <File FileName="Droid/Resources/menu/top_menus.xml" Line="3" Column="91" />
-      <File FileName="BF/Droid/Activities/MainActivity.cs" Line="22" Column="29" />
-      <File FileName="BF/Droid/MainApplication.cs" Line="6" Column="22" />
-      <File FileName="Droid/Activities/LoginActivity.cs" Line="36" Column="65" />
+      <File FileName="Droid/Resources/menu/left_menu_items.axml" Line="1" Column="1" />
+      <File FileName="Droid/Resources/menu/top_menus.xml" Line="1" Column="1" />
+      <File FileName="BF/Droid/Activities/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="BF/Droid/MainApplication.cs" Line="1" Column="1" />
+      <File FileName="Droid/Activities/LoginActivity.cs" Line="1" Column="1" />
       <File FileName="Droid/Resources/values/styles.xml" Line="1" Column="1" />
+      <File FileName="CareVisit.Core/Helpers/IdentityServerResourceOwerAuthenticator.cs" Line="107" Column="63" />
+      <File FileName="CareVisit.Core/Helpers/LoginToken.cs" Line="9" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -27,5 +29,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CareVisit.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="MasterDetailTheme" />
+  <MonoDevelop.Ide.ItemProperties.CareVisit.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
 </Properties>
