@@ -1,69 +1,21 @@
 ﻿<Properties StartupConfiguration="{0F0C8648-DACF-4734-8E58-23DFBC226C85}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Resources/values/styles.xml">
     <Files>
-      <File FileName="CareVisit/Services/CloudDataStore.cs" Line="71" Column="49" />
-      <File FileName="BF/Droid/packages.config" Line="1" Column="1" />
-      <File FileName="BF/Droid/Resources/values/styles.xml" Line="42" Column="1" />
-      <File FileName="BF/Droid/Fragments/BrowseFragment.cs" Line="9" Column="22" />
-      <File FileName="CareVisit.Core/Class1.cs" Line="1" Column="1" />
-      <File FileName="CareVisit/App.cs" Line="10" Column="38" />
-      <File FileName="CareVisit.Core/App.cs" Line="3" Column="25" />
-      <File FileName="CareVisit.Core/ViewModels/AboutViewModel.cs" Line="11" Column="48" />
-      <File FileName="CareVisit.Core/ViewModels/BaseViewModel.cs" Line="6" Column="25" />
-      <File FileName="CareVisit.Core/ViewModels/ItemDetailViewModel.cs" Line="3" Column="25" />
-      <File FileName="CareVisit.Core/ViewModels/ItemsViewModel.cs" Line="6" Column="25" />
-      <File FileName="CareVisit.Core/Services/CloudDataStore.cs" Line="10" Column="1" />
-      <File FileName="CareVisit.Core/Services/IDataStore.cs" Line="4" Column="25" />
-      <File FileName="CareVisit.Core/Services/MockDataStore.cs" Line="6" Column="25" />
-      <File FileName="CareVisit.Core/Models/Item.cs" Line="3" Column="25" />
-      <File FileName="CareVisit.Core/Helpers/Command.cs" Line="4" Column="25" />
-      <File FileName="CareVisit.Core/Helpers/ServiceLocator.cs" Line="8" Column="23" />
-      <File FileName="packages/Plugin.CurrentActivity.2.1.0.4/readme.txt" Line="1" Column="1" />
-      <File FileName="Droid/Resources/drawable/background_splash.xml" Line="2" Column="1" />
-      <File FileName="Droid/Resources/values/colors.xml" Line="8" Column="1" />
-      <File FileName="Droid/Activities/AddItemActivity.cs" Line="7" Column="1" />
-      <File FileName="Droid/Activities/BaseActivity.cs" Line="4" Column="1" />
-      <File FileName="Droid/Activities/BrowseItemDetailActivity.cs" Line="5" Column="22" />
-      <File FileName="Droid/Activities/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="Droid/Activities/SplashActivity.cs" Line="8" Column="40" />
-      <File FileName="Droid/Fragments/AboutFragment.cs" Line="5" Column="22" />
-      <File FileName="Droid/Fragments/BrowseFragment.cs" Line="9" Column="22" />
+      <File FileName="Droid/Activities/MainActivity.cs" Line="37" Column="1" />
+      <File FileName="CareVisit.Core/Services/IAccountService.cs" Line="6" Column="54" />
+      <File FileName="CareVisit.Core/Services/AccountService.cs" Line="13" Column="1" />
+      <File FileName="Droid/Resources/values/Strings.xml" Line="5" Column="30" />
+      <File FileName="Droid/Activities/BaseActivity.cs" Line="13" Column="20" />
       <File FileName="Droid/Fragments/IFragmentVisible.cs" Line="8" Column="1" />
-      <File FileName="BF/Droid/MainApplication.cs" Line="6" Column="22" />
-      <File FileName="BF/Droid/Helpers/RecyclerClickEvent.cs" Line="1" Column="1" />
-      <File FileName="BF/Droid/Helpers/BaseRecycleViewAdapter.cs" Line="1" Column="1" />
-      <File FileName="BF/Droid/Fragments/IFragmentVisible.cs" Line="1" Column="1" />
-      <File FileName="BF/Droid/Fragments/AboutFragment.cs" Line="5" Column="22" />
-      <File FileName="BF/Droid/Activities/AddItemActivity.cs" Line="7" Column="22" />
-      <File FileName="BF/Droid/Activities/BaseActivity.cs" Line="1" Column="1" />
-      <File FileName="BF/Droid/Activities/BrowseItemDetailActivity.cs" Line="5" Column="22" />
-      <File FileName="BF/Droid/Activities/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="BF/Droid/Activities/SplashActivity.cs" Line="1" Column="1" />
-      <File FileName="BF/iOS/ViewControllers/DetailViewControllers/BrowseItemDetailViewController.cs" Line="3" Column="22" />
-      <File FileName="BF/iOS/ViewControllers/AboutViewController.cs" Line="3" Column="22" />
-      <File FileName="BF/iOS/ViewControllers/BrowseViewController.cs" Line="6" Column="22" />
-      <File FileName="BF/iOS/ViewControllers/ItemNewViewController.cs" Line="4" Column="22" />
-      <File FileName="BF/iOS/ViewControllers/TabBarController.cs" Line="1" Column="1" />
-      <File FileName="BF/iOS/AppDelegate.cs" Line="3" Column="22" />
-      <File FileName="iOS/ViewControllers/DetailViewControllers/BrowseItemDetailViewController.cs" Line="3" Column="22" />
-      <File FileName="iOS/ViewControllers/AboutViewController.cs" Line="3" Column="22" />
-      <File FileName="iOS/ViewControllers/BrowseViewController.cs" Line="6" Column="22" />
-      <File FileName="iOS/ViewControllers/ItemNewViewController.cs" Line="4" Column="22" />
-      <File FileName="iOS/ViewControllers/TabBarController.cs" Line="1" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="3" Column="22" />
-      <File FileName="iOS/Main.cs" Line="16" Column="1" />
-      <File FileName="Droid/Activities/LoginActivity.cs" Line="15" Column="29" />
-      <File FileName="Droid/Resources/drawable/circle_background.xml" Line="1" Column="1" />
-      <File FileName="Droid/Resources/drawable/SignInCustomButton.xml" Line="5" Column="70" />
-      <File FileName="Droid/Resources/drawable/SignUpCustomButton.xml" Line="12" Column="18" />
-      <File FileName="Droid/Resources/menu/top_menus.xml" Line="3" Column="91" />
-      <File FileName="BF/Droid/Resources/menu/top_menus.xml" Line="1" Column="1" />
-      <File FileName="BF/Droid/Resources/values/colors.xml" Line="1" Column="1" />
-      <File FileName="BF/Droid/Resources/values-v21/styles.xml" Line="3" Column="18" />
+      <File FileName="Droid/Helpers/BaseRecycleViewAdapter.cs" Line="1" Column="1" />
+      <File FileName="Droid/Helpers/RecyclerClickEvent.cs" Line="1" Column="1" />
       <File FileName="Droid/Resources/drawable/loginbackground.xml" Line="1" Column="1" />
       <File FileName="Droid/Resources/menu/left_menu_items.axml" Line="33" Column="40" />
-      <File FileName="Droid/Activities/SlidingPaneActivity.cs" Line="44" Column="13" />
-      <File FileName="Droid/Resources/values/dimens.axml" Line="12" Column="39" />
+      <File FileName="Droid/Resources/menu/top_menus.xml" Line="3" Column="91" />
+      <File FileName="BF/Droid/Activities/MainActivity.cs" Line="22" Column="29" />
+      <File FileName="BF/Droid/MainApplication.cs" Line="6" Column="22" />
+      <File FileName="Droid/Activities/LoginActivity.cs" Line="36" Column="65" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

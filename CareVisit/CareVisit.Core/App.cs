@@ -1,4 +1,5 @@
 ﻿using System;
+using CareVisit.Core.Services;
 
 namespace CareVisit.Core
 {
@@ -9,6 +10,7 @@ namespace CareVisit.Core
 
         public static void Initialize()
         {
+            ServiceLocator.Instance.Register<IAccountService, AccountService>();
             if (UseMockDataStore)
                 ServiceLocator.Instance.Register<IDataStore<Item>, MockDataStore>();
             else

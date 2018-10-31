@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Click Me!</string>
+    
     <string name="app_name">CareVisit</string>
+    <string name="drawer_open">Open main menu</string>
+    <string name="drawer_close">Close main menu</string>
+    <!--Sample code will be deleted-->
+    <string name="hello">Hello World, Click Me!</string>
     <string name="tab1">Browse</string>
     <string name="tab2">About</string>
     <string name="signin">Sign In</string>
