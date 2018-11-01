@@ -10,8 +10,8 @@
         android:minWidth="25px"
         android:minHeight="?android:attr/actionBarSize"
         android:background="?android:attr/colorPrimary"
-        app:theme="@style/CustomDrawerTheme"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:layout_scrollFlags="scroll|enterAlways"
         android:layout_width="match_parent" />
        

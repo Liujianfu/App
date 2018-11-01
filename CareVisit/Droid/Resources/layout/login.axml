@@ -23,6 +23,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView1" />
+   <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@layout/loginframe_background">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -54,32 +60,34 @@
             android:paddingBottom="4dp"
             android:paddingStart="8dp"
             android:paddingEnd="8dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1"
-        android:layout_gravity="center_horizontal"
-        android:paddingStart="8dp"
-        android:paddingEnd="8dp">
-        <Button
-            android:id="@+id/loginBtn"
-            android:background="@drawable/signincustombutton"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:text="Sign In"/>
-        <Button
-            android:id="@+id/signupBtn"
-            android:editable="false"
-            android:background="@drawable/signupcustombutton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:text="Sign Up"/>
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp">
+            <Button
+                android:id="@+id/loginBtn"
+                android:background="@drawable/signincustombutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="Sign In"/>
+            <Button
+                android:id="@+id/signupBtn"
+                android:editable="false"
+                android:background="@drawable/signupcustombutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="Sign Up"/>
+        </LinearLayout>
     </LinearLayout>
+    
+    </FrameLayout>
     </LinearLayout>
 </LinearLayout>

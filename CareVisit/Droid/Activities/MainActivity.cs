@@ -45,7 +45,7 @@ namespace CareVisit.Droid.Activities
             //For showing back button  
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetHomeButtonEnabled(true);
-            SupportActionBar.SetDisplayShowTitleEnabled(false);
+           // SupportActionBar.SetDisplayShowTitleEnabled(false);
             //setting Hamburger icon Here  
             //SupportActionBar.SetHomeAsUpIndicator(CareVisit.Droid.Resource.Drawable.ic_menu);
             //Getting Drawer Layout declared in UI and handling closing and open events  

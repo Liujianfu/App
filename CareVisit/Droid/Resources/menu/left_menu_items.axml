@@ -4,36 +4,34 @@
   <group android:checkableBehavior="single">  
     <item  
         android:id="@+id/nav_home"  
-        android:icon="@drawable/login_key"  
         android:title="Home" />  
     <item  
         android:id="@+id/nav_visits"  
-        android:icon="@drawable/login_key"  
-        android:title="Service Visits" />  
+        android:title="Schedule" />  
     <item  
-        android:id="@+id/nav_notification"  
-        android:icon="@drawable/login_key"  
-        android:title="Notifications" />
+        android:id="@+id/nav_SaftyMonitoring" 
+        android:title="Beneficiary Safty Monitoring" />
     <item  
-          android:id="@+id/nav_calendar"
-          android:icon="@drawable/login_key"  
-          android:title="Calendar" /> 
+          android:id="@+id/nav_HomeHMData"
+          android:title="Home Health Monitoring Data" /> 
      <item  
-      android:id="@+id/nav_dashboard"
-      android:icon="@drawable/login_key"  
-      android:title="Dashboard" />    
+      android:id="@+id/nav_logout"
+      android:title="Logout" />    
+      <item  
+      android:id="@+id/nav_aboutinfo"
+      android:title="About" />  
   </group>  
   
   <item android:title="Today">  
     <menu>  
       <item  
           android:id="@+id/nav_todaytasks"  
-          android:icon="@drawable/login_key"  
+          android:icon="@drawable/ic_menu_temp"  
           android:title="Tasks"  
           android:checkable="true" />  
       <item  
           android:id="@+id/nav_todaymessages"  
-          android:icon="@drawable/login_key"  
+          android:icon="@drawable/ic_menu_temp"  
           android:title="Messages"  
           android:checkable="true" />  
     </menu>  
