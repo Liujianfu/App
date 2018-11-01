@@ -22,7 +22,8 @@
       android:title="About" />  
   </group>  
   
-  <item android:title="Today">  
+  <item android:id="@+id/nav_today"
+        android:title="Today">  
     <menu>  
       <item  
           android:id="@+id/nav_todaytasks"  

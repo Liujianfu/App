@@ -18,8 +18,10 @@ using Android.Support.Design.Widget;
 
 using Android.Support.V4.View;
 using Android.Content.Res;
-
-
+using Android.Text;
+using Android.Text.Style;
+using Android.Support.V4.Content;
+using Android.Graphics;
 
 namespace CareVisit.Droid.Activities
 {
@@ -64,6 +66,7 @@ namespace CareVisit.Droid.Activities
 
             //Synchronize the state of the drawer indicator/affordance with the linked DrawerLayout  
             toggle.SyncState();
+
             //Handling click events on Menu items  
             navigationView.NavigationItemSelected += (sender, e) =>
             {
@@ -81,6 +84,20 @@ namespace CareVisit.Droid.Activities
 
                 drawerLayout.CloseDrawers();
             };
+
+            //set menu item color
+            //this is demo code
+            var todayMenu = navigationView.Menu.FindItem(Resource.Id.nav_today);
+            if(todayMenu!=null){
+                SetTextColorForMenuItem(todayMenu,Resource.Color.primary);
+            }
+               
+        }
+        private void SetTextColorForMenuItem(IMenuItem menuItem, int color)
+        {
+            SpannableString spanString = new SpannableString(menuItem.TitleFormatted.ToString());
+            spanString.SetSpan(new ForegroundColorSpan(new Color(ContextCompat.GetColor(this, color))), 0, spanString.Length(), 0);
+            menuItem.SetTitle(spanString);
         }
         private void DrawerLayout_DrawerClosed(object sender, DrawerLayout.DrawerClosedEventArgs e)
         {
