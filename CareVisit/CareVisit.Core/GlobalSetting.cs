@@ -15,6 +15,7 @@ namespace CareVisit.Core
             AuthToken = "INSERT AUTHENTICATION TOKEN";
             BaseMobileServiceUrl = "http://YOUR_IP_OR_DNS_NAME"; // i.e.: "http://YOUR_IP" or "http://YOUR_DNS_NAME"
             BaseIdentityUrl = "http://YOUR_IP_OR_DNS_NAME";      // i.e.: "http://YOUR_IP" or "http://YOUR_DNS_NAME"
+            ResetPasswordUrl = "https://demo.identityserver.io/";
         }
 
         public static GlobalSetting Instance { get; } = new GlobalSetting();

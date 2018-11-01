@@ -29,7 +29,9 @@ namespace CareVisit.Droid.Activities
             password = FindViewById<EditText>(Resource.Id.passwordEditText);
 
             var signinButton = FindViewById<Button>(Resource.Id.loginBtn);
+            var forgetPwButton = FindViewById<Button>(Resource.Id.forgetPassword);
             signinButton.Click += DoLogin;
+            forgetPwButton.Click += ForgetPassword;
         }
         public void DoLogin(object sender,EventArgs eventArgs){
             //will add account check later
@@ -45,6 +47,13 @@ namespace CareVisit.Droid.Activities
             else{
                 Toast.MakeText(this, Resource.String.sign_in_failed, ToastLength.Long).Show();
             }
+        }
+
+        public void ForgetPassword(object sender, EventArgs eventArgs)
+        {
+            //Go to ViewView
+            var newIntent = new Intent(this, typeof(WebViewActivity));
+            StartActivity(newIntent);
         }
     }
 }

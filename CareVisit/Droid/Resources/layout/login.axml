@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
@@ -8,86 +7,85 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation ="vertical"
-        android:gravity="top"
-        android:layout_gravity="center_vertical"
-        
-        >
-        
-        
-   
-    <ImageView
-        
-        android:src="@drawable/carevisit_logo"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView1" />
-   <FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:layout_gravity="center"
-    android:background="@layout/loginframe_background">
-    <LinearLayout
         android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:id="@+id/linearLayout2"
-        android:layout_marginTop="10dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:paddingStart="8dp"
-        android:paddingEnd="8dp">
-        <EditText
+        android:gravity="top"
+        android:layout_gravity="center_vertical">
+        <ImageView
+            android:src="@drawable/carevisit_logo"
+            android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:id="@+id/usernameEditText"
-            android:hint="Username"
-            android:drawableLeft="@drawable/login_user"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:paddingStart="8dp"
-            android:paddingEnd="8dp" />
-        <EditText
-            android:inputType="textPassword"
+            android:id="@+id/imageView1" />
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/passwordEditText"
-            android:hint="Password"
-            android:drawableLeft="@drawable/login_key"
-            android:paddingTop="4dp"
-            android:paddingBottom="4dp"
-            android:paddingStart="8dp"
-            android:paddingEnd="8dp" />
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/linearLayout1"
-            android:layout_gravity="center_horizontal"
-            android:paddingStart="8dp"
-            android:paddingEnd="8dp">
-            <Button
-                android:id="@+id/loginBtn"
-                android:background="@drawable/signincustombutton"
-                android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@layout/loginframe_background">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/linearLayout2"
+                android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="1"
-                android:text="Sign In"/>
-            <Button
-                android:id="@+id/signupBtn"
-                android:editable="false"
-                android:background="@drawable/signupcustombutton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="1"
-                android:text="Sign Up"/>
-        </LinearLayout>
-    </LinearLayout>
-    
-    </FrameLayout>
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/usernameEditText"
+                    android:hint="Username"
+                    android:drawableLeft="@drawable/login_user"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp" />
+                <EditText
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passwordEditText"
+                    android:hint="Password"
+                    android:drawableLeft="@drawable/login_key"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout1"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp">
+                    <Button
+                        android:id="@+id/loginBtn"
+                        android:background="@drawable/signincustombutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="Sign In" />
+                    <Button
+                        android:id="@+id/signupBtn"
+                        android:editable="false"
+                        android:background="@drawable/signupcustombutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="Sign Up" />
+                </LinearLayout>
+                <Button
+                    android:text="forget password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/signincustombutton"
+                    android:id="@+id/forgetPassword" />
+            </LinearLayout>
+        </FrameLayout>
     </LinearLayout>
 </LinearLayout>
