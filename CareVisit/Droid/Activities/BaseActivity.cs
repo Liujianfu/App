@@ -16,7 +16,7 @@ namespace CareVisit.Droid
                 SetSupportActionBar(Toolbar);
                 SupportActionBar.SetDisplayHomeAsUpEnabled(true);
                 SupportActionBar.SetHomeButtonEnabled(true);
-
+                // SupportActionBar.SetDisplayShowTitleEnabled(false);
             }
         }
 

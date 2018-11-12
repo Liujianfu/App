@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+       
+        <android.support.v4.widget.DrawerLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/drawer_layout" >
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.design.widget.AppBarLayout
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/toolbar_layout" >
+                <android.support.v7.widget.Toolbar
+                    android:layout_height="wrap_content"
+                    android:id="@+id/toolbar"
+                    android:minWidth="25px"
+                    android:minHeight="?android:attr/actionBarSize"
+                    android:background="?android:attr/colorPrimary"
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    android:layout_width="match_parent"
+                    app:titleTextAppearance="@style/Toolbar.TitleText"/>
+                </android.support.design.widget.AppBarLayout>  
+                <FrameLayout
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                     android:layout_below="@id/toolbar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/content_frame" />
+            </RelativeLayout>  
+        <!--the left navigation drawer-->
+        <android.support.design.widget.NavigationView
+            android:minWidth="80px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/left_navigationView"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            android:theme ="@style/NavigationViewStyle"
+            app:itemBackground="@drawable/drawer_menu_item_background"
+            app:menu="@menu/left_menu_items"
+            app:itemTextColor="@drawable/drawer_menu_item_textcolor"
+            app:headerLayout="@layout/nav_header_main"/>
+        </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>

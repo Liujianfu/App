@@ -4,39 +4,50 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/view_container"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/nav_header_height"
+    android:layout_height="wrap_content"
     android:gravity="bottom"
     android:orientation="vertical"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
     <LinearLayout
-        android:layout_width="220dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:orientation="vertical"
-        android:padding="@dimen/activity_horizontal_margin">
-        <Refractored.controls.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/profile_image"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:src="@drawable/profile"
-            app:civ_border_width="2dp"
-            app:civ_border_color="#D40047"/>
+        android:gravity="left"
+        android:paddingLeft="@dimen/standard_margin"
+        android:background="@color/primaryDark">
         <TextView
-            android:id="@+id/name"
-            android:text="Nina"
-            android:textColor="#1E1E1E"
-            android:layout_width="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            android:layout_gravity="left"
+            android:textSize="20dp"/>
         <TextView
-            android:id="@+id/names"
-            android:layout_below="@id/name"
-            android:text="your@email.com"
-            android:textColor="#B0B0B0"
-            android:layout_width="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Provider"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            android:layout_gravity="left"/>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingTop="5dp"
+            android:id="@+id/nav_usernameTextView"
+            android:text=" "
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"/>
+           <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            android:id="@+id/nav_userEmailTextView"
+            android:text=" "
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"/>     
     </LinearLayout>  
 </RelativeLayout>  

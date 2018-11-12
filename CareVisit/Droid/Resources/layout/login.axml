@@ -1,90 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true"
+    android:id="@+id/loginScrollview"
+    
+    android:focusable="true"
     android:background="@drawable/loginbackground">
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="top"
-        android:layout_gravity="center_vertical">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
         <ImageView
             android:src="@drawable/carevisit_logo"
-            android:layout_marginTop="40dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView1" />
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:background="@layout/loginframe_background">
+            android:layout_width="wrap_content"
+            android:id="@+id/imageView1"
+            android:layout_height="160dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center" />
+
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:id="@+id/linearLayout2"
-                android:layout_marginTop="10dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp">
+                android:id="@+id/input_linearLayout"
+                android:layout_height="match_parent"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"
+                android:layout_weight="1">
+                <TextView
+                    android:text="@string/careVisit"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:foregroundGravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:autoText="false"/>
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
                     android:id="@+id/usernameEditText"
                     android:hint="Username"
-                    android:drawableLeft="@drawable/login_user"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp" />
+                    android:drawableLeft="@drawable/login_user" />
                 <EditText
                     android:inputType="textPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/passwordEditText"
                     android:hint="Password"
-                    android:drawableLeft="@drawable/login_key"
-                    android:paddingTop="4dp"
-                    android:paddingBottom="4dp"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp" />
-                <LinearLayout
-                    android:orientation="vertical"
+                    android:drawableLeft="@drawable/login_key"/>
+                <Button
+                    android:id="@+id/forgetPassword"
+                    android:editable="false"
+                    android:background="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forget Password?"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/primaryDark"
+                    android:gravity="left"
+                    android:layout_gravity="right" />
+                <Button
+                    android:id="@+id/loginBtn"
+                    android:background="@drawable/signincustombutton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/linearLayout1"
                     android:layout_gravity="center_horizontal"
+                    android:text="Login"
                     android:paddingStart="8dp"
-                    android:paddingEnd="8dp">
-                    <Button
-                        android:id="@+id/loginBtn"
-                        android:background="@drawable/signincustombutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="1"
-                        android:text="Sign In" 
-                        android:paddingStart="8dp"
-                        android:paddingEnd="8dp"/>
-                    <Button
-                        android:id="@+id/forgetPassword"
-                        android:editable="false"
-                        android:background="@drawable/signupcustombutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="1"
-                        android:text="forget password"
-                        android:paddingStart="8dp"
-                        android:paddingEnd="8dp"/>
-                </LinearLayout>
-
+                    android:paddingEnd="8dp"/>
             </LinearLayout>
-        </FrameLayout>
+
     </LinearLayout>
-</LinearLayout>
+</ScrollView>

@@ -10,7 +10,7 @@ namespace CareVisit.Core.Services.Identity
     public class IdentityService : IIdentityService
     {
         private readonly IRestClient restClient;
-        private string _codeVerifier;
+       // private string _codeVerifier;
 
         public IdentityService(IRestClient restClient)
         {

@@ -1,0 +1,9 @@
+/Users/jianfu.liu/Downloads/App/CareVisit/CareVisit.Core/bin/Debug/netstandard2.0/CareVisit.Core.deps.json
+/Users/jianfu.liu/Downloads/App/CareVisit/CareVisit.Core/bin/Debug/netstandard2.0/CareVisit.Core.dll
+/Users/jianfu.liu/Downloads/App/CareVisit/CareVisit.Core/bin/Debug/netstandard2.0/CareVisit.Core.pdb
+/Users/jianfu.liu/Downloads/App/CareVisit/CareVisit.Core/obj/Debug/netstandard2.0/CareVisit.Core.csprojAssemblyReference.cache
+/Users/jianfu.liu/Downloads/App/CareVisit/CareVisit.Core/obj/Debug/netstandard2.0/CareVisit.Core.csproj.CoreCompileInputs.cache
+/Users/jianfu.liu/Downloads/App/CareVisit/CareVisit.Core/obj/Debug/netstandard2.0/CareVisit.Core.AssemblyInfoInputs.cache
+/Users/jianfu.liu/Downloads/App/CareVisit/CareVisit.Core/obj/Debug/netstandard2.0/CareVisit.Core.AssemblyInfo.cs
+/Users/jianfu.liu/Downloads/App/CareVisit/CareVisit.Core/obj/Debug/netstandard2.0/CareVisit.Core.dll
+/Users/jianfu.liu/Downloads/App/CareVisit/CareVisit.Core/obj/Debug/netstandard2.0/CareVisit.Core.pdb

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="30px"
+    android:paddingLeft="30px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendar_linearLayout"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout_header"
+            android:layout_gravity="end">
+            <ImageButton
+                android:src="@drawable/calendar_previous"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:id="@+id/previousButton"
+                android:layout_gravity="start"
+                android:background="@android:color/transparent"
+                android:layout_weight="0.1" />
+            <TextView
+                android:text="Jan 2018"
+                android:layout_width="wrap_content"
+                android:id="@+id/headerLabel"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+            <ImageButton
+                android:src="@drawable/calendar_next"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:id="@+id/nextButton"
+                android:layout_gravity="end"
+                android:background="@android:color/transparent"
+                android:layout_weight="0.1" />
+        </LinearLayout>
+    </LinearLayout>
+    <GridView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_gridView"
+        android:layout_gravity="fill_vertical"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

@@ -11,10 +11,14 @@ using Android.Views;
 using Android.Widget;
 using CareVisit.Core;
 using CareVisit.Core.Services;
+using Android.Views.InputMethods;
+using Android.Content.PM;
 
 namespace CareVisit.Droid.Activities
 {
-    [Activity(Label = "Login")]
+    [Activity(Label = "Login", LaunchMode = LaunchMode.SingleInstance,
+        ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
+        ScreenOrientation = ScreenOrientation.Portrait)]
     public class LoginActivity : Activity
     {
 
@@ -32,7 +36,29 @@ namespace CareVisit.Droid.Activities
             var forgetPwButton = FindViewById<Button>(Resource.Id.forgetPassword);
             signinButton.Click += DoLogin;
             forgetPwButton.Click += ForgetPassword;
+            userName.KeyPress += ProcessKeyPress;
+            var scrollview = FindViewById<ScrollView>(Resource.Id.loginScrollview);
+            scrollview.Touch += (s, e) =>
+
+            {
+                InputMethodManager imm = (InputMethodManager)GetSystemService(Context.InputMethodService);
+                if(scrollview!=null)
+                    imm.HideSoftInputFromWindow(scrollview.WindowToken, 0);
+                e.Handled = false;
+            };
         }
+
+        void ProcessKeyPress(object sender, View.KeyEventArgs e)
+        {
+            if(e.KeyCode==Keycode.Enter||e.KeyCode==Keycode.Escape)
+            {
+                InputMethodManager imm = (InputMethodManager)GetSystemService(Context.InputMethodService);
+                imm.HideSoftInputFromWindow(CurrentFocus.WindowToken,0);
+            }
+            
+        }
+
+
         public void DoLogin(object sender,EventArgs eventArgs){
             //will add account check later
            var loginService =ServiceLocator.Instance.Get<IAccountService>();
@@ -55,5 +81,6 @@ namespace CareVisit.Droid.Activities
             var newIntent = new Intent(this, typeof(WebViewActivity));
             StartActivity(newIntent);
         }
+
     }
 }

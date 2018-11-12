@@ -4,9 +4,12 @@
   <item
       android:drawable="@android:color/white"/>
 
-  <item>
+  <item     
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <bitmap
-        android:gravity="center"
+        android:gravity="fill"
+
         android:src="@drawable/carevisit_splash"/>
   </item>
 

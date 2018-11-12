@@ -4,4 +4,6 @@
     <color name="primaryDark">#1976D2</color>
     <color name="accent">#96d1ff</color>
     <color name="window_background">#F5F5F5</color>
+    <color name="cal_indicator">#F570B6F0</color>
+    <color name="loginButton">#228B22</color>
 </resources>

@@ -22,6 +22,7 @@ using Android.Text;
 using Android.Text.Style;
 using Android.Support.V4.Content;
 using Android.Graphics;
+using CareVisit.Droid.Fragments;
 
 namespace CareVisit.Droid.Activities
 {
@@ -29,8 +30,9 @@ namespace CareVisit.Droid.Activities
           LaunchMode = LaunchMode.SingleInstance,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
         ScreenOrientation = ScreenOrientation.Portrait)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : BaseActivity
     {
+        protected override int LayoutResource => Resource.Layout.main_activity;
         //Declaring Variables to access throught this activity  
         DrawerLayout drawerLayout;
         NavigationView navigationView;
@@ -39,15 +41,10 @@ namespace CareVisit.Droid.Activities
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(CareVisit.Droid.Resource.Layout.DrawerLayout);
             // Create your application here
             //Finding toolbar and adding to actionbar  
-            var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
-            SetSupportActionBar(toolbar);
-            //For showing back button  
-            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
-            SupportActionBar.SetHomeButtonEnabled(true);
-           // SupportActionBar.SetDisplayShowTitleEnabled(false);
+
+           
             //setting Hamburger icon Here  
             //SupportActionBar.SetHomeAsUpIndicator(CareVisit.Droid.Resource.Drawable.ic_menu);
             //Getting Drawer Layout declared in UI and handling closing and open events  
@@ -66,7 +63,7 @@ namespace CareVisit.Droid.Activities
 
             //Synchronize the state of the drawer indicator/affordance with the linked DrawerLayout  
             toggle.SyncState();
-
+           
             //Handling click events on Menu items  
             navigationView.NavigationItemSelected += (sender, e) =>
             {
@@ -84,14 +81,29 @@ namespace CareVisit.Droid.Activities
 
                 drawerLayout.CloseDrawers();
             };
+            navigationView.ItemIconTintList = null;
+            Toolbar.MenuItemClick += (sender, e) =>
+            {
+
+            };
 
             //set menu item color
-            //this is demo code
-            var todayMenu = navigationView.Menu.FindItem(Resource.Id.nav_today);
-            if(todayMenu!=null){
-                SetTextColorForMenuItem(todayMenu,Resource.Color.primary);
+            //  var todayMenu = navigationView.Menu.FindItem(Resource.Id.nav_today);
+            // for (int i = 0; i < navigationView.Menu.Size();i++)
+            //  {
+            //      SetTextColorForMenuItem(navigationView.Menu.GetItem(i), Resource.Color.primary);
+            // }
+            int menuId = Intent.GetIntExtra("menuId",0);
+            if(menuId!=0)
+            {
+                if (previousItem != null)
+                    previousItem.SetChecked(false);
+
+                navigationView.SetCheckedItem(menuId); 
+                MenuItemClicked(menuId);
+                Intent.RemoveExtra("menuId");
             }
-               
+
         }
         private void SetTextColorForMenuItem(IMenuItem menuItem, int color)
         {
@@ -111,15 +123,26 @@ namespace CareVisit.Droid.Activities
         private void MenuItemClicked(int menuId)
         {
             Android.Support.V4.App.Fragment fragment = null;
-          /*  switch (menuId)
+            switch (menuId)
             {
-                case 0:
-                    fragment = new LoginFragment();
+                case Resource.Id.nav_home:
+                    fragment =  CalendarFragment.NewInstance();
                     break;
-                case 1:
-                    fragment = new Signupfragment();
+                case Resource.Id.nav_SaftyMonitoring:
+                    {
+                        fragment =  SafetyMonitoringFragment.NewInstance();
+                    }
                     break;
-            }*/
+                case Resource.Id.nav_visits:
+                    {
+                        var intent = new Intent(this, typeof(MyShiftActivity));
+
+                        StartActivity(intent);
+                        Finish();
+                        return;
+                    }
+
+            }
             if (fragment != null)
             {
                 SupportFragmentManager.BeginTransaction()
@@ -172,6 +195,17 @@ namespace CareVisit.Droid.Activities
         {
             base.OnConfigurationChanged(newConfig);
             toggle.OnConfigurationChanged(newConfig);
+        }
+        protected override void OnStart()
+        {
+
+            base.OnStart();
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+
         }
     }
 }

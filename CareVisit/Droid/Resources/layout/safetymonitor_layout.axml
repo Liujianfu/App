@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:paddingHorizontal="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <EditText
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginTop="16dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:inputType="text"
+            android:background="@drawable/EditTextStyle"
+            android:minLines="1"
+            android:maxLines="1" 
+     />
+        <EditText
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/EditTextStyle"
+            android:minLines="1"
+            android:maxLines="1" 
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35.0dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/textView4"
+            android:text="Did you observe any of the following behaviors identified below during your visit?" />
+        <GridLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridLayoutForIncident"
+            android:rowCount="17"
+            android:columnCount="1"
+            android:orientation="vertical"
+            android:background="#e2e2e2"
+            android:verticalSpacing="2dp"
+            android:horizontalSpacing="2dp"
+            android:stretchMode="columnWidth"
+            android:paddingVertical="1dp"
+            android:paddingHorizontal="1dp"
+        >
+            <TextView
+                android:text="Type of Incident"
+                android:id="@+id/textView5"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e2e2e2"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+            <CheckBox
+                android:id="@+id/checkBoxNoIncident"
+                android:text="NO Incident"
+                android:background="@android:color/white"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp" />
+            <CheckBox
+                android:background="@android:color/white"
+                android:id="@+id/checkBoxAbuse"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abuse (Physical,Sexual,Verbal,Emotional)" />
+            <CheckBox
+                android:background="@android:color/white"
+                android:id="@+id/checkBoxNeglect"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Neglect (Nutrition,Medical,Self,Environment)" />
+            <CheckBox
+                android:background="@android:color/white"
+                android:id="@+id/checkBoxERVisit"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emergency Room Visit" />
+            <CheckBox
+                android:background="@android:color/white"
+                android:id="@+id/checkBoxERVisit"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emergency Room Visit" />
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>

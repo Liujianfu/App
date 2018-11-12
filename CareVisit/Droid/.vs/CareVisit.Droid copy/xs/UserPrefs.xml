@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{0F0C8648-DACF-4734-8E58-23DFBC226C85}|Default">
+  <MonoDevelop.Ide.ItemProperties.CareVisit.Droid_220copy PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
